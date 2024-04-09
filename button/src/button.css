@@ -1,32 +1,3 @@
-/**
-
-  --figma-base-palette-eve-turquoise-10: #007c8c;
-  --figma-base-palette-eve-turquoise-20: #008ea1;
-  --figma-base-palette-eve-turquoise-30: #00a0b5;
-  --figma-base-palette-eve-turquoise-40: #00b2c9;
-  --figma-base-palette-eve-turquoise-50: #16c7df;
-  --figma-base-palette-eve-turquoise-60: #30d9f0;
-  --figma-base-palette-eve-turquoise-70: #62e3f5;
-  --figma-base-palette-eve-turquoise-80: #89e8f5;
-  --figma-base-palette-eve-turquoise-90: #c2f8ff;
-  --figma-base-palette-eve-turquoise-100: #f0fdff;
-  --figma-base-palette-eve-turquoise-05: #162e30;
-
-    --figma-primitive-primitive-color-yellow-05: #332a04;
-  --figma-primitive-primitive-color-purple-10: #490584;
-  --figma-primitive-primitive-color-purple-20: #580f99;
-  --figma-primitive-primitive-color-purple-30: #6d1ab8;
-  --figma-primitive-primitive-color-purple-40: #8a28e0;
-  --figma-primitive-primitive-color-purple-50: #a033ff;
-  --figma-primitive-primitive-color-purple-60: #b35cff;
-  --figma-primitive-primitive-color-purple-70: #c17aff;
-  --figma-primitive-primitive-color-purple-80: #d4a2ff;
-  --figma-primitive-primitive-color-purple-90: #e7ccff;
-  --figma-primitive-primitive-color-purple-100: #f8f0ff;
-
-
-*/
-
 .btn {
   background-color: var(--figma-base-palette-eve-turquoise-10);
   padding: 0.5rem 1.5rem;
