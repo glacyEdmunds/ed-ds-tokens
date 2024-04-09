@@ -1,27 +1,16 @@
 {
- "packages": {
-  "dir": "",
-  "menu": [
-   [
-    "TOKENS",
-    []
-   ],
-   [
-    "COMPONENTS",
-    []
-   ],
-   [
-    "INFRASTRUCTURE",
-    []
-   ],
-   "sd.config.cjs",
-   "something.js"
-  ]
- },
- "dependencies": {
-  "autoInstall": false
- },
- "doc": {
-  "markdownEngine": "mdjs"
- }
+  "packages": {
+    "dir": "",
+    "menu": [
+      ["TOKENS", ["tokens"]],
+      ["COMPONENTS", []],
+      ["INFRASTRUCTURE", ["sd-input"]]
+    ]
+  },
+  "dependencies": {
+    "autoInstall": false
+  },
+  "doc": {
+    "markdownEngine": "mdjs"
+  }
 }

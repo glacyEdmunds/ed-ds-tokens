@@ -1,0 +1,694 @@
+/**
+ * Do not edit directly, this file was auto-generated
+ */
+
+:root {
+  --figma-primitive-primitive-color-cool-gray-10: #0f1a2a;
+  --figma-primitive-primitive-color-cool-gray-20: #1b2637;
+  --figma-primitive-primitive-color-cool-gray-30: #2a3546;
+  --figma-primitive-primitive-color-cool-gray-40: #475569;
+  --figma-primitive-primitive-color-cool-gray-50: #64748b;
+  --figma-primitive-primitive-color-cool-gray-60: #94a2b8;
+  --figma-primitive-primitive-color-cool-gray-70: #cbd4e1;
+  --figma-primitive-primitive-color-cool-gray-80: #eef1f6;
+  --figma-primitive-primitive-color-cool-gray-90: #f1f4f9;
+  --figma-primitive-primitive-color-cool-gray-100: #f8fafc;
+  --figma-primitive-primitive-color-blue-10: #033e96;
+  --figma-primitive-primitive-color-blue-20: #0a4aab;
+  --figma-primitive-primitive-color-blue-30: #1358bf;
+  --figma-primitive-primitive-color-blue-40: #1561d4;
+  --figma-primitive-primitive-color-blue-50: #2070e8;
+  --figma-primitive-primitive-color-blue-60: #4e91f5;
+  --figma-primitive-primitive-color-blue-70: #7aafff;
+  --figma-primitive-primitive-color-blue-80: #a3c8ff;
+  --figma-primitive-primitive-color-blue-90: #cce0ff;
+  --figma-primitive-primitive-color-blue-100: #f0f6ff;
+  --figma-primitive-primitive-color-blue-05: #091a33;
+  --figma-primitive-primitive-color-green-10: #0e4728;
+  --figma-primitive-primitive-color-green-20: #115730;
+  --figma-primitive-primitive-color-green-30: #146639;
+  --figma-primitive-primitive-color-green-40: #177542;
+  --figma-primitive-primitive-color-green-50: #1a854a;
+  --figma-primitive-primitive-color-green-60: #319960;
+  --figma-primitive-primitive-color-green-70: #58b883;
+  --figma-primitive-primitive-color-green-80: #82cca3;
+  --figma-primitive-primitive-color-green-90: #b8e5cc;
+  --figma-primitive-primitive-color-green-100: #f0fff7;
+  --figma-primitive-primitive-color-green-05: #06140c;
+  --figma-primitive-primitive-color-turquoise-10: #007c8c;
+  --figma-primitive-primitive-color-turquoise-20: #008ea1;
+  --figma-primitive-primitive-color-turquoise-30: #00a0b5;
+  --figma-primitive-primitive-color-turquoise-40: #00b2c9;
+  --figma-primitive-primitive-color-turquoise-50: #16c7df;
+  --figma-primitive-primitive-color-turquoise-60: #30d9f0;
+  --figma-primitive-primitive-color-turquoise-70: #62e3f5;
+  --figma-primitive-primitive-color-turquoise-80: #89e8f5;
+  --figma-primitive-primitive-color-turquoise-90: #c2f8ff;
+  --figma-primitive-primitive-color-turquoise-100: #f0fdff;
+  --figma-primitive-primitive-color-turquoise-05: #162e30;
+  --figma-primitive-primitive-color-red-10: #7a0a15;
+  --figma-primitive-primitive-color-red-20: #8f111c;
+  --figma-primitive-primitive-color-red-30: #a31a27;
+  --figma-primitive-primitive-color-red-40: #b82533;
+  --figma-primitive-primitive-color-red-50: #cb303f;
+  --figma-primitive-primitive-color-red-60: #d65662;
+  --figma-primitive-primitive-color-red-70: #e0757f;
+  --figma-primitive-primitive-color-red-80: #eb9fa7;
+  --figma-primitive-primitive-color-red-90: #f5c4c9;
+  --figma-primitive-primitive-color-red-100: #fff0f1;
+  --figma-primitive-primitive-color-red-05: #1f070a;
+  --figma-primitive-primitive-color-orange-10: #d62b04;
+  --figma-primitive-primitive-color-orange-20: #e0420d;
+  --figma-primitive-primitive-color-orange-30: #eb5a17;
+  --figma-primitive-primitive-color-orange-40: #eb6817;
+  --figma-primitive-primitive-color-orange-50: #f67b19;
+  --figma-primitive-primitive-color-orange-60: #ff9c4c;
+  --figma-primitive-primitive-color-orange-70: #ffb275;
+  --figma-primitive-primitive-color-orange-80: #ffca9e;
+  --figma-primitive-primitive-color-orange-90: #fedfc6;
+  --figma-primitive-primitive-color-orange-100: #fff7f0;
+  --figma-primitive-primitive-color-orange-05: #1f0f03;
+  --figma-primitive-primitive-color-yellow-10: #f58200;
+  --figma-primitive-primitive-color-yellow-20: #f59300;
+  --figma-primitive-primitive-color-yellow-30: #f5a60a;
+  --figma-primitive-primitive-color-yellow-40: #f5b60a;
+  --figma-primitive-primitive-color-yellow-50: #facc15;
+  --figma-primitive-primitive-color-yellow-60: #ffda47;
+  --figma-primitive-primitive-color-yellow-70: #ffe270;
+  --figma-primitive-primitive-color-yellow-80: #feea98;
+  --figma-primitive-primitive-color-yellow-90: #fef4cb;
+  --figma-primitive-primitive-color-yellow-100: #fffcf0;
+  --figma-primitive-primitive-color-yellow-05: #332a04;
+  --figma-primitive-primitive-color-purple-10: #490584;
+  --figma-primitive-primitive-color-purple-20: #580f99;
+  --figma-primitive-primitive-color-purple-30: #6d1ab8;
+  --figma-primitive-primitive-color-purple-40: #8a28e0;
+  --figma-primitive-primitive-color-purple-50: #a033ff;
+  --figma-primitive-primitive-color-purple-60: #b35cff;
+  --figma-primitive-primitive-color-purple-70: #c17aff;
+  --figma-primitive-primitive-color-purple-80: #d4a2ff;
+  --figma-primitive-primitive-color-purple-90: #e7ccff;
+  --figma-primitive-primitive-color-purple-100: #f8f0ff;
+  --figma-primitive-primitive-color-purple-05: #280f3d;
+  --figma-primitive-primitive-color-magenta-10: #800d57;
+  --figma-primitive-primitive-color-magenta-20: #941560;
+  --figma-primitive-primitive-color-magenta-30: #b22e7e;
+  --figma-primitive-primitive-color-magenta-40: #c73c8f;
+  --figma-primitive-primitive-color-magenta-50: #e64ea9;
+  --figma-primitive-primitive-color-magenta-60: #ea5eb1;
+  --figma-primitive-primitive-color-magenta-70: #eb83c1;
+  --figma-primitive-primitive-color-magenta-80: #f6a7d6;
+  --figma-primitive-primitive-color-magenta-90: #ffcceb;
+  --figma-primitive-primitive-color-magenta-100: #feeff8;
+  --figma-primitive-primitive-color-magenta-05: #2e061e;
+  --figma-primitive-primitive-color-white: #ffffff;
+  --figma-primitive-primitive-color-black: #000000;
+  --figma-primitive-primitive-size-0: 0rem;
+  --figma-primitive-primitive-size-1: 0.063rem;
+  --figma-primitive-primitive-size-2: 0.125rem;
+  --figma-primitive-primitive-size-4: 0.25rem;
+  --figma-primitive-primitive-size-6: 0.375rem;
+  --figma-primitive-primitive-size-8: 0.5rem;
+  --figma-primitive-primitive-size-9: 0.563rem;
+  --figma-primitive-primitive-size-10: 0.625rem;
+  --figma-primitive-primitive-size-12: 0.75rem;
+  --figma-primitive-primitive-size-14: 0.875rem;
+  --figma-primitive-primitive-size-16: 1rem;
+  --figma-primitive-primitive-size-18: 1.125rem;
+  --figma-primitive-primitive-size-20: 1.25rem;
+  --figma-primitive-primitive-size-22: 1.375rem;
+  --figma-primitive-primitive-size-24: 1.5rem;
+  --figma-primitive-primitive-size-28: 1.75rem;
+  --figma-primitive-primitive-size-30: 1.875rem;
+  --figma-primitive-primitive-size-32: 2rem;
+  --figma-primitive-primitive-size-34: 2.125rem;
+  --figma-primitive-primitive-size-36: 2.25rem;
+  --figma-primitive-primitive-size-40: 2.5rem;
+  --figma-primitive-primitive-size-44: 2.75rem;
+  --figma-primitive-primitive-size-48: 3rem;
+  --figma-primitive-primitive-size-52: 3.25rem;
+  --figma-primitive-primitive-size-56: 3.5rem;
+  --figma-primitive-primitive-size-60: 3.75rem;
+  --figma-primitive-primitive-size-64: 4rem;
+  --figma-primitive-primitive-size-68: 4.25rem;
+  --figma-primitive-primitive-size-72: 4.5rem;
+  --figma-primitive-primitive-size-76: 4.75rem;
+  --figma-primitive-primitive-size-80: 5rem;
+  --figma-primitive-primitive-size-84: 5.25rem;
+  --figma-primitive-primitive-size-88: 5.5rem;
+  --figma-primitive-primitive-size-92: 5.75rem;
+  --figma-primitive-primitive-size-96: 6rem;
+  --figma-primitive-primitive-size-100: 6.25rem;
+  --figma-primitive-primitive-size-0-5: 0.031rem;
+  --figma-primitive-primitive-size-fluid: 100rem;
+  --figma-primitive-color-cool-gray-10: #0f1a2a;
+  --figma-primitive-color-cool-gray-20: #1b2637;
+  --figma-primitive-color-cool-gray-30: #2a3546;
+  --figma-primitive-color-cool-gray-40: #475569;
+  --figma-primitive-color-cool-gray-50: #64748b;
+  --figma-primitive-color-cool-gray-60: #94a2b8;
+  --figma-primitive-color-cool-gray-70: #cbd4e1;
+  --figma-primitive-color-cool-gray-80: #eef1f6;
+  --figma-primitive-color-cool-gray-90: #f1f4f9;
+  --figma-primitive-color-cool-gray-100: #f8fafc;
+  --figma-primitive-color-blue-10: #033e96;
+  --figma-primitive-color-blue-20: #0a4aab;
+  --figma-primitive-color-blue-30: #1358bf;
+  --figma-primitive-color-blue-40: #1561d4;
+  --figma-primitive-color-blue-50: #2070e8;
+  --figma-primitive-color-blue-60: #4e91f5;
+  --figma-primitive-color-blue-70: #7aafff;
+  --figma-primitive-color-blue-80: #a3c8ff;
+  --figma-primitive-color-blue-90: #cce0ff;
+  --figma-primitive-color-blue-100: #f0f6ff;
+  --figma-primitive-color-blue-05: #091a33;
+  --figma-primitive-color-green-10: #0e4728;
+  --figma-primitive-color-green-20: #115730;
+  --figma-primitive-color-green-30: #146639;
+  --figma-primitive-color-green-40: #177542;
+  --figma-primitive-color-green-50: #1a854a;
+  --figma-primitive-color-green-60: #319960;
+  --figma-primitive-color-green-70: #58b883;
+  --figma-primitive-color-green-80: #82cca3;
+  --figma-primitive-color-green-90: #b8e5cc;
+  --figma-primitive-color-green-100: #f0fff7;
+  --figma-primitive-color-green-05: #06140c;
+  --figma-primitive-color-turquoise-10: #007c8c;
+  --figma-primitive-color-turquoise-20: #008ea1;
+  --figma-primitive-color-turquoise-30: #00a0b5;
+  --figma-primitive-color-turquoise-40: #00b2c9;
+  --figma-primitive-color-turquoise-50: #16c7df;
+  --figma-primitive-color-turquoise-60: #30d9f0;
+  --figma-primitive-color-turquoise-70: #62e3f5;
+  --figma-primitive-color-turquoise-80: #89e8f5;
+  --figma-primitive-color-turquoise-90: #c2f8ff;
+  --figma-primitive-color-turquoise-100: #f0fdff;
+  --figma-primitive-color-turquoise-05: #162e30;
+  --figma-primitive-color-red-10: #7a0a15;
+  --figma-primitive-color-red-20: #8f111c;
+  --figma-primitive-color-red-30: #a31a27;
+  --figma-primitive-color-red-40: #b82533;
+  --figma-primitive-color-red-50: #cb303f;
+  --figma-primitive-color-red-60: #d65662;
+  --figma-primitive-color-red-70: #e0757f;
+  --figma-primitive-color-red-80: #eb9fa7;
+  --figma-primitive-color-red-90: #f5c4c9;
+  --figma-primitive-color-red-100: #fff0f1;
+  --figma-primitive-color-red-05: #1f070a;
+  --figma-primitive-color-orange-10: #d62b04;
+  --figma-primitive-color-orange-20: #e0420d;
+  --figma-primitive-color-orange-30: #eb5a17;
+  --figma-primitive-color-orange-40: #eb6817;
+  --figma-primitive-color-orange-50: #f67b19;
+  --figma-primitive-color-orange-60: #ff9c4c;
+  --figma-primitive-color-orange-70: #ffb275;
+  --figma-primitive-color-orange-80: #ffca9e;
+  --figma-primitive-color-orange-90: #fedfc6;
+  --figma-primitive-color-orange-100: #fff7f0;
+  --figma-primitive-color-orange-05: #1f0f03;
+  --figma-primitive-color-yellow-10: #f58200;
+  --figma-primitive-color-yellow-20: #f59300;
+  --figma-primitive-color-yellow-30: #f5a60a;
+  --figma-primitive-color-yellow-40: #f5b60a;
+  --figma-primitive-color-yellow-50: #facc15;
+  --figma-primitive-color-yellow-60: #ffda47;
+  --figma-primitive-color-yellow-70: #ffe270;
+  --figma-primitive-color-yellow-80: #feea98;
+  --figma-primitive-color-yellow-90: #fef4cb;
+  --figma-primitive-color-yellow-100: #fffcf0;
+  --figma-primitive-color-yellow-05: #332a04;
+  --figma-primitive-color-purple-10: #490584;
+  --figma-primitive-color-purple-20: #580f99;
+  --figma-primitive-color-purple-30: #6d1ab8;
+  --figma-primitive-color-purple-40: #8a28e0;
+  --figma-primitive-color-purple-50: #a033ff;
+  --figma-primitive-color-purple-60: #b35cff;
+  --figma-primitive-color-purple-70: #c17aff;
+  --figma-primitive-color-purple-80: #d4a2ff;
+  --figma-primitive-color-purple-90: #e7ccff;
+  --figma-primitive-color-purple-100: #f8f0ff;
+  --figma-primitive-color-purple-05: #280f3d;
+  --figma-primitive-color-magenta-10: #800d57;
+  --figma-primitive-color-magenta-20: #941560;
+  --figma-primitive-color-magenta-30: #b22e7e;
+  --figma-primitive-color-magenta-40: #c73c8f;
+  --figma-primitive-color-magenta-50: #e64ea9;
+  --figma-primitive-color-magenta-60: #ea5eb1;
+  --figma-primitive-color-magenta-70: #eb83c1;
+  --figma-primitive-color-magenta-80: #f6a7d6;
+  --figma-primitive-color-magenta-90: #ffcceb;
+  --figma-primitive-color-magenta-100: #feeff8;
+  --figma-primitive-color-magenta-05: #2e061e;
+  --figma-primitive-color-white: #ffffff;
+  --figma-primitive-color-black: #000000;
+  --figma-primitive-size-0: 0rem;
+  --figma-primitive-size-1: 0.063rem;
+  --figma-primitive-size-2: 0.125rem;
+  --figma-primitive-size-4: 0.25rem;
+  --figma-primitive-size-6: 0.375rem;
+  --figma-primitive-size-8: 0.5rem;
+  --figma-primitive-size-9: 0.563rem;
+  --figma-primitive-size-10: 0.625rem;
+  --figma-primitive-size-12: 0.75rem;
+  --figma-primitive-size-14: 0.875rem;
+  --figma-primitive-size-16: 1rem;
+  --figma-primitive-size-18: 1.125rem;
+  --figma-primitive-size-20: 1.25rem;
+  --figma-primitive-size-22: 1.375rem;
+  --figma-primitive-size-24: 1.5rem;
+  --figma-primitive-size-28: 1.75rem;
+  --figma-primitive-size-30: 1.875rem;
+  --figma-primitive-size-32: 2rem;
+  --figma-primitive-size-34: 2.125rem;
+  --figma-primitive-size-36: 2.25rem;
+  --figma-primitive-size-40: 2.5rem;
+  --figma-primitive-size-44: 2.75rem;
+  --figma-primitive-size-48: 3rem;
+  --figma-primitive-size-52: 3.25rem;
+  --figma-primitive-size-56: 3.5rem;
+  --figma-primitive-size-60: 3.75rem;
+  --figma-primitive-size-64: 4rem;
+  --figma-primitive-size-68: 4.25rem;
+  --figma-primitive-size-72: 4.5rem;
+  --figma-primitive-size-76: 4.75rem;
+  --figma-primitive-size-80: 5rem;
+  --figma-primitive-size-84: 5.25rem;
+  --figma-primitive-size-88: 5.5rem;
+  --figma-primitive-size-92: 5.75rem;
+  --figma-primitive-size-96: 6rem;
+  --figma-primitive-size-100: 6.25rem;
+  --figma-primitive-size-0-5: 0.031rem;
+  --figma-primitive-size-fluid: 100rem;
+  --figma-base-palette-eve-cool-gray-10: #0f1a2a;
+  --figma-base-palette-eve-cool-gray-20: #1b2637;
+  --figma-base-palette-eve-cool-gray-30: #2a3546;
+  --figma-base-palette-eve-cool-gray-40: #475569;
+  --figma-base-palette-eve-cool-gray-50: #64748b;
+  --figma-base-palette-eve-cool-gray-60: #94a2b8;
+  --figma-base-palette-eve-cool-gray-70: #cbd4e1;
+  --figma-base-palette-eve-cool-gray-80: #eef1f6;
+  --figma-base-palette-eve-cool-gray-90: #f1f4f9;
+  --figma-base-palette-eve-cool-gray-100: #f8fafc;
+  --figma-base-palette-eve-blue-10: #033e96;
+  --figma-base-palette-eve-blue-20: #0a4aab;
+  --figma-base-palette-eve-blue-30: #1358bf;
+  --figma-base-palette-eve-blue-40: #1561d4;
+  --figma-base-palette-eve-blue-50: #2070e8;
+  --figma-base-palette-eve-blue-60: #4e91f5;
+  --figma-base-palette-eve-blue-70: #7aafff;
+  --figma-base-palette-eve-blue-80: #a3c8ff;
+  --figma-base-palette-eve-blue-90: #cce0ff;
+  --figma-base-palette-eve-blue-100: #f0f6ff;
+  --figma-base-palette-eve-blue-05: #091a33;
+  --figma-base-palette-eve-green-10: #0e4728;
+  --figma-base-palette-eve-green-20: #115730;
+  --figma-base-palette-eve-green-30: #146639;
+  --figma-base-palette-eve-green-40: #177542;
+  --figma-base-palette-eve-green-50: #1a854a;
+  --figma-base-palette-eve-green-60: #319960;
+  --figma-base-palette-eve-green-70: #58b883;
+  --figma-base-palette-eve-green-80: #82cca3;
+  --figma-base-palette-eve-green-90: #b8e5cc;
+  --figma-base-palette-eve-green-100: #f0fff7;
+  --figma-base-palette-eve-green-05: #06140c;
+  --figma-base-palette-eve-turquoise-10: #007c8c;
+  --figma-base-palette-eve-turquoise-20: #008ea1;
+  --figma-base-palette-eve-turquoise-30: #00a0b5;
+  --figma-base-palette-eve-turquoise-40: #00b2c9;
+  --figma-base-palette-eve-turquoise-50: #16c7df;
+  --figma-base-palette-eve-turquoise-60: #30d9f0;
+  --figma-base-palette-eve-turquoise-70: #62e3f5;
+  --figma-base-palette-eve-turquoise-80: #89e8f5;
+  --figma-base-palette-eve-turquoise-90: #c2f8ff;
+  --figma-base-palette-eve-turquoise-100: #f0fdff;
+  --figma-base-palette-eve-turquoise-05: #162e30;
+  --figma-base-palette-eve-red-10: #7a0a15;
+  --figma-base-palette-eve-red-20: #8f111c;
+  --figma-base-palette-eve-red-30: #a31a27;
+  --figma-base-palette-eve-red-40: #b82533;
+  --figma-base-palette-eve-red-50: #cb303f;
+  --figma-base-palette-eve-red-60: #d65662;
+  --figma-base-palette-eve-red-70: #e0757f;
+  --figma-base-palette-eve-red-80: #eb9fa7;
+  --figma-base-palette-eve-red-90: #f5c4c9;
+  --figma-base-palette-eve-red-100: #fff0f1;
+  --figma-base-palette-eve-red-05: #1f070a;
+  --figma-base-palette-eve-orange-10: #d62b04;
+  --figma-base-palette-eve-orange-20: #e0420d;
+  --figma-base-palette-eve-orange-30: #eb5a17;
+  --figma-base-palette-eve-orange-40: #eb6817;
+  --figma-base-palette-eve-orange-50: #f67b19;
+  --figma-base-palette-eve-orange-60: #ff9c4c;
+  --figma-base-palette-eve-orange-70: #ffb275;
+  --figma-base-palette-eve-orange-80: #ffca9e;
+  --figma-base-palette-eve-orange-90: #fedfc6;
+  --figma-base-palette-eve-orange-100: #fff7f0;
+  --figma-base-palette-eve-orange-05: #1f0f03;
+  --figma-base-palette-eve-yellow-10: #f58200;
+  --figma-base-palette-eve-yellow-20: #f59300;
+  --figma-base-palette-eve-yellow-30: #f5a60a;
+  --figma-base-palette-eve-yellow-40: #f5b60a;
+  --figma-base-palette-eve-yellow-50: #facc15;
+  --figma-base-palette-eve-yellow-60: #ffda47;
+  --figma-base-palette-eve-yellow-70: #ffe270;
+  --figma-base-palette-eve-yellow-80: #feea98;
+  --figma-base-palette-eve-yellow-90: #fef4cb;
+  --figma-base-palette-eve-yellow-100: #fffcf0;
+  --figma-base-palette-eve-yellow-05: #332a04;
+  --figma-base-palette-eve-purple-10: #490584;
+  --figma-base-palette-eve-purple-20: #580f99;
+  --figma-base-palette-eve-purple-30: #6d1ab8;
+  --figma-base-palette-eve-purple-40: #8a28e0;
+  --figma-base-palette-eve-purple-50: #a033ff;
+  --figma-base-palette-eve-purple-60: #b35cff;
+  --figma-base-palette-eve-purple-70: #c17aff;
+  --figma-base-palette-eve-purple-80: #d4a2ff;
+  --figma-base-palette-eve-purple-90: #e7ccff;
+  --figma-base-palette-eve-purple-100: #f8f0ff;
+  --figma-base-palette-eve-purple-05: #280f3d;
+  --figma-base-palette-eve-magenta-10: #800d57;
+  --figma-base-palette-eve-magenta-20: #941560;
+  --figma-base-palette-eve-magenta-30: #b22e7e;
+  --figma-base-palette-eve-magenta-40: #c73c8f;
+  --figma-base-palette-eve-magenta-50: #e64ea9;
+  --figma-base-palette-eve-magenta-60: #ea5eb1;
+  --figma-base-palette-eve-magenta-70: #eb83c1;
+  --figma-base-palette-eve-magenta-80: #f6a7d6;
+  --figma-base-palette-eve-magenta-90: #ffcceb;
+  --figma-base-palette-eve-magenta-100: #feeff8;
+  --figma-base-palette-eve-magenta-05: #2e061e;
+  --figma-base-palette-eve-white: #ffffff;
+  --figma-base-palette-eve-black: #000000;
+  --figma-base-palette-support-success: #1a854a;
+  --figma-base-palette-support-error: #cb303f;
+  --figma-base-palette-support-warning: #f59300;
+  --figma-base-palette-support-info: #2a3546;
+  --figma-base-font-size-1: 0.563rem; /* 9px */
+  --figma-base-font-size-2: 0.625rem; /* 10px */
+  --figma-base-font-size-3: 0.75rem; /* 12px */
+  --figma-base-font-size-4: 0.875rem; /* 14px */
+  --figma-base-font-size-5: 1rem; /* 16px */
+  --figma-base-font-size-6: 1.125rem; /* 18px */
+  --figma-base-font-size-7: 1.25rem; /* 20px */
+  --figma-base-font-size-8: 1.375rem; /* 22px */
+  --figma-base-font-size-9: 1.5rem; /* 24px */
+  --figma-base-font-size-10: 1.75rem; /* 28px */
+  --figma-base-font-size-11: 1.875rem; /* 30px */
+  --figma-base-font-size-12: 2rem; /* 32px */
+  --figma-base-font-size-13: 2.125rem; /* 34px */
+  --figma-base-font-size-14: 2.25rem; /* 36px */
+  --figma-base-font-size-15: 2.5rem; /* 40px */
+  --figma-base-font-size-16: 2.75rem; /* 44px */
+  --figma-base-font-size-17: 3rem; /* 48px */
+  --figma-base-font-size-18: 3.25rem; /* 52px */
+  --figma-base-font-size-19: 3.5rem; /* 56px */
+  --figma-base-font-size-20: 3.75rem; /* 60px */
+  --figma-base-font-size-21: 4rem; /* 64px */
+  --figma-base-font-line-height-xx-large: 1.428;
+  --figma-base-font-line-height-x-large: 1.375;
+  --figma-base-font-line-height-large: 1.333;
+  --figma-base-font-line-height-medium: 1.25;
+  --figma-base-font-line-height-small: 1.2;
+  --figma-base-font-line-height-x-small: 1.11;
+  --figma-base-font-line-height-xx-small: 1;
+  --figma-base-font-weight-regular: 400;
+  --figma-base-font-weight-medium: 500;
+  --figma-base-font-weight-bold: 700;
+  --figma-base-font-typescale-display-large-regular: [object Object];
+  --figma-base-font-typescale-display-large-medium: [object Object];
+  --figma-base-font-typescale-display-large-bold: [object Object];
+  --figma-base-font-typescale-display-medium-regular: [object Object];
+  --figma-base-font-typescale-display-medium-medium: [object Object];
+  --figma-base-font-typescale-display-medium-bold: [object Object];
+  --figma-base-font-typescale-display-small-regular: [object Object];
+  --figma-base-font-typescale-display-small-medium: [object Object];
+  --figma-base-font-typescale-display-small-bold: [object Object];
+  --figma-base-font-typescale-headline-large: [object Object];
+  --figma-base-font-typescale-headline-medium: [object Object];
+  --figma-base-font-typescale-headline-small: [object Object];
+  --figma-base-font-typescale-title-large: [object Object];
+  --figma-base-font-typescale-title-medium: [object Object];
+  --figma-base-font-typescale-title-small: [object Object];
+  --figma-base-font-typescale-body-large: [object Object];
+  --figma-base-font-typescale-body-medium: [object Object];
+  --figma-base-font-typescale-body-small: [object Object];
+  --figma-base-font-typescale-detail-large: [object Object];
+  --figma-base-font-typescale-detail-medium: [object Object];
+  --figma-base-font-typescale-detail-small: [object Object];
+  --figma-base-size-border-width-small: 0.031rem;
+  --figma-base-size-border-width-base: 0.063rem; /* Equals, solid 1px */
+  --figma-base-size-border-width-large: 0.125rem;
+  --figma-base-size-radius-xx-sm: 0.25rem;
+  --figma-base-size-radius-x-sm: 0.5rem;
+  --figma-base-size-radius-sm: 0.75rem;
+  --figma-base-size-radius-medium: 1rem;
+  --figma-base-size-radius-large: 2rem;
+  --figma-base-size-radius-x-large: 3.5rem;
+  --figma-base-size-radius-square: 0.25rem;
+  --figma-base-size-radius-rounded: 0.5rem;
+  --figma-base-size-radius-circular: 9999px;
+  --figma-base-size-square-3: 0.75rem;
+  --figma-base-size-square-4: 0.875rem;
+  --figma-base-size-square-5: 1rem;
+  --figma-base-size-square-7: 1.25rem;
+  --figma-base-size-square-9: 1.5rem;
+  --figma-base-size-square-11: 1.875rem;
+  --figma-base-size-square-14: 2.25rem;
+  --figma-base-size-square-17: 3rem;
+  --figma-base-size-square-18: 3.25rem;
+  --figma-base-size-square-19: 3.5rem;
+  --figma-base-space-inline-0-5x: 0.125rem; /* 2px */
+  --figma-base-space-inline-1x: 0.25rem; /* 4px */
+  --figma-base-space-inline-1-5x: 0.375rem; /* 6px */
+  --figma-base-space-inline-2x: 0.5rem; /* 8px */
+  --figma-base-space-inline-3x: 0.75rem; /* 12px */
+  --figma-base-space-inline-4x: 1rem; /* 16px */
+  --figma-base-space-inline-6x: 1.5rem; /* 24px */
+  --figma-base-space-inline-8x: 2rem; /* 32px */
+  --figma-base-space-inline-16x: 4rem; /* 64px */
+  --figma-base-space-inset-0-5x: 0.125rem; /* 2px */
+  --figma-base-space-inset-1x: 0.25rem; /* 4px */
+  --figma-base-space-inset-1-5x: 0.375rem; /* 6px */
+  --figma-base-space-inset-2x: 0.5rem; /* 8px */
+  --figma-base-space-inset-3x: 0.75rem; /* 12px */
+  --figma-base-space-inset-4x: 1rem; /* 16px */
+  --figma-base-space-inset-6x: 1.5rem; /* 24px */
+  --figma-base-space-inset-8x: 2rem; /* 32px */
+  --figma-base-space-inset-16x: 4rem; /* 64px */
+  --figma-base-space-stack-0-5x: 0.125rem; /* 2px */
+  --figma-base-space-stack-1x: 0.25rem; /* 4px */
+  --figma-base-space-stack-1-5x: 0.375rem; /* 6px */
+  --figma-base-space-stack-2x: 0.5rem; /* 8px */
+  --figma-base-space-stack-3x: 0.75rem; /* 12px */
+  --figma-base-space-stack-4x: 1rem; /* 16px */
+  --figma-base-space-stack-6x: 1.5rem; /* 24px */
+  --figma-base-space-stack-8x: 2rem; /* 32px */
+  --figma-base-space-stack-16x: 4rem; /* 64px */
+  --figma-palette-eve-cool-gray-10: #0f1a2a;
+  --figma-palette-eve-cool-gray-20: #1b2637;
+  --figma-palette-eve-cool-gray-30: #2a3546;
+  --figma-palette-eve-cool-gray-40: #475569;
+  --figma-palette-eve-cool-gray-50: #64748b;
+  --figma-palette-eve-cool-gray-60: #94a2b8;
+  --figma-palette-eve-cool-gray-70: #cbd4e1;
+  --figma-palette-eve-cool-gray-80: #eef1f6;
+  --figma-palette-eve-cool-gray-90: #f1f4f9;
+  --figma-palette-eve-cool-gray-100: #f8fafc;
+  --figma-palette-eve-blue-10: #033e96;
+  --figma-palette-eve-blue-20: #0a4aab;
+  --figma-palette-eve-blue-30: #1358bf;
+  --figma-palette-eve-blue-40: #1561d4;
+  --figma-palette-eve-blue-50: #2070e8;
+  --figma-palette-eve-blue-60: #4e91f5;
+  --figma-palette-eve-blue-70: #7aafff;
+  --figma-palette-eve-blue-80: #a3c8ff;
+  --figma-palette-eve-blue-90: #cce0ff;
+  --figma-palette-eve-blue-100: #f0f6ff;
+  --figma-palette-eve-blue-05: #091a33;
+  --figma-palette-eve-green-10: #0e4728;
+  --figma-palette-eve-green-20: #115730;
+  --figma-palette-eve-green-30: #146639;
+  --figma-palette-eve-green-40: #177542;
+  --figma-palette-eve-green-50: #1a854a;
+  --figma-palette-eve-green-60: #319960;
+  --figma-palette-eve-green-70: #58b883;
+  --figma-palette-eve-green-80: #82cca3;
+  --figma-palette-eve-green-90: #b8e5cc;
+  --figma-palette-eve-green-100: #f0fff7;
+  --figma-palette-eve-green-05: #06140c;
+  --figma-palette-eve-turquoise-10: #007c8c;
+  --figma-palette-eve-turquoise-20: #008ea1;
+  --figma-palette-eve-turquoise-30: #00a0b5;
+  --figma-palette-eve-turquoise-40: #00b2c9;
+  --figma-palette-eve-turquoise-50: #16c7df;
+  --figma-palette-eve-turquoise-60: #30d9f0;
+  --figma-palette-eve-turquoise-70: #62e3f5;
+  --figma-palette-eve-turquoise-80: #89e8f5;
+  --figma-palette-eve-turquoise-90: #c2f8ff;
+  --figma-palette-eve-turquoise-100: #f0fdff;
+  --figma-palette-eve-turquoise-05: #162e30;
+  --figma-palette-eve-red-10: #7a0a15;
+  --figma-palette-eve-red-20: #8f111c;
+  --figma-palette-eve-red-30: #a31a27;
+  --figma-palette-eve-red-40: #b82533;
+  --figma-palette-eve-red-50: #cb303f;
+  --figma-palette-eve-red-60: #d65662;
+  --figma-palette-eve-red-70: #e0757f;
+  --figma-palette-eve-red-80: #eb9fa7;
+  --figma-palette-eve-red-90: #f5c4c9;
+  --figma-palette-eve-red-100: #fff0f1;
+  --figma-palette-eve-red-05: #1f070a;
+  --figma-palette-eve-orange-10: #d62b04;
+  --figma-palette-eve-orange-20: #e0420d;
+  --figma-palette-eve-orange-30: #eb5a17;
+  --figma-palette-eve-orange-40: #eb6817;
+  --figma-palette-eve-orange-50: #f67b19;
+  --figma-palette-eve-orange-60: #ff9c4c;
+  --figma-palette-eve-orange-70: #ffb275;
+  --figma-palette-eve-orange-80: #ffca9e;
+  --figma-palette-eve-orange-90: #fedfc6;
+  --figma-palette-eve-orange-100: #fff7f0;
+  --figma-palette-eve-orange-05: #1f0f03;
+  --figma-palette-eve-yellow-10: #f58200;
+  --figma-palette-eve-yellow-20: #f59300;
+  --figma-palette-eve-yellow-30: #f5a60a;
+  --figma-palette-eve-yellow-40: #f5b60a;
+  --figma-palette-eve-yellow-50: #facc15;
+  --figma-palette-eve-yellow-60: #ffda47;
+  --figma-palette-eve-yellow-70: #ffe270;
+  --figma-palette-eve-yellow-80: #feea98;
+  --figma-palette-eve-yellow-90: #fef4cb;
+  --figma-palette-eve-yellow-100: #fffcf0;
+  --figma-palette-eve-yellow-05: #332a04;
+  --figma-palette-eve-purple-10: #490584;
+  --figma-palette-eve-purple-20: #580f99;
+  --figma-palette-eve-purple-30: #6d1ab8;
+  --figma-palette-eve-purple-40: #8a28e0;
+  --figma-palette-eve-purple-50: #a033ff;
+  --figma-palette-eve-purple-60: #b35cff;
+  --figma-palette-eve-purple-70: #c17aff;
+  --figma-palette-eve-purple-80: #d4a2ff;
+  --figma-palette-eve-purple-90: #e7ccff;
+  --figma-palette-eve-purple-100: #f8f0ff;
+  --figma-palette-eve-purple-05: #280f3d;
+  --figma-palette-eve-magenta-10: #800d57;
+  --figma-palette-eve-magenta-20: #941560;
+  --figma-palette-eve-magenta-30: #b22e7e;
+  --figma-palette-eve-magenta-40: #c73c8f;
+  --figma-palette-eve-magenta-50: #e64ea9;
+  --figma-palette-eve-magenta-60: #ea5eb1;
+  --figma-palette-eve-magenta-70: #eb83c1;
+  --figma-palette-eve-magenta-80: #f6a7d6;
+  --figma-palette-eve-magenta-90: #ffcceb;
+  --figma-palette-eve-magenta-100: #feeff8;
+  --figma-palette-eve-magenta-05: #2e061e;
+  --figma-palette-eve-white: #ffffff;
+  --figma-palette-eve-black: #000000;
+  --figma-palette-support-success: #1a854a;
+  --figma-palette-support-error: #cb303f;
+  --figma-palette-support-warning: #f59300;
+  --figma-palette-support-info: #2a3546;
+  --figma-font-size-1: 0.563rem; /* 9px */
+  --figma-font-size-2: 0.625rem; /* 10px */
+  --figma-font-size-3: 0.75rem; /* 12px */
+  --figma-font-size-4: 0.875rem; /* 14px */
+  --figma-font-size-5: 1rem; /* 16px */
+  --figma-font-size-6: 1.125rem; /* 18px */
+  --figma-font-size-7: 1.25rem; /* 20px */
+  --figma-font-size-8: 1.375rem; /* 22px */
+  --figma-font-size-9: 1.5rem; /* 24px */
+  --figma-font-size-10: 1.75rem; /* 28px */
+  --figma-font-size-11: 1.875rem; /* 30px */
+  --figma-font-size-12: 2rem; /* 32px */
+  --figma-font-size-13: 2.125rem; /* 34px */
+  --figma-font-size-14: 2.25rem; /* 36px */
+  --figma-font-size-15: 2.5rem; /* 40px */
+  --figma-font-size-16: 2.75rem; /* 44px */
+  --figma-font-size-17: 3rem; /* 48px */
+  --figma-font-size-18: 3.25rem; /* 52px */
+  --figma-font-size-19: 3.5rem; /* 56px */
+  --figma-font-size-20: 3.75rem; /* 60px */
+  --figma-font-size-21: 4rem; /* 64px */
+  --figma-font-line-height-xx-large: 1.428;
+  --figma-font-line-height-x-large: 1.375;
+  --figma-font-line-height-large: 1.333;
+  --figma-font-line-height-medium: 1.25;
+  --figma-font-line-height-small: 1.2;
+  --figma-font-line-height-x-small: 1.11;
+  --figma-font-line-height-xx-small: 1;
+  --figma-font-weight-regular: 400;
+  --figma-font-weight-medium: 500;
+  --figma-font-weight-bold: 700;
+  --figma-font-typescale-display-large-regular: [object Object];
+  --figma-font-typescale-display-large-medium: [object Object];
+  --figma-font-typescale-display-large-bold: [object Object];
+  --figma-font-typescale-display-medium-regular: [object Object];
+  --figma-font-typescale-display-medium-medium: [object Object];
+  --figma-font-typescale-display-medium-bold: [object Object];
+  --figma-font-typescale-display-small-regular: [object Object];
+  --figma-font-typescale-display-small-medium: [object Object];
+  --figma-font-typescale-display-small-bold: [object Object];
+  --figma-font-typescale-headline-large: [object Object];
+  --figma-font-typescale-headline-medium: [object Object];
+  --figma-font-typescale-headline-small: [object Object];
+  --figma-font-typescale-title-large: [object Object];
+  --figma-font-typescale-title-medium: [object Object];
+  --figma-font-typescale-title-small: [object Object];
+  --figma-font-typescale-body-large: [object Object];
+  --figma-font-typescale-body-medium: [object Object];
+  --figma-font-typescale-body-small: [object Object];
+  --figma-font-typescale-detail-large: [object Object];
+  --figma-font-typescale-detail-medium: [object Object];
+  --figma-font-typescale-detail-small: [object Object];
+  --figma-size-border-width-small: 0.031rem;
+  --figma-size-border-width-base: 0.063rem; /* Equals, solid 1px */
+  --figma-size-border-width-large: 0.125rem;
+  --figma-size-radius-xx-sm: 0.25rem;
+  --figma-size-radius-x-sm: 0.5rem;
+  --figma-size-radius-sm: 0.75rem;
+  --figma-size-radius-medium: 1rem;
+  --figma-size-radius-large: 2rem;
+  --figma-size-radius-x-large: 3.5rem;
+  --figma-size-radius-square: 0.25rem;
+  --figma-size-radius-rounded: 0.5rem;
+  --figma-size-radius-circular: 9999px;
+  --figma-size-square-3: 0.75rem;
+  --figma-size-square-4: 0.875rem;
+  --figma-size-square-5: 1rem;
+  --figma-size-square-7: 1.25rem;
+  --figma-size-square-9: 1.5rem;
+  --figma-size-square-11: 1.875rem;
+  --figma-size-square-14: 2.25rem;
+  --figma-size-square-17: 3rem;
+  --figma-size-square-18: 3.25rem;
+  --figma-size-square-19: 3.5rem;
+  --figma-space-inline-0-5x: 0.125rem; /* 2px */
+  --figma-space-inline-1x: 0.25rem; /* 4px */
+  --figma-space-inline-1-5x: 0.375rem; /* 6px */
+  --figma-space-inline-2x: 0.5rem; /* 8px */
+  --figma-space-inline-3x: 0.75rem; /* 12px */
+  --figma-space-inline-4x: 1rem; /* 16px */
+  --figma-space-inline-6x: 1.5rem; /* 24px */
+  --figma-space-inline-8x: 2rem; /* 32px */
+  --figma-space-inline-16x: 4rem; /* 64px */
+  --figma-space-inset-0-5x: 0.125rem; /* 2px */
+  --figma-space-inset-1x: 0.25rem; /* 4px */
+  --figma-space-inset-1-5x: 0.375rem; /* 6px */
+  --figma-space-inset-2x: 0.5rem; /* 8px */
+  --figma-space-inset-3x: 0.75rem; /* 12px */
+  --figma-space-inset-4x: 1rem; /* 16px */
+  --figma-space-inset-6x: 1.5rem; /* 24px */
+  --figma-space-inset-8x: 2rem; /* 32px */
+  --figma-space-inset-16x: 4rem; /* 64px */
+  --figma-space-stack-0-5x: 0.125rem; /* 2px */
+  --figma-space-stack-1x: 0.25rem; /* 4px */
+  --figma-space-stack-1-5x: 0.375rem; /* 6px */
+  --figma-space-stack-2x: 0.5rem; /* 8px */
+  --figma-space-stack-3x: 0.75rem; /* 12px */
+  --figma-space-stack-4x: 1rem; /* 16px */
+  --figma-space-stack-6x: 1.5rem; /* 24px */
+  --figma-space-stack-8x: 2rem; /* 32px */
+  --figma-space-stack-16x: 4rem; /* 64px */
+  --figma-token-set-order-0: primitive;
+  --figma-token-set-order-1: base;
+}
