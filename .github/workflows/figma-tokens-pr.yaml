@@ -27,7 +27,7 @@ jobs:
       - name: Commit changes
         uses: EndBug/add-and-commit@v9
         with:
-          author_name: Joren Broekema
-          author_email: joren.broekema@gmail.com
+          author_name: Greg Lacy
+          author_email: lacygreg0703@gmail.com
           message: 'chore: style-dictionary output'
           add: '.'
