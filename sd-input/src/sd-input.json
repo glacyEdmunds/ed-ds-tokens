@@ -360,7 +360,7 @@
           }
         },
         "80": {
-          "value": "{primitive.color.yellow.40}",
+          "value": "{primitive.color.red.40}",
           "type": "color",
           "attributes": {
             "domain": "palette",
