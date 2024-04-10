@@ -10,7 +10,9 @@
    ],
    [
     "COMPONENTS",
-    []
+    [
+        "button"
+    ]
    ],
    [
     "INFRASTRUCTURE",
