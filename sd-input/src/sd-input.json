@@ -360,7 +360,7 @@
           }
         },
         "80": {
-          "value": "{primitive.color.purple.70}",
+          "value": "{primitive.color.orange.60}",
           "type": "color",
           "attributes": {
             "domain": "palette",
