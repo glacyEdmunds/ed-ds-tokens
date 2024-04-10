@@ -360,7 +360,7 @@
           }
         },
         "80": {
-          "value": "{primitive.color.red.40}",
+          "value": "{primitive.color.orange.40}",
           "type": "color",
           "attributes": {
             "domain": "palette",
@@ -1882,7 +1882,7 @@
           "category": "inline",
           "hidden": false
         },
-        "description": "greg lacy"
+        "description": "To be used for bottom margin. Note use inset spacing for top and bottom padding. Value equals 4px"
       },
       "1x": {
         "value": "{primitive.size.4}",
