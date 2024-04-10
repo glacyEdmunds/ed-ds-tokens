@@ -1475,6 +1475,10 @@
     }
   },
   "size": {
+    "55": {
+      "value": "100px",
+      "type": "sizing"
+    },
     "border": {
       "width": {
         "small": {
@@ -1872,13 +1876,13 @@
       "0_5x": {
         "value": "{primitive.size.2}",
         "type": "spacing",
-        "description": "To be used for bottom margin. Note use inset spacing for top and bottom padding. Value equals 4px",
         "comment": "2px",
         "attributes": {
           "domain": "space",
           "category": "inline",
           "hidden": false
-        }
+        },
+        "description": "greg lacy"
       },
       "1x": {
         "value": "{primitive.size.4}",
