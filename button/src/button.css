@@ -9,7 +9,7 @@
 }
 
 .btn:hover {
-  background-color: var(--figma-base-palette-eve-turquoise-70);
+  background-color: var(--figma-base-palette-eve-turquoise-80);
 }
 
 .btn:focus {
