@@ -19,10 +19,7 @@
     [
      "sd-input"
     ]
-   ],
-   "button",
-   "button",
-   "button"
+   ]
   ]
  },
  "dependencies": {
