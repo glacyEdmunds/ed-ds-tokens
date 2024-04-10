@@ -1620,7 +1620,7 @@
             }
           },
           "70": {
-            "value": "{primitive.color.red.70}",
+            "value": "{primitive.color.blue.70}",
             "type": "color",
             "attributes": {
               "domain": "palette",
