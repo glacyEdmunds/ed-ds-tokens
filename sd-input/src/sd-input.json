@@ -1475,6 +1475,10 @@
     }
   },
   "size": {
+    "55": {
+      "value": "100px",
+      "type": "sizing"
+    },
     "border": {
       "width": {
         "small": {

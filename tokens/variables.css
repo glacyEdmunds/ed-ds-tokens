@@ -435,6 +435,7 @@
   --figma-base-font-typescale-detail-large: [object Object];
   --figma-base-font-typescale-detail-medium: [object Object];
   --figma-base-font-typescale-detail-small: [object Object];
+  --figma-base-size-55: 100px;
   --figma-base-size-border-width-small: 0.031rem;
   --figma-base-size-border-width-base: 0.063rem; /* Equals, solid 1px */
   --figma-base-size-border-width-large: 0.125rem;
@@ -640,6 +641,7 @@
   --figma-font-typescale-detail-large: [object Object];
   --figma-font-typescale-detail-medium: [object Object];
   --figma-font-typescale-detail-small: [object Object];
+  --figma-size-55: 100rem;
   --figma-size-border-width-small: 0.031rem;
   --figma-size-border-width-base: 0.063rem; /* Equals, solid 1px */
   --figma-size-border-width-large: 0.125rem;
