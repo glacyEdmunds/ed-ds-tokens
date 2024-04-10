@@ -360,7 +360,7 @@
           }
         },
         "80": {
-          "value": "{primitive.color.turquoise.80}",
+          "value": "{primitive.color.green.60}",
           "type": "color",
           "attributes": {
             "domain": "palette",
