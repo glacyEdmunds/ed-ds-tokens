@@ -1,4 +1,2193 @@
 {
+  "shared": {
+    "text-input": {
+      "measurements": {
+        "container": {
+          "size": {
+            "small": {
+              "value": "2rem",
+              "attributes": {
+                "domain": "component",
+                "category": "shared",
+                "component": "text-input",
+                "type": "text-input",
+                "item": "measurements",
+                "subitem": "container",
+                "state": "size"
+              },
+              "filePath": "tokens/edmunds-design-system/components/shared/text-input/text-input-measurements.json",
+              "isSource": true,
+              "original": {
+                "value": "{primitive.size.32.value}",
+                "attributes": {
+                  "domain": "component",
+                  "category": "shared",
+                  "component": "text-input"
+                }
+              },
+              "path": [
+                "shared",
+                "text-input",
+                "measurements",
+                "container",
+                "size",
+                "small"
+              ],
+              "type": "other"
+            },
+            "medium": {
+              "value": "2.5rem",
+              "attributes": {
+                "domain": "component",
+                "category": "shared",
+                "component": "text-input",
+                "type": "text-input",
+                "item": "measurements",
+                "subitem": "container",
+                "state": "size"
+              },
+              "filePath": "tokens/edmunds-design-system/components/shared/text-input/text-input-measurements.json",
+              "isSource": true,
+              "original": {
+                "value": "{primitive.size.40.value}",
+                "attributes": {
+                  "domain": "component",
+                  "category": "shared",
+                  "component": "text-input"
+                }
+              },
+              "path": [
+                "shared",
+                "text-input",
+                "measurements",
+                "container",
+                "size",
+                "medium"
+              ],
+              "type": "other"
+            },
+            "large": {
+              "value": "3rem",
+              "attributes": {
+                "domain": "component",
+                "category": "shared",
+                "component": "text-input",
+                "type": "text-input",
+                "item": "measurements",
+                "subitem": "container",
+                "state": "size"
+              },
+              "filePath": "tokens/edmunds-design-system/components/shared/text-input/text-input-measurements.json",
+              "isSource": true,
+              "original": {
+                "value": "{primitive.size.48.value}",
+                "attributes": {
+                  "domain": "component",
+                  "category": "shared",
+                  "component": "text-input"
+                }
+              },
+              "path": [
+                "shared",
+                "text-input",
+                "measurements",
+                "container",
+                "size",
+                "large"
+              ],
+              "type": "other"
+            }
+          },
+          "space": {
+            "inset": {
+              "right": {
+                "medium": {
+                  "value": "1rem",
+                  "attributes": {
+                    "domain": "component",
+                    "category": "shared",
+                    "component": "text-input",
+                    "type": "text-input",
+                    "item": "measurements",
+                    "subitem": "container",
+                    "state": "space"
+                  },
+                  "filePath": "tokens/edmunds-design-system/components/shared/text-input/text-input-measurements.json",
+                  "isSource": true,
+                  "original": {
+                    "value": "{space.inset.4x.value}",
+                    "attributes": {
+                      "domain": "component",
+                      "category": "shared",
+                      "component": "text-input"
+                    }
+                  },
+                  "path": [
+                    "shared",
+                    "text-input",
+                    "measurements",
+                    "container",
+                    "space",
+                    "inset",
+                    "right",
+                    "medium"
+                  ],
+                  "type": "other"
+                }
+              },
+              "left": {
+                "medium": {
+                  "value": "1rem",
+                  "attributes": {
+                    "domain": "component",
+                    "category": "shared",
+                    "component": "text-input",
+                    "type": "text-input",
+                    "item": "measurements",
+                    "subitem": "container",
+                    "state": "space"
+                  },
+                  "filePath": "tokens/edmunds-design-system/components/shared/text-input/text-input-measurements.json",
+                  "isSource": true,
+                  "original": {
+                    "value": "{space.inset.4x.value}",
+                    "attributes": {
+                      "domain": "component",
+                      "category": "shared",
+                      "component": "text-input"
+                    }
+                  },
+                  "path": [
+                    "shared",
+                    "text-input",
+                    "measurements",
+                    "container",
+                    "space",
+                    "inset",
+                    "left",
+                    "medium"
+                  ],
+                  "type": "other"
+                }
+              }
+            },
+            "stack": {
+              "bottom": {
+                "small": {
+                  "value": "0.5rem",
+                  "attributes": {
+                    "domain": "component",
+                    "category": "shared",
+                    "component": "text-input",
+                    "type": "text-input",
+                    "item": "measurements",
+                    "subitem": "container",
+                    "state": "space"
+                  },
+                  "filePath": "tokens/edmunds-design-system/components/shared/text-input/text-input-measurements.json",
+                  "isSource": true,
+                  "original": {
+                    "value": "{space.stack.2x.value}",
+                    "attributes": {
+                      "domain": "component",
+                      "category": "shared",
+                      "component": "text-input"
+                    }
+                  },
+                  "path": [
+                    "shared",
+                    "text-input",
+                    "measurements",
+                    "container",
+                    "space",
+                    "stack",
+                    "bottom",
+                    "small"
+                  ],
+                  "type": "other"
+                }
+              }
+            },
+            "inline": {
+              "small": {
+                "medium": {
+                  "value": "0.5rem",
+                  "attributes": {
+                    "domain": "component",
+                    "category": "shared",
+                    "component": "text-input",
+                    "hidden": false,
+                    "type": "text-input",
+                    "item": "measurements",
+                    "subitem": "container",
+                    "state": "space"
+                  },
+                  "filePath": "tokens/edmunds-design-system/components/shared/text-input/text-input-measurements.json",
+                  "isSource": true,
+                  "original": {
+                    "value": "{space.inline.2x.value}",
+                    "attributes": {
+                      "domain": "component",
+                      "category": "shared",
+                      "component": "text-input",
+                      "hidden": false
+                    }
+                  },
+                  "path": [
+                    "shared",
+                    "text-input",
+                    "measurements",
+                    "container",
+                    "space",
+                    "inline",
+                    "small",
+                    "medium"
+                  ],
+                  "type": "other"
+                }
+              }
+            }
+          },
+          "nested": {
+            "size": {
+              "small": {
+                "value": "3.75rem",
+                "attributes": {
+                  "domain": "component",
+                  "category": "shared",
+                  "component": "text-input",
+                  "hidden": false,
+                  "type": "text-input",
+                  "item": "measurements",
+                  "subitem": "container",
+                  "state": "nested"
+                },
+                "filePath": "tokens/edmunds-design-system/components/shared/text-input/text-input-measurements.json",
+                "isSource": true,
+                "original": {
+                  "value": "{primitive.size.60.value}",
+                  "attributes": {
+                    "domain": "component",
+                    "category": "shared",
+                    "component": "text-input",
+                    "hidden": false
+                  }
+                },
+                "path": [
+                  "shared",
+                  "text-input",
+                  "measurements",
+                  "container",
+                  "nested",
+                  "size",
+                  "small"
+                ],
+                "type": "other"
+              }
+            },
+            "space": {
+              "stack": {
+                "bottom": {
+                  "small": {
+                    "value": "0.5rem",
+                    "attributes": {
+                      "domain": "component",
+                      "category": "shared",
+                      "component": "text-input",
+                      "type": "text-input",
+                      "item": "measurements",
+                      "subitem": "container",
+                      "state": "nested"
+                    },
+                    "filePath": "tokens/edmunds-design-system/components/shared/text-input/text-input-measurements.json",
+                    "isSource": true,
+                    "original": {
+                      "value": "{space.stack.2x.value}",
+                      "attributes": {
+                        "domain": "component",
+                        "category": "shared",
+                        "component": "text-input"
+                      }
+                    },
+                    "path": [
+                      "shared",
+                      "text-input",
+                      "measurements",
+                      "container",
+                      "nested",
+                      "space",
+                      "stack",
+                      "bottom",
+                      "small"
+                    ],
+                    "type": "other"
+                  }
+                },
+                "top": {
+                  "small": {
+                    "value": "0.5rem",
+                    "attributes": {
+                      "domain": "component",
+                      "category": "shared",
+                      "component": "text-input",
+                      "type": "text-input",
+                      "item": "measurements",
+                      "subitem": "container",
+                      "state": "nested"
+                    },
+                    "filePath": "tokens/edmunds-design-system/components/shared/text-input/text-input-measurements.json",
+                    "isSource": true,
+                    "original": {
+                      "value": "{space.stack.2x.value}",
+                      "attributes": {
+                        "domain": "component",
+                        "category": "shared",
+                        "component": "text-input"
+                      }
+                    },
+                    "path": [
+                      "shared",
+                      "text-input",
+                      "measurements",
+                      "container",
+                      "nested",
+                      "space",
+                      "stack",
+                      "top",
+                      "small"
+                    ],
+                    "type": "other"
+                  }
+                }
+              },
+              "inline": {
+                "small": {
+                  "medium": {
+                    "value": "0.5rem",
+                    "attributes": {
+                      "domain": "component",
+                      "category": "shared",
+                      "component": "text-input",
+                      "hidden": false,
+                      "type": "text-input",
+                      "item": "measurements",
+                      "subitem": "container",
+                      "state": "nested"
+                    },
+                    "filePath": "tokens/edmunds-design-system/components/shared/text-input/text-input-measurements.json",
+                    "isSource": true,
+                    "original": {
+                      "value": "{space.inline.2x.value}",
+                      "attributes": {
+                        "domain": "component",
+                        "category": "shared",
+                        "component": "text-input",
+                        "hidden": false
+                      }
+                    },
+                    "path": [
+                      "shared",
+                      "text-input",
+                      "measurements",
+                      "container",
+                      "nested",
+                      "space",
+                      "inline",
+                      "small",
+                      "medium"
+                    ],
+                    "type": "other"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "support": {
+          "text": {
+            "space": {
+              "stack": {
+                "bottom": {
+                  "small": {
+                    "value": "0.5rem",
+                    "attributes": {
+                      "domain": "component",
+                      "category": "shared",
+                      "component": "text-input",
+                      "hidden": false,
+                      "type": "text-input",
+                      "item": "measurements",
+                      "subitem": "support",
+                      "state": "text"
+                    },
+                    "filePath": "tokens/edmunds-design-system/components/shared/text-input/text-input-measurements.json",
+                    "isSource": true,
+                    "original": {
+                      "value": "{space.stack.2x.value}",
+                      "attributes": {
+                        "domain": "component",
+                        "category": "shared",
+                        "component": "text-input",
+                        "hidden": false
+                      }
+                    },
+                    "path": [
+                      "shared",
+                      "text-input",
+                      "measurements",
+                      "support",
+                      "text",
+                      "space",
+                      "stack",
+                      "bottom",
+                      "small"
+                    ],
+                    "type": "other"
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "container": {
+        "color": {
+          "bg": {
+            "default": {
+              "value": "#fff",
+              "attributes": {
+                "domain": "component",
+                "category": "shared",
+                "component": "text-input",
+                "hidden": false,
+                "type": "text-input",
+                "item": "container",
+                "subitem": "color",
+                "state": "bg"
+              },
+              "filePath": "tokens/edmunds-design-system/components/shared/text-input/text-input.json",
+              "isSource": true,
+              "original": {
+                "value": "{palette.eve.white.value}",
+                "attributes": {
+                  "domain": "component",
+                  "category": "shared",
+                  "component": "text-input",
+                  "hidden": false
+                }
+              },
+              "path": [
+                "shared",
+                "text-input",
+                "container",
+                "color",
+                "bg",
+                "default"
+              ],
+              "type": "other"
+            },
+            "disabled": {
+              "value": "#eef1f6",
+              "attributes": {
+                "domain": "component",
+                "category": "shared",
+                "component": "text-input",
+                "hidden": false,
+                "type": "text-input",
+                "item": "container",
+                "subitem": "color",
+                "state": "bg"
+              },
+              "filePath": "tokens/edmunds-design-system/components/shared/text-input/text-input.json",
+              "isSource": true,
+              "original": {
+                "value": "{palette.eve.cool-gray.80.value}",
+                "attributes": {
+                  "domain": "component",
+                  "category": "shared",
+                  "component": "text-input",
+                  "hidden": false
+                }
+              },
+              "path": [
+                "shared",
+                "text-input",
+                "container",
+                "color",
+                "bg",
+                "disabled"
+              ],
+              "type": "other"
+            }
+          }
+        },
+        "border": {
+          "color": {
+            "default": {
+              "value": "#64748b",
+              "attributes": {
+                "domain": "component",
+                "category": "shared",
+                "component": "text-input",
+                "hidden": false,
+                "type": "text-input",
+                "item": "container",
+                "subitem": "border",
+                "state": "color"
+              },
+              "filePath": "tokens/edmunds-design-system/components/shared/text-input/text-input.json",
+              "isSource": true,
+              "original": {
+                "value": "{palette.eve.cool-gray.50.value}",
+                "attributes": {
+                  "domain": "component",
+                  "category": "shared",
+                  "component": "text-input",
+                  "hidden": false
+                }
+              },
+              "path": [
+                "shared",
+                "text-input",
+                "container",
+                "border",
+                "color",
+                "default"
+              ],
+              "type": "other"
+            },
+            "hover": {
+              "value": "#1358bf",
+              "attributes": {
+                "domain": "component",
+                "category": "shared",
+                "component": "text-input",
+                "hidden": false,
+                "type": "text-input",
+                "item": "container",
+                "subitem": "border",
+                "state": "color"
+              },
+              "filePath": "tokens/edmunds-design-system/components/shared/text-input/text-input.json",
+              "isSource": true,
+              "original": {
+                "value": "{palette.eve.blue.30.value}",
+                "attributes": {
+                  "domain": "component",
+                  "category": "shared",
+                  "component": "text-input",
+                  "hidden": false
+                }
+              },
+              "path": [
+                "shared",
+                "text-input",
+                "container",
+                "border",
+                "color",
+                "hover"
+              ],
+              "type": "other"
+            },
+            "active": {
+              "value": "#1358bf",
+              "attributes": {
+                "domain": "component",
+                "category": "shared",
+                "component": "text-input",
+                "hidden": false,
+                "type": "text-input",
+                "item": "container",
+                "subitem": "border",
+                "state": "color"
+              },
+              "filePath": "tokens/edmunds-design-system/components/shared/text-input/text-input.json",
+              "isSource": true,
+              "original": {
+                "value": "{palette.eve.blue.30.value}",
+                "attributes": {
+                  "domain": "component",
+                  "category": "shared",
+                  "component": "text-input",
+                  "hidden": false
+                }
+              },
+              "path": [
+                "shared",
+                "text-input",
+                "container",
+                "border",
+                "color",
+                "active"
+              ],
+              "type": "other"
+            },
+            "focus": {
+              "value": "#2070e8",
+              "attributes": {
+                "domain": "component",
+                "category": "shared",
+                "component": "text-input",
+                "hidden": false,
+                "type": "text-input",
+                "item": "container",
+                "subitem": "border",
+                "state": "color"
+              },
+              "filePath": "tokens/edmunds-design-system/components/shared/text-input/text-input.json",
+              "isSource": true,
+              "original": {
+                "value": "{palette.eve.blue.50.value}",
+                "attributes": {
+                  "domain": "component",
+                  "category": "shared",
+                  "component": "text-input",
+                  "hidden": false
+                }
+              },
+              "path": [
+                "shared",
+                "text-input",
+                "container",
+                "border",
+                "color",
+                "focus"
+              ],
+              "type": "other"
+            },
+            "disabled": {
+              "value": "#eef1f6",
+              "attributes": {
+                "domain": "component",
+                "category": "shared",
+                "component": "text-input",
+                "hidden": false,
+                "type": "text-input",
+                "item": "container",
+                "subitem": "border",
+                "state": "color"
+              },
+              "filePath": "tokens/edmunds-design-system/components/shared/text-input/text-input.json",
+              "isSource": true,
+              "original": {
+                "value": "{palette.eve.cool-gray.80.value}",
+                "attributes": {
+                  "domain": "component",
+                  "category": "shared",
+                  "component": "text-input",
+                  "hidden": false
+                }
+              },
+              "path": [
+                "shared",
+                "text-input",
+                "container",
+                "border",
+                "color",
+                "disabled"
+              ],
+              "type": "other"
+            },
+            "error": {
+              "value": "#cb303f",
+              "attributes": {
+                "domain": "component",
+                "category": "shared",
+                "component": "text-input",
+                "hidden": false,
+                "type": "text-input",
+                "item": "container",
+                "subitem": "border",
+                "state": "color"
+              },
+              "filePath": "tokens/edmunds-design-system/components/shared/text-input/text-input.json",
+              "isSource": true,
+              "original": {
+                "value": "{palette.support.error.value}",
+                "attributes": {
+                  "domain": "component",
+                  "category": "shared",
+                  "component": "text-input",
+                  "hidden": false
+                }
+              },
+              "path": [
+                "shared",
+                "text-input",
+                "container",
+                "border",
+                "color",
+                "error"
+              ],
+              "type": "other"
+            },
+            "warning": {
+              "value": "#f59300",
+              "attributes": {
+                "domain": "component",
+                "category": "shared",
+                "component": "text-input",
+                "hidden": false,
+                "type": "text-input",
+                "item": "container",
+                "subitem": "border",
+                "state": "color"
+              },
+              "filePath": "tokens/edmunds-design-system/components/shared/text-input/text-input.json",
+              "isSource": true,
+              "original": {
+                "value": "{palette.support.warning.value}",
+                "attributes": {
+                  "domain": "component",
+                  "category": "shared",
+                  "component": "text-input",
+                  "hidden": false
+                }
+              },
+              "path": [
+                "shared",
+                "text-input",
+                "container",
+                "border",
+                "color",
+                "warning"
+              ],
+              "type": "other"
+            }
+          },
+          "size": {
+            "default": {
+              "value": "0.063rem",
+              "attributes": {
+                "domain": "component",
+                "category": "shared",
+                "component": "text-input",
+                "hidden": false,
+                "type": "text-input",
+                "item": "container",
+                "subitem": "border",
+                "state": "size"
+              },
+              "filePath": "tokens/edmunds-design-system/components/shared/text-input/text-input.json",
+              "isSource": true,
+              "original": {
+                "value": "{size.border.width.base.value}",
+                "attributes": {
+                  "domain": "component",
+                  "category": "shared",
+                  "component": "text-input",
+                  "hidden": false
+                }
+              },
+              "path": [
+                "shared",
+                "text-input",
+                "container",
+                "border",
+                "size",
+                "default"
+              ],
+              "type": "other"
+            },
+            "active": {
+              "value": "0.063rem",
+              "attributes": {
+                "domain": "component",
+                "category": "shared",
+                "component": "text-input",
+                "hidden": false,
+                "type": "text-input",
+                "item": "container",
+                "subitem": "border",
+                "state": "size"
+              },
+              "filePath": "tokens/edmunds-design-system/components/shared/text-input/text-input.json",
+              "isSource": true,
+              "original": {
+                "value": "{size.border.width.base.value}",
+                "attributes": {
+                  "domain": "component",
+                  "category": "shared",
+                  "component": "text-input",
+                  "hidden": false
+                }
+              },
+              "path": [
+                "shared",
+                "text-input",
+                "container",
+                "border",
+                "size",
+                "active"
+              ],
+              "type": "other"
+            },
+            "focus": {
+              "value": "0.125rem",
+              "attributes": {
+                "domain": "component",
+                "category": "shared",
+                "component": "text-input",
+                "hidden": false,
+                "type": "text-input",
+                "item": "container",
+                "subitem": "border",
+                "state": "size"
+              },
+              "filePath": "tokens/edmunds-design-system/components/shared/text-input/text-input.json",
+              "isSource": true,
+              "original": {
+                "value": "{size.border.width.large.value}",
+                "attributes": {
+                  "domain": "component",
+                  "category": "shared",
+                  "component": "text-input",
+                  "hidden": false
+                }
+              },
+              "path": [
+                "shared",
+                "text-input",
+                "container",
+                "border",
+                "size",
+                "focus"
+              ],
+              "type": "other"
+            },
+            "disabled": {
+              "value": "0.063rem",
+              "attributes": {
+                "domain": "component",
+                "category": "shared",
+                "component": "text-input",
+                "hidden": false,
+                "type": "text-input",
+                "item": "container",
+                "subitem": "border",
+                "state": "size"
+              },
+              "filePath": "tokens/edmunds-design-system/components/shared/text-input/text-input.json",
+              "isSource": true,
+              "original": {
+                "value": "{size.border.width.base.value}",
+                "attributes": {
+                  "domain": "component",
+                  "category": "shared",
+                  "component": "text-input",
+                  "hidden": false
+                }
+              },
+              "path": [
+                "shared",
+                "text-input",
+                "container",
+                "border",
+                "size",
+                "disabled"
+              ],
+              "type": "other"
+            }
+          },
+          "radius": {
+            "default": {
+              "square": {
+                "value": "0.25rem",
+                "attributes": {
+                  "domain": "component",
+                  "category": "shared",
+                  "component": "text-input",
+                  "hidden": false,
+                  "type": "text-input",
+                  "item": "container",
+                  "subitem": "border",
+                  "state": "radius"
+                },
+                "filePath": "tokens/edmunds-design-system/components/shared/text-input/text-input.json",
+                "isSource": true,
+                "original": {
+                  "value": "{size.radius.square.value}",
+                  "attributes": {
+                    "domain": "component",
+                    "category": "shared",
+                    "component": "text-input",
+                    "hidden": false
+                  }
+                },
+                "path": [
+                  "shared",
+                  "text-input",
+                  "container",
+                  "border",
+                  "radius",
+                  "default",
+                  "square"
+                ],
+                "type": "other"
+              },
+              "rounded": {
+                "value": "0.5rem",
+                "attributes": {
+                  "domain": "component",
+                  "category": "shared",
+                  "component": "text-input",
+                  "hidden": false,
+                  "type": "text-input",
+                  "item": "container",
+                  "subitem": "border",
+                  "state": "radius"
+                },
+                "filePath": "tokens/edmunds-design-system/components/shared/text-input/text-input.json",
+                "isSource": true,
+                "original": {
+                  "value": "{size.radius.rounded.value}",
+                  "attributes": {
+                    "domain": "component",
+                    "category": "shared",
+                    "component": "text-input",
+                    "hidden": false
+                  }
+                },
+                "path": [
+                  "shared",
+                  "text-input",
+                  "container",
+                  "border",
+                  "radius",
+                  "default",
+                  "rounded"
+                ],
+                "type": "other"
+              }
+            }
+          }
+        }
+      },
+      "prefix": {
+        "color": {
+          "default": {
+            "value": "#2a3546",
+            "attributes": {
+              "domain": "component",
+              "category": "shared",
+              "component": "text-input",
+              "hidden": false,
+              "type": "text-input",
+              "item": "prefix",
+              "subitem": "color",
+              "state": "default"
+            },
+            "filePath": "tokens/edmunds-design-system/components/shared/text-input/text-input.json",
+            "isSource": true,
+            "original": {
+              "value": "{palette.eve.cool-gray.30.value}",
+              "attributes": {
+                "domain": "component",
+                "category": "shared",
+                "component": "text-input",
+                "hidden": false
+              }
+            },
+            "path": [
+              "shared",
+              "text-input",
+              "prefix",
+              "color",
+              "default"
+            ],
+            "type": "other"
+          },
+          "disabled": {
+            "value": "#94a2b8",
+            "attributes": {
+              "domain": "component",
+              "category": "shared",
+              "component": "text-input",
+              "hidden": false,
+              "type": "text-input",
+              "item": "prefix",
+              "subitem": "color",
+              "state": "disabled"
+            },
+            "filePath": "tokens/edmunds-design-system/components/shared/text-input/text-input.json",
+            "isSource": true,
+            "original": {
+              "value": "{palette.eve.cool-gray.60.value}",
+              "attributes": {
+                "domain": "component",
+                "category": "shared",
+                "component": "text-input",
+                "hidden": false
+              }
+            },
+            "path": [
+              "shared",
+              "text-input",
+              "prefix",
+              "color",
+              "disabled"
+            ],
+            "type": "other"
+          }
+        },
+        "icon": {
+          "size": {
+            "type": "sizing",
+            "value": "1rem",
+            "attributes": {
+              "domain": "component",
+              "category": "shared",
+              "component": "text-input",
+              "hidden": false,
+              "type": "text-input",
+              "item": "prefix",
+              "subitem": "icon",
+              "state": "size"
+            },
+            "filePath": "tokens/edmunds-design-system/components/shared/text-input/text-input.json",
+            "isSource": true,
+            "original": {
+              "type": "sizing",
+              "value": "{size.square.5.value}",
+              "attributes": {
+                "domain": "component",
+                "category": "shared",
+                "component": "text-input",
+                "hidden": false
+              }
+            },
+            "path": [
+              "shared",
+              "text-input",
+              "prefix",
+              "icon",
+              "size"
+            ]
+          }
+        }
+      },
+      "suffix": {
+        "color": {
+          "default": {
+            "value": "#2a3546",
+            "attributes": {
+              "domain": "component",
+              "category": "shared",
+              "component": "text-input",
+              "hidden": false,
+              "type": "text-input",
+              "item": "suffix",
+              "subitem": "color",
+              "state": "default"
+            },
+            "filePath": "tokens/edmunds-design-system/components/shared/text-input/text-input.json",
+            "isSource": true,
+            "original": {
+              "value": "{palette.eve.cool-gray.30.value}",
+              "attributes": {
+                "domain": "component",
+                "category": "shared",
+                "component": "text-input",
+                "hidden": false
+              }
+            },
+            "path": [
+              "shared",
+              "text-input",
+              "suffix",
+              "color",
+              "default"
+            ],
+            "type": "other"
+          },
+          "disabled": {
+            "value": "#94a2b8",
+            "attributes": {
+              "domain": "component",
+              "category": "shared",
+              "component": "text-input",
+              "hidden": false,
+              "type": "text-input",
+              "item": "suffix",
+              "subitem": "color",
+              "state": "disabled"
+            },
+            "filePath": "tokens/edmunds-design-system/components/shared/text-input/text-input.json",
+            "isSource": true,
+            "original": {
+              "value": "{palette.eve.cool-gray.60.value}",
+              "attributes": {
+                "domain": "component",
+                "category": "shared",
+                "component": "text-input",
+                "hidden": false
+              }
+            },
+            "path": [
+              "shared",
+              "text-input",
+              "suffix",
+              "color",
+              "disabled"
+            ],
+            "type": "other"
+          }
+        },
+        "icon": {
+          "size": {
+            "type": "sizing",
+            "value": "1rem",
+            "attributes": {
+              "domain": "component",
+              "category": "shared",
+              "component": "text-input",
+              "hidden": false,
+              "type": "text-input",
+              "item": "suffix",
+              "subitem": "icon",
+              "state": "size"
+            },
+            "filePath": "tokens/edmunds-design-system/components/shared/text-input/text-input.json",
+            "isSource": true,
+            "original": {
+              "type": "sizing",
+              "value": "{size.square.5.value}",
+              "attributes": {
+                "domain": "component",
+                "category": "shared",
+                "component": "text-input",
+                "hidden": false
+              }
+            },
+            "path": [
+              "shared",
+              "text-input",
+              "suffix",
+              "icon",
+              "size"
+            ]
+          }
+        },
+        "font": {
+          "size": {
+            "type": "fontSizes",
+            "value": "1rem",
+            "attributes": {
+              "domain": "component",
+              "category": "shared",
+              "component": "text-input",
+              "hidden": false,
+              "type": "text-input",
+              "item": "suffix",
+              "subitem": "font",
+              "state": "size"
+            },
+            "filePath": "tokens/edmunds-design-system/components/shared/text-input/text-input.json",
+            "isSource": true,
+            "original": {
+              "type": "fontSizes",
+              "value": "{font.typescale.body.large.size.value}",
+              "attributes": {
+                "domain": "component",
+                "category": "shared",
+                "component": "text-input",
+                "hidden": false
+              }
+            },
+            "path": [
+              "shared",
+              "text-input",
+              "suffix",
+              "font",
+              "size"
+            ]
+          },
+          "line-height": {
+            "type": "lineHeights",
+            "value": 1.375,
+            "attributes": {
+              "domain": "component",
+              "category": "shared",
+              "component": "text-input",
+              "hidden": false,
+              "type": "text-input",
+              "item": "suffix",
+              "subitem": "font",
+              "state": "line-height"
+            },
+            "filePath": "tokens/edmunds-design-system/components/shared/text-input/text-input.json",
+            "isSource": true,
+            "original": {
+              "type": "lineHeights",
+              "value": "{font.typescale.body.large.line-height.value}",
+              "attributes": {
+                "domain": "component",
+                "category": "shared",
+                "component": "text-input",
+                "hidden": false
+              }
+            },
+            "path": [
+              "shared",
+              "text-input",
+              "suffix",
+              "font",
+              "line-height"
+            ]
+          },
+          "weight": {
+            "type": "fontWeights",
+            "value": 400,
+            "attributes": {
+              "domain": "component",
+              "category": "shared",
+              "component": "text-input",
+              "hidden": false,
+              "type": "text-input",
+              "item": "suffix",
+              "subitem": "font",
+              "state": "weight"
+            },
+            "filePath": "tokens/edmunds-design-system/components/shared/text-input/text-input.json",
+            "isSource": true,
+            "original": {
+              "type": "fontWeights",
+              "value": "{font.typescale.body.large.weight.regular.value}",
+              "attributes": {
+                "domain": "component",
+                "category": "shared",
+                "component": "text-input",
+                "hidden": false
+              }
+            },
+            "path": [
+              "shared",
+              "text-input",
+              "suffix",
+              "font",
+              "weight"
+            ]
+          }
+        }
+      },
+      "filled-text": {
+        "font": {
+          "color": {
+            "default": {
+              "value": "#2a3546",
+              "attributes": {
+                "domain": "component",
+                "category": "shared",
+                "component": "text-input",
+                "hidden": false,
+                "type": "text-input",
+                "item": "filled-text",
+                "subitem": "font",
+                "state": "color"
+              },
+              "filePath": "tokens/edmunds-design-system/components/shared/text-input/text-input.json",
+              "isSource": true,
+              "original": {
+                "value": "{palette.eve.cool-gray.30.value}",
+                "attributes": {
+                  "domain": "component",
+                  "category": "shared",
+                  "component": "text-input",
+                  "hidden": false
+                }
+              },
+              "path": [
+                "shared",
+                "text-input",
+                "filled-text",
+                "font",
+                "color",
+                "default"
+              ],
+              "type": "other"
+            },
+            "disabled": {
+              "value": "#94a2b8",
+              "attributes": {
+                "domain": "component",
+                "category": "shared",
+                "component": "text-input",
+                "hidden": false,
+                "type": "text-input",
+                "item": "filled-text",
+                "subitem": "font",
+                "state": "color"
+              },
+              "filePath": "tokens/edmunds-design-system/components/shared/text-input/text-input.json",
+              "isSource": true,
+              "original": {
+                "value": "{palette.eve.cool-gray.60.value}",
+                "attributes": {
+                  "domain": "component",
+                  "category": "shared",
+                  "component": "text-input",
+                  "hidden": false
+                }
+              },
+              "path": [
+                "shared",
+                "text-input",
+                "filled-text",
+                "font",
+                "color",
+                "disabled"
+              ],
+              "type": "other"
+            }
+          },
+          "size": {
+            "default": {
+              "value": "1rem",
+              "attributes": {
+                "domain": "component",
+                "category": "shared",
+                "component": "text-input",
+                "hidden": false,
+                "type": "text-input",
+                "item": "filled-text",
+                "subitem": "font",
+                "state": "size"
+              },
+              "filePath": "tokens/edmunds-design-system/components/shared/text-input/text-input.json",
+              "isSource": true,
+              "original": {
+                "value": "{font.typescale.body.large.size.value}",
+                "attributes": {
+                  "domain": "component",
+                  "category": "shared",
+                  "component": "text-input",
+                  "hidden": false
+                }
+              },
+              "path": [
+                "shared",
+                "text-input",
+                "filled-text",
+                "font",
+                "size",
+                "default"
+              ],
+              "type": "other"
+            }
+          },
+          "line-height": {
+            "default": {
+              "value": 1.375,
+              "attributes": {
+                "domain": "component",
+                "category": "shared",
+                "component": "text-input",
+                "hidden": false,
+                "type": "text-input",
+                "item": "filled-text",
+                "subitem": "font",
+                "state": "line-height"
+              },
+              "filePath": "tokens/edmunds-design-system/components/shared/text-input/text-input.json",
+              "isSource": true,
+              "original": {
+                "value": "{font.typescale.body.large.line-height.value}",
+                "attributes": {
+                  "domain": "component",
+                  "category": "shared",
+                  "component": "text-input",
+                  "hidden": false
+                }
+              },
+              "path": [
+                "shared",
+                "text-input",
+                "filled-text",
+                "font",
+                "line-height",
+                "default"
+              ],
+              "type": "other"
+            }
+          },
+          "weight": {
+            "default": {
+              "value": 400,
+              "attributes": {
+                "domain": "component",
+                "category": "shared",
+                "component": "text-input",
+                "hidden": false,
+                "type": "text-input",
+                "item": "filled-text",
+                "subitem": "font",
+                "state": "weight"
+              },
+              "filePath": "tokens/edmunds-design-system/components/shared/text-input/text-input.json",
+              "isSource": true,
+              "original": {
+                "value": "{font.typescale.body.large.weight.regular.value}",
+                "attributes": {
+                  "domain": "component",
+                  "category": "shared",
+                  "component": "text-input",
+                  "hidden": false
+                }
+              },
+              "path": [
+                "shared",
+                "text-input",
+                "filled-text",
+                "font",
+                "weight",
+                "default"
+              ],
+              "type": "other"
+            }
+          }
+        }
+      },
+      "hint-text": {
+        "font": {
+          "color": {
+            "default": {
+              "value": "#64748b",
+              "attributes": {
+                "domain": "component",
+                "category": "shared",
+                "component": "text-input",
+                "hidden": false,
+                "type": "text-input",
+                "item": "hint-text",
+                "subitem": "font",
+                "state": "color"
+              },
+              "filePath": "tokens/edmunds-design-system/components/shared/text-input/text-input.json",
+              "isSource": true,
+              "original": {
+                "value": "{palette.eve.cool-gray.50.value}",
+                "attributes": {
+                  "domain": "component",
+                  "category": "shared",
+                  "component": "text-input",
+                  "hidden": false
+                }
+              },
+              "path": [
+                "shared",
+                "text-input",
+                "hint-text",
+                "font",
+                "color",
+                "default"
+              ],
+              "type": "other"
+            },
+            "disabled": {
+              "value": "#94a2b8",
+              "attributes": {
+                "domain": "component",
+                "category": "shared",
+                "component": "text-input",
+                "hidden": false,
+                "type": "text-input",
+                "item": "hint-text",
+                "subitem": "font",
+                "state": "color"
+              },
+              "filePath": "tokens/edmunds-design-system/components/shared/text-input/text-input.json",
+              "isSource": true,
+              "original": {
+                "value": "{palette.eve.cool-gray.60.value}",
+                "attributes": {
+                  "domain": "component",
+                  "category": "shared",
+                  "component": "text-input",
+                  "hidden": false
+                }
+              },
+              "path": [
+                "shared",
+                "text-input",
+                "hint-text",
+                "font",
+                "color",
+                "disabled"
+              ],
+              "type": "other"
+            }
+          },
+          "size": {
+            "default": {
+              "type": "fontSizes",
+              "value": "1rem",
+              "attributes": {
+                "domain": "component",
+                "category": "shared",
+                "component": "text-input",
+                "hidden": false,
+                "type": "text-input",
+                "item": "hint-text",
+                "subitem": "font",
+                "state": "size"
+              },
+              "filePath": "tokens/edmunds-design-system/components/shared/text-input/text-input.json",
+              "isSource": true,
+              "original": {
+                "type": "fontSizes",
+                "value": "{font.typescale.body.large.size.value}",
+                "attributes": {
+                  "domain": "component",
+                  "category": "shared",
+                  "component": "text-input",
+                  "hidden": false
+                }
+              },
+              "path": [
+                "shared",
+                "text-input",
+                "hint-text",
+                "font",
+                "size",
+                "default"
+              ]
+            }
+          },
+          "line-height": {
+            "default": {
+              "value": 1.375,
+              "attributes": {
+                "domain": "component",
+                "category": "shared",
+                "component": "text-input",
+                "hidden": false,
+                "type": "text-input",
+                "item": "hint-text",
+                "subitem": "font",
+                "state": "line-height"
+              },
+              "filePath": "tokens/edmunds-design-system/components/shared/text-input/text-input.json",
+              "isSource": true,
+              "original": {
+                "value": "{font.typescale.body.large.line-height.value}",
+                "attributes": {
+                  "domain": "component",
+                  "category": "shared",
+                  "component": "text-input",
+                  "hidden": false
+                }
+              },
+              "path": [
+                "shared",
+                "text-input",
+                "hint-text",
+                "font",
+                "line-height",
+                "default"
+              ],
+              "type": "other"
+            }
+          },
+          "weight": {
+            "default": {
+              "value": 400,
+              "attributes": {
+                "domain": "component",
+                "category": "shared",
+                "component": "text-input",
+                "hidden": false,
+                "type": "text-input",
+                "item": "hint-text",
+                "subitem": "font",
+                "state": "weight"
+              },
+              "filePath": "tokens/edmunds-design-system/components/shared/text-input/text-input.json",
+              "isSource": true,
+              "original": {
+                "value": "{font.typescale.body.large.weight.regular.value}",
+                "attributes": {
+                  "domain": "component",
+                  "category": "shared",
+                  "component": "text-input",
+                  "hidden": false
+                }
+              },
+              "path": [
+                "shared",
+                "text-input",
+                "hint-text",
+                "font",
+                "weight",
+                "default"
+              ],
+              "type": "other"
+            }
+          }
+        }
+      },
+      "info-text": {
+        "font": {
+          "color": {
+            "default": {
+              "value": "#2a3546",
+              "attributes": {
+                "domain": "component",
+                "category": "shared",
+                "component": "text-input",
+                "hidden": false,
+                "type": "text-input",
+                "item": "info-text",
+                "subitem": "font",
+                "state": "color"
+              },
+              "filePath": "tokens/edmunds-design-system/components/shared/text-input/text-input.json",
+              "isSource": true,
+              "original": {
+                "value": "{palette.eve.cool-gray.30.value}",
+                "attributes": {
+                  "domain": "component",
+                  "category": "shared",
+                  "component": "text-input",
+                  "hidden": false
+                }
+              },
+              "path": [
+                "shared",
+                "text-input",
+                "info-text",
+                "font",
+                "color",
+                "default"
+              ],
+              "type": "other"
+            }
+          },
+          "size": {
+            "default": {
+              "value": "0.75rem",
+              "attributes": {
+                "domain": "component",
+                "category": "shared",
+                "component": "text-input",
+                "hidden": false,
+                "type": "text-input",
+                "item": "info-text",
+                "subitem": "font",
+                "state": "size"
+              },
+              "filePath": "tokens/edmunds-design-system/components/shared/text-input/text-input.json",
+              "isSource": true,
+              "original": {
+                "value": "{font.typescale.detail.medium.size.value}",
+                "attributes": {
+                  "domain": "component",
+                  "category": "shared",
+                  "component": "text-input",
+                  "hidden": false
+                }
+              },
+              "path": [
+                "shared",
+                "text-input",
+                "info-text",
+                "font",
+                "size",
+                "default"
+              ],
+              "type": "other"
+            }
+          },
+          "line-height": {
+            "default": {
+              "value": 1.333,
+              "attributes": {
+                "domain": "component",
+                "category": "shared",
+                "component": "text-input",
+                "hidden": false,
+                "type": "text-input",
+                "item": "info-text",
+                "subitem": "font",
+                "state": "line-height"
+              },
+              "filePath": "tokens/edmunds-design-system/components/shared/text-input/text-input.json",
+              "isSource": true,
+              "original": {
+                "value": "{font.typescale.detail.medium.line-height.value}",
+                "attributes": {
+                  "domain": "component",
+                  "category": "shared",
+                  "component": "text-input",
+                  "hidden": false
+                }
+              },
+              "path": [
+                "shared",
+                "text-input",
+                "info-text",
+                "font",
+                "line-height",
+                "default"
+              ],
+              "type": "other"
+            }
+          },
+          "weight": {
+            "default": {
+              "value": 400,
+              "attributes": {
+                "domain": "component",
+                "category": "shared",
+                "component": "text-input",
+                "hidden": false,
+                "type": "text-input",
+                "item": "info-text",
+                "subitem": "font",
+                "state": "weight"
+              },
+              "filePath": "tokens/edmunds-design-system/components/shared/text-input/text-input.json",
+              "isSource": true,
+              "original": {
+                "value": "{font.typescale.detail.medium.weight.regular.value}",
+                "attributes": {
+                  "domain": "component",
+                  "category": "shared",
+                  "component": "text-input",
+                  "hidden": false
+                }
+              },
+              "path": [
+                "shared",
+                "text-input",
+                "info-text",
+                "font",
+                "weight",
+                "default"
+              ],
+              "type": "other"
+            }
+          }
+        }
+      },
+      "support-text": {
+        "font": {
+          "color": {
+            "error": {
+              "value": "#cb303f",
+              "attributes": {
+                "domain": "component",
+                "category": "shared",
+                "component": "text-input",
+                "hidden": false,
+                "type": "text-input",
+                "item": "support-text",
+                "subitem": "font",
+                "state": "color"
+              },
+              "filePath": "tokens/edmunds-design-system/components/shared/text-input/text-input.json",
+              "isSource": true,
+              "original": {
+                "value": "{palette.support.error.value}",
+                "attributes": {
+                  "domain": "component",
+                  "category": "shared",
+                  "component": "text-input",
+                  "hidden": false
+                }
+              },
+              "path": [
+                "shared",
+                "text-input",
+                "support-text",
+                "font",
+                "color",
+                "error"
+              ],
+              "type": "other"
+            },
+            "warning": {
+              "value": "#2a3546",
+              "attributes": {
+                "domain": "component",
+                "category": "shared",
+                "component": "text-input",
+                "hidden": false,
+                "type": "text-input",
+                "item": "support-text",
+                "subitem": "font",
+                "state": "color"
+              },
+              "filePath": "tokens/edmunds-design-system/components/shared/text-input/text-input.json",
+              "isSource": true,
+              "original": {
+                "value": "{palette.support.info.value}",
+                "attributes": {
+                  "domain": "component",
+                  "category": "shared",
+                  "component": "text-input",
+                  "hidden": false
+                }
+              },
+              "path": [
+                "shared",
+                "text-input",
+                "support-text",
+                "font",
+                "color",
+                "warning"
+              ],
+              "type": "other"
+            }
+          },
+          "size": {
+            "error": {
+              "value": "0.75rem",
+              "attributes": {
+                "domain": "component",
+                "category": "shared",
+                "component": "text-input",
+                "hidden": false,
+                "type": "text-input",
+                "item": "support-text",
+                "subitem": "font",
+                "state": "size"
+              },
+              "filePath": "tokens/edmunds-design-system/components/shared/text-input/text-input.json",
+              "isSource": true,
+              "original": {
+                "value": "{font.typescale.detail.medium.size.value}",
+                "attributes": {
+                  "domain": "component",
+                  "category": "shared",
+                  "component": "text-input",
+                  "hidden": false
+                }
+              },
+              "path": [
+                "shared",
+                "text-input",
+                "support-text",
+                "font",
+                "size",
+                "error"
+              ],
+              "type": "other"
+            },
+            "warning": {
+              "value": "0.75rem",
+              "attributes": {
+                "domain": "component",
+                "category": "shared",
+                "component": "text-input",
+                "hidden": false,
+                "type": "text-input",
+                "item": "support-text",
+                "subitem": "font",
+                "state": "size"
+              },
+              "filePath": "tokens/edmunds-design-system/components/shared/text-input/text-input.json",
+              "isSource": true,
+              "original": {
+                "value": "{font.typescale.detail.medium.size.value}",
+                "attributes": {
+                  "domain": "component",
+                  "category": "shared",
+                  "component": "text-input",
+                  "hidden": false
+                }
+              },
+              "path": [
+                "shared",
+                "text-input",
+                "support-text",
+                "font",
+                "size",
+                "warning"
+              ],
+              "type": "other"
+            }
+          },
+          "line-height": {
+            "error": {
+              "value": 1.333,
+              "attributes": {
+                "domain": "component",
+                "category": "shared",
+                "component": "text-input",
+                "hidden": false,
+                "type": "text-input",
+                "item": "support-text",
+                "subitem": "font",
+                "state": "line-height"
+              },
+              "filePath": "tokens/edmunds-design-system/components/shared/text-input/text-input.json",
+              "isSource": true,
+              "original": {
+                "value": "{font.typescale.detail.medium.line-height.value}",
+                "attributes": {
+                  "domain": "component",
+                  "category": "shared",
+                  "component": "text-input",
+                  "hidden": false
+                }
+              },
+              "path": [
+                "shared",
+                "text-input",
+                "support-text",
+                "font",
+                "line-height",
+                "error"
+              ],
+              "type": "other"
+            },
+            "warning": {
+              "value": 1.333,
+              "attributes": {
+                "domain": "component",
+                "category": "shared",
+                "component": "text-input",
+                "hidden": false,
+                "type": "text-input",
+                "item": "support-text",
+                "subitem": "font",
+                "state": "line-height"
+              },
+              "filePath": "tokens/edmunds-design-system/components/shared/text-input/text-input.json",
+              "isSource": true,
+              "original": {
+                "value": "{font.typescale.detail.medium.line-height.value}",
+                "attributes": {
+                  "domain": "component",
+                  "category": "shared",
+                  "component": "text-input",
+                  "hidden": false
+                }
+              },
+              "path": [
+                "shared",
+                "text-input",
+                "support-text",
+                "font",
+                "line-height",
+                "warning"
+              ],
+              "type": "other"
+            }
+          },
+          "weight": {
+            "error": {
+              "value": 400,
+              "attributes": {
+                "domain": "component",
+                "category": "shared",
+                "component": "text-input",
+                "hidden": false,
+                "type": "text-input",
+                "item": "support-text",
+                "subitem": "font",
+                "state": "weight"
+              },
+              "filePath": "tokens/edmunds-design-system/components/shared/text-input/text-input.json",
+              "isSource": true,
+              "original": {
+                "value": "{font.typescale.detail.medium.weight.regular.value}",
+                "attributes": {
+                  "domain": "component",
+                  "category": "shared",
+                  "component": "text-input",
+                  "hidden": false
+                }
+              },
+              "path": [
+                "shared",
+                "text-input",
+                "support-text",
+                "font",
+                "weight",
+                "error"
+              ],
+              "type": "other"
+            },
+            "warning": {
+              "value": 400,
+              "attributes": {
+                "domain": "component",
+                "category": "shared",
+                "component": "text-input",
+                "hidden": false,
+                "type": "text-input",
+                "item": "support-text",
+                "subitem": "font",
+                "state": "weight"
+              },
+              "filePath": "tokens/edmunds-design-system/components/shared/text-input/text-input.json",
+              "isSource": true,
+              "original": {
+                "value": "{font.typescale.detail.medium.weight.regular.value}",
+                "attributes": {
+                  "domain": "component",
+                  "category": "shared",
+                  "component": "text-input",
+                  "hidden": false
+                }
+              },
+              "path": [
+                "shared",
+                "text-input",
+                "support-text",
+                "font",
+                "weight",
+                "warning"
+              ],
+              "type": "other"
+            }
+          }
+        }
+      },
+      "trailing-icon": {
+        "color": {
+          "success": {
+            "value": "#1a854a",
+            "attributes": {
+              "domain": "component",
+              "category": "shared",
+              "component": "text-input",
+              "hidden": false,
+              "type": "text-input",
+              "item": "trailing-icon",
+              "subitem": "color",
+              "state": "success"
+            },
+            "filePath": "tokens/edmunds-design-system/components/shared/text-input/text-input.json",
+            "isSource": true,
+            "original": {
+              "value": "{palette.support.success.value}",
+              "attributes": {
+                "domain": "component",
+                "category": "shared",
+                "component": "text-input",
+                "hidden": false
+              }
+            },
+            "path": [
+              "shared",
+              "text-input",
+              "trailing-icon",
+              "color",
+              "success"
+            ],
+            "type": "other"
+          },
+          "error": {
+            "value": "#cb303f",
+            "attributes": {
+              "domain": "component",
+              "category": "shared",
+              "component": "text-input",
+              "hidden": false,
+              "type": "text-input",
+              "item": "trailing-icon",
+              "subitem": "color",
+              "state": "error"
+            },
+            "filePath": "tokens/edmunds-design-system/components/shared/text-input/text-input.json",
+            "isSource": true,
+            "original": {
+              "value": "{palette.support.error.value}",
+              "attributes": {
+                "domain": "component",
+                "category": "shared",
+                "component": "text-input",
+                "hidden": false
+              }
+            },
+            "path": [
+              "shared",
+              "text-input",
+              "trailing-icon",
+              "color",
+              "error"
+            ],
+            "type": "other"
+          },
+          "warning": {
+            "value": "#f59300",
+            "attributes": {
+              "domain": "component",
+              "category": "shared",
+              "component": "text-input",
+              "hidden": false,
+              "type": "text-input",
+              "item": "trailing-icon",
+              "subitem": "color",
+              "state": "warning"
+            },
+            "filePath": "tokens/edmunds-design-system/components/shared/text-input/text-input.json",
+            "isSource": true,
+            "original": {
+              "value": "{palette.support.warning.value}",
+              "attributes": {
+                "domain": "component",
+                "category": "shared",
+                "component": "text-input",
+                "hidden": false
+              }
+            },
+            "path": [
+              "shared",
+              "text-input",
+              "trailing-icon",
+              "color",
+              "warning"
+            ],
+            "type": "other"
+          }
+        },
+        "size": {
+          "type": "sizing",
+          "value": "1rem",
+          "attributes": {
+            "domain": "component",
+            "category": "shared",
+            "component": "text-input",
+            "hidden": false,
+            "type": "text-input",
+            "item": "trailing-icon",
+            "subitem": "size"
+          },
+          "filePath": "tokens/edmunds-design-system/components/shared/text-input/text-input.json",
+          "isSource": true,
+          "original": {
+            "type": "sizing",
+            "value": "{size.square.5.value}",
+            "attributes": {
+              "domain": "component",
+              "category": "shared",
+              "component": "text-input",
+              "hidden": false
+            }
+          },
+          "path": [
+            "shared",
+            "text-input",
+            "trailing-icon",
+            "size"
+          ]
+        }
+      }
+    }
+  },
+  "btn": {
+    "border": {
+      "value": {
+        "color": "{shared.text-input.container.border.color.default}",
+        "width": "{shared.text-input.container.border.size.default}",
+        "style": "solid"
+      },
+      "type": "border"
+    }
+  },
   "palette": {
     "eve": {
       "cool-gray": {
@@ -1295,6 +3484,10 @@
               "attributes": "[object Object]"
             },
             "type": "typography"
+          },
+          "size": {
+            "value": "{font.size.19}",
+            "type": "fontSizes"
           }
         },
         "medium": {
@@ -1324,6 +3517,10 @@
               "attributes": "[object Object]"
             },
             "type": "typography"
+          },
+          "size": {
+            "value": "{font.size.18}",
+            "type": "fontSizes"
           }
         },
         "small": {
@@ -1353,6 +3550,10 @@
               "attributes": "[object Object]"
             },
             "type": "typography"
+          },
+          "size": {
+            "value": "{font.size.17}",
+            "type": "fontSizes"
           }
         }
       },
@@ -1364,7 +3565,11 @@
             "lineHeight": "{font.line-height.xx-small}",
             "attributes": "[object Object]"
           },
-          "type": "typography"
+          "type": "typography",
+          "size": {
+            "value": "{font.size.14}",
+            "type": "fontSizes"
+          }
         },
         "medium": {
           "value": {
@@ -1373,7 +3578,11 @@
             "lineHeight": "{font.line-height.small}",
             "attributes": "[object Object]"
           },
-          "type": "typography"
+          "type": "typography",
+          "size": {
+            "value": "{font.size.11}",
+            "type": "fontSizes"
+          }
         },
         "small": {
           "value": {
@@ -1382,7 +3591,11 @@
             "lineHeight": "{font.line-height.medium}",
             "attributes": "[object Object]"
           },
-          "type": "typography"
+          "type": "typography",
+          "size": {
+            "value": "{font.size.9}",
+            "type": "fontSizes"
+          }
         }
       },
       "title": {
@@ -1393,7 +3606,11 @@
             "lineHeight": "{font.line-height.small}",
             "attributes": "[object Object]"
           },
-          "type": "typography"
+          "type": "typography",
+          "size": {
+            "value": "{font.size.7}",
+            "type": "fontSizes"
+          }
         },
         "medium": {
           "value": {
@@ -1402,7 +3619,11 @@
             "lineHeight": "{font.line-height.x-large}",
             "attributes": "[object Object]"
           },
-          "type": "typography"
+          "type": "typography",
+          "size": {
+            "value": "{font.size.5}",
+            "type": "fontSizes"
+          }
         },
         "small": {
           "value": {
@@ -1411,7 +3632,11 @@
             "lineHeight": "{font.line-height.xx-large}",
             "attributes": "[object Object]"
           },
-          "type": "typography"
+          "type": "typography",
+          "size": {
+            "value": "{font.size.4}",
+            "type": "fontSizes"
+          }
         }
       },
       "body": {
@@ -1422,7 +3647,21 @@
             "lineHeight": "{font.line-height.x-large}",
             "attributes": "[object Object]"
           },
-          "type": "typography"
+          "type": "typography",
+          "size": {
+            "value": "{font.size.5}",
+            "type": "fontSizes"
+          },
+          "weight": {
+            "regular": {
+              "value": "{font.weight.regular}",
+              "type": "fontWeights"
+            }
+          },
+          "line-height": {
+            "value": "{font.line-height.x-large}",
+            "type": "lineHeights"
+          }
         },
         "medium": {
           "value": {
@@ -1431,7 +3670,11 @@
             "lineHeight": "{font.line-height.xx-large}",
             "attributes": "[object Object]"
           },
-          "type": "typography"
+          "type": "typography",
+          "size": {
+            "value": "{font.size.4}",
+            "type": "fontSizes"
+          }
         },
         "small": {
           "value": {
@@ -1440,7 +3683,11 @@
             "lineHeight": "{font.line-height.large}",
             "attributes": "[object Object]"
           },
-          "type": "typography"
+          "type": "typography",
+          "size": {
+            "value": "{font.size.3}",
+            "type": "fontSizes"
+          }
         }
       },
       "detail": {
@@ -1451,7 +3698,11 @@
             "lineHeight": "{font.line-height.x-large}",
             "attributes": "[object Object]"
           },
-          "type": "typography"
+          "type": "typography",
+          "size": {
+            "value": "{font.size.5}",
+            "type": "fontSizes"
+          }
         },
         "medium": {
           "value": {
@@ -1460,7 +3711,21 @@
             "lineHeight": "{font.line-height.large}",
             "attributes": "[object Object]"
           },
-          "type": "typography"
+          "type": "typography",
+          "size": {
+            "value": "{font.size.3}",
+            "type": "fontSizes"
+          },
+          "weight": {
+            "regular": {
+              "value": "{font.weight.regular}",
+              "type": "fontWeights"
+            }
+          },
+          "line-height": {
+            "value": "{font.line-height.large}",
+            "type": "lineHeights"
+          }
         },
         "small": {
           "value": {
@@ -1469,16 +3734,16 @@
             "lineHeight": "{font.line-height.small}",
             "attributes": "[object Object]"
           },
-          "type": "typography"
+          "type": "typography",
+          "size": {
+            "value": "{font.size.2}",
+            "type": "fontSizes"
+          }
         }
       }
     }
   },
   "size": {
-    "55": {
-      "value": "100px",
-      "type": "sizing"
-    },
     "border": {
       "width": {
         "small": {
@@ -3243,6 +5508,14 @@
     },
     "2": {
       "value": "text_input",
+      "type": "other"
+    },
+    "3": {
+      "value": "button",
+      "type": "other"
+    },
+    "4": {
+      "value": "test",
       "type": "other"
     }
   }
