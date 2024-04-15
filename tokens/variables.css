@@ -488,7 +488,7 @@
   --figma-base-space-stack-8x: 2rem; /* 32px */
   --figma-base-space-stack-16x: 4rem; /* 64px */
   --figma-shared-text-input-measurements-container-size-small: 2rem;
-  --figma-shared-text-input-measurements-container-size-medium: primitive.size.40};
+  --figma-shared-text-input-measurements-container-size-medium: 2.5rem;
   --figma-shared-text-input-measurements-container-size-large: 3rem;
   --figma-shared-text-input-measurements-container-space-inset-right-medium: 1rem;
   --figma-shared-text-input-measurements-container-space-inset-left-medium: 1rem;
