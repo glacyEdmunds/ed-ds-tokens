@@ -3394,7 +3394,7 @@
                 ]
               },
               "medium": {
-                "value": "primitive.size.40}",
+                "value": "{primitive.size.40}",
                 "attributes": {
                   "domain": "component",
                   "category": "shared",
