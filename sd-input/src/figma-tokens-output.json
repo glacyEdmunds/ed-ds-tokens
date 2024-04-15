@@ -3393,7 +3393,6 @@
                 ],
                 "type": "sizing"
               },
-              "type": "sizing",
               "medium": {
                 "value": "{primitive.size.40}",
                 "attributes": {
@@ -3422,8 +3421,10 @@
                   "container",
                   "size",
                   "medium"
-                ]
+                ],
+                "type": "sizing"
               },
+              "type": "sizing",
               "large": {
                 "value": "{primitive.size.48}",
                 "attributes": {
