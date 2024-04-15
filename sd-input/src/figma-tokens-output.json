@@ -3362,7 +3362,6 @@
         "measurements": {
           "container": {
             "size": {
-              "type": "sizing",
               "small": {
                 "value": "{primitive.size.32}",
                 "attributes": {
@@ -3391,8 +3390,10 @@
                   "container",
                   "size",
                   "small"
-                ]
+                ],
+                "type": "sizing"
               },
+              "type": "sizing",
               "medium": {
                 "value": "{primitive.size.40}",
                 "attributes": {
