@@ -535,14 +535,14 @@
   --figma-shared-text-input-hint-text-font-weight-default: 400;
   --figma-shared-text-input-info-text-font-color-default: #2a3546;
   --figma-shared-text-input-info-text-font-size-default: 0.75rem;
-  --figma-shared-text-input-info-text-font-line-height-default: 1.333;
+  --figma-shared-text-input-info-text-font-line-height-default: 1.2;
   --figma-shared-text-input-info-text-font-weight-default: 400;
   --figma-shared-text-input-support-text-font-color-error: #cb303f;
   --figma-shared-text-input-support-text-font-color-warning: #2a3546;
   --figma-shared-text-input-support-text-font-size-error: 0.75rem;
   --figma-shared-text-input-support-text-font-size-warning: 0.75rem;
-  --figma-shared-text-input-support-text-font-line-height-error: 1.333;
-  --figma-shared-text-input-support-text-font-line-height-warning: 1.333;
+  --figma-shared-text-input-support-text-font-line-height-error: 1.2;
+  --figma-shared-text-input-support-text-font-line-height-warning: 1.2;
   --figma-shared-text-input-support-text-font-weight-error: 400;
   --figma-shared-text-input-support-text-font-weight-warning: 400;
   --figma-shared-text-input-trailing-icon-color-success: #1a854a;

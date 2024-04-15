@@ -3723,7 +3723,7 @@
             }
           },
           "line-height": {
-            "value": "{font.line-height.large}",
+            "value": "{font.line-height.small}",
             "type": "lineHeights"
           }
         },
