@@ -2566,6 +2566,20 @@
             "line-height": {
               "value": "{font.line-height.large}",
               "type": "lineHeights"
+            },
+            "weight": {
+              "regular": {
+                "value": "{font.weight.regular}",
+                "type": "fontWeights"
+              },
+              "bold": {
+                "value": "{font.weight.bold}",
+                "type": "fontWeights"
+              },
+              "medium": {
+                "value": "{font.weight.medium}",
+                "type": "fontWeights"
+              }
             }
           },
           "small": {
@@ -2576,6 +2590,20 @@
             "line-height": {
               "value": "{font.line-height.small}",
               "type": "lineHeights"
+            },
+            "weight": {
+              "regular": {
+                "value": "{font.weight.regular}",
+                "type": "fontWeights"
+              },
+              "bold": {
+                "value": "{font.weight.bold}",
+                "type": "fontWeights"
+              },
+              "medium": {
+                "value": "{font.weight.medium}",
+                "type": "fontWeights"
+              }
             }
           },
           "large": {
@@ -2636,6 +2664,20 @@
             "line-height": {
               "value": "{font.line-height.xx-large}",
               "type": "lineHeights"
+            },
+            "weight": {
+              "regular": {
+                "value": "{font.weight.regular}",
+                "type": "fontWeights"
+              },
+              "bold": {
+                "value": "{font.weight.bold}",
+                "type": "fontWeights"
+              },
+              "medium": {
+                "value": "{font.weight.medium}",
+                "type": "fontWeights"
+              }
             }
           },
           "small": {
@@ -2646,6 +2688,20 @@
             "line-height": {
               "value": "{font.line-height.large}",
               "type": "lineHeights"
+            },
+            "weight": {
+              "regular": {
+                "value": "{font.weight.regular}",
+                "type": "fontWeights"
+              },
+              "bold": {
+                "value": "{font.weight.bold}",
+                "type": "fontWeights"
+              },
+              "medium": {
+                "value": "{font.weight.medium}",
+                "type": "fontWeights"
+              }
             }
           }
         }
