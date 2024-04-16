@@ -4243,14 +4243,6 @@
     "2": {
       "value": "text_input",
       "type": "other"
-    },
-    "3": {
-      "value": "button",
-      "type": "other"
-    },
-    "4": {
-      "value": "test",
-      "type": "other"
     }
   }
 }
