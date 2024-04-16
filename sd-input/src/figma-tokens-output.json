@@ -5615,6 +5615,10 @@
             ]
           }
         }
+      },
+      "test": {
+        "value": "5px",
+        "type": "sizing"
       }
     },
     "btn": {
