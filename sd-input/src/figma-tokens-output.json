@@ -3205,8 +3205,6 @@
               "type": "sizing",
               "small": {
                 "value": "{primitive.size.32}"
-
-
               },
               "medium": {
                 "value": "{primitive.size.40}",
@@ -4156,15 +4154,12 @@
       }
     }
   },
- 
   "$themes": [],
   "$metadata": {
     "tokenSetOrder": [
       "primitive",
       "base",
-      "text_input",
-      "button",
-      "test"
+      "text_input"
     ]
   }
 }
