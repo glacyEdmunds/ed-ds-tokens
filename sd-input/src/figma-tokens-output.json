@@ -2586,6 +2586,20 @@
             "line-height": {
               "value": "{font.line-height.x-large}",
               "type": "lineHeights"
+            },
+            "weight": {
+              "regular": {
+                "value": "{font.weight.regular}",
+                "type": "fontWeights"
+              },
+              "bold": {
+                "value": "{font.weight.bold}",
+                "type": "fontWeights"
+              },
+              "medium": {
+                "value": "{font.weight.medium}",
+                "type": "fontWeights"
+              }
             }
           }
         },
@@ -2598,6 +2612,20 @@
             "line-height": {
               "value": "{font.line-height.x-large}",
               "type": "lineHeights"
+            },
+            "weight": {
+              "regular": {
+                "value": "{font.weight.regular}",
+                "type": "fontWeights"
+              },
+              "bold": {
+                "value": "{font.weight.bold}",
+                "type": "fontWeights"
+              },
+              "medium": {
+                "value": "{font.weight.medium}",
+                "type": "fontWeights"
+              }
             }
           },
           "medium": {
