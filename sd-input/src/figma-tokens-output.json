@@ -3369,30 +3369,8 @@
                 "attributes": {
                   "domain": "component",
                   "category": "shared",
-                  "component": "text-input",
-                  "type": "text-input",
-                  "item": "measurements",
-                  "subitem": "container",
-                  "state": "size"
+                  "component": "text-input"
                 },
-                "filePath": "tokens/edmunds-design-system/components/shared/text-input/text-input-measurements.json",
-                "isSource": true,
-                "original": {
-                  "value": "{primitive.size.32}",
-                  "attributes": {
-                    "domain": "component",
-                    "category": "shared",
-                    "component": "text-input"
-                  }
-                },
-                "path": [
-                  "shared",
-                  "text-input",
-                  "measurements",
-                  "container",
-                  "size",
-                  "small"
-                ],
                 "type": "sizing"
               },
               "medium": {
