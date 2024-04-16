@@ -2634,7 +2634,7 @@
         "body": {
           "large": {
             "size": {
-              "value": "{font.size.6}",
+              "value": "{font.size.5}",
               "type": "fontSizes"
             },
             "line-height": {
