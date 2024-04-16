@@ -2461,13 +2461,14 @@
           }
         },
         "large": {
-          "value": "1.333",
+          "value": "133%",
           "type": "lineHeights",
           "attributes": {
             "domain": "font",
             "category": "line-height",
             "hidden": false
-          }
+          },
+          "description": "1.333"
         },
         "medium": {
           "value": "1.25",
@@ -2816,7 +2817,8 @@
             "type": "typography",
             "size": {
               "value": "{font.size.3}",
-              "type": "fontSizes"
+              "type": "fontSizes",
+              "description": "12px"
             },
             "weight": {
               "regular": {
@@ -2833,7 +2835,7 @@
               }
             },
             "line-height": {
-              "value": "{font.line-height.small}",
+              "value": "{font.line-height.large}",
               "type": "lineHeights"
             }
           },
@@ -3358,7 +3360,7 @@
   },
   "text_input": {
     "shared": {
-      "text-input": {
+      "text_input": {
         "measurements": {
           "container": {
             "size": {
@@ -4405,6 +4407,107 @@
                 "size"
               ]
             }
+          },
+          "font": {
+            "size": {
+              "type": "fontSizes",
+              "value": "{font.typescale.body.large.size}",
+              "attributes": {
+                "domain": "component",
+                "category": "shared",
+                "component": "text-input",
+                "hidden": false,
+                "type": "text-input",
+                "item": "suffix",
+                "subitem": "font",
+                "state": "size"
+              },
+              "filePath": "tokens/edmunds-design-system/components/shared/text-input/text-input.json",
+              "isSource": true,
+              "original": {
+                "type": "fontSizes",
+                "value": "{font.typescale.body.large.size}",
+                "attributes": {
+                  "domain": "component",
+                  "category": "shared",
+                  "component": "text-input",
+                  "hidden": false
+                }
+              },
+              "path": [
+                "shared",
+                "text-input",
+                "suffix",
+                "font",
+                "size"
+              ]
+            },
+            "line-height": {
+              "type": "lineHeights",
+              "value": "{font.typescale.body.large.line-height}",
+              "attributes": {
+                "domain": "component",
+                "category": "shared",
+                "component": "text-input",
+                "hidden": false,
+                "type": "text-input",
+                "item": "suffix",
+                "subitem": "font",
+                "state": "line-height"
+              },
+              "filePath": "tokens/edmunds-design-system/components/shared/text-input/text-input.json",
+              "isSource": true,
+              "original": {
+                "type": "lineHeights",
+                "value": "{font.typescale.body.large.line-height}",
+                "attributes": {
+                  "domain": "component",
+                  "category": "shared",
+                  "component": "text-input",
+                  "hidden": false
+                }
+              },
+              "path": [
+                "shared",
+                "text-input",
+                "suffix",
+                "font",
+                "line-height"
+              ]
+            },
+            "weight": {
+              "type": "fontWeights",
+              "value": "{font.weight.regular}",
+              "attributes": {
+                "domain": "component",
+                "category": "shared",
+                "component": "text-input",
+                "hidden": false,
+                "type": "text-input",
+                "item": "suffix",
+                "subitem": "font",
+                "state": "weight"
+              },
+              "filePath": "tokens/edmunds-design-system/components/shared/text-input/text-input.json",
+              "isSource": true,
+              "original": {
+                "type": "fontWeights",
+                "value": "{font.typescale.body.large.weight.regular}",
+                "attributes": {
+                  "domain": "component",
+                  "category": "shared",
+                  "component": "text-input",
+                  "hidden": false
+                }
+              },
+              "path": [
+                "shared",
+                "text-input",
+                "suffix",
+                "font",
+                "weight"
+              ]
+            }
           }
         },
         "suffix": {
@@ -4511,7 +4614,7 @@
           "font": {
             "size": {
               "type": "fontSizes",
-              "value": "{font.typescale.body.large}",
+              "value": "{font.typescale.body.large.size}",
               "attributes": {
                 "domain": "component",
                 "category": "shared",
@@ -4682,7 +4785,7 @@
             "size": {
               "type": "fontSizes",
               "default": {
-                "value": "{font.typescale.body.large}",
+                "value": "{font.typescale.body.large.size}",
                 "attributes": {
                   "domain": "component",
                   "category": "shared",
@@ -4858,7 +4961,7 @@
             "size": {
               "default": {
                 "type": "fontSizes",
-                "value": "{font.typescale.body.large}",
+                "value": "{font.typescale.body.large.size}",
                 "attributes": {
                   "domain": "component",
                   "category": "shared",
@@ -5001,7 +5104,7 @@
               }
             },
             "size": {
-              "type": "sizing",
+              "type": "fontSizes",
               "default": {
                 "value": "{font.typescale.detail.medium.size}",
                 "attributes": {
@@ -5176,73 +5279,6 @@
                 ]
               }
             },
-            "size": {
-              "type": "sizing",
-              "error": {
-                "value": "{font.typescale.detail.medium.size}",
-                "attributes": {
-                  "domain": "component",
-                  "category": "shared",
-                  "component": "text-input",
-                  "hidden": false,
-                  "type": "text-input",
-                  "item": "support-text",
-                  "subitem": "font",
-                  "state": "size"
-                },
-                "filePath": "tokens/edmunds-design-system/components/shared/text-input/text-input.json",
-                "isSource": true,
-                "original": {
-                  "value": "{font.typescale.detail.medium.size}",
-                  "attributes": {
-                    "domain": "component",
-                    "category": "shared",
-                    "component": "text-input",
-                    "hidden": false
-                  }
-                },
-                "path": [
-                  "shared",
-                  "text-input",
-                  "support-text",
-                  "font",
-                  "size",
-                  "error"
-                ]
-              },
-              "warning": {
-                "value": "{font.typescale.detail.medium.size}",
-                "attributes": {
-                  "domain": "component",
-                  "category": "shared",
-                  "component": "text-input",
-                  "hidden": false,
-                  "type": "text-input",
-                  "item": "support-text",
-                  "subitem": "font",
-                  "state": "size"
-                },
-                "filePath": "tokens/edmunds-design-system/components/shared/text-input/text-input.json",
-                "isSource": true,
-                "original": {
-                  "value": "{font.typescale.detail.medium.size}",
-                  "attributes": {
-                    "domain": "component",
-                    "category": "shared",
-                    "component": "text-input",
-                    "hidden": false
-                  }
-                },
-                "path": [
-                  "shared",
-                  "text-input",
-                  "support-text",
-                  "font",
-                  "size",
-                  "warning"
-                ]
-              }
-            },
             "line-height": {
               "type": "lineHeights",
               "error": {
@@ -5373,6 +5409,77 @@
                   "support-text",
                   "font",
                   "weight",
+                  "warning"
+                ]
+              }
+            }
+          }
+        },
+        "support_text": {
+          "font": {
+            "size": {
+              "type": "sizing",
+              "error": {
+                "value": "{font.typescale.detail.medium.size}",
+                "attributes": {
+                  "domain": "component",
+                  "category": "shared",
+                  "component": "text-input",
+                  "hidden": false,
+                  "type": "text-input",
+                  "item": "support-text",
+                  "subitem": "font",
+                  "state": "size"
+                },
+                "filePath": "tokens/edmunds-design-system/components/shared/text-input/text-input.json",
+                "isSource": true,
+                "original": {
+                  "value": "{font.typescale.detail.medium.size}",
+                  "attributes": {
+                    "domain": "component",
+                    "category": "shared",
+                    "component": "text-input",
+                    "hidden": false
+                  }
+                },
+                "path": [
+                  "shared",
+                  "text-input",
+                  "support-text",
+                  "font",
+                  "size",
+                  "error"
+                ]
+              },
+              "warning": {
+                "value": "{font.typescale.detail.medium.size}",
+                "attributes": {
+                  "domain": "component",
+                  "category": "shared",
+                  "component": "text-input",
+                  "hidden": false,
+                  "type": "text-input",
+                  "item": "support-text",
+                  "subitem": "font",
+                  "state": "size"
+                },
+                "filePath": "tokens/edmunds-design-system/components/shared/text-input/text-input.json",
+                "isSource": true,
+                "original": {
+                  "value": "{font.typescale.detail.medium.size}",
+                  "attributes": {
+                    "domain": "component",
+                    "category": "shared",
+                    "component": "text-input",
+                    "hidden": false
+                  }
+                },
+                "path": [
+                  "shared",
+                  "text-input",
+                  "support-text",
+                  "font",
+                  "size",
                   "warning"
                 ]
               }
@@ -5513,8 +5620,8 @@
     "btn": {
       "border": {
         "value": {
-          "color": "{shared.text-input.container.border.color.default}",
-          "width": "{shared.text-input.container.border.size.default}",
+          "color": "{shared.text_input.container.border.color.default}",
+          "width": "{shared.text_input.container.border.size.default}",
           "style": "solid"
         },
         "type": "border"
