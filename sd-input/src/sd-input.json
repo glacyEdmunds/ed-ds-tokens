@@ -2183,11 +2183,6 @@
           "size": {
             "small": {
               "value": "{primitive.size.32}",
-              "attributes": {
-                "domain": "component",
-                "category": "shared",
-                "component": "text-input"
-              },
               "type": "sizing"
             },
             "medium": {
@@ -4507,14 +4502,6 @@
           ]
         }
       }
-    },
-    "test": {
-      "value": "5px",
-      "type": "sizing"
-    },
-    "testsomething": {
-      "value": "5px",
-      "type": "sizing"
     }
   },
   "btn": {
