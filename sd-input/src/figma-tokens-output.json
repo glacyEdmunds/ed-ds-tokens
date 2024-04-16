@@ -2634,7 +2634,7 @@
         "body": {
           "large": {
             "size": {
-              "value": "{font.size.5}",
+              "value": "{font.size.6}",
               "type": "fontSizes"
             },
             "line-height": {
@@ -3198,7 +3198,7 @@
   },
   "text_input": {
     "shared": {
-      "text-input": {
+      "text_input": {
         "measurements": {
           "container": {
             "size": {
@@ -3211,8 +3211,8 @@
                 "attributes": {
                   "domain": "component",
                   "category": "shared",
-                  "component": "text-input",
-                  "type": "text-input",
+                  "component": "text_input",
+                  "type": "text_input",
                   "item": "measurements",
                   "subitem": "container",
                   "state": "size"
@@ -3223,8 +3223,8 @@
                 "attributes": {
                   "domain": "component",
                   "category": "shared",
-                  "component": "text-input",
-                  "type": "text-input",
+                  "component": "text_input",
+                  "type": "text_input",
                   "item": "measurements",
                   "subitem": "container",
                   "state": "size"
@@ -3240,8 +3240,8 @@
                     "attributes": {
                       "domain": "component",
                       "category": "shared",
-                      "component": "text-input",
-                      "type": "text-input",
+                      "component": "text_input",
+                      "type": "text_input",
                       "item": "measurements",
                       "subitem": "container",
                       "state": "space"
@@ -3254,8 +3254,8 @@
                     "attributes": {
                       "domain": "component",
                       "category": "shared",
-                      "component": "text-input",
-                      "type": "text-input",
+                      "component": "text_input",
+                      "type": "text_input",
                       "item": "measurements",
                       "subitem": "container",
                       "state": "space"
@@ -3270,8 +3270,8 @@
                     "attributes": {
                       "domain": "component",
                       "category": "shared",
-                      "component": "text-input",
-                      "type": "text-input",
+                      "component": "text_input",
+                      "type": "text_input",
                       "item": "measurements",
                       "subitem": "container",
                       "state": "space"
@@ -3286,9 +3286,9 @@
                     "attributes": {
                       "domain": "component",
                       "category": "shared",
-                      "component": "text-input",
+                      "component": "text_input",
                       "hidden": false,
-                      "type": "text-input",
+                      "type": "text_input",
                       "item": "measurements",
                       "subitem": "container",
                       "state": "space"
@@ -3305,9 +3305,9 @@
                   "attributes": {
                     "domain": "component",
                     "category": "shared",
-                    "component": "text-input",
+                    "component": "text_input",
                     "hidden": false,
-                    "type": "text-input",
+                    "type": "text_input",
                     "item": "measurements",
                     "subitem": "container",
                     "state": "nested"
@@ -3323,8 +3323,8 @@
                       "attributes": {
                         "domain": "component",
                         "category": "shared",
-                        "component": "text-input",
-                        "type": "text-input",
+                        "component": "text_input",
+                        "type": "text_input",
                         "item": "measurements",
                         "subitem": "container",
                         "state": "nested"
@@ -3337,8 +3337,8 @@
                       "attributes": {
                         "domain": "component",
                         "category": "shared",
-                        "component": "text-input",
-                        "type": "text-input",
+                        "component": "text_input",
+                        "type": "text_input",
                         "item": "measurements",
                         "subitem": "container",
                         "state": "nested"
@@ -3353,9 +3353,9 @@
                       "attributes": {
                         "domain": "component",
                         "category": "shared",
-                        "component": "text-input",
+                        "component": "text_input",
                         "hidden": false,
-                        "type": "text-input",
+                        "type": "text_input",
                         "item": "measurements",
                         "subitem": "container",
                         "state": "nested"
@@ -3377,9 +3377,9 @@
                       "attributes": {
                         "domain": "component",
                         "category": "shared",
-                        "component": "text-input",
+                        "component": "text_input",
                         "hidden": false,
-                        "type": "text-input",
+                        "type": "text_input",
                         "item": "measurements",
                         "subitem": "support",
                         "state": "text"
@@ -3400,9 +3400,9 @@
                 "attributes": {
                   "domain": "component",
                   "category": "shared",
-                  "component": "text-input",
+                  "component": "text_input",
                   "hidden": false,
-                  "type": "text-input",
+                  "type": "text_input",
                   "item": "container",
                   "subitem": "color",
                   "state": "bg"
@@ -3413,9 +3413,9 @@
                 "attributes": {
                   "domain": "component",
                   "category": "shared",
-                  "component": "text-input",
+                  "component": "text_input",
                   "hidden": false,
-                  "type": "text-input",
+                  "type": "text_input",
                   "item": "container",
                   "subitem": "color",
                   "state": "bg"
@@ -3431,9 +3431,9 @@
                 "attributes": {
                   "domain": "component",
                   "category": "shared",
-                  "component": "text-input",
+                  "component": "text_input",
                   "hidden": false,
-                  "type": "text-input",
+                  "type": "text_input",
                   "item": "container",
                   "subitem": "border",
                   "state": "color"
@@ -3444,9 +3444,9 @@
                 "attributes": {
                   "domain": "component",
                   "category": "shared",
-                  "component": "text-input",
+                  "component": "text_input",
                   "hidden": false,
-                  "type": "text-input",
+                  "type": "text_input",
                   "item": "container",
                   "subitem": "border",
                   "state": "color"
@@ -3457,9 +3457,9 @@
                 "attributes": {
                   "domain": "component",
                   "category": "shared",
-                  "component": "text-input",
+                  "component": "text_input",
                   "hidden": false,
-                  "type": "text-input",
+                  "type": "text_input",
                   "item": "container",
                   "subitem": "border",
                   "state": "color"
@@ -3470,9 +3470,9 @@
                 "attributes": {
                   "domain": "component",
                   "category": "shared",
-                  "component": "text-input",
+                  "component": "text_input",
                   "hidden": false,
-                  "type": "text-input",
+                  "type": "text_input",
                   "item": "container",
                   "subitem": "border",
                   "state": "color"
@@ -3483,9 +3483,9 @@
                 "attributes": {
                   "domain": "component",
                   "category": "shared",
-                  "component": "text-input",
+                  "component": "text_input",
                   "hidden": false,
-                  "type": "text-input",
+                  "type": "text_input",
                   "item": "container",
                   "subitem": "border",
                   "state": "color"
@@ -3496,9 +3496,9 @@
                 "attributes": {
                   "domain": "component",
                   "category": "shared",
-                  "component": "text-input",
+                  "component": "text_input",
                   "hidden": false,
-                  "type": "text-input",
+                  "type": "text_input",
                   "item": "container",
                   "subitem": "border",
                   "state": "color"
@@ -3509,9 +3509,9 @@
                 "attributes": {
                   "domain": "component",
                   "category": "shared",
-                  "component": "text-input",
+                  "component": "text_input",
                   "hidden": false,
-                  "type": "text-input",
+                  "type": "text_input",
                   "item": "container",
                   "subitem": "border",
                   "state": "color"
@@ -3525,9 +3525,9 @@
                 "attributes": {
                   "domain": "component",
                   "category": "shared",
-                  "component": "text-input",
+                  "component": "text_input",
                   "hidden": false,
-                  "type": "text-input",
+                  "type": "text_input",
                   "item": "container",
                   "subitem": "border",
                   "state": "size"
@@ -3538,9 +3538,9 @@
                 "attributes": {
                   "domain": "component",
                   "category": "shared",
-                  "component": "text-input",
+                  "component": "text_input",
                   "hidden": false,
-                  "type": "text-input",
+                  "type": "text_input",
                   "item": "container",
                   "subitem": "border",
                   "state": "size"
@@ -3551,9 +3551,9 @@
                 "attributes": {
                   "domain": "component",
                   "category": "shared",
-                  "component": "text-input",
+                  "component": "text_input",
                   "hidden": false,
-                  "type": "text-input",
+                  "type": "text_input",
                   "item": "container",
                   "subitem": "border",
                   "state": "size"
@@ -3564,9 +3564,9 @@
                 "attributes": {
                   "domain": "component",
                   "category": "shared",
-                  "component": "text-input",
+                  "component": "text_input",
                   "hidden": false,
-                  "type": "text-input",
+                  "type": "text_input",
                   "item": "container",
                   "subitem": "border",
                   "state": "size"
@@ -3581,9 +3581,9 @@
                   "attributes": {
                     "domain": "component",
                     "category": "shared",
-                    "component": "text-input",
+                    "component": "text_input",
                     "hidden": false,
-                    "type": "text-input",
+                    "type": "text_input",
                     "item": "container",
                     "subitem": "border",
                     "state": "radius"
@@ -3594,9 +3594,9 @@
                   "attributes": {
                     "domain": "component",
                     "category": "shared",
-                    "component": "text-input",
+                    "component": "text_input",
                     "hidden": false,
-                    "type": "text-input",
+                    "type": "text_input",
                     "item": "container",
                     "subitem": "border",
                     "state": "radius"
@@ -3614,9 +3614,9 @@
               "attributes": {
                 "domain": "component",
                 "category": "shared",
-                "component": "text-input",
+                "component": "text_input",
                 "hidden": false,
-                "type": "text-input",
+                "type": "text_input",
                 "item": "prefix",
                 "subitem": "color",
                 "state": "default"
@@ -3627,9 +3627,9 @@
               "attributes": {
                 "domain": "component",
                 "category": "shared",
-                "component": "text-input",
+                "component": "text_input",
                 "hidden": false,
-                "type": "text-input",
+                "type": "text_input",
                 "item": "prefix",
                 "subitem": "color",
                 "state": "disabled"
@@ -3643,9 +3643,9 @@
               "attributes": {
                 "domain": "component",
                 "category": "shared",
-                "component": "text-input",
+                "component": "text_input",
                 "hidden": false,
-                "type": "text-input",
+                "type": "text_input",
                 "item": "prefix",
                 "subitem": "icon",
                 "state": "size"
@@ -3661,9 +3661,9 @@
               "attributes": {
                 "domain": "component",
                 "category": "shared",
-                "component": "text-input",
+                "component": "text_input",
                 "hidden": false,
-                "type": "text-input",
+                "type": "text_input",
                 "item": "suffix",
                 "subitem": "color",
                 "state": "default"
@@ -3674,9 +3674,9 @@
               "attributes": {
                 "domain": "component",
                 "category": "shared",
-                "component": "text-input",
+                "component": "text_input",
                 "hidden": false,
-                "type": "text-input",
+                "type": "text_input",
                 "item": "suffix",
                 "subitem": "color",
                 "state": "disabled"
@@ -3690,9 +3690,9 @@
               "attributes": {
                 "domain": "component",
                 "category": "shared",
-                "component": "text-input",
+                "component": "text_input",
                 "hidden": false,
-                "type": "text-input",
+                "type": "text_input",
                 "item": "suffix",
                 "subitem": "icon",
                 "state": "size"
@@ -3706,9 +3706,9 @@
               "attributes": {
                 "domain": "component",
                 "category": "shared",
-                "component": "text-input",
+                "component": "text_input",
                 "hidden": false,
-                "type": "text-input",
+                "type": "text_input",
                 "item": "suffix",
                 "subitem": "font",
                 "state": "size"
@@ -3720,9 +3720,9 @@
               "attributes": {
                 "domain": "component",
                 "category": "shared",
-                "component": "text-input",
+                "component": "text_input",
                 "hidden": false,
-                "type": "text-input",
+                "type": "text_input",
                 "item": "suffix",
                 "subitem": "font",
                 "state": "line-height"
@@ -3734,9 +3734,9 @@
               "attributes": {
                 "domain": "component",
                 "category": "shared",
-                "component": "text-input",
+                "component": "text_input",
                 "hidden": false,
-                "type": "text-input",
+                "type": "text_input",
                 "item": "suffix",
                 "subitem": "font",
                 "state": "weight"
@@ -3753,9 +3753,9 @@
                 "attributes": {
                   "domain": "component",
                   "category": "shared",
-                  "component": "text-input",
+                  "component": "text_input",
                   "hidden": false,
-                  "type": "text-input",
+                  "type": "text_input",
                   "item": "filled-text",
                   "subitem": "font",
                   "state": "color"
@@ -3766,9 +3766,9 @@
                 "attributes": {
                   "domain": "component",
                   "category": "shared",
-                  "component": "text-input",
+                  "component": "text_input",
                   "hidden": false,
-                  "type": "text-input",
+                  "type": "text_input",
                   "item": "filled-text",
                   "subitem": "font",
                   "state": "color"
@@ -3782,9 +3782,9 @@
                 "attributes": {
                   "domain": "component",
                   "category": "shared",
-                  "component": "text-input",
+                  "component": "text_input",
                   "hidden": false,
-                  "type": "text-input",
+                  "type": "text_input",
                   "item": "filled-text",
                   "subitem": "font",
                   "state": "size"
@@ -3798,9 +3798,9 @@
                 "attributes": {
                   "domain": "component",
                   "category": "shared",
-                  "component": "text-input",
+                  "component": "text_input",
                   "hidden": false,
-                  "type": "text-input",
+                  "type": "text_input",
                   "item": "filled-text",
                   "subitem": "font",
                   "state": "line-height"
@@ -3814,9 +3814,9 @@
                 "attributes": {
                   "domain": "component",
                   "category": "shared",
-                  "component": "text-input",
+                  "component": "text_input",
                   "hidden": false,
-                  "type": "text-input",
+                  "type": "text_input",
                   "item": "filled-text",
                   "subitem": "font",
                   "state": "weight"
@@ -3834,9 +3834,9 @@
                 "attributes": {
                   "domain": "component",
                   "category": "shared",
-                  "component": "text-input",
+                  "component": "text_input",
                   "hidden": false,
-                  "type": "text-input",
+                  "type": "text_input",
                   "item": "hint-text",
                   "subitem": "font",
                   "state": "color"
@@ -3847,9 +3847,9 @@
                 "attributes": {
                   "domain": "component",
                   "category": "shared",
-                  "component": "text-input",
+                  "component": "text_input",
                   "hidden": false,
-                  "type": "text-input",
+                  "type": "text_input",
                   "item": "hint-text",
                   "subitem": "font",
                   "state": "color"
@@ -3863,9 +3863,9 @@
                 "attributes": {
                   "domain": "component",
                   "category": "shared",
-                  "component": "text-input",
+                  "component": "text_input",
                   "hidden": false,
-                  "type": "text-input",
+                  "type": "text_input",
                   "item": "hint-text",
                   "subitem": "font",
                   "state": "size"
@@ -3879,9 +3879,9 @@
                 "attributes": {
                   "domain": "component",
                   "category": "shared",
-                  "component": "text-input",
+                  "component": "text_input",
                   "hidden": false,
-                  "type": "text-input",
+                  "type": "text_input",
                   "item": "hint-text",
                   "subitem": "font",
                   "state": "line-height"
@@ -3895,9 +3895,9 @@
                 "attributes": {
                   "domain": "component",
                   "category": "shared",
-                  "component": "text-input",
+                  "component": "text_input",
                   "hidden": false,
-                  "type": "text-input",
+                  "type": "text_input",
                   "item": "hint-text",
                   "subitem": "font",
                   "state": "weight"
@@ -3915,9 +3915,9 @@
                 "attributes": {
                   "domain": "component",
                   "category": "shared",
-                  "component": "text-input",
+                  "component": "text_input",
                   "hidden": false,
-                  "type": "text-input",
+                  "type": "text_input",
                   "item": "info-text",
                   "subitem": "font",
                   "state": "color"
@@ -3931,9 +3931,9 @@
                 "attributes": {
                   "domain": "component",
                   "category": "shared",
-                  "component": "text-input",
+                  "component": "text_input",
                   "hidden": false,
-                  "type": "text-input",
+                  "type": "text_input",
                   "item": "info-text",
                   "subitem": "font",
                   "state": "size"
@@ -3947,9 +3947,9 @@
                 "attributes": {
                   "domain": "component",
                   "category": "shared",
-                  "component": "text-input",
+                  "component": "text_input",
                   "hidden": false,
-                  "type": "text-input",
+                  "type": "text_input",
                   "item": "info-text",
                   "subitem": "font",
                   "state": "line-height"
@@ -3963,9 +3963,9 @@
                 "attributes": {
                   "domain": "component",
                   "category": "shared",
-                  "component": "text-input",
+                  "component": "text_input",
                   "hidden": false,
-                  "type": "text-input",
+                  "type": "text_input",
                   "item": "info-text",
                   "subitem": "font",
                   "state": "weight"
@@ -3983,9 +3983,9 @@
                 "attributes": {
                   "domain": "component",
                   "category": "shared",
-                  "component": "text-input",
+                  "component": "text_input",
                   "hidden": false,
-                  "type": "text-input",
+                  "type": "text_input",
                   "item": "support-text",
                   "subitem": "font",
                   "state": "color"
@@ -3996,9 +3996,9 @@
                 "attributes": {
                   "domain": "component",
                   "category": "shared",
-                  "component": "text-input",
+                  "component": "text_input",
                   "hidden": false,
-                  "type": "text-input",
+                  "type": "text_input",
                   "item": "support-text",
                   "subitem": "font",
                   "state": "color"
@@ -4012,9 +4012,9 @@
                 "attributes": {
                   "domain": "component",
                   "category": "shared",
-                  "component": "text-input",
+                  "component": "text_input",
                   "hidden": false,
-                  "type": "text-input",
+                  "type": "text_input",
                   "item": "support-text",
                   "subitem": "font",
                   "state": "size"
@@ -4025,9 +4025,9 @@
                 "attributes": {
                   "domain": "component",
                   "category": "shared",
-                  "component": "text-input",
+                  "component": "text_input",
                   "hidden": false,
-                  "type": "text-input",
+                  "type": "text_input",
                   "item": "support-text",
                   "subitem": "font",
                   "state": "size"
@@ -4041,9 +4041,9 @@
                 "attributes": {
                   "domain": "component",
                   "category": "shared",
-                  "component": "text-input",
+                  "component": "text_input",
                   "hidden": false,
-                  "type": "text-input",
+                  "type": "text_input",
                   "item": "support-text",
                   "subitem": "font",
                   "state": "line-height"
@@ -4054,9 +4054,9 @@
                 "attributes": {
                   "domain": "component",
                   "category": "shared",
-                  "component": "text-input",
+                  "component": "text_input",
                   "hidden": false,
-                  "type": "text-input",
+                  "type": "text_input",
                   "item": "support-text",
                   "subitem": "font",
                   "state": "line-height"
@@ -4070,9 +4070,9 @@
                 "attributes": {
                   "domain": "component",
                   "category": "shared",
-                  "component": "text-input",
+                  "component": "text_input",
                   "hidden": false,
-                  "type": "text-input",
+                  "type": "text_input",
                   "item": "support-text",
                   "subitem": "font",
                   "state": "weight"
@@ -4083,9 +4083,9 @@
                 "attributes": {
                   "domain": "component",
                   "category": "shared",
-                  "component": "text-input",
+                  "component": "text_input",
                   "hidden": false,
-                  "type": "text-input",
+                  "type": "text_input",
                   "item": "support-text",
                   "subitem": "font",
                   "state": "weight"
@@ -4102,9 +4102,9 @@
               "attributes": {
                 "domain": "component",
                 "category": "shared",
-                "component": "text-input",
+                "component": "text_input",
                 "hidden": false,
-                "type": "text-input",
+                "type": "text_input",
                 "item": "trailing-icon",
                 "subitem": "color",
                 "state": "success"
@@ -4115,9 +4115,9 @@
               "attributes": {
                 "domain": "component",
                 "category": "shared",
-                "component": "text-input",
+                "component": "text_input",
                 "hidden": false,
-                "type": "text-input",
+                "type": "text_input",
                 "item": "trailing-icon",
                 "subitem": "color",
                 "state": "error"
@@ -4128,9 +4128,9 @@
               "attributes": {
                 "domain": "component",
                 "category": "shared",
-                "component": "text-input",
+                "component": "text_input",
                 "hidden": false,
-                "type": "text-input",
+                "type": "text_input",
                 "item": "trailing-icon",
                 "subitem": "color",
                 "state": "warning"
@@ -4143,9 +4143,9 @@
             "attributes": {
               "domain": "component",
               "category": "shared",
-              "component": "text-input",
+              "component": "text_input",
               "hidden": false,
-              "type": "text-input",
+              "type": "text_input",
               "item": "trailing-icon",
               "subitem": "size"
             }
