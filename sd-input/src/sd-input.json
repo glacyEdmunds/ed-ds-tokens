@@ -1,5 +1,1042 @@
 {
   "shared": {
+    "dropdown": {
+      "measurements": {
+        "container": {
+          "size": {
+            "small": {
+              "value": "{primitive.size.32}",
+              "type": "sizing",
+              "inheritTypeLevel": 6
+            },
+            "medium": {
+              "value": "{primitive.size.40}",
+              "attributes": {
+                "domain": "component",
+                "category": "shared",
+                "component": "dropdown",
+                "type": "dropdown",
+                "item": "measurements",
+                "subitem": "container",
+                "state": "size"
+              },
+              "type": "sizing",
+              "inheritTypeLevel": 6
+            },
+            "large": {
+              "value": "{primitive.size.48}",
+              "attributes": {
+                "domain": "component",
+                "category": "shared",
+                "component": "dropdown",
+                "type": "dropdown",
+                "item": "measurements",
+                "subitem": "container",
+                "state": "size"
+              },
+              "type": "sizing",
+              "inheritTypeLevel": 6
+            }
+          },
+          "space": {
+            "inset": {
+              "right": {
+                "medium": {
+                  "value": "{space.inset.4x}",
+                  "attributes": {
+                    "domain": "component",
+                    "category": "shared",
+                    "component": "dropdown",
+                    "type": "dropdown",
+                    "item": "measurements",
+                    "subitem": "container",
+                    "state": "space"
+                  },
+                  "type": "spacing",
+                  "inheritTypeLevel": 6
+                }
+              },
+              "left": {
+                "medium": {
+                  "value": "{space.inset.4x}",
+                  "attributes": {
+                    "domain": "component",
+                    "category": "shared",
+                    "component": "dropdown",
+                    "type": "dropdown",
+                    "item": "measurements",
+                    "subitem": "container",
+                    "state": "space"
+                  },
+                  "type": "spacing",
+                  "inheritTypeLevel": 6
+                }
+              }
+            },
+            "stack": {
+              "bottom": {
+                "small": {
+                  "value": "{space.stack.2x}",
+                  "attributes": {
+                    "domain": "component",
+                    "category": "shared",
+                    "component": "dropdown",
+                    "type": "dropdown",
+                    "item": "measurements",
+                    "subitem": "container",
+                    "state": "space"
+                  },
+                  "type": "spacing",
+                  "inheritTypeLevel": 6
+                }
+              }
+            },
+            "inline": {
+              "small": {
+                "medium": {
+                  "value": "{space.inline.2x}",
+                  "attributes": {
+                    "domain": "component",
+                    "category": "shared",
+                    "component": "dropdown",
+                    "hidden": false,
+                    "type": "dropdown",
+                    "item": "measurements",
+                    "subitem": "container",
+                    "state": "space"
+                  },
+                  "type": "spacing",
+                  "inheritTypeLevel": 6
+                }
+              }
+            }
+          },
+          "nested": {
+            "size": {
+              "small": {
+                "value": "{primitive.size.60}",
+                "attributes": {
+                  "domain": "component",
+                  "category": "shared",
+                  "component": "dropdown",
+                  "hidden": false,
+                  "type": "dropdown",
+                  "item": "measurements",
+                  "subitem": "container",
+                  "state": "nested"
+                },
+                "type": "sizing",
+                "inheritTypeLevel": 7
+              }
+            },
+            "space": {
+              "stack": {
+                "bottom": {
+                  "small": {
+                    "value": "{space.stack.2x}",
+                    "attributes": {
+                      "domain": "component",
+                      "category": "shared",
+                      "component": "dropdown",
+                      "type": "dropdown",
+                      "item": "measurements",
+                      "subitem": "container",
+                      "state": "nested"
+                    },
+                    "type": "spacing",
+                    "inheritTypeLevel": 7
+                  }
+                },
+                "top": {
+                  "small": {
+                    "value": "{space.stack.2x}",
+                    "attributes": {
+                      "domain": "component",
+                      "category": "shared",
+                      "component": "dropdown",
+                      "type": "dropdown",
+                      "item": "measurements",
+                      "subitem": "container",
+                      "state": "nested"
+                    },
+                    "type": "spacing",
+                    "inheritTypeLevel": 7
+                  }
+                }
+              },
+              "inline": {
+                "small": {
+                  "medium": {
+                    "value": "{space.inline.2x}",
+                    "attributes": {
+                      "domain": "component",
+                      "category": "shared",
+                      "component": "dropdown",
+                      "hidden": false,
+                      "type": "dropdown",
+                      "item": "measurements",
+                      "subitem": "container",
+                      "state": "nested"
+                    },
+                    "type": "spacing",
+                    "inheritTypeLevel": 7
+                  }
+                }
+              }
+            }
+          }
+        },
+        "support": {
+          "text": {
+            "space": {
+              "stack": {
+                "bottom": {
+                  "small": {
+                    "value": "{space.stack.2x}",
+                    "attributes": {
+                      "domain": "component",
+                      "category": "shared",
+                      "component": "dropdown",
+                      "hidden": false,
+                      "type": "dropdown",
+                      "item": "measurements",
+                      "subitem": "support",
+                      "state": "text"
+                    },
+                    "type": "spacing",
+                    "inheritTypeLevel": 7
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "container": {
+        "color": {
+          "bg": {
+            "default": {
+              "value": "{palette.eve.white}",
+              "attributes": {
+                "domain": "component",
+                "category": "shared",
+                "component": "dropdown",
+                "hidden": false,
+                "type": "dropdown",
+                "item": "container",
+                "subitem": "color",
+                "state": "bg"
+              },
+              "type": "color",
+              "inheritTypeLevel": 5
+            },
+            "disabled": {
+              "value": "{palette.eve.cool-gray.80}",
+              "attributes": {
+                "domain": "component",
+                "category": "shared",
+                "component": "dropdown",
+                "hidden": false,
+                "type": "dropdown",
+                "item": "container",
+                "subitem": "color",
+                "state": "bg"
+              },
+              "type": "color",
+              "inheritTypeLevel": 5
+            }
+          }
+        },
+        "border": {
+          "color": {
+            "default": {
+              "value": "{palette.eve.cool-gray.50}",
+              "attributes": {
+                "domain": "component",
+                "category": "shared",
+                "component": "dropdown",
+                "hidden": false,
+                "type": "dropdown",
+                "item": "container",
+                "subitem": "border",
+                "state": "color"
+              },
+              "type": "color",
+              "inheritTypeLevel": 6
+            },
+            "hover": {
+              "value": "{palette.eve.blue.30}",
+              "attributes": {
+                "domain": "component",
+                "category": "shared",
+                "component": "dropdown",
+                "hidden": false,
+                "type": "dropdown",
+                "item": "container",
+                "subitem": "border",
+                "state": "color"
+              },
+              "type": "color",
+              "inheritTypeLevel": 6
+            },
+            "active": {
+              "value": "{palette.eve.blue.30}",
+              "attributes": {
+                "domain": "component",
+                "category": "shared",
+                "component": "dropdown",
+                "hidden": false,
+                "type": "dropdown",
+                "item": "container",
+                "subitem": "border",
+                "state": "color"
+              },
+              "type": "color",
+              "inheritTypeLevel": 6
+            },
+            "focus": {
+              "value": "{palette.eve.blue.50}",
+              "attributes": {
+                "domain": "component",
+                "category": "shared",
+                "component": "dropdown",
+                "hidden": false,
+                "type": "dropdown",
+                "item": "container",
+                "subitem": "border",
+                "state": "color"
+              },
+              "type": "color",
+              "inheritTypeLevel": 6
+            },
+            "disabled": {
+              "value": "{palette.eve.cool-gray.80}",
+              "attributes": {
+                "domain": "component",
+                "category": "shared",
+                "component": "dropdown",
+                "hidden": false,
+                "type": "dropdown",
+                "item": "container",
+                "subitem": "border",
+                "state": "color"
+              },
+              "type": "color",
+              "inheritTypeLevel": 6
+            },
+            "error": {
+              "value": "{palette.support.error}",
+              "attributes": {
+                "domain": "component",
+                "category": "shared",
+                "component": "dropdown",
+                "hidden": false,
+                "type": "dropdown",
+                "item": "container",
+                "subitem": "border",
+                "state": "color"
+              },
+              "type": "color",
+              "inheritTypeLevel": 6
+            },
+            "warning": {
+              "value": "{palette.support.warning}",
+              "attributes": {
+                "domain": "component",
+                "category": "shared",
+                "component": "dropdown",
+                "hidden": false,
+                "type": "dropdown",
+                "item": "container",
+                "subitem": "border",
+                "state": "color"
+              },
+              "type": "color",
+              "inheritTypeLevel": 6
+            }
+          },
+          "size": {
+            "default": {
+              "value": "{size.border.width.base}",
+              "attributes": {
+                "domain": "component",
+                "category": "shared",
+                "component": "dropdown",
+                "hidden": false,
+                "type": "dropdown",
+                "item": "container",
+                "subitem": "border",
+                "state": "size"
+              },
+              "type": "borderWidth",
+              "inheritTypeLevel": 6
+            },
+            "active": {
+              "value": "{size.border.width.base}",
+              "attributes": {
+                "domain": "component",
+                "category": "shared",
+                "component": "dropdown",
+                "hidden": false,
+                "type": "dropdown",
+                "item": "container",
+                "subitem": "border",
+                "state": "size"
+              },
+              "type": "borderWidth",
+              "inheritTypeLevel": 6
+            },
+            "focus": {
+              "value": "{size.border.width.large}",
+              "attributes": {
+                "domain": "component",
+                "category": "shared",
+                "component": "dropdown",
+                "hidden": false,
+                "type": "dropdown",
+                "item": "container",
+                "subitem": "border",
+                "state": "size"
+              },
+              "type": "borderWidth",
+              "inheritTypeLevel": 6
+            },
+            "disabled": {
+              "value": "{size.border.width.base}",
+              "attributes": {
+                "domain": "component",
+                "category": "shared",
+                "component": "dropdown",
+                "hidden": false,
+                "type": "dropdown",
+                "item": "container",
+                "subitem": "border",
+                "state": "size"
+              },
+              "type": "borderWidth",
+              "inheritTypeLevel": 6
+            }
+          },
+          "radius": {
+            "default": {
+              "square": {
+                "value": "{size.radius.square}",
+                "attributes": {
+                  "domain": "component",
+                  "category": "shared",
+                  "component": "dropdown",
+                  "hidden": false,
+                  "type": "dropdown",
+                  "item": "container",
+                  "subitem": "border",
+                  "state": "radius"
+                },
+                "type": "borderRadius",
+                "inheritTypeLevel": 6
+              },
+              "rounded": {
+                "value": "{size.radius.rounded}",
+                "attributes": {
+                  "domain": "component",
+                  "category": "shared",
+                  "component": "dropdown",
+                  "hidden": false,
+                  "type": "dropdown",
+                  "item": "container",
+                  "subitem": "border",
+                  "state": "radius"
+                },
+                "type": "borderRadius",
+                "inheritTypeLevel": 6
+              }
+            }
+          }
+        }
+      },
+      "prefix": {
+        "color": {
+          "default": {
+            "value": "{palette.eve.cool-gray.30}",
+            "attributes": {
+              "domain": "component",
+              "category": "shared",
+              "component": "dropdown",
+              "hidden": false,
+              "type": "dropdown",
+              "item": "prefix",
+              "subitem": "color",
+              "state": "default"
+            },
+            "type": "color",
+            "inheritTypeLevel": 5
+          },
+          "disabled": {
+            "value": "{palette.eve.cool-gray.60}",
+            "attributes": {
+              "domain": "component",
+              "category": "shared",
+              "component": "dropdown",
+              "hidden": false,
+              "type": "dropdown",
+              "item": "prefix",
+              "subitem": "color",
+              "state": "disabled"
+            },
+            "type": "color",
+            "inheritTypeLevel": 5
+          }
+        },
+        "icon": {
+          "size": {
+            "type": "sizing",
+            "value": "{size.square.5}",
+            "attributes": {
+              "domain": "component",
+              "category": "shared",
+              "component": "dropdown",
+              "hidden": false,
+              "type": "dropdown",
+              "item": "prefix",
+              "subitem": "icon",
+              "state": "size"
+            }
+          }
+        }
+      },
+      "suffix": {
+        "color": {
+          "default": {
+            "value": "{palette.eve.cool-gray.30}",
+            "attributes": {
+              "domain": "component",
+              "category": "shared",
+              "component": "dropdown",
+              "hidden": false,
+              "type": "dropdown",
+              "item": "suffix",
+              "subitem": "color",
+              "state": "default"
+            },
+            "type": "color",
+            "inheritTypeLevel": 5
+          },
+          "disabled": {
+            "value": "{palette.eve.cool-gray.60}",
+            "attributes": {
+              "domain": "component",
+              "category": "shared",
+              "component": "dropdown",
+              "hidden": false,
+              "type": "dropdown",
+              "item": "suffix",
+              "subitem": "color",
+              "state": "disabled"
+            },
+            "type": "color",
+            "inheritTypeLevel": 5
+          }
+        },
+        "icon": {
+          "size": {
+            "type": "sizing",
+            "value": "{size.square.5}",
+            "attributes": {
+              "domain": "component",
+              "category": "shared",
+              "component": "dropdown",
+              "hidden": false,
+              "type": "dropdown",
+              "item": "suffix",
+              "subitem": "icon",
+              "state": "size"
+            }
+          }
+        },
+        "font": {
+          "size": {
+            "type": "fontSizes",
+            "value": "{font.typescale.body.large.size}",
+            "attributes": {
+              "domain": "component",
+              "category": "shared",
+              "component": "dropdown",
+              "hidden": false,
+              "type": "dropdown",
+              "item": "suffix",
+              "subitem": "font",
+              "state": "size"
+            }
+          },
+          "line-height": {
+            "type": "lineHeights",
+            "value": "{font.typescale.body.large.line-height}",
+            "attributes": {
+              "domain": "component",
+              "category": "shared",
+              "component": "dropdown",
+              "hidden": false,
+              "type": "dropdown",
+              "item": "suffix",
+              "subitem": "font",
+              "state": "line-height"
+            }
+          },
+          "weight": {
+            "type": "fontWeights",
+            "value": "{font.typescale.body.large.weight.regular}",
+            "attributes": {
+              "domain": "component",
+              "category": "shared",
+              "component": "dropdown",
+              "hidden": false,
+              "type": "dropdown",
+              "item": "suffix",
+              "subitem": "font",
+              "state": "weight"
+            }
+          }
+        }
+      },
+      "filled-text": {
+        "font": {
+          "color": {
+            "default": {
+              "value": "{palette.eve.cool-gray.30}",
+              "attributes": {
+                "domain": "component",
+                "category": "shared",
+                "component": "dropdown",
+                "hidden": false,
+                "type": "dropdown",
+                "item": "filled-text",
+                "subitem": "font",
+                "state": "color"
+              },
+              "type": "color",
+              "inheritTypeLevel": 6
+            },
+            "disabled": {
+              "value": "{palette.eve.cool-gray.60}",
+              "attributes": {
+                "domain": "component",
+                "category": "shared",
+                "component": "dropdown",
+                "hidden": false,
+                "type": "dropdown",
+                "item": "filled-text",
+                "subitem": "font",
+                "state": "color"
+              },
+              "type": "color",
+              "inheritTypeLevel": 6
+            }
+          },
+          "size": {
+            "default": {
+              "value": "{font.typescale.body.large.size}",
+              "attributes": {
+                "domain": "component",
+                "category": "shared",
+                "component": "dropdown",
+                "hidden": false,
+                "type": "dropdown",
+                "item": "filled-text",
+                "subitem": "font",
+                "state": "size"
+              },
+              "type": "fontSizes",
+              "inheritTypeLevel": 6
+            }
+          },
+          "line-height": {
+            "default": {
+              "value": "{font.typescale.body.large.line-height}",
+              "attributes": {
+                "domain": "component",
+                "category": "shared",
+                "component": "dropdown",
+                "hidden": false,
+                "type": "dropdown",
+                "item": "filled-text",
+                "subitem": "font",
+                "state": "line-height"
+              },
+              "type": "lineHeights",
+              "inheritTypeLevel": 6
+            }
+          },
+          "weight": {
+            "default": {
+              "value": "{font.typescale.body.large.weight.regular}",
+              "attributes": {
+                "domain": "component",
+                "category": "shared",
+                "component": "dropdown",
+                "hidden": false,
+                "type": "dropdown",
+                "item": "filled-text",
+                "subitem": "font",
+                "state": "weight"
+              },
+              "type": "fontWeights",
+              "inheritTypeLevel": 6
+            }
+          }
+        }
+      },
+      "hint-text": {
+        "font": {
+          "color": {
+            "default": {
+              "value": "{palette.eve.cool-gray.50}",
+              "attributes": {
+                "domain": "component",
+                "category": "shared",
+                "component": "dropdown",
+                "hidden": false,
+                "type": "dropdown",
+                "item": "hint-text",
+                "subitem": "font",
+                "state": "color"
+              },
+              "type": "color",
+              "inheritTypeLevel": 6
+            },
+            "disabled": {
+              "value": "{palette.eve.cool-gray.60}",
+              "attributes": {
+                "domain": "component",
+                "category": "shared",
+                "component": "dropdown",
+                "hidden": false,
+                "type": "dropdown",
+                "item": "hint-text",
+                "subitem": "font",
+                "state": "color"
+              },
+              "type": "color",
+              "inheritTypeLevel": 6
+            }
+          },
+          "size": {
+            "default": {
+              "type": "fontSizes",
+              "value": "{font.typescale.body.large.size}",
+              "attributes": {
+                "domain": "component",
+                "category": "shared",
+                "component": "dropdown",
+                "hidden": false,
+                "type": "dropdown",
+                "item": "hint-text",
+                "subitem": "font",
+                "state": "size"
+              }
+            }
+          },
+          "line-height": {
+            "default": {
+              "value": "{font.typescale.body.large.line-height}",
+              "attributes": {
+                "domain": "component",
+                "category": "shared",
+                "component": "dropdown",
+                "hidden": false,
+                "type": "dropdown",
+                "item": "hint-text",
+                "subitem": "font",
+                "state": "line-height"
+              },
+              "type": "lineHeights",
+              "inheritTypeLevel": 6
+            }
+          },
+          "weight": {
+            "default": {
+              "value": "{font.typescale.body.large.weight.regular}",
+              "attributes": {
+                "domain": "component",
+                "category": "shared",
+                "component": "dropdown",
+                "hidden": false,
+                "type": "dropdown",
+                "item": "hint-text",
+                "subitem": "font",
+                "state": "weight"
+              },
+              "type": "fontWeights",
+              "inheritTypeLevel": 6
+            }
+          }
+        }
+      },
+      "info-text": {
+        "font": {
+          "color": {
+            "default": {
+              "value": "{palette.eve.cool-gray.30}",
+              "attributes": {
+                "domain": "component",
+                "category": "shared",
+                "component": "dropdown",
+                "hidden": false,
+                "type": "dropdown",
+                "item": "info-text",
+                "subitem": "font",
+                "state": "color"
+              },
+              "type": "color",
+              "inheritTypeLevel": 6
+            }
+          },
+          "size": {
+            "default": {
+              "value": "{font.typescale.detail.medium.size}",
+              "attributes": {
+                "domain": "component",
+                "category": "shared",
+                "component": "dropdown",
+                "hidden": false,
+                "type": "dropdown",
+                "item": "info-text",
+                "subitem": "font",
+                "state": "size"
+              },
+              "type": "sizing",
+              "inheritTypeLevel": 6
+            }
+          },
+          "line-height": {
+            "default": {
+              "value": "{font.typescale.detail.medium.line-height}",
+              "attributes": {
+                "domain": "component",
+                "category": "shared",
+                "component": "dropdown",
+                "hidden": false,
+                "type": "dropdown",
+                "item": "info-text",
+                "subitem": "font",
+                "state": "line-height"
+              },
+              "type": "lineHeights",
+              "inheritTypeLevel": 6
+            }
+          },
+          "weight": {
+            "default": {
+              "value": "{font.typescale.detail.medium.weight.regular}",
+              "attributes": {
+                "domain": "component",
+                "category": "shared",
+                "component": "dropdown",
+                "hidden": false,
+                "type": "dropdown",
+                "item": "info-text",
+                "subitem": "font",
+                "state": "weight"
+              },
+              "type": "fontWeights",
+              "inheritTypeLevel": 6
+            }
+          }
+        }
+      },
+      "support-text": {
+        "font": {
+          "color": {
+            "error": {
+              "value": "{palette.support.error}",
+              "attributes": {
+                "domain": "component",
+                "category": "shared",
+                "component": "dropdown",
+                "hidden": false,
+                "type": "dropdown",
+                "item": "support-text",
+                "subitem": "font",
+                "state": "color"
+              },
+              "type": "color",
+              "inheritTypeLevel": 6
+            },
+            "warning": {
+              "value": "{palette.eve.cool-gray.30}",
+              "attributes": {
+                "domain": "component",
+                "category": "shared",
+                "component": "dropdown",
+                "hidden": false,
+                "type": "dropdown",
+                "item": "support-text",
+                "subitem": "font",
+                "state": "color"
+              },
+              "type": "color",
+              "inheritTypeLevel": 6
+            }
+          },
+          "size": {
+            "error": {
+              "value": "{font.typescale.detail.medium.size}",
+              "attributes": {
+                "domain": "component",
+                "category": "shared",
+                "component": "dropdown",
+                "hidden": false,
+                "type": "dropdown",
+                "item": "support-text",
+                "subitem": "font",
+                "state": "size"
+              },
+              "type": "sizing",
+              "inheritTypeLevel": 6
+            },
+            "warning": {
+              "value": "{font.typescale.detail.medium.size}",
+              "attributes": {
+                "domain": "component",
+                "category": "shared",
+                "component": "dropdown",
+                "hidden": false,
+                "type": "dropdown",
+                "item": "support-text",
+                "subitem": "font",
+                "state": "size"
+              },
+              "type": "sizing",
+              "inheritTypeLevel": 6
+            }
+          },
+          "line-height": {
+            "error": {
+              "value": "{font.typescale.detail.medium.line-height}",
+              "attributes": {
+                "domain": "component",
+                "category": "shared",
+                "component": "dropdown",
+                "hidden": false,
+                "type": "dropdown",
+                "item": "support-text",
+                "subitem": "font",
+                "state": "line-height"
+              },
+              "type": "lineHeights",
+              "inheritTypeLevel": 6
+            },
+            "warning": {
+              "value": "{font.typescale.detail.medium.line-height}",
+              "attributes": {
+                "domain": "component",
+                "category": "shared",
+                "component": "dropdown",
+                "hidden": false,
+                "type": "dropdown",
+                "item": "support-text",
+                "subitem": "font",
+                "state": "line-height"
+              },
+              "type": "lineHeights",
+              "inheritTypeLevel": 6
+            }
+          },
+          "weight": {
+            "error": {
+              "value": "{font.typescale.detail.medium.weight.regular}",
+              "attributes": {
+                "domain": "component",
+                "category": "shared",
+                "component": "dropdown",
+                "hidden": false,
+                "type": "dropdown",
+                "item": "support-text",
+                "subitem": "font",
+                "state": "weight"
+              },
+              "type": "fontWeights",
+              "inheritTypeLevel": 6
+            },
+            "warning": {
+              "value": "{font.typescale.detail.medium.weight.regular}",
+              "attributes": {
+                "domain": "component",
+                "category": "shared",
+                "component": "dropdown",
+                "hidden": false,
+                "type": "dropdown",
+                "item": "support-text",
+                "subitem": "font",
+                "state": "weight"
+              },
+              "type": "fontWeights",
+              "inheritTypeLevel": 6
+            }
+          }
+        }
+      },
+      "trailing-icon": {
+        "color": {
+          "success": {
+            "value": "#1a854a",
+            "attributes": {
+              "domain": "component",
+              "category": "shared",
+              "component": "dropdown",
+              "hidden": false,
+              "type": "dropdown",
+              "item": "trailing-icon",
+              "subitem": "color",
+              "state": "success"
+            },
+            "type": "color",
+            "inheritTypeLevel": 5
+          },
+          "error": {
+            "value": "#cb303f",
+            "attributes": {
+              "domain": "component",
+              "category": "shared",
+              "component": "dropdown",
+              "hidden": false,
+              "type": "dropdown",
+              "item": "trailing-icon",
+              "subitem": "color",
+              "state": "error"
+            },
+            "type": "color",
+            "inheritTypeLevel": 5
+          },
+          "warning": {
+            "value": "#f59300",
+            "attributes": {
+              "domain": "component",
+              "category": "shared",
+              "component": "dropdown",
+              "hidden": false,
+              "type": "dropdown",
+              "item": "trailing-icon",
+              "subitem": "color",
+              "state": "warning"
+            },
+            "type": "color",
+            "inheritTypeLevel": 5
+          }
+        },
+        "size": {
+          "type": "sizing",
+          "value": "1rem",
+          "attributes": {
+            "domain": "component",
+            "category": "shared",
+            "component": "dropdown",
+            "hidden": false,
+            "type": "dropdown",
+            "item": "trailing-icon",
+            "subitem": "size"
+          }
+        }
+      }
+    },
     "text_input": {
       "measurements": {
         "container": {
@@ -4242,6 +5279,10 @@
     },
     "2": {
       "value": "text_input",
+      "type": "other"
+    },
+    "3": {
+      "value": "dropdown",
       "type": "other"
     }
   }
