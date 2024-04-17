@@ -1035,6 +1035,788 @@
             "subitem": "size"
           }
         }
+      },
+      "nested": {
+        "measurements": {
+          "container": {
+            "size": {
+              "small": {
+                "value": "{primitive.size.32}",
+                "type": "spacing",
+                "inheritTypeLevel": 6
+              },
+              "medium": {
+                "value": "{primitive.size.40}",
+                "attributes": {
+                  "domain": "component",
+                  "category": "shared",
+                  "component": "dropdown",
+                  "type": "dropdown",
+                  "item": "measurements",
+                  "subitem": "container",
+                  "state": "size"
+                },
+                "type": "spacing",
+                "inheritTypeLevel": 6
+              },
+              "large": {
+                "value": "{primitive.size.48}",
+                "attributes": {
+                  "domain": "component",
+                  "category": "shared",
+                  "component": "dropdown",
+                  "type": "dropdown",
+                  "item": "measurements",
+                  "subitem": "container",
+                  "state": "size"
+                },
+                "type": "spacing",
+                "inheritTypeLevel": 6
+              }
+            },
+            "nested": {
+              "size": {
+                "small": {
+                  "value": "{primitive.size.60}",
+                  "attributes": {
+                    "domain": "component",
+                    "category": "shared",
+                    "component": "dropdown",
+                    "hidden": false,
+                    "type": "dropdown",
+                    "item": "measurements",
+                    "subitem": "container",
+                    "state": "nested"
+                  },
+                  "type": "spacing",
+                  "inheritTypeLevel": 7
+                }
+              },
+              "space": {
+                "stack": {
+                  "bottom": {
+                    "small": {
+                      "value": "{space.stack.2x}",
+                      "attributes": {
+                        "domain": "component",
+                        "category": "shared",
+                        "component": "dropdown",
+                        "type": "dropdown",
+                        "item": "measurements",
+                        "subitem": "container",
+                        "state": "nested"
+                      },
+                      "type": "spacing",
+                      "inheritTypeLevel": 7
+                    }
+                  },
+                  "top": {
+                    "small": {
+                      "value": "{space.stack.2x}",
+                      "attributes": {
+                        "domain": "component",
+                        "category": "shared",
+                        "component": "dropdown",
+                        "type": "dropdown",
+                        "item": "measurements",
+                        "subitem": "container",
+                        "state": "nested"
+                      },
+                      "type": "spacing",
+                      "inheritTypeLevel": 7
+                    }
+                  }
+                },
+                "inline": {
+                  "small": {
+                    "medium": {
+                      "value": "{space.inline.2x}",
+                      "attributes": {
+                        "domain": "component",
+                        "category": "shared",
+                        "component": "dropdown",
+                        "hidden": false,
+                        "type": "dropdown",
+                        "item": "measurements",
+                        "subitem": "container",
+                        "state": "nested"
+                      },
+                      "type": "spacing",
+                      "inheritTypeLevel": 7
+                    }
+                  }
+                }
+              }
+            },
+            "space": {
+              "inset": {
+                "right": {
+                  "medium": {
+                    "value": "{space.inset.4x}",
+                    "attributes": {
+                      "domain": "component",
+                      "category": "shared",
+                      "component": "dropdown",
+                      "type": "dropdown",
+                      "item": "measurements",
+                      "subitem": "container",
+                      "state": "space"
+                    },
+                    "type": "spacing",
+                    "inheritTypeLevel": 6
+                  }
+                },
+                "left": {
+                  "medium": {
+                    "value": "{space.inset.4x}",
+                    "attributes": {
+                      "domain": "component",
+                      "category": "shared",
+                      "component": "dropdown",
+                      "type": "dropdown",
+                      "item": "measurements",
+                      "subitem": "container",
+                      "state": "space"
+                    },
+                    "type": "spacing",
+                    "inheritTypeLevel": 6
+                  }
+                }
+              },
+              "stack": {
+                "bottom": {
+                  "small": {
+                    "value": "{space.stack.2x}",
+                    "attributes": {
+                      "domain": "component",
+                      "category": "shared",
+                      "component": "dropdown",
+                      "type": "dropdown",
+                      "item": "measurements",
+                      "subitem": "container",
+                      "state": "space"
+                    },
+                    "type": "spacing",
+                    "inheritTypeLevel": 6
+                  }
+                }
+              },
+              "inline": {
+                "small": {
+                  "medium": {
+                    "value": "{space.inline.2x}",
+                    "attributes": {
+                      "domain": "component",
+                      "category": "shared",
+                      "component": "dropdown",
+                      "hidden": false,
+                      "type": "dropdown",
+                      "item": "measurements",
+                      "subitem": "container",
+                      "state": "space"
+                    },
+                    "type": "spacing",
+                    "inheritTypeLevel": 6
+                  }
+                }
+              }
+            }
+          },
+          "support": {
+            "text": {
+              "space": {
+                "stack": {
+                  "bottom": {
+                    "small": {
+                      "value": "{space.stack.2x}",
+                      "attributes": {
+                        "domain": "component",
+                        "category": "shared",
+                        "component": "dropdown",
+                        "hidden": false,
+                        "type": "dropdown",
+                        "item": "measurements",
+                        "subitem": "support",
+                        "state": "text"
+                      },
+                      "type": "spacing",
+                      "inheritTypeLevel": 7
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "prefix": {
+          "icon": {
+            "size": {
+              "type": "sizing",
+              "value": "{size.square.5}",
+              "attributes": {
+                "domain": "component",
+                "category": "shared",
+                "component": "dropdown",
+                "hidden": false,
+                "type": "dropdown",
+                "item": "prefix",
+                "subitem": "icon",
+                "state": "size"
+              }
+            }
+          }
+        },
+        "suffix": {
+          "icon": {
+            "size": {
+              "type": "sizing",
+              "value": "{size.square.5}",
+              "attributes": {
+                "domain": "component",
+                "category": "shared",
+                "component": "dropdown",
+                "hidden": false,
+                "type": "dropdown",
+                "item": "suffix",
+                "subitem": "icon",
+                "state": "size"
+              }
+            }
+          }
+        },
+        "info-text": {
+          "font": {
+            "size": {
+              "default": {
+                "value": "{font.typescale.detail.medium.size}",
+                "attributes": {
+                  "domain": "component",
+                  "category": "shared",
+                  "component": "dropdown",
+                  "hidden": false,
+                  "type": "dropdown",
+                  "item": "info-text",
+                  "subitem": "font",
+                  "state": "size"
+                },
+                "type": "sizing",
+                "inheritTypeLevel": 6
+              }
+            }
+          }
+        },
+        "support-text": {
+          "font": {
+            "size": {
+              "error": {
+                "value": "{font.typescale.detail.medium.size}",
+                "attributes": {
+                  "domain": "component",
+                  "category": "shared",
+                  "component": "dropdown",
+                  "hidden": false,
+                  "type": "dropdown",
+                  "item": "support-text",
+                  "subitem": "font",
+                  "state": "size"
+                },
+                "type": "sizing",
+                "inheritTypeLevel": 6
+              },
+              "warning": {
+                "value": "{font.typescale.detail.medium.size}",
+                "attributes": {
+                  "domain": "component",
+                  "category": "shared",
+                  "component": "dropdown",
+                  "hidden": false,
+                  "type": "dropdown",
+                  "item": "support-text",
+                  "subitem": "font",
+                  "state": "size"
+                },
+                "type": "sizing",
+                "inheritTypeLevel": 6
+              }
+            }
+          }
+        },
+        "trailing-icon": {
+          "size": {
+            "type": "sizing",
+            "value": "1rem",
+            "attributes": {
+              "domain": "component",
+              "category": "shared",
+              "component": "dropdown",
+              "hidden": false,
+              "type": "dropdown",
+              "item": "trailing-icon",
+              "subitem": "size"
+            }
+          }
+        },
+        "sub": {
+          "measurements": {
+            "container": {
+              "size": {
+                "small": {
+                  "value": "{primitive.size.60}",
+                  "type": "spacing",
+                  "inheritTypeLevel": 7
+                }
+              },
+              "nested": {
+                "size": {
+                  "small": {
+                    "value": "{primitive.size.60}",
+                    "attributes": {
+                      "domain": "component",
+                      "category": "shared",
+                      "component": "dropdown",
+                      "hidden": false,
+                      "type": "dropdown",
+                      "item": "measurements",
+                      "subitem": "container",
+                      "state": "nested"
+                    },
+                    "type": "spacing",
+                    "inheritTypeLevel": 7
+                  }
+                },
+                "space": {
+                  "stack": {
+                    "bottom": {
+                      "small": {
+                        "value": "{space.stack.2x}",
+                        "attributes": {
+                          "domain": "component",
+                          "category": "shared",
+                          "component": "dropdown",
+                          "type": "dropdown",
+                          "item": "measurements",
+                          "subitem": "container",
+                          "state": "nested"
+                        },
+                        "type": "spacing",
+                        "inheritTypeLevel": 7
+                      }
+                    },
+                    "top": {
+                      "small": {
+                        "value": "{space.stack.2x}",
+                        "attributes": {
+                          "domain": "component",
+                          "category": "shared",
+                          "component": "dropdown",
+                          "type": "dropdown",
+                          "item": "measurements",
+                          "subitem": "container",
+                          "state": "nested"
+                        },
+                        "type": "spacing",
+                        "inheritTypeLevel": 7
+                      }
+                    }
+                  },
+                  "inline": {
+                    "small": {
+                      "medium": {
+                        "value": "{space.inline.2x}",
+                        "attributes": {
+                          "domain": "component",
+                          "category": "shared",
+                          "component": "dropdown",
+                          "hidden": false,
+                          "type": "dropdown",
+                          "item": "measurements",
+                          "subitem": "container",
+                          "state": "nested"
+                        },
+                        "type": "spacing",
+                        "inheritTypeLevel": 7
+                      }
+                    }
+                  }
+                }
+              },
+              "space": {
+                "inset": {
+                  "right": {
+                    "medium": {
+                      "value": "{space.inset.4x}",
+                      "attributes": {
+                        "domain": "component",
+                        "category": "shared",
+                        "component": "dropdown",
+                        "type": "dropdown",
+                        "item": "measurements",
+                        "subitem": "container",
+                        "state": "space"
+                      },
+                      "type": "spacing",
+                      "inheritTypeLevel": 7
+                    }
+                  },
+                  "left": {
+                    "medium": {
+                      "value": "{space.inset.4x}",
+                      "attributes": {
+                        "domain": "component",
+                        "category": "shared",
+                        "component": "dropdown",
+                        "type": "dropdown",
+                        "item": "measurements",
+                        "subitem": "container",
+                        "state": "space"
+                      },
+                      "type": "spacing",
+                      "inheritTypeLevel": 7
+                    }
+                  }
+                },
+                "stack": {
+                  "bottom": {
+                    "small": {
+                      "value": "{space.stack.2x}",
+                      "attributes": {
+                        "domain": "component",
+                        "category": "shared",
+                        "component": "dropdown",
+                        "type": "dropdown",
+                        "item": "measurements",
+                        "subitem": "container",
+                        "state": "space"
+                      },
+                      "type": "spacing",
+                      "inheritTypeLevel": 7
+                    }
+                  }
+                },
+                "inline": {
+                  "small": {
+                    "medium": {
+                      "value": "{space.inline.2x}",
+                      "attributes": {
+                        "domain": "component",
+                        "category": "shared",
+                        "component": "dropdown",
+                        "hidden": false,
+                        "type": "dropdown",
+                        "item": "measurements",
+                        "subitem": "container",
+                        "state": "space"
+                      },
+                      "type": "spacing",
+                      "inheritTypeLevel": 7
+                    }
+                  }
+                }
+              }
+            },
+            "support": {
+              "text": {
+                "space": {
+                  "stack": {
+                    "bottom": {
+                      "small": {
+                        "value": "{space.stack.2x}",
+                        "attributes": {
+                          "domain": "component",
+                          "category": "shared",
+                          "component": "dropdown",
+                          "hidden": false,
+                          "type": "dropdown",
+                          "item": "measurements",
+                          "subitem": "support",
+                          "state": "text"
+                        },
+                        "type": "spacing",
+                        "inheritTypeLevel": 7
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "prefix": {
+            "icon": {
+              "size": {
+                "type": "sizing",
+                "value": "{size.square.5}",
+                "attributes": {
+                  "domain": "component",
+                  "category": "shared",
+                  "component": "dropdown",
+                  "hidden": false,
+                  "type": "dropdown",
+                  "item": "prefix",
+                  "subitem": "icon",
+                  "state": "size"
+                }
+              }
+            }
+          },
+          "suffix": {
+            "icon": {
+              "size": {
+                "type": "sizing",
+                "value": "{size.square.5}",
+                "attributes": {
+                  "domain": "component",
+                  "category": "shared",
+                  "component": "dropdown",
+                  "hidden": false,
+                  "type": "dropdown",
+                  "item": "suffix",
+                  "subitem": "icon",
+                  "state": "size"
+                }
+              }
+            }
+          },
+          "info-text": {
+            "font": {
+              "size": {
+                "default": {
+                  "value": "{font.typescale.detail.medium.size}",
+                  "attributes": {
+                    "domain": "component",
+                    "category": "shared",
+                    "component": "dropdown",
+                    "hidden": false,
+                    "type": "dropdown",
+                    "item": "info-text",
+                    "subitem": "font",
+                    "state": "size"
+                  },
+                  "type": "sizing",
+                  "inheritTypeLevel": 6
+                }
+              }
+            }
+          },
+          "support-text": {
+            "font": {
+              "size": {
+                "error": {
+                  "value": "{font.typescale.detail.medium.size}",
+                  "attributes": {
+                    "domain": "component",
+                    "category": "shared",
+                    "component": "dropdown",
+                    "hidden": false,
+                    "type": "dropdown",
+                    "item": "support-text",
+                    "subitem": "font",
+                    "state": "size"
+                  },
+                  "type": "sizing",
+                  "inheritTypeLevel": 6
+                },
+                "warning": {
+                  "value": "{font.typescale.detail.medium.size}",
+                  "attributes": {
+                    "domain": "component",
+                    "category": "shared",
+                    "component": "dropdown",
+                    "hidden": false,
+                    "type": "dropdown",
+                    "item": "support-text",
+                    "subitem": "font",
+                    "state": "size"
+                  },
+                  "type": "sizing",
+                  "inheritTypeLevel": 6
+                }
+              }
+            }
+          },
+          "trailing-icon": {
+            "size": {
+              "type": "sizing",
+              "value": "1rem",
+              "attributes": {
+                "domain": "component",
+                "category": "shared",
+                "component": "dropdown",
+                "hidden": false,
+                "type": "dropdown",
+                "item": "trailing-icon",
+                "subitem": "size"
+              }
+            }
+          },
+          "nested": {
+            "measurements": {
+              "container": {
+                "size": {
+                  "small": {
+                    "value": "{primitive.size.32}",
+                    "type": "sizing",
+                    "inheritTypeLevel": 7
+                  },
+                  "medium": {
+                    "value": "{primitive.size.40}",
+                    "attributes": {
+                      "domain": "component",
+                      "category": "shared",
+                      "component": "dropdown",
+                      "type": "dropdown",
+                      "item": "measurements",
+                      "subitem": "container",
+                      "state": "size"
+                    },
+                    "type": "sizing",
+                    "inheritTypeLevel": 7
+                  },
+                  "large": {
+                    "value": "{primitive.size.48}",
+                    "attributes": {
+                      "domain": "component",
+                      "category": "shared",
+                      "component": "dropdown",
+                      "type": "dropdown",
+                      "item": "measurements",
+                      "subitem": "container",
+                      "state": "size"
+                    },
+                    "type": "sizing",
+                    "inheritTypeLevel": 7
+                  }
+                },
+                "nested": {
+                  "size": {
+                    "small": {
+                      "value": "{primitive.size.60}",
+                      "attributes": {
+                        "domain": "component",
+                        "category": "shared",
+                        "component": "dropdown",
+                        "hidden": false,
+                        "type": "dropdown",
+                        "item": "measurements",
+                        "subitem": "container",
+                        "state": "nested"
+                      },
+                      "type": "sizing",
+                      "inheritTypeLevel": 7
+                    }
+                  }
+                }
+              }
+            },
+            "prefix": {
+              "icon": {
+                "size": {
+                  "type": "sizing",
+                  "value": "{size.square.5}",
+                  "attributes": {
+                    "domain": "component",
+                    "category": "shared",
+                    "component": "dropdown",
+                    "hidden": false,
+                    "type": "dropdown",
+                    "item": "prefix",
+                    "subitem": "icon",
+                    "state": "size"
+                  }
+                }
+              }
+            },
+            "suffix": {
+              "icon": {
+                "size": {
+                  "type": "sizing",
+                  "value": "{size.square.5}",
+                  "attributes": {
+                    "domain": "component",
+                    "category": "shared",
+                    "component": "dropdown",
+                    "hidden": false,
+                    "type": "dropdown",
+                    "item": "suffix",
+                    "subitem": "icon",
+                    "state": "size"
+                  }
+                }
+              }
+            },
+            "info-text": {
+              "font": {
+                "size": {
+                  "default": {
+                    "value": "{font.typescale.detail.medium.size}",
+                    "attributes": {
+                      "domain": "component",
+                      "category": "shared",
+                      "component": "dropdown",
+                      "hidden": false,
+                      "type": "dropdown",
+                      "item": "info-text",
+                      "subitem": "font",
+                      "state": "size"
+                    },
+                    "type": "sizing",
+                    "inheritTypeLevel": 6
+                  }
+                }
+              }
+            },
+            "support-text": {
+              "font": {
+                "size": {
+                  "error": {
+                    "value": "{font.typescale.detail.medium.size}",
+                    "attributes": {
+                      "domain": "component",
+                      "category": "shared",
+                      "component": "dropdown",
+                      "hidden": false,
+                      "type": "dropdown",
+                      "item": "support-text",
+                      "subitem": "font",
+                      "state": "size"
+                    },
+                    "type": "sizing",
+                    "inheritTypeLevel": 6
+                  },
+                  "warning": {
+                    "value": "{font.typescale.detail.medium.size}",
+                    "attributes": {
+                      "domain": "component",
+                      "category": "shared",
+                      "component": "dropdown",
+                      "hidden": false,
+                      "type": "dropdown",
+                      "item": "support-text",
+                      "subitem": "font",
+                      "state": "size"
+                    },
+                    "type": "sizing",
+                    "inheritTypeLevel": 6
+                  }
+                }
+              }
+            },
+            "trailing-icon": {
+              "size": {
+                "type": "sizing",
+                "value": "1rem",
+                "attributes": {
+                  "domain": "component",
+                  "category": "shared",
+                  "component": "dropdown",
+                  "hidden": false,
+                  "type": "dropdown",
+                  "item": "trailing-icon",
+                  "subitem": "size"
+                }
+              }
+            }
+          }
+        }
       }
     },
     "text_input": {
