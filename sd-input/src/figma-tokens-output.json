@@ -4154,12 +4154,1695 @@
       }
     }
   },
+  "dropdown": {
+    "shared": {
+      "dropdown": {
+        "measurements": {
+          "container": {
+            "size": {
+              "type": "sizing",
+              "small": {
+                "value": "{primitive.size.32}"
+              },
+              "medium": {
+                "value": "{primitive.size.40}",
+                "attributes": {
+                  "domain": "component",
+                  "category": "shared",
+                  "component": "dropdown",
+                  "type": "dropdown",
+                  "item": "measurements",
+                  "subitem": "container",
+                  "state": "size"
+                }
+              },
+              "large": {
+                "value": "{primitive.size.48}",
+                "attributes": {
+                  "domain": "component",
+                  "category": "shared",
+                  "component": "dropdown",
+                  "type": "dropdown",
+                  "item": "measurements",
+                  "subitem": "container",
+                  "state": "size"
+                }
+              }
+            },
+            "space": {
+              "type": "spacing",
+              "inset": {
+                "right": {
+                  "medium": {
+                    "value": "{space.inset.4x}",
+                    "attributes": {
+                      "domain": "component",
+                      "category": "shared",
+                      "component": "dropdown",
+                      "type": "dropdown",
+                      "item": "measurements",
+                      "subitem": "container",
+                      "state": "space"
+                    }
+                  }
+                },
+                "left": {
+                  "medium": {
+                    "value": "{space.inset.4x}",
+                    "attributes": {
+                      "domain": "component",
+                      "category": "shared",
+                      "component": "dropdown",
+                      "type": "dropdown",
+                      "item": "measurements",
+                      "subitem": "container",
+                      "state": "space"
+                    }
+                  }
+                }
+              },
+              "stack": {
+                "bottom": {
+                  "small": {
+                    "value": "{space.stack.2x}",
+                    "attributes": {
+                      "domain": "component",
+                      "category": "shared",
+                      "component": "dropdown",
+                      "type": "dropdown",
+                      "item": "measurements",
+                      "subitem": "container",
+                      "state": "space"
+                    }
+                  }
+                }
+              },
+              "inline": {
+                "small": {
+                  "medium": {
+                    "value": "{space.inline.2x}",
+                    "attributes": {
+                      "domain": "component",
+                      "category": "shared",
+                      "component": "dropdown",
+                      "hidden": false,
+                      "type": "dropdown",
+                      "item": "measurements",
+                      "subitem": "container",
+                      "state": "space"
+                    }
+                  }
+                }
+              }
+            },
+            "nested": {
+              "size": {
+                "type": "sizing",
+                "small": {
+                  "value": "{primitive.size.60}",
+                  "attributes": {
+                    "domain": "component",
+                    "category": "shared",
+                    "component": "dropdown",
+                    "hidden": false,
+                    "type": "dropdown",
+                    "item": "measurements",
+                    "subitem": "container",
+                    "state": "nested"
+                  }
+                }
+              },
+              "space": {
+                "type": "spacing",
+                "stack": {
+                  "bottom": {
+                    "small": {
+                      "value": "{space.stack.2x}",
+                      "attributes": {
+                        "domain": "component",
+                        "category": "shared",
+                        "component": "dropdown",
+                        "type": "dropdown",
+                        "item": "measurements",
+                        "subitem": "container",
+                        "state": "nested"
+                      }
+                    }
+                  },
+                  "top": {
+                    "small": {
+                      "value": "{space.stack.2x}",
+                      "attributes": {
+                        "domain": "component",
+                        "category": "shared",
+                        "component": "dropdown",
+                        "type": "dropdown",
+                        "item": "measurements",
+                        "subitem": "container",
+                        "state": "nested"
+                      }
+                    }
+                  }
+                },
+                "inline": {
+                  "small": {
+                    "medium": {
+                      "value": "{space.inline.2x}",
+                      "attributes": {
+                        "domain": "component",
+                        "category": "shared",
+                        "component": "dropdown",
+                        "hidden": false,
+                        "type": "dropdown",
+                        "item": "measurements",
+                        "subitem": "container",
+                        "state": "nested"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "support": {
+            "text": {
+              "space": {
+                "type": "spacing",
+                "stack": {
+                  "bottom": {
+                    "small": {
+                      "value": "{space.stack.2x}",
+                      "attributes": {
+                        "domain": "component",
+                        "category": "shared",
+                        "component": "dropdown",
+                        "hidden": false,
+                        "type": "dropdown",
+                        "item": "measurements",
+                        "subitem": "support",
+                        "state": "text"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "container": {
+          "color": {
+            "type": "color",
+            "bg": {
+              "default": {
+                "value": "{palette.eve.white}",
+                "attributes": {
+                  "domain": "component",
+                  "category": "shared",
+                  "component": "dropdown",
+                  "hidden": false,
+                  "type": "dropdown",
+                  "item": "container",
+                  "subitem": "color",
+                  "state": "bg"
+                }
+              },
+              "disabled": {
+                "value": "{palette.eve.cool-gray.80}",
+                "attributes": {
+                  "domain": "component",
+                  "category": "shared",
+                  "component": "dropdown",
+                  "hidden": false,
+                  "type": "dropdown",
+                  "item": "container",
+                  "subitem": "color",
+                  "state": "bg"
+                }
+              }
+            }
+          },
+          "border": {
+            "color": {
+              "type": "color",
+              "default": {
+                "value": "{palette.eve.cool-gray.50}",
+                "attributes": {
+                  "domain": "component",
+                  "category": "shared",
+                  "component": "dropdown",
+                  "hidden": false,
+                  "type": "dropdown",
+                  "item": "container",
+                  "subitem": "border",
+                  "state": "color"
+                }
+              },
+              "hover": {
+                "value": "{palette.eve.blue.30}",
+                "attributes": {
+                  "domain": "component",
+                  "category": "shared",
+                  "component": "dropdown",
+                  "hidden": false,
+                  "type": "dropdown",
+                  "item": "container",
+                  "subitem": "border",
+                  "state": "color"
+                }
+              },
+              "active": {
+                "value": "{palette.eve.blue.30}",
+                "attributes": {
+                  "domain": "component",
+                  "category": "shared",
+                  "component": "dropdown",
+                  "hidden": false,
+                  "type": "dropdown",
+                  "item": "container",
+                  "subitem": "border",
+                  "state": "color"
+                }
+              },
+              "focus": {
+                "value": "{palette.eve.blue.50}",
+                "attributes": {
+                  "domain": "component",
+                  "category": "shared",
+                  "component": "dropdown",
+                  "hidden": false,
+                  "type": "dropdown",
+                  "item": "container",
+                  "subitem": "border",
+                  "state": "color"
+                }
+              },
+              "disabled": {
+                "value": "{palette.eve.cool-gray.80}",
+                "attributes": {
+                  "domain": "component",
+                  "category": "shared",
+                  "component": "dropdown",
+                  "hidden": false,
+                  "type": "dropdown",
+                  "item": "container",
+                  "subitem": "border",
+                  "state": "color"
+                }
+              },
+              "error": {
+                "value": "{palette.support.error}",
+                "attributes": {
+                  "domain": "component",
+                  "category": "shared",
+                  "component": "dropdown",
+                  "hidden": false,
+                  "type": "dropdown",
+                  "item": "container",
+                  "subitem": "border",
+                  "state": "color"
+                }
+              },
+              "warning": {
+                "value": "{palette.support.warning}",
+                "attributes": {
+                  "domain": "component",
+                  "category": "shared",
+                  "component": "dropdown",
+                  "hidden": false,
+                  "type": "dropdown",
+                  "item": "container",
+                  "subitem": "border",
+                  "state": "color"
+                }
+              }
+            },
+            "size": {
+              "type": "borderWidth",
+              "default": {
+                "value": "{size.border.width.base}",
+                "attributes": {
+                  "domain": "component",
+                  "category": "shared",
+                  "component": "dropdown",
+                  "hidden": false,
+                  "type": "dropdown",
+                  "item": "container",
+                  "subitem": "border",
+                  "state": "size"
+                }
+              },
+              "active": {
+                "value": "{size.border.width.base}",
+                "attributes": {
+                  "domain": "component",
+                  "category": "shared",
+                  "component": "dropdown",
+                  "hidden": false,
+                  "type": "dropdown",
+                  "item": "container",
+                  "subitem": "border",
+                  "state": "size"
+                }
+              },
+              "focus": {
+                "value": "{size.border.width.large}",
+                "attributes": {
+                  "domain": "component",
+                  "category": "shared",
+                  "component": "dropdown",
+                  "hidden": false,
+                  "type": "dropdown",
+                  "item": "container",
+                  "subitem": "border",
+                  "state": "size"
+                }
+              },
+              "disabled": {
+                "value": "{size.border.width.base}",
+                "attributes": {
+                  "domain": "component",
+                  "category": "shared",
+                  "component": "dropdown",
+                  "hidden": false,
+                  "type": "dropdown",
+                  "item": "container",
+                  "subitem": "border",
+                  "state": "size"
+                }
+              }
+            },
+            "radius": {
+              "type": "borderRadius",
+              "default": {
+                "square": {
+                  "value": "{size.radius.square}",
+                  "attributes": {
+                    "domain": "component",
+                    "category": "shared",
+                    "component": "dropdown",
+                    "hidden": false,
+                    "type": "dropdown",
+                    "item": "container",
+                    "subitem": "border",
+                    "state": "radius"
+                  }
+                },
+                "rounded": {
+                  "value": "{size.radius.rounded}",
+                  "attributes": {
+                    "domain": "component",
+                    "category": "shared",
+                    "component": "dropdown",
+                    "hidden": false,
+                    "type": "dropdown",
+                    "item": "container",
+                    "subitem": "border",
+                    "state": "radius"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "prefix": {
+          "color": {
+            "type": "color",
+            "default": {
+              "value": "{palette.eve.cool-gray.30}",
+              "attributes": {
+                "domain": "component",
+                "category": "shared",
+                "component": "dropdown",
+                "hidden": false,
+                "type": "dropdown",
+                "item": "prefix",
+                "subitem": "color",
+                "state": "default"
+              }
+            },
+            "disabled": {
+              "value": "{palette.eve.cool-gray.60}",
+              "attributes": {
+                "domain": "component",
+                "category": "shared",
+                "component": "dropdown",
+                "hidden": false,
+                "type": "dropdown",
+                "item": "prefix",
+                "subitem": "color",
+                "state": "disabled"
+              }
+            }
+          },
+          "icon": {
+            "size": {
+              "type": "sizing",
+              "value": "{size.square.5}",
+              "attributes": {
+                "domain": "component",
+                "category": "shared",
+                "component": "dropdown",
+                "hidden": false,
+                "type": "dropdown",
+                "item": "prefix",
+                "subitem": "icon",
+                "state": "size"
+              }
+            }
+          }
+        },
+        "suffix": {
+          "color": {
+            "type": "color",
+            "default": {
+              "value": "{palette.eve.cool-gray.30}",
+              "attributes": {
+                "domain": "component",
+                "category": "shared",
+                "component": "dropdown",
+                "hidden": false,
+                "type": "dropdown",
+                "item": "suffix",
+                "subitem": "color",
+                "state": "default"
+              }
+            },
+            "disabled": {
+              "value": "{palette.eve.cool-gray.60}",
+              "attributes": {
+                "domain": "component",
+                "category": "shared",
+                "component": "dropdown",
+                "hidden": false,
+                "type": "dropdown",
+                "item": "suffix",
+                "subitem": "color",
+                "state": "disabled"
+              }
+            }
+          },
+          "icon": {
+            "size": {
+              "type": "sizing",
+              "value": "{size.square.5}",
+              "attributes": {
+                "domain": "component",
+                "category": "shared",
+                "component": "dropdown",
+                "hidden": false,
+                "type": "dropdown",
+                "item": "suffix",
+                "subitem": "icon",
+                "state": "size"
+              }
+            }
+          },
+          "font": {
+            "size": {
+              "type": "fontSizes",
+              "value": "{font.typescale.body.large.size}",
+              "attributes": {
+                "domain": "component",
+                "category": "shared",
+                "component": "dropdown",
+                "hidden": false,
+                "type": "dropdown",
+                "item": "suffix",
+                "subitem": "font",
+                "state": "size"
+              }
+            },
+            "line-height": {
+              "type": "lineHeights",
+              "value": "{font.typescale.body.large.line-height}",
+              "attributes": {
+                "domain": "component",
+                "category": "shared",
+                "component": "dropdown",
+                "hidden": false,
+                "type": "dropdown",
+                "item": "suffix",
+                "subitem": "font",
+                "state": "line-height"
+              }
+            },
+            "weight": {
+              "type": "fontWeights",
+              "value": "{font.typescale.body.large.weight.regular}",
+              "attributes": {
+                "domain": "component",
+                "category": "shared",
+                "component": "dropdown",
+                "hidden": false,
+                "type": "dropdown",
+                "item": "suffix",
+                "subitem": "font",
+                "state": "weight"
+              }
+            }
+          }
+        },
+        "filled-text": {
+          "font": {
+            "color": {
+              "type": "color",
+              "default": {
+                "value": "{palette.eve.cool-gray.30}",
+                "attributes": {
+                  "domain": "component",
+                  "category": "shared",
+                  "component": "dropdown",
+                  "hidden": false,
+                  "type": "dropdown",
+                  "item": "filled-text",
+                  "subitem": "font",
+                  "state": "color"
+                }
+              },
+              "disabled": {
+                "value": "{palette.eve.cool-gray.60}",
+                "attributes": {
+                  "domain": "component",
+                  "category": "shared",
+                  "component": "dropdown",
+                  "hidden": false,
+                  "type": "dropdown",
+                  "item": "filled-text",
+                  "subitem": "font",
+                  "state": "color"
+                }
+              }
+            },
+            "size": {
+              "type": "fontSizes",
+              "default": {
+                "value": "{font.typescale.body.large.size}",
+                "attributes": {
+                  "domain": "component",
+                  "category": "shared",
+                  "component": "dropdown",
+                  "hidden": false,
+                  "type": "dropdown",
+                  "item": "filled-text",
+                  "subitem": "font",
+                  "state": "size"
+                }
+              }
+            },
+            "line-height": {
+              "type": "lineHeights",
+              "default": {
+                "value": "{font.typescale.body.large.line-height}",
+                "attributes": {
+                  "domain": "component",
+                  "category": "shared",
+                  "component": "dropdown",
+                  "hidden": false,
+                  "type": "dropdown",
+                  "item": "filled-text",
+                  "subitem": "font",
+                  "state": "line-height"
+                }
+              }
+            },
+            "weight": {
+              "type": "fontWeights",
+              "default": {
+                "value": "{font.typescale.body.large.weight.regular}",
+                "attributes": {
+                  "domain": "component",
+                  "category": "shared",
+                  "component": "dropdown",
+                  "hidden": false,
+                  "type": "dropdown",
+                  "item": "filled-text",
+                  "subitem": "font",
+                  "state": "weight"
+                }
+              }
+            }
+          }
+        },
+        "hint-text": {
+          "font": {
+            "color": {
+              "type": "color",
+              "default": {
+                "value": "{palette.eve.cool-gray.50}",
+                "attributes": {
+                  "domain": "component",
+                  "category": "shared",
+                  "component": "dropdown",
+                  "hidden": false,
+                  "type": "dropdown",
+                  "item": "hint-text",
+                  "subitem": "font",
+                  "state": "color"
+                }
+              },
+              "disabled": {
+                "value": "{palette.eve.cool-gray.60}",
+                "attributes": {
+                  "domain": "component",
+                  "category": "shared",
+                  "component": "dropdown",
+                  "hidden": false,
+                  "type": "dropdown",
+                  "item": "hint-text",
+                  "subitem": "font",
+                  "state": "color"
+                }
+              }
+            },
+            "size": {
+              "default": {
+                "type": "fontSizes",
+                "value": "{font.typescale.body.large.size}",
+                "attributes": {
+                  "domain": "component",
+                  "category": "shared",
+                  "component": "dropdown",
+                  "hidden": false,
+                  "type": "dropdown",
+                  "item": "hint-text",
+                  "subitem": "font",
+                  "state": "size"
+                }
+              }
+            },
+            "line-height": {
+              "type": "lineHeights",
+              "default": {
+                "value": "{font.typescale.body.large.line-height}",
+                "attributes": {
+                  "domain": "component",
+                  "category": "shared",
+                  "component": "dropdown",
+                  "hidden": false,
+                  "type": "dropdown",
+                  "item": "hint-text",
+                  "subitem": "font",
+                  "state": "line-height"
+                }
+              }
+            },
+            "weight": {
+              "type": "fontWeights",
+              "default": {
+                "value": "{font.typescale.body.large.weight.regular}",
+                "attributes": {
+                  "domain": "component",
+                  "category": "shared",
+                  "component": "dropdown",
+                  "hidden": false,
+                  "type": "dropdown",
+                  "item": "hint-text",
+                  "subitem": "font",
+                  "state": "weight"
+                }
+              }
+            }
+          }
+        },
+        "info-text": {
+          "font": {
+            "color": {
+              "type": "color",
+              "default": {
+                "value": "{palette.eve.cool-gray.30}",
+                "attributes": {
+                  "domain": "component",
+                  "category": "shared",
+                  "component": "dropdown",
+                  "hidden": false,
+                  "type": "dropdown",
+                  "item": "info-text",
+                  "subitem": "font",
+                  "state": "color"
+                }
+              }
+            },
+            "size": {
+              "type": "sizing",
+              "default": {
+                "value": "{font.typescale.detail.medium.size}",
+                "attributes": {
+                  "domain": "component",
+                  "category": "shared",
+                  "component": "dropdown",
+                  "hidden": false,
+                  "type": "dropdown",
+                  "item": "info-text",
+                  "subitem": "font",
+                  "state": "size"
+                }
+              }
+            },
+            "line-height": {
+              "type": "lineHeights",
+              "default": {
+                "value": "{font.typescale.detail.medium.line-height}",
+                "attributes": {
+                  "domain": "component",
+                  "category": "shared",
+                  "component": "dropdown",
+                  "hidden": false,
+                  "type": "dropdown",
+                  "item": "info-text",
+                  "subitem": "font",
+                  "state": "line-height"
+                }
+              }
+            },
+            "weight": {
+              "type": "fontWeights",
+              "default": {
+                "value": "{font.typescale.detail.medium.weight.regular}",
+                "attributes": {
+                  "domain": "component",
+                  "category": "shared",
+                  "component": "dropdown",
+                  "hidden": false,
+                  "type": "dropdown",
+                  "item": "info-text",
+                  "subitem": "font",
+                  "state": "weight"
+                }
+              }
+            }
+          }
+        },
+        "support-text": {
+          "font": {
+            "color": {
+              "type": "color",
+              "error": {
+                "value": "{palette.support.error}",
+                "attributes": {
+                  "domain": "component",
+                  "category": "shared",
+                  "component": "dropdown",
+                  "hidden": false,
+                  "type": "dropdown",
+                  "item": "support-text",
+                  "subitem": "font",
+                  "state": "color"
+                }
+              },
+              "warning": {
+                "value": "{palette.eve.cool-gray.30}",
+                "attributes": {
+                  "domain": "component",
+                  "category": "shared",
+                  "component": "dropdown",
+                  "hidden": false,
+                  "type": "dropdown",
+                  "item": "support-text",
+                  "subitem": "font",
+                  "state": "color"
+                }
+              }
+            },
+            "size": {
+              "type": "sizing",
+              "error": {
+                "value": "{font.typescale.detail.medium.size}",
+                "attributes": {
+                  "domain": "component",
+                  "category": "shared",
+                  "component": "dropdown",
+                  "hidden": false,
+                  "type": "dropdown",
+                  "item": "support-text",
+                  "subitem": "font",
+                  "state": "size"
+                }
+              },
+              "warning": {
+                "value": "{font.typescale.detail.medium.size}",
+                "attributes": {
+                  "domain": "component",
+                  "category": "shared",
+                  "component": "dropdown",
+                  "hidden": false,
+                  "type": "dropdown",
+                  "item": "support-text",
+                  "subitem": "font",
+                  "state": "size"
+                }
+              }
+            },
+            "line-height": {
+              "type": "lineHeights",
+              "error": {
+                "value": "{font.typescale.detail.medium.line-height}",
+                "attributes": {
+                  "domain": "component",
+                  "category": "shared",
+                  "component": "dropdown",
+                  "hidden": false,
+                  "type": "dropdown",
+                  "item": "support-text",
+                  "subitem": "font",
+                  "state": "line-height"
+                }
+              },
+              "warning": {
+                "value": "{font.typescale.detail.medium.line-height}",
+                "attributes": {
+                  "domain": "component",
+                  "category": "shared",
+                  "component": "dropdown",
+                  "hidden": false,
+                  "type": "dropdown",
+                  "item": "support-text",
+                  "subitem": "font",
+                  "state": "line-height"
+                }
+              }
+            },
+            "weight": {
+              "type": "fontWeights",
+              "error": {
+                "value": "{font.typescale.detail.medium.weight.regular}",
+                "attributes": {
+                  "domain": "component",
+                  "category": "shared",
+                  "component": "dropdown",
+                  "hidden": false,
+                  "type": "dropdown",
+                  "item": "support-text",
+                  "subitem": "font",
+                  "state": "weight"
+                }
+              },
+              "warning": {
+                "value": "{font.typescale.detail.medium.weight.regular}",
+                "attributes": {
+                  "domain": "component",
+                  "category": "shared",
+                  "component": "dropdown",
+                  "hidden": false,
+                  "type": "dropdown",
+                  "item": "support-text",
+                  "subitem": "font",
+                  "state": "weight"
+                }
+              }
+            }
+          }
+        },
+        "trailing-icon": {
+          "color": {
+            "type": "color",
+            "success": {
+              "value": "#1a854a",
+              "attributes": {
+                "domain": "component",
+                "category": "shared",
+                "component": "dropdown",
+                "hidden": false,
+                "type": "dropdown",
+                "item": "trailing-icon",
+                "subitem": "color",
+                "state": "success"
+              }
+            },
+            "error": {
+              "value": "#cb303f",
+              "attributes": {
+                "domain": "component",
+                "category": "shared",
+                "component": "dropdown",
+                "hidden": false,
+                "type": "dropdown",
+                "item": "trailing-icon",
+                "subitem": "color",
+                "state": "error"
+              }
+            },
+            "warning": {
+              "value": "#f59300",
+              "attributes": {
+                "domain": "component",
+                "category": "shared",
+                "component": "dropdown",
+                "hidden": false,
+                "type": "dropdown",
+                "item": "trailing-icon",
+                "subitem": "color",
+                "state": "warning"
+              }
+            }
+          },
+          "size": {
+            "type": "sizing",
+            "value": "1rem",
+            "attributes": {
+              "domain": "component",
+              "category": "shared",
+              "component": "dropdown",
+              "hidden": false,
+              "type": "dropdown",
+              "item": "trailing-icon",
+              "subitem": "size"
+            }
+          }
+        },
+        "nested": {
+          "measurements": {
+            "container": {
+              "type": "spacing",
+              "size": {
+                "small": {
+                  "value": "{primitive.size.32}"
+                },
+                "medium": {
+                  "value": "{primitive.size.40}",
+                  "attributes": {
+                    "domain": "component",
+                    "category": "shared",
+                    "component": "dropdown",
+                    "type": "dropdown",
+                    "item": "measurements",
+                    "subitem": "container",
+                    "state": "size"
+                  }
+                },
+                "large": {
+                  "value": "{primitive.size.48}",
+                  "attributes": {
+                    "domain": "component",
+                    "category": "shared",
+                    "component": "dropdown",
+                    "type": "dropdown",
+                    "item": "measurements",
+                    "subitem": "container",
+                    "state": "size"
+                  }
+                }
+              },
+              "nested": {
+                "type": "spacing",
+                "size": {
+                  "small": {
+                    "value": "{primitive.size.60}",
+                    "attributes": {
+                      "domain": "component",
+                      "category": "shared",
+                      "component": "dropdown",
+                      "hidden": false,
+                      "type": "dropdown",
+                      "item": "measurements",
+                      "subitem": "container",
+                      "state": "nested"
+                    }
+                  }
+                },
+                "space": {
+                  "stack": {
+                    "bottom": {
+                      "small": {
+                        "value": "{space.stack.2x}",
+                        "attributes": {
+                          "domain": "component",
+                          "category": "shared",
+                          "component": "dropdown",
+                          "type": "dropdown",
+                          "item": "measurements",
+                          "subitem": "container",
+                          "state": "nested"
+                        }
+                      }
+                    },
+                    "top": {
+                      "small": {
+                        "value": "{space.stack.2x}",
+                        "attributes": {
+                          "domain": "component",
+                          "category": "shared",
+                          "component": "dropdown",
+                          "type": "dropdown",
+                          "item": "measurements",
+                          "subitem": "container",
+                          "state": "nested"
+                        }
+                      }
+                    }
+                  },
+                  "inline": {
+                    "small": {
+                      "medium": {
+                        "value": "{space.inline.2x}",
+                        "attributes": {
+                          "domain": "component",
+                          "category": "shared",
+                          "component": "dropdown",
+                          "hidden": false,
+                          "type": "dropdown",
+                          "item": "measurements",
+                          "subitem": "container",
+                          "state": "nested"
+                        }
+                      }
+                    }
+                  }
+                }
+              },
+              "space": {
+                "inset": {
+                  "right": {
+                    "medium": {
+                      "value": "{space.inset.4x}",
+                      "attributes": {
+                        "domain": "component",
+                        "category": "shared",
+                        "component": "dropdown",
+                        "type": "dropdown",
+                        "item": "measurements",
+                        "subitem": "container",
+                        "state": "space"
+                      }
+                    }
+                  },
+                  "left": {
+                    "medium": {
+                      "value": "{space.inset.4x}",
+                      "attributes": {
+                        "domain": "component",
+                        "category": "shared",
+                        "component": "dropdown",
+                        "type": "dropdown",
+                        "item": "measurements",
+                        "subitem": "container",
+                        "state": "space"
+                      }
+                    }
+                  }
+                },
+                "stack": {
+                  "bottom": {
+                    "small": {
+                      "value": "{space.stack.2x}",
+                      "attributes": {
+                        "domain": "component",
+                        "category": "shared",
+                        "component": "dropdown",
+                        "type": "dropdown",
+                        "item": "measurements",
+                        "subitem": "container",
+                        "state": "space"
+                      }
+                    }
+                  }
+                },
+                "inline": {
+                  "small": {
+                    "medium": {
+                      "value": "{space.inline.2x}",
+                      "attributes": {
+                        "domain": "component",
+                        "category": "shared",
+                        "component": "dropdown",
+                        "hidden": false,
+                        "type": "dropdown",
+                        "item": "measurements",
+                        "subitem": "container",
+                        "state": "space"
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "support": {
+              "text": {
+                "type": "spacing",
+                "space": {
+                  "stack": {
+                    "bottom": {
+                      "small": {
+                        "value": "{space.stack.2x}",
+                        "attributes": {
+                          "domain": "component",
+                          "category": "shared",
+                          "component": "dropdown",
+                          "hidden": false,
+                          "type": "dropdown",
+                          "item": "measurements",
+                          "subitem": "support",
+                          "state": "text"
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "prefix": {
+            "icon": {
+              "size": {
+                "type": "sizing",
+                "value": "{size.square.5}",
+                "attributes": {
+                  "domain": "component",
+                  "category": "shared",
+                  "component": "dropdown",
+                  "hidden": false,
+                  "type": "dropdown",
+                  "item": "prefix",
+                  "subitem": "icon",
+                  "state": "size"
+                }
+              }
+            }
+          },
+          "suffix": {
+            "icon": {
+              "size": {
+                "type": "sizing",
+                "value": "{size.square.5}",
+                "attributes": {
+                  "domain": "component",
+                  "category": "shared",
+                  "component": "dropdown",
+                  "hidden": false,
+                  "type": "dropdown",
+                  "item": "suffix",
+                  "subitem": "icon",
+                  "state": "size"
+                }
+              }
+            }
+          },
+          "info-text": {
+            "font": {
+              "type": "sizing",
+              "size": {
+                "default": {
+                  "value": "{font.typescale.detail.medium.size}",
+                  "attributes": {
+                    "domain": "component",
+                    "category": "shared",
+                    "component": "dropdown",
+                    "hidden": false,
+                    "type": "dropdown",
+                    "item": "info-text",
+                    "subitem": "font",
+                    "state": "size"
+                  }
+                }
+              }
+            }
+          },
+          "support-text": {
+            "font": {
+              "type": "sizing",
+              "size": {
+                "error": {
+                  "value": "{font.typescale.detail.medium.size}",
+                  "attributes": {
+                    "domain": "component",
+                    "category": "shared",
+                    "component": "dropdown",
+                    "hidden": false,
+                    "type": "dropdown",
+                    "item": "support-text",
+                    "subitem": "font",
+                    "state": "size"
+                  }
+                },
+                "warning": {
+                  "value": "{font.typescale.detail.medium.size}",
+                  "attributes": {
+                    "domain": "component",
+                    "category": "shared",
+                    "component": "dropdown",
+                    "hidden": false,
+                    "type": "dropdown",
+                    "item": "support-text",
+                    "subitem": "font",
+                    "state": "size"
+                  }
+                }
+              }
+            }
+          },
+          "trailing-icon": {
+            "size": {
+              "type": "sizing",
+              "value": "1rem",
+              "attributes": {
+                "domain": "component",
+                "category": "shared",
+                "component": "dropdown",
+                "hidden": false,
+                "type": "dropdown",
+                "item": "trailing-icon",
+                "subitem": "size"
+              }
+            }
+          },
+          "sub": {
+            "measurements": {
+              "type": "spacing",
+              "container": {
+                "size": {
+                  "small": {
+                    "value": "{primitive.size.60}"
+                  }
+                },
+                "type": "spacing",
+                "nested": {
+                  "size": {
+                    "small": {
+                      "value": "{primitive.size.60}",
+                      "attributes": {
+                        "domain": "component",
+                        "category": "shared",
+                        "component": "dropdown",
+                        "hidden": false,
+                        "type": "dropdown",
+                        "item": "measurements",
+                        "subitem": "container",
+                        "state": "nested"
+                      }
+                    }
+                  },
+                  "space": {
+                    "stack": {
+                      "bottom": {
+                        "small": {
+                          "value": "{space.stack.2x}",
+                          "attributes": {
+                            "domain": "component",
+                            "category": "shared",
+                            "component": "dropdown",
+                            "type": "dropdown",
+                            "item": "measurements",
+                            "subitem": "container",
+                            "state": "nested"
+                          }
+                        }
+                      },
+                      "top": {
+                        "small": {
+                          "value": "{space.stack.2x}",
+                          "attributes": {
+                            "domain": "component",
+                            "category": "shared",
+                            "component": "dropdown",
+                            "type": "dropdown",
+                            "item": "measurements",
+                            "subitem": "container",
+                            "state": "nested"
+                          }
+                        }
+                      }
+                    },
+                    "inline": {
+                      "small": {
+                        "medium": {
+                          "value": "{space.inline.2x}",
+                          "attributes": {
+                            "domain": "component",
+                            "category": "shared",
+                            "component": "dropdown",
+                            "hidden": false,
+                            "type": "dropdown",
+                            "item": "measurements",
+                            "subitem": "container",
+                            "state": "nested"
+                          }
+                        }
+                      }
+                    }
+                  }
+                },
+                "space": {
+                  "inset": {
+                    "right": {
+                      "medium": {
+                        "value": "{space.inset.4x}",
+                        "attributes": {
+                          "domain": "component",
+                          "category": "shared",
+                          "component": "dropdown",
+                          "type": "dropdown",
+                          "item": "measurements",
+                          "subitem": "container",
+                          "state": "space"
+                        }
+                      }
+                    },
+                    "left": {
+                      "medium": {
+                        "value": "{space.inset.4x}",
+                        "attributes": {
+                          "domain": "component",
+                          "category": "shared",
+                          "component": "dropdown",
+                          "type": "dropdown",
+                          "item": "measurements",
+                          "subitem": "container",
+                          "state": "space"
+                        }
+                      }
+                    }
+                  },
+                  "stack": {
+                    "bottom": {
+                      "small": {
+                        "value": "{space.stack.2x}",
+                        "attributes": {
+                          "domain": "component",
+                          "category": "shared",
+                          "component": "dropdown",
+                          "type": "dropdown",
+                          "item": "measurements",
+                          "subitem": "container",
+                          "state": "space"
+                        }
+                      }
+                    }
+                  },
+                  "inline": {
+                    "small": {
+                      "medium": {
+                        "value": "{space.inline.2x}",
+                        "attributes": {
+                          "domain": "component",
+                          "category": "shared",
+                          "component": "dropdown",
+                          "hidden": false,
+                          "type": "dropdown",
+                          "item": "measurements",
+                          "subitem": "container",
+                          "state": "space"
+                        }
+                      }
+                    }
+                  }
+                }
+              },
+              "support": {
+                "type": "spacing",
+                "text": {
+                  "space": {
+                    "stack": {
+                      "bottom": {
+                        "small": {
+                          "value": "{space.stack.2x}",
+                          "attributes": {
+                            "domain": "component",
+                            "category": "shared",
+                            "component": "dropdown",
+                            "hidden": false,
+                            "type": "dropdown",
+                            "item": "measurements",
+                            "subitem": "support",
+                            "state": "text"
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "prefix": {
+              "icon": {
+                "size": {
+                  "type": "sizing",
+                  "value": "{size.square.5}",
+                  "attributes": {
+                    "domain": "component",
+                    "category": "shared",
+                    "component": "dropdown",
+                    "hidden": false,
+                    "type": "dropdown",
+                    "item": "prefix",
+                    "subitem": "icon",
+                    "state": "size"
+                  }
+                }
+              }
+            },
+            "suffix": {
+              "icon": {
+                "size": {
+                  "type": "sizing",
+                  "value": "{size.square.5}",
+                  "attributes": {
+                    "domain": "component",
+                    "category": "shared",
+                    "component": "dropdown",
+                    "hidden": false,
+                    "type": "dropdown",
+                    "item": "suffix",
+                    "subitem": "icon",
+                    "state": "size"
+                  }
+                }
+              }
+            },
+            "info-text": {
+              "type": "sizing",
+              "font": {
+                "size": {
+                  "default": {
+                    "value": "{font.typescale.detail.medium.size}",
+                    "attributes": {
+                      "domain": "component",
+                      "category": "shared",
+                      "component": "dropdown",
+                      "hidden": false,
+                      "type": "dropdown",
+                      "item": "info-text",
+                      "subitem": "font",
+                      "state": "size"
+                    }
+                  }
+                }
+              }
+            },
+            "support-text": {
+              "type": "sizing",
+              "font": {
+                "size": {
+                  "error": {
+                    "value": "{font.typescale.detail.medium.size}",
+                    "attributes": {
+                      "domain": "component",
+                      "category": "shared",
+                      "component": "dropdown",
+                      "hidden": false,
+                      "type": "dropdown",
+                      "item": "support-text",
+                      "subitem": "font",
+                      "state": "size"
+                    }
+                  },
+                  "warning": {
+                    "value": "{font.typescale.detail.medium.size}",
+                    "attributes": {
+                      "domain": "component",
+                      "category": "shared",
+                      "component": "dropdown",
+                      "hidden": false,
+                      "type": "dropdown",
+                      "item": "support-text",
+                      "subitem": "font",
+                      "state": "size"
+                    }
+                  }
+                }
+              }
+            },
+            "trailing-icon": {
+              "size": {
+                "type": "sizing",
+                "value": "1rem",
+                "attributes": {
+                  "domain": "component",
+                  "category": "shared",
+                  "component": "dropdown",
+                  "hidden": false,
+                  "type": "dropdown",
+                  "item": "trailing-icon",
+                  "subitem": "size"
+                }
+              }
+            },
+            "nested": {
+              "type": "sizing",
+              "measurements": {
+                "container": {
+                  "size": {
+                    "small": {
+                      "value": "{primitive.size.32}"
+                    },
+                    "medium": {
+                      "value": "{primitive.size.40}",
+                      "attributes": {
+                        "domain": "component",
+                        "category": "shared",
+                        "component": "dropdown",
+                        "type": "dropdown",
+                        "item": "measurements",
+                        "subitem": "container",
+                        "state": "size"
+                      }
+                    },
+                    "large": {
+                      "value": "{primitive.size.48}",
+                      "attributes": {
+                        "domain": "component",
+                        "category": "shared",
+                        "component": "dropdown",
+                        "type": "dropdown",
+                        "item": "measurements",
+                        "subitem": "container",
+                        "state": "size"
+                      }
+                    }
+                  },
+                  "nested": {
+                    "size": {
+                      "small": {
+                        "value": "{primitive.size.60}",
+                        "attributes": {
+                          "domain": "component",
+                          "category": "shared",
+                          "component": "dropdown",
+                          "hidden": false,
+                          "type": "dropdown",
+                          "item": "measurements",
+                          "subitem": "container",
+                          "state": "nested"
+                        }
+                      }
+                    }
+                  }
+                },
+                "type": "sizing"
+              },
+              "prefix": {
+                "icon": {
+                  "size": {
+                    "type": "sizing",
+                    "value": "{size.square.5}",
+                    "attributes": {
+                      "domain": "component",
+                      "category": "shared",
+                      "component": "dropdown",
+                      "hidden": false,
+                      "type": "dropdown",
+                      "item": "prefix",
+                      "subitem": "icon",
+                      "state": "size"
+                    }
+                  }
+                }
+              },
+              "suffix": {
+                "icon": {
+                  "size": {
+                    "type": "sizing",
+                    "value": "{size.square.5}",
+                    "attributes": {
+                      "domain": "component",
+                      "category": "shared",
+                      "component": "dropdown",
+                      "hidden": false,
+                      "type": "dropdown",
+                      "item": "suffix",
+                      "subitem": "icon",
+                      "state": "size"
+                    }
+                  }
+                }
+              },
+              "info-text": {
+                "font": {
+                  "size": {
+                    "default": {
+                      "value": "{font.typescale.detail.medium.size}",
+                      "attributes": {
+                        "domain": "component",
+                        "category": "shared",
+                        "component": "dropdown",
+                        "hidden": false,
+                        "type": "dropdown",
+                        "item": "info-text",
+                        "subitem": "font",
+                        "state": "size"
+                      }
+                    }
+                  }
+                }
+              },
+              "support-text": {
+                "font": {
+                  "size": {
+                    "error": {
+                      "value": "{font.typescale.detail.medium.size}",
+                      "attributes": {
+                        "domain": "component",
+                        "category": "shared",
+                        "component": "dropdown",
+                        "hidden": false,
+                        "type": "dropdown",
+                        "item": "support-text",
+                        "subitem": "font",
+                        "state": "size"
+                      }
+                    },
+                    "warning": {
+                      "value": "{font.typescale.detail.medium.size}",
+                      "attributes": {
+                        "domain": "component",
+                        "category": "shared",
+                        "component": "dropdown",
+                        "hidden": false,
+                        "type": "dropdown",
+                        "item": "support-text",
+                        "subitem": "font",
+                        "state": "size"
+                      }
+                    }
+                  }
+                }
+              },
+              "trailing-icon": {
+                "size": {
+                  "type": "sizing",
+                  "value": "1rem",
+                  "attributes": {
+                    "domain": "component",
+                    "category": "shared",
+                    "component": "dropdown",
+                    "hidden": false,
+                    "type": "dropdown",
+                    "item": "trailing-icon",
+                    "subitem": "size"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
   "$themes": [],
   "$metadata": {
     "tokenSetOrder": [
       "primitive",
       "base",
-      "text_input"
+      "text_input",
+      "dropdown"
     ]
   }
 }
