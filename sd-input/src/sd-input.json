@@ -250,7 +250,7 @@
         "border": {
           "color": {
             "default": {
-              "value": "{palette.eve.cool-gray.50}",
+              "value": "{palette.eve.cool-gray.30}",
               "attributes": {
                 "domain": "component",
                 "category": "shared",
@@ -501,12 +501,56 @@
               "state": "size"
             }
           }
+        },
+        "font": {
+          "size": {
+            "type": "fontSizes",
+            "value": "{font.typescale.body.large.size}",
+            "attributes": {
+              "domain": "component",
+              "category": "shared",
+              "component": "dropdown",
+              "hidden": false,
+              "type": "dropdown",
+              "item": "suffix",
+              "subitem": "font",
+              "state": "size"
+            }
+          },
+          "line-height": {
+            "type": "lineHeights",
+            "value": "{font.typescale.body.large.line-height}",
+            "attributes": {
+              "domain": "component",
+              "category": "shared",
+              "component": "dropdown",
+              "hidden": false,
+              "type": "dropdown",
+              "item": "suffix",
+              "subitem": "font",
+              "state": "line-height"
+            }
+          },
+          "weight": {
+            "type": "fontWeights",
+            "value": "{font.typescale.body.large.weight.regular}",
+            "attributes": {
+              "domain": "component",
+              "category": "shared",
+              "component": "dropdown",
+              "hidden": false,
+              "type": "dropdown",
+              "item": "suffix",
+              "subitem": "font",
+              "state": "weight"
+            }
+          }
         }
       },
       "suffix": {
         "color": {
           "default": {
-            "value": "{palette.eve.cool-gray.30}",
+            "value": "{palette.eve.blue.50}",
             "attributes": {
               "domain": "component",
               "category": "shared",
@@ -599,38 +643,6 @@
       },
       "filled-text": {
         "font": {
-          "color": {
-            "default": {
-              "value": "{palette.eve.cool-gray.30}",
-              "attributes": {
-                "domain": "component",
-                "category": "shared",
-                "component": "dropdown",
-                "hidden": false,
-                "type": "dropdown",
-                "item": "filled-text",
-                "subitem": "font",
-                "state": "color"
-              },
-              "type": "color",
-              "inheritTypeLevel": 6
-            },
-            "disabled": {
-              "value": "{palette.eve.cool-gray.60}",
-              "attributes": {
-                "domain": "component",
-                "category": "shared",
-                "component": "dropdown",
-                "hidden": false,
-                "type": "dropdown",
-                "item": "filled-text",
-                "subitem": "font",
-                "state": "color"
-              },
-              "type": "color",
-              "inheritTypeLevel": 6
-            }
-          },
           "size": {
             "default": {
               "value": "{font.typescale.body.large.size}",
@@ -680,6 +692,23 @@
               },
               "type": "fontWeights",
               "inheritTypeLevel": 6
+            }
+          },
+          "color": {
+            "default": {
+              "value": "{palette.eve.cool-gray.30}",
+              "attributes": {
+                "domain": "component",
+                "category": "shared",
+                "component": "dropdown",
+                "hidden": false,
+                "type": "dropdown",
+                "item": "suffix",
+                "subitem": "color",
+                "state": "default"
+              },
+              "type": "color",
+              "inheritTypeLevel": 5
             }
           }
         }
