@@ -575,7 +575,7 @@
   --figma-dropdown-shared-dropdown-container-border-color-default: #2a3546;
   --figma-dropdown-shared-dropdown-container-border-color-hover: #1358bf;
   --figma-dropdown-shared-dropdown-container-border-color-active: #1358bf;
-  --figma-dropdown-shared-dropdown-container-border-color-focus: #2070e8;
+  --figma-dropdown-shared-dropdown-container-border-color-focus: #1358bf;
   --figma-dropdown-shared-dropdown-container-border-color-disabled: #eef1f6;
   --figma-dropdown-shared-dropdown-container-border-color-error: #cb303f;
   --figma-dropdown-shared-dropdown-container-border-color-warning: #f59300;
@@ -601,6 +601,7 @@
   --figma-dropdown-shared-dropdown-filled-text-font-line-height-default: 1.375;
   --figma-dropdown-shared-dropdown-filled-text-font-weight-default: 400;
   --figma-dropdown-shared-dropdown-filled-text-font-color-default: #2a3546;
+  --figma-dropdown-shared-dropdown-filled-text-font-color-disabled: #94a2b8;
   --figma-dropdown-shared-dropdown-hint-text-font-color-default: #64748b;
   --figma-dropdown-shared-dropdown-hint-text-font-color-disabled: #94a2b8;
   --figma-dropdown-shared-dropdown-hint-text-font-size-default: 1rem;
@@ -614,6 +615,7 @@
   --figma-dropdown-shared-dropdown-support-text-font-color-warning: #2a3546;
   --figma-dropdown-shared-dropdown-support-text-font-size-error: 0.75rem;
   --figma-dropdown-shared-dropdown-support-text-font-size-warning: 0.75rem;
+  --figma-dropdown-shared-dropdown-support-text-font-size-default: 1rem;
   --figma-dropdown-shared-dropdown-support-text-font-line-height-error: 133%;
   --figma-dropdown-shared-dropdown-support-text-font-line-height-warning: 133%;
   --figma-dropdown-shared-dropdown-support-text-font-weight-error: 400;
@@ -683,7 +685,7 @@
   --figma-shared-dropdown-container-border-color-default: #2a3546;
   --figma-shared-dropdown-container-border-color-hover: #1358bf;
   --figma-shared-dropdown-container-border-color-active: #1358bf;
-  --figma-shared-dropdown-container-border-color-focus: #2070e8;
+  --figma-shared-dropdown-container-border-color-focus: #1358bf;
   --figma-shared-dropdown-container-border-color-disabled: #eef1f6;
   --figma-shared-dropdown-container-border-color-error: #cb303f;
   --figma-shared-dropdown-container-border-color-warning: #f59300;
@@ -709,6 +711,7 @@
   --figma-shared-dropdown-filled-text-font-line-height-default: 1.375;
   --figma-shared-dropdown-filled-text-font-weight-default: 400;
   --figma-shared-dropdown-filled-text-font-color-default: #2a3546;
+  --figma-shared-dropdown-filled-text-font-color-disabled: #94a2b8;
   --figma-shared-dropdown-hint-text-font-color-default: #64748b;
   --figma-shared-dropdown-hint-text-font-color-disabled: #94a2b8;
   --figma-shared-dropdown-hint-text-font-size-default: 1rem;
@@ -722,6 +725,7 @@
   --figma-shared-dropdown-support-text-font-color-warning: #2a3546;
   --figma-shared-dropdown-support-text-font-size-error: 0.75rem;
   --figma-shared-dropdown-support-text-font-size-warning: 0.75rem;
+  --figma-shared-dropdown-support-text-font-size-default: 1rem;
   --figma-shared-dropdown-support-text-font-line-height-error: 133%;
   --figma-shared-dropdown-support-text-font-line-height-warning: 133%;
   --figma-shared-dropdown-support-text-font-weight-error: 400;
