@@ -589,7 +589,7 @@
   --figma-dropdown-shared-dropdown-prefix-color-disabled: #94a2b8;
   --figma-dropdown-shared-dropdown-prefix-icon-size: 1rem;
   --figma-dropdown-shared-dropdown-prefix-font-size: 1rem;
-  --figma-dropdown-shared-dropdown-prefix-font-line-height: 1.375;
+  --figma-dropdown-shared-dropdown-prefix-font-line-height-default: 1.375;
   --figma-dropdown-shared-dropdown-prefix-font-weight: 400;
   --figma-dropdown-shared-dropdown-suffix-color-default: #2070e8;
   --figma-dropdown-shared-dropdown-suffix-color-disabled: #94a2b8;
@@ -697,7 +697,7 @@
   --figma-shared-dropdown-prefix-color-disabled: #94a2b8;
   --figma-shared-dropdown-prefix-icon-size: 1rem;
   --figma-shared-dropdown-prefix-font-size: 1rem;
-  --figma-shared-dropdown-prefix-font-line-height: 1.375;
+  --figma-shared-dropdown-prefix-font-line-height-default: 1.375;
   --figma-shared-dropdown-prefix-font-weight: 400;
   --figma-shared-dropdown-suffix-color-default: #2070e8;
   --figma-shared-dropdown-suffix-color-disabled: #94a2b8;

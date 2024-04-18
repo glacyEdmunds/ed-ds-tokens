@@ -517,18 +517,20 @@
               "state": "size"
             }
           },
-          "line-height": {
-            "type": "lineHeights",
-            "value": "{font.typescale.body.large.line-height}",
-            "attributes": {
-              "domain": "component",
-              "category": "shared",
-              "component": "dropdown",
-              "hidden": false,
-              "type": "dropdown",
-              "item": "suffix",
-              "subitem": "font",
-              "state": "line-height"
+          "line_height": {
+            "default": {
+              "type": "lineHeights",
+              "value": "{font.typescale.body.large.line_height}",
+              "attributes": {
+                "domain": "component",
+                "category": "shared",
+                "component": "dropdown",
+                "hidden": false,
+                "type": "dropdown",
+                "item": "suffix",
+                "subitem": "font",
+                "state": "line_height"
+              }
             }
           },
           "weight": {
@@ -611,9 +613,9 @@
               "state": "size"
             }
           },
-          "line-height": {
+          "line_height": {
             "type": "lineHeights",
-            "value": "{font.typescale.body.large.line-height}",
+            "value": "{font.typescale.body.large.line_height}",
             "attributes": {
               "domain": "component",
               "category": "shared",
@@ -622,7 +624,7 @@
               "type": "dropdown",
               "item": "suffix",
               "subitem": "font",
-              "state": "line-height"
+              "state": "line_height"
             }
           },
           "weight": {
@@ -660,9 +662,9 @@
               "inheritTypeLevel": 6
             }
           },
-          "line-height": {
+          "line_height": {
             "default": {
-              "value": "{font.typescale.body.large.line-height}",
+              "value": "{font.typescale.body.large.line_height}",
               "attributes": {
                 "domain": "component",
                 "category": "shared",
@@ -671,7 +673,7 @@
                 "type": "dropdown",
                 "item": "filled-text",
                 "subitem": "font",
-                "state": "line-height"
+                "state": "line_height"
               },
               "type": "lineHeights",
               "inheritTypeLevel": 6
@@ -763,9 +765,9 @@
               }
             }
           },
-          "line-height": {
+          "line_height": {
             "default": {
-              "value": "{font.typescale.body.large.line-height}",
+              "value": "{font.typescale.body.large.line_height}",
               "attributes": {
                 "domain": "component",
                 "category": "shared",
@@ -774,7 +776,7 @@
                 "type": "dropdown",
                 "item": "hint-text",
                 "subitem": "font",
-                "state": "line-height"
+                "state": "line_height"
               },
               "type": "lineHeights",
               "inheritTypeLevel": 6
@@ -835,9 +837,9 @@
               "inheritTypeLevel": 6
             }
           },
-          "line-height": {
+          "line_height": {
             "default": {
-              "value": "{font.typescale.detail.medium.line-height}",
+              "value": "{font.typescale.detail.medium.line_height}",
               "attributes": {
                 "domain": "component",
                 "category": "shared",
@@ -846,7 +848,7 @@
                 "type": "dropdown",
                 "item": "info-text",
                 "subitem": "font",
-                "state": "line-height"
+                "state": "line_height"
               },
               "type": "lineHeights",
               "inheritTypeLevel": 6
@@ -937,9 +939,9 @@
               "inheritTypeLevel": 6
             }
           },
-          "line-height": {
+          "line_height": {
             "error": {
-              "value": "{font.typescale.detail.medium.line-height}",
+              "value": "{font.typescale.detail.medium.line_height}",
               "attributes": {
                 "domain": "component",
                 "category": "shared",
@@ -948,13 +950,13 @@
                 "type": "dropdown",
                 "item": "support-text",
                 "subitem": "font",
-                "state": "line-height"
+                "state": "line_height"
               },
               "type": "lineHeights",
               "inheritTypeLevel": 6
             },
             "warning": {
-              "value": "{font.typescale.detail.medium.line-height}",
+              "value": "{font.typescale.detail.medium.line_height}",
               "attributes": {
                 "domain": "component",
                 "category": "shared",
@@ -963,7 +965,7 @@
                 "type": "dropdown",
                 "item": "support-text",
                 "subitem": "font",
-                "state": "line-height"
+                "state": "line_height"
               },
               "type": "lineHeights",
               "inheritTypeLevel": 6
@@ -2415,9 +2417,9 @@
               "state": "size"
             }
           },
-          "line-height": {
+          "line_height": {
             "type": "lineHeights",
-            "value": "{font.typescale.body.large.line-height}",
+            "value": "{font.typescale.body.large.line_height}",
             "attributes": {
               "domain": "component",
               "category": "shared",
@@ -2426,7 +2428,7 @@
               "type": "text_input",
               "item": "suffix",
               "subitem": "font",
-              "state": "line-height"
+              "state": "line_height"
             }
           },
           "weight": {
@@ -2496,9 +2498,9 @@
               "inheritTypeLevel": 6
             }
           },
-          "line-height": {
+          "line_height": {
             "default": {
-              "value": "{font.typescale.body.large.line-height}",
+              "value": "{font.typescale.body.large.line_height}",
               "attributes": {
                 "domain": "component",
                 "category": "shared",
@@ -2507,7 +2509,7 @@
                 "type": "text_input",
                 "item": "filled-text",
                 "subitem": "font",
-                "state": "line-height"
+                "state": "line_height"
               },
               "type": "lineHeights",
               "inheritTypeLevel": 6
@@ -2582,9 +2584,9 @@
               }
             }
           },
-          "line-height": {
+          "line_height": {
             "default": {
-              "value": "{font.typescale.body.large.line-height}",
+              "value": "{font.typescale.body.large.line_height}",
               "attributes": {
                 "domain": "component",
                 "category": "shared",
@@ -2593,7 +2595,7 @@
                 "type": "text_input",
                 "item": "hint-text",
                 "subitem": "font",
-                "state": "line-height"
+                "state": "line_height"
               },
               "type": "lineHeights",
               "inheritTypeLevel": 6
@@ -2654,9 +2656,9 @@
               "inheritTypeLevel": 6
             }
           },
-          "line-height": {
+          "line_height": {
             "default": {
-              "value": "{font.typescale.detail.medium.line-height}",
+              "value": "{font.typescale.detail.medium.line_height}",
               "attributes": {
                 "domain": "component",
                 "category": "shared",
@@ -2665,7 +2667,7 @@
                 "type": "text_input",
                 "item": "info-text",
                 "subitem": "font",
-                "state": "line-height"
+                "state": "line_height"
               },
               "type": "lineHeights",
               "inheritTypeLevel": 6
@@ -2756,9 +2758,9 @@
               "inheritTypeLevel": 6
             }
           },
-          "line-height": {
+          "line_height": {
             "error": {
-              "value": "{font.typescale.detail.medium.line-height}",
+              "value": "{font.typescale.detail.medium.line_height}",
               "attributes": {
                 "domain": "component",
                 "category": "shared",
@@ -2767,13 +2769,13 @@
                 "type": "text_input",
                 "item": "support-text",
                 "subitem": "font",
-                "state": "line-height"
+                "state": "line_height"
               },
               "type": "lineHeights",
               "inheritTypeLevel": 6
             },
             "warning": {
-              "value": "{font.typescale.detail.medium.line-height}",
+              "value": "{font.typescale.detail.medium.line_height}",
               "attributes": {
                 "domain": "component",
                 "category": "shared",
@@ -2782,7 +2784,7 @@
                 "type": "text_input",
                 "item": "support-text",
                 "subitem": "font",
-                "state": "line-height"
+                "state": "line_height"
               },
               "type": "lineHeights",
               "inheritTypeLevel": 6
@@ -4059,13 +4061,13 @@
         }
       }
     },
-    "line-height": {
+    "line_height": {
       "xx-large": {
         "value": 1.428,
         "type": "lineHeights",
         "attributes": {
           "domain": "font",
-          "category": "line-height",
+          "category": "line_height",
           "hidden": false
         }
       },
@@ -4074,7 +4076,7 @@
         "type": "lineHeights",
         "attributes": {
           "domain": "font",
-          "category": "line-height",
+          "category": "line_height",
           "hidden": false
         }
       },
@@ -4083,7 +4085,7 @@
         "type": "lineHeights",
         "attributes": {
           "domain": "font",
-          "category": "line-height",
+          "category": "line_height",
           "hidden": false
         },
         "description": "1.333"
@@ -4093,7 +4095,7 @@
         "type": "lineHeights",
         "attributes": {
           "domain": "font",
-          "category": "line-height",
+          "category": "line_height",
           "hidden": false
         }
       },
@@ -4102,7 +4104,7 @@
         "type": "lineHeights",
         "attributes": {
           "domain": "font",
-          "category": "line-height",
+          "category": "line_height",
           "hidden": false
         }
       },
@@ -4111,7 +4113,7 @@
         "type": "lineHeights",
         "attributes": {
           "domain": "font",
-          "category": "line-height",
+          "category": "line_height",
           "hidden": false
         }
       },
@@ -4120,7 +4122,7 @@
         "type": "lineHeights",
         "attributes": {
           "domain": "font",
-          "category": "line-height",
+          "category": "line_height",
           "hidden": false
         }
       }
@@ -4181,8 +4183,8 @@
             "value": "{font.size.3}",
             "type": "fontSizes"
           },
-          "line-height": {
-            "value": "{font.line-height.large}",
+          "line_height": {
+            "value": "{font.line_height.large}",
             "type": "lineHeights"
           },
           "weight": {
@@ -4205,8 +4207,8 @@
             "value": "{font.size.2}",
             "type": "fontSizes"
           },
-          "line-height": {
-            "value": "{font.line-height.small}",
+          "line_height": {
+            "value": "{font.line_height.small}",
             "type": "lineHeights"
           },
           "weight": {
@@ -4229,8 +4231,8 @@
             "value": "{font.size.5}",
             "type": "fontSizes"
           },
-          "line-height": {
-            "value": "{font.line-height.x-large}",
+          "line_height": {
+            "value": "{font.line_height.x-large}",
             "type": "lineHeights"
           },
           "weight": {
@@ -4255,8 +4257,8 @@
             "value": "{font.size.5}",
             "type": "fontSizes"
           },
-          "line-height": {
-            "value": "{font.line-height.x-large}",
+          "line_height": {
+            "value": "{font.line_height.x-large}",
             "type": "lineHeights"
           },
           "weight": {
@@ -4279,8 +4281,8 @@
             "value": "{font.size.4}",
             "type": "fontSizes"
           },
-          "line-height": {
-            "value": "{font.line-height.xx-large}",
+          "line_height": {
+            "value": "{font.line_height.xx-large}",
             "type": "lineHeights"
           },
           "weight": {
@@ -4303,8 +4305,8 @@
             "value": "{font.size.4}",
             "type": "fontSizes"
           },
-          "line-height": {
-            "value": "{font.line-height.large}",
+          "line_height": {
+            "value": "{font.line_height.large}",
             "type": "lineHeights"
           },
           "weight": {
