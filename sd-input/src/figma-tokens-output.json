@@ -5866,7 +5866,7 @@
       }
     }
   },
-  "demo": {
+  "core": {
     "core": {
       "colors": {
         "primary": {
@@ -6019,7 +6019,7 @@
       "base",
       "text_input",
       "dropdown",
-      "demo"
+      "core"
     ]
   }
 }
