@@ -504,17 +504,19 @@
         },
         "font": {
           "size": {
-            "type": "fontSizes",
-            "value": "{font.typescale.body.large.size}",
-            "attributes": {
-              "domain": "component",
-              "category": "shared",
-              "component": "dropdown",
-              "hidden": false,
-              "type": "dropdown",
-              "item": "suffix",
-              "subitem": "font",
-              "state": "size"
+            "default": {
+              "type": "fontSizes",
+              "value": "{font.typescale.body.large.size}",
+              "attributes": {
+                "domain": "component",
+                "category": "shared",
+                "component": "dropdown",
+                "hidden": false,
+                "type": "dropdown",
+                "item": "suffix",
+                "subitem": "font",
+                "state": "size"
+              }
             }
           },
           "line_height": {
@@ -614,17 +616,19 @@
             }
           },
           "line_height": {
-            "type": "lineHeights",
-            "value": "{font.typescale.body.large.line_height}",
-            "attributes": {
-              "domain": "component",
-              "category": "shared",
-              "component": "dropdown",
-              "hidden": false,
-              "type": "dropdown",
-              "item": "suffix",
-              "subitem": "font",
-              "state": "line_height"
+            "default": {
+              "type": "lineHeights",
+              "value": "{font.typescale.body.large.line_height}",
+              "attributes": {
+                "domain": "component",
+                "category": "shared",
+                "component": "dropdown",
+                "hidden": false,
+                "type": "dropdown",
+                "item": "suffix",
+                "subitem": "font",
+                "state": "line_height"
+              }
             }
           },
           "weight": {
@@ -826,19 +830,18 @@
           },
           "size": {
             "default": {
-              "value": "{font.typescale.detail.medium.size}",
+              "type": "fontSizes",
+              "value": "{font.typescale.body.large.size}",
               "attributes": {
                 "domain": "component",
                 "category": "shared",
                 "component": "dropdown",
                 "hidden": false,
                 "type": "dropdown",
-                "item": "info-text",
+                "item": "hint-text",
                 "subitem": "font",
                 "state": "size"
-              },
-              "type": "sizing",
-              "inheritTypeLevel": 6
+              }
             }
           },
           "line_height": {
