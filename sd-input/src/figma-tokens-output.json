@@ -4424,7 +4424,7 @@
                 }
               },
               "focus": {
-                "value": "{palette.eve.blue.50}",
+                "value": "{palette.eve.blue.30}",
                 "attributes": {
                   "domain": "component",
                   "category": "shared",
@@ -4812,6 +4812,10 @@
                   "subitem": "color",
                   "state": "default"
                 }
+              },
+              "disabled": {
+                "value": "{palette.eve.cool-gray.60}",
+                "type": "color"
               }
             }
           }
@@ -5023,6 +5027,20 @@
                   "subitem": "font",
                   "state": "size"
                 }
+              },
+              "default": {
+                "type": "fontSizes",
+                "value": "{font.typescale.body.large.size}",
+                "attributes": {
+                  "domain": "component",
+                  "category": "shared",
+                  "component": "dropdown",
+                  "hidden": false,
+                  "type": "dropdown",
+                  "item": "hint-text",
+                  "subitem": "font",
+                  "state": "size"
+                }
               }
             },
             "line_height": {
@@ -5089,7 +5107,7 @@
           "color": {
             "type": "color",
             "success": {
-              "value": "#1a854a",
+              "value": "{palette.eve.green.50}",
               "attributes": {
                 "domain": "component",
                 "category": "shared",
@@ -5102,7 +5120,7 @@
               }
             },
             "error": {
-              "value": "#cb303f",
+              "value": "{palette.eve.red.50}",
               "attributes": {
                 "domain": "component",
                 "category": "shared",
@@ -5115,7 +5133,7 @@
               }
             },
             "warning": {
-              "value": "#f59300",
+              "value": "{shared.text_input.trailing-icon.color.warning}",
               "attributes": {
                 "domain": "component",
                 "category": "shared",
@@ -5130,7 +5148,7 @@
           },
           "size": {
             "type": "sizing",
-            "value": "1rem",
+            "value": "{size.square.5}",
             "attributes": {
               "domain": "component",
               "category": "shared",
@@ -5425,7 +5443,7 @@
           "trailing-icon": {
             "size": {
               "type": "sizing",
-              "value": "1rem",
+              "value": "{size.square.5}",
               "attributes": {
                 "domain": "component",
                 "category": "shared",
@@ -5695,7 +5713,7 @@
             "trailing-icon": {
               "size": {
                 "type": "sizing",
-                "value": "1rem",
+                "value": "{size.square.5}",
                 "attributes": {
                   "domain": "component",
                   "category": "shared",
