@@ -4234,6 +4234,46 @@
                       "subitem": "container",
                       "state": "space"
                     }
+                  },
+                  "medium": {
+                    "value": "{space.stack.3x}",
+                    "attributes": {
+                      "domain": "component",
+                      "category": "shared",
+                      "component": "dropdown",
+                      "type": "dropdown",
+                      "item": "measurements",
+                      "subitem": "container",
+                      "state": "space"
+                    },
+                    "description": "12px"
+                  }
+                },
+                "top": {
+                  "small": {
+                    "value": "{space.stack.2x}",
+                    "attributes": {
+                      "domain": "component",
+                      "category": "shared",
+                      "component": "dropdown",
+                      "type": "dropdown",
+                      "item": "measurements",
+                      "subitem": "container",
+                      "state": "space"
+                    }
+                  },
+                  "medium": {
+                    "value": "{space.stack.3x}",
+                    "attributes": {
+                      "domain": "component",
+                      "category": "shared",
+                      "component": "dropdown",
+                      "type": "dropdown",
+                      "item": "measurements",
+                      "subitem": "container",
+                      "state": "space"
+                    },
+                    "description": "12px"
                   }
                 }
               },
@@ -4926,7 +4966,7 @@
             "size": {
               "default": {
                 "type": "fontSizes",
-                "value": "{font.typescale.body.large.size}",
+                "value": "{font.typescale.detail.medium.size}",
                 "attributes": {
                   "domain": "component",
                   "category": "shared",
@@ -5034,7 +5074,7 @@
               },
               "default": {
                 "type": "fontSizes",
-                "value": "{font.typescale.body.large.size}",
+                "value": "{font.typescale.detail.medium.size}",
                 "attributes": {
                   "domain": "component",
                   "category": "shared",
