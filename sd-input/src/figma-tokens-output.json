@@ -4924,7 +4924,6 @@
               }
             },
             "size": {
-              "type": "fontSizes",
               "default": {
                 "type": "fontSizes",
                 "value": "{font.typescale.body.large.size}",
