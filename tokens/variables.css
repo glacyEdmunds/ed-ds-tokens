@@ -671,6 +671,12 @@
   --figma-dropdown-shared-dropdown-nested-sub-nested-support-text-font-size-error: 0.75rem;
   --figma-dropdown-shared-dropdown-nested-sub-nested-support-text-font-size-warning: 0.75rem;
   --figma-dropdown-shared-dropdown-nested-sub-nested-trailing-icon-size: 1rem;
+  --figma-dropdown-shared-dropdown-nested-sub-filled-text-font-weight-default: 700;
+  --figma-dropdown-shared-dropdown-nested-sub-text-font-line-height-default: 1.428;
+  --figma-dropdown-shared-dropdown-nested-sub-text-font-size-default: 0.875rem;
+  --figma-dropdown-shared-dropdown-nested-sub-text-font-color-default: #2a3546;
+  --figma-dropdown-shared-dropdown-nested-sub-text-font-color-disabled: #94a2b8;
+  --figma-dropdown-shared-dropdown-nested-sub-text-font-weight-default: 400;
   --figma-shared-dropdown-measurements-container-size-small: 2rem;
   --figma-shared-dropdown-measurements-container-size-medium: 2.5rem;
   --figma-shared-dropdown-measurements-container-size-large: 3rem;
@@ -784,6 +790,12 @@
   --figma-shared-dropdown-nested-sub-nested-support-text-font-size-error: 0.75rem;
   --figma-shared-dropdown-nested-sub-nested-support-text-font-size-warning: 0.75rem;
   --figma-shared-dropdown-nested-sub-nested-trailing-icon-size: 1rem;
+  --figma-shared-dropdown-nested-sub-filled-text-font-weight-default: 700;
+  --figma-shared-dropdown-nested-sub-text-font-line-height-default: 1.428;
+  --figma-shared-dropdown-nested-sub-text-font-size-default: 0.875rem;
+  --figma-shared-dropdown-nested-sub-text-font-color-default: #2a3546;
+  --figma-shared-dropdown-nested-sub-text-font-color-disabled: #94a2b8;
+  --figma-shared-dropdown-nested-sub-text-font-weight-default: 400;
   --figma-shared-text-input-measurements-container-size-small: 2rem;
   --figma-shared-text-input-measurements-container-size-medium: 2.5rem;
   --figma-shared-text-input-measurements-container-size-large: 3rem;
