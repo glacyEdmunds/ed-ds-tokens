@@ -5208,133 +5208,7 @@
           "measurements": {
             "container": {
               "type": "spacing",
-              "size": {
-                "small": {
-                  "value": "{primitive.size.32}"
-                },
-                "medium": {
-                  "value": "{primitive.size.40}",
-                  "attributes": {
-                    "domain": "component",
-                    "category": "shared",
-                    "component": "dropdown",
-                    "type": "dropdown",
-                    "item": "measurements",
-                    "subitem": "container",
-                    "state": "size"
-                  }
-                },
-                "large": {
-                  "value": "{primitive.size.48}",
-                  "attributes": {
-                    "domain": "component",
-                    "category": "shared",
-                    "component": "dropdown",
-                    "type": "dropdown",
-                    "item": "measurements",
-                    "subitem": "container",
-                    "state": "size"
-                  }
-                }
-              },
-              "nested": {
-                "type": "spacing",
-                "size": {
-                  "small": {
-                    "value": "{primitive.size.60}",
-                    "attributes": {
-                      "domain": "component",
-                      "category": "shared",
-                      "component": "dropdown",
-                      "hidden": false,
-                      "type": "dropdown",
-                      "item": "measurements",
-                      "subitem": "container",
-                      "state": "nested"
-                    }
-                  }
-                },
-                "space": {
-                  "stack": {
-                    "bottom": {
-                      "small": {
-                        "value": "{space.stack.2x}",
-                        "attributes": {
-                          "domain": "component",
-                          "category": "shared",
-                          "component": "dropdown",
-                          "type": "dropdown",
-                          "item": "measurements",
-                          "subitem": "container",
-                          "state": "nested"
-                        }
-                      }
-                    },
-                    "top": {
-                      "small": {
-                        "value": "{space.stack.2x}",
-                        "attributes": {
-                          "domain": "component",
-                          "category": "shared",
-                          "component": "dropdown",
-                          "type": "dropdown",
-                          "item": "measurements",
-                          "subitem": "container",
-                          "state": "nested"
-                        }
-                      }
-                    }
-                  },
-                  "inline": {
-                    "small": {
-                      "medium": {
-                        "value": "{space.inline.2x}",
-                        "attributes": {
-                          "domain": "component",
-                          "category": "shared",
-                          "component": "dropdown",
-                          "hidden": false,
-                          "type": "dropdown",
-                          "item": "measurements",
-                          "subitem": "container",
-                          "state": "nested"
-                        }
-                      }
-                    }
-                  }
-                }
-              },
               "space": {
-                "inset": {
-                  "right": {
-                    "medium": {
-                      "value": "{space.inset.4x}",
-                      "attributes": {
-                        "domain": "component",
-                        "category": "shared",
-                        "component": "dropdown",
-                        "type": "dropdown",
-                        "item": "measurements",
-                        "subitem": "container",
-                        "state": "space"
-                      }
-                    }
-                  },
-                  "left": {
-                    "medium": {
-                      "value": "{space.inset.4x}",
-                      "attributes": {
-                        "domain": "component",
-                        "category": "shared",
-                        "component": "dropdown",
-                        "type": "dropdown",
-                        "item": "measurements",
-                        "subitem": "container",
-                        "state": "space"
-                      }
-                    }
-                  }
-                },
                 "stack": {
                   "bottom": {
                     "small": {
@@ -5349,17 +5223,14 @@
                         "state": "space"
                       }
                     }
-                  }
-                },
-                "inline": {
-                  "small": {
-                    "medium": {
-                      "value": "{space.inline.2x}",
+                  },
+                  "top": {
+                    "small": {
+                      "value": "{space.stack.2x}",
                       "attributes": {
                         "domain": "component",
                         "category": "shared",
                         "component": "dropdown",
-                        "hidden": false,
                         "type": "dropdown",
                         "item": "measurements",
                         "subitem": "container",
@@ -5369,267 +5240,35 @@
                   }
                 }
               }
-            },
-            "support": {
-              "text": {
-                "type": "spacing",
-                "space": {
-                  "stack": {
-                    "bottom": {
-                      "small": {
-                        "value": "{space.stack.2x}",
-                        "attributes": {
-                          "domain": "component",
-                          "category": "shared",
-                          "component": "dropdown",
-                          "hidden": false,
-                          "type": "dropdown",
-                          "item": "measurements",
-                          "subitem": "support",
-                          "state": "text"
-                        }
-                      }
-                    }
-                  }
-                }
-              }
-            }
-          },
-          "prefix": {
-            "icon": {
-              "size": {
-                "type": "sizing",
-                "value": "{size.square.5}",
-                "attributes": {
-                  "domain": "component",
-                  "category": "shared",
-                  "component": "dropdown",
-                  "hidden": false,
-                  "type": "dropdown",
-                  "item": "prefix",
-                  "subitem": "icon",
-                  "state": "size"
-                }
-              }
-            }
-          },
-          "suffix": {
-            "icon": {
-              "size": {
-                "type": "sizing",
-                "value": "{size.square.5}",
-                "attributes": {
-                  "domain": "component",
-                  "category": "shared",
-                  "component": "dropdown",
-                  "hidden": false,
-                  "type": "dropdown",
-                  "item": "suffix",
-                  "subitem": "icon",
-                  "state": "size"
-                }
-              }
-            }
-          },
-          "info-text": {
-            "font": {
-              "type": "sizing",
-              "size": {
-                "default": {
-                  "value": "{font.typescale.detail.medium.size}",
-                  "attributes": {
-                    "domain": "component",
-                    "category": "shared",
-                    "component": "dropdown",
-                    "hidden": false,
-                    "type": "dropdown",
-                    "item": "info-text",
-                    "subitem": "font",
-                    "state": "size"
-                  }
-                }
-              }
-            }
-          },
-          "support-text": {
-            "font": {
-              "type": "sizing",
-              "size": {
-                "error": {
-                  "value": "{font.typescale.detail.medium.size}",
-                  "attributes": {
-                    "domain": "component",
-                    "category": "shared",
-                    "component": "dropdown",
-                    "hidden": false,
-                    "type": "dropdown",
-                    "item": "support-text",
-                    "subitem": "font",
-                    "state": "size"
-                  }
-                },
-                "warning": {
-                  "value": "{font.typescale.detail.medium.size}",
-                  "attributes": {
-                    "domain": "component",
-                    "category": "shared",
-                    "component": "dropdown",
-                    "hidden": false,
-                    "type": "dropdown",
-                    "item": "support-text",
-                    "subitem": "font",
-                    "state": "size"
-                  }
-                }
-              }
-            }
-          },
-          "trailing-icon": {
-            "size": {
-              "type": "sizing",
-              "value": "{size.square.5}",
-              "attributes": {
-                "domain": "component",
-                "category": "shared",
-                "component": "dropdown",
-                "hidden": false,
-                "type": "dropdown",
-                "item": "trailing-icon",
-                "subitem": "size"
-              }
             }
           },
           "sub": {
             "measurements": {
               "container": {
                 "type": "spacing",
-                "size": {
-                  "small": {
-                    "value": "{primitive.size.60}"
-                  }
-                },
-                "nested": {
-                  "size": {
-                    "small": {
-                      "value": "{primitive.size.60}",
-                      "attributes": {
-                        "domain": "component",
-                        "category": "shared",
-                        "component": "dropdown",
-                        "hidden": false,
-                        "type": "dropdown",
-                        "item": "measurements",
-                        "subitem": "container",
-                        "state": "nested"
-                      }
-                    }
-                  },
-                  "space": {
-                    "stack": {
-                      "bottom": {
-                        "small": {
-                          "value": "{space.stack.2x}",
-                          "attributes": {
-                            "domain": "component",
-                            "category": "shared",
-                            "component": "dropdown",
-                            "type": "dropdown",
-                            "item": "measurements",
-                            "subitem": "container",
-                            "state": "nested"
-                          }
-                        }
-                      },
-                      "top": {
-                        "small": {
-                          "value": "{space.stack.2x}",
-                          "attributes": {
-                            "domain": "component",
-                            "category": "shared",
-                            "component": "dropdown",
-                            "type": "dropdown",
-                            "item": "measurements",
-                            "subitem": "container",
-                            "state": "nested"
-                          }
-                        }
-                      }
-                    },
-                    "inline": {
-                      "small": {
-                        "medium": {
-                          "value": "{space.inline.2x}",
-                          "attributes": {
-                            "domain": "component",
-                            "category": "shared",
-                            "component": "dropdown",
-                            "hidden": false,
-                            "type": "dropdown",
-                            "item": "measurements",
-                            "subitem": "container",
-                            "state": "nested"
-                          }
-                        }
-                      }
-                    }
-                  }
-                },
                 "space": {
-                  "inset": {
-                    "right": {
-                      "medium": {
-                        "value": "{space.inset.4x}",
-                        "attributes": {
-                          "domain": "component",
-                          "category": "shared",
-                          "component": "dropdown",
-                          "type": "dropdown",
-                          "item": "measurements",
-                          "subitem": "container",
-                          "state": "space"
-                        }
-                      }
-                    },
-                    "left": {
-                      "medium": {
-                        "value": "{space.inset.4x}",
-                        "attributes": {
-                          "domain": "component",
-                          "category": "shared",
-                          "component": "dropdown",
-                          "type": "dropdown",
-                          "item": "measurements",
-                          "subitem": "container",
-                          "state": "space"
-                        }
-                      }
-                    }
-                  },
                   "stack": {
                     "bottom": {
-                      "small": {
-                        "value": "{space.stack.2x}",
-                        "attributes": {
-                          "domain": "component",
-                          "category": "shared",
-                          "component": "dropdown",
-                          "type": "dropdown",
-                          "item": "measurements",
-                          "subitem": "container",
-                          "state": "space"
-                        }
-                      }
-                    }
-                  },
-                  "inline": {
-                    "small": {
                       "medium": {
-                        "value": "{space.inline.2x}",
+                        "value": "{space.stack.3x}",
                         "attributes": {
                           "domain": "component",
                           "category": "shared",
                           "component": "dropdown",
-                          "hidden": false,
+                          "type": "dropdown",
+                          "item": "measurements",
+                          "subitem": "container",
+                          "state": "space"
+                        }
+                      }
+                    },
+                    "top": {
+                      "medium": {
+                        "value": "{space.stack.3x}",
+                        "attributes": {
+                          "domain": "component",
+                          "category": "shared",
+                          "component": "dropdown",
                           "type": "dropdown",
                           "item": "measurements",
                           "subitem": "container",
@@ -5637,290 +5276,6 @@
                         }
                       }
                     }
-                  }
-                }
-              },
-              "support": {
-                "type": "spacing",
-                "text": {
-                  "space": {
-                    "stack": {
-                      "bottom": {
-                        "small": {
-                          "value": "{space.stack.2x}",
-                          "attributes": {
-                            "domain": "component",
-                            "category": "shared",
-                            "component": "dropdown",
-                            "hidden": false,
-                            "type": "dropdown",
-                            "item": "measurements",
-                            "subitem": "support",
-                            "state": "text"
-                          }
-                        }
-                      }
-                    }
-                  }
-                }
-              }
-            },
-            "prefix": {
-              "icon": {
-                "size": {
-                  "type": "sizing",
-                  "value": "{size.square.5}",
-                  "attributes": {
-                    "domain": "component",
-                    "category": "shared",
-                    "component": "dropdown",
-                    "hidden": false,
-                    "type": "dropdown",
-                    "item": "prefix",
-                    "subitem": "icon",
-                    "state": "size"
-                  }
-                }
-              }
-            },
-            "suffix": {
-              "icon": {
-                "size": {
-                  "type": "sizing",
-                  "value": "{size.square.5}",
-                  "attributes": {
-                    "domain": "component",
-                    "category": "shared",
-                    "component": "dropdown",
-                    "hidden": false,
-                    "type": "dropdown",
-                    "item": "suffix",
-                    "subitem": "icon",
-                    "state": "size"
-                  }
-                }
-              }
-            },
-            "info-text": {
-              "type": "sizing",
-              "font": {
-                "size": {
-                  "default": {
-                    "value": "{font.typescale.detail.medium.size}",
-                    "attributes": {
-                      "domain": "component",
-                      "category": "shared",
-                      "component": "dropdown",
-                      "hidden": false,
-                      "type": "dropdown",
-                      "item": "info-text",
-                      "subitem": "font",
-                      "state": "size"
-                    }
-                  }
-                }
-              }
-            },
-            "support-text": {
-              "type": "sizing",
-              "font": {
-                "size": {
-                  "error": {
-                    "value": "{font.typescale.detail.medium.size}",
-                    "attributes": {
-                      "domain": "component",
-                      "category": "shared",
-                      "component": "dropdown",
-                      "hidden": false,
-                      "type": "dropdown",
-                      "item": "support-text",
-                      "subitem": "font",
-                      "state": "size"
-                    }
-                  },
-                  "warning": {
-                    "value": "{font.typescale.detail.medium.size}",
-                    "attributes": {
-                      "domain": "component",
-                      "category": "shared",
-                      "component": "dropdown",
-                      "hidden": false,
-                      "type": "dropdown",
-                      "item": "support-text",
-                      "subitem": "font",
-                      "state": "size"
-                    }
-                  }
-                }
-              }
-            },
-            "trailing-icon": {
-              "size": {
-                "type": "sizing",
-                "value": "{size.square.5}",
-                "attributes": {
-                  "domain": "component",
-                  "category": "shared",
-                  "component": "dropdown",
-                  "hidden": false,
-                  "type": "dropdown",
-                  "item": "trailing-icon",
-                  "subitem": "size"
-                }
-              }
-            },
-            "nested": {
-              "measurements": {
-                "type": "sizing",
-                "container": {
-                  "size": {
-                    "small": {
-                      "value": "{primitive.size.32}"
-                    },
-                    "medium": {
-                      "value": "{primitive.size.40}",
-                      "attributes": {
-                        "domain": "component",
-                        "category": "shared",
-                        "component": "dropdown",
-                        "type": "dropdown",
-                        "item": "measurements",
-                        "subitem": "container",
-                        "state": "size"
-                      }
-                    },
-                    "large": {
-                      "value": "{primitive.size.48}",
-                      "attributes": {
-                        "domain": "component",
-                        "category": "shared",
-                        "component": "dropdown",
-                        "type": "dropdown",
-                        "item": "measurements",
-                        "subitem": "container",
-                        "state": "size"
-                      }
-                    }
-                  },
-                  "nested": {
-                    "size": {
-                      "small": {
-                        "value": "{primitive.size.60}",
-                        "attributes": {
-                          "domain": "component",
-                          "category": "shared",
-                          "component": "dropdown",
-                          "hidden": false,
-                          "type": "dropdown",
-                          "item": "measurements",
-                          "subitem": "container",
-                          "state": "nested"
-                        }
-                      }
-                    }
-                  }
-                }
-              },
-              "prefix": {
-                "icon": {
-                  "size": {
-                    "type": "sizing",
-                    "value": "{size.square.5}",
-                    "attributes": {
-                      "domain": "component",
-                      "category": "shared",
-                      "component": "dropdown",
-                      "hidden": false,
-                      "type": "dropdown",
-                      "item": "prefix",
-                      "subitem": "icon",
-                      "state": "size"
-                    }
-                  }
-                }
-              },
-              "suffix": {
-                "icon": {
-                  "size": {
-                    "type": "sizing",
-                    "value": "{size.square.5}",
-                    "attributes": {
-                      "domain": "component",
-                      "category": "shared",
-                      "component": "dropdown",
-                      "hidden": false,
-                      "type": "dropdown",
-                      "item": "suffix",
-                      "subitem": "icon",
-                      "state": "size"
-                    }
-                  }
-                }
-              },
-              "type": "sizing",
-              "info-text": {
-                "font": {
-                  "size": {
-                    "default": {
-                      "value": "{font.typescale.detail.medium.size}",
-                      "attributes": {
-                        "domain": "component",
-                        "category": "shared",
-                        "component": "dropdown",
-                        "hidden": false,
-                        "type": "dropdown",
-                        "item": "info-text",
-                        "subitem": "font",
-                        "state": "size"
-                      }
-                    }
-                  }
-                }
-              },
-              "support-text": {
-                "font": {
-                  "size": {
-                    "error": {
-                      "value": "{font.typescale.detail.medium.size}",
-                      "attributes": {
-                        "domain": "component",
-                        "category": "shared",
-                        "component": "dropdown",
-                        "hidden": false,
-                        "type": "dropdown",
-                        "item": "support-text",
-                        "subitem": "font",
-                        "state": "size"
-                      }
-                    },
-                    "warning": {
-                      "value": "{font.typescale.detail.medium.size}",
-                      "attributes": {
-                        "domain": "component",
-                        "category": "shared",
-                        "component": "dropdown",
-                        "hidden": false,
-                        "type": "dropdown",
-                        "item": "support-text",
-                        "subitem": "font",
-                        "state": "size"
-                      }
-                    }
-                  }
-                }
-              },
-              "trailing-icon": {
-                "size": {
-                  "type": "sizing",
-                  "value": "1rem",
-                  "attributes": {
-                    "domain": "component",
-                    "category": "shared",
-                    "component": "dropdown",
-                    "hidden": false,
-                    "type": "dropdown",
-                    "item": "trailing-icon",
-                    "subitem": "size"
                   }
                 }
               }
@@ -5946,23 +5301,7 @@
               }
             },
             "text": {
-              "type": "fontWeights",
               "font": {
-                "line_height": {
-                  "default": {
-                    "value": "{font.typescale.body.medium.line_height}",
-                    "attributes": {
-                      "domain": "component",
-                      "category": "shared",
-                      "component": "dropdown",
-                      "hidden": false,
-                      "type": "dropdown",
-                      "item": "hint-text",
-                      "subitem": "font",
-                      "state": "line_height"
-                    }
-                  }
-                },
                 "size": {
                   "default": {
                     "type": "fontSizes",
@@ -5980,21 +5319,12 @@
                   }
                 },
                 "color": {
-                  "default": {
-                    "value": "{palette.eve.cool-gray.30}",
-                    "attributes": {
-                      "domain": "component",
-                      "category": "shared",
-                      "component": "dropdown",
-                      "hidden": false,
-                      "type": "dropdown",
-                      "item": "suffix",
-                      "subitem": "color",
-                      "state": "default"
-                    }
-                  },
                   "disabled": {
                     "value": "{palette.eve.cool-gray.60}",
+                    "type": "color"
+                  },
+                  "default": {
+                    "value": "{palette.eve.cool-gray.30}",
                     "type": "color"
                   }
                 },
@@ -6012,10 +5342,26 @@
                       "state": "weight"
                     }
                   }
+                },
+                "line_height": {
+                  "default": {
+                    "type": "lineHeights",
+                    "value": "{font.typescale.body.medium.line_height}",
+                    "attributes": {
+                      "domain": "component",
+                      "category": "shared",
+                      "component": "dropdown",
+                      "hidden": false,
+                      "type": "dropdown",
+                      "item": "suffix",
+                      "subitem": "font",
+                      "state": "line_height"
+                    }
+                  }
                 }
-              }
-            },
-            "type": "color"
+              },
+              "type": "fontWeights"
+            }
           }
         }
       }
