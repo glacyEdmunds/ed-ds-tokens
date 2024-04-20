@@ -4234,19 +4234,6 @@
                       "subitem": "container",
                       "state": "space"
                     }
-                  },
-                  "medium": {
-                    "value": "{space.stack.3x}",
-                    "attributes": {
-                      "domain": "component",
-                      "category": "shared",
-                      "component": "dropdown",
-                      "type": "dropdown",
-                      "item": "measurements",
-                      "subitem": "container",
-                      "state": "space"
-                    },
-                    "description": "12px"
                   }
                 },
                 "top": {
@@ -4261,19 +4248,6 @@
                       "subitem": "container",
                       "state": "space"
                     }
-                  },
-                  "medium": {
-                    "value": "{space.stack.3x}",
-                    "attributes": {
-                      "domain": "component",
-                      "category": "shared",
-                      "component": "dropdown",
-                      "type": "dropdown",
-                      "item": "measurements",
-                      "subitem": "container",
-                      "state": "space"
-                    },
-                    "description": "12px"
                   }
                 }
               },
@@ -4309,56 +4283,6 @@
                     "item": "measurements",
                     "subitem": "container",
                     "state": "nested"
-                  }
-                }
-              },
-              "space": {
-                "type": "spacing",
-                "stack": {
-                  "bottom": {
-                    "small": {
-                      "value": "{space.stack.2x}",
-                      "attributes": {
-                        "domain": "component",
-                        "category": "shared",
-                        "component": "dropdown",
-                        "type": "dropdown",
-                        "item": "measurements",
-                        "subitem": "container",
-                        "state": "nested"
-                      }
-                    }
-                  },
-                  "top": {
-                    "small": {
-                      "value": "{space.stack.2x}",
-                      "attributes": {
-                        "domain": "component",
-                        "category": "shared",
-                        "component": "dropdown",
-                        "type": "dropdown",
-                        "item": "measurements",
-                        "subitem": "container",
-                        "state": "nested"
-                      }
-                    }
-                  }
-                },
-                "inline": {
-                  "small": {
-                    "medium": {
-                      "value": "{space.inline.2x}",
-                      "attributes": {
-                        "domain": "component",
-                        "category": "shared",
-                        "component": "dropdown",
-                        "hidden": false,
-                        "type": "dropdown",
-                        "item": "measurements",
-                        "subitem": "container",
-                        "state": "nested"
-                      }
-                    }
                   }
                 }
               }
@@ -5045,33 +4969,6 @@
               }
             },
             "size": {
-              "type": "sizing",
-              "error": {
-                "value": "{font.typescale.detail.medium.size}",
-                "attributes": {
-                  "domain": "component",
-                  "category": "shared",
-                  "component": "dropdown",
-                  "hidden": false,
-                  "type": "dropdown",
-                  "item": "support-text",
-                  "subitem": "font",
-                  "state": "size"
-                }
-              },
-              "warning": {
-                "value": "{font.typescale.detail.medium.size}",
-                "attributes": {
-                  "domain": "component",
-                  "category": "shared",
-                  "component": "dropdown",
-                  "hidden": false,
-                  "type": "dropdown",
-                  "item": "support-text",
-                  "subitem": "font",
-                  "state": "size"
-                }
-              },
               "default": {
                 "type": "fontSizes",
                 "value": "{font.typescale.detail.medium.size}",
