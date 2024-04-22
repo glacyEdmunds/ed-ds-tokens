@@ -2441,13 +2441,13 @@
           }
         }
       },
-      "line-height": {
+      "line_height": {
         "xx-large": {
           "value": "1.428",
           "type": "lineHeights",
           "attributes": {
             "domain": "font",
-            "category": "line-height",
+            "category": "line_height",
             "hidden": false
           }
         },
@@ -2456,7 +2456,7 @@
           "type": "lineHeights",
           "attributes": {
             "domain": "font",
-            "category": "line-height",
+            "category": "line_height",
             "hidden": false
           }
         },
@@ -2465,7 +2465,7 @@
           "type": "lineHeights",
           "attributes": {
             "domain": "font",
-            "category": "line-height",
+            "category": "line_height",
             "hidden": false
           },
           "description": "1.333"
@@ -2475,7 +2475,7 @@
           "type": "lineHeights",
           "attributes": {
             "domain": "font",
-            "category": "line-height",
+            "category": "line_height",
             "hidden": false
           }
         },
@@ -2484,7 +2484,7 @@
           "type": "lineHeights",
           "attributes": {
             "domain": "font",
-            "category": "line-height",
+            "category": "line_height",
             "hidden": false
           }
         },
@@ -2493,7 +2493,7 @@
           "type": "lineHeights",
           "attributes": {
             "domain": "font",
-            "category": "line-height",
+            "category": "line_height",
             "hidden": false
           }
         },
@@ -2502,7 +2502,7 @@
           "type": "lineHeights",
           "attributes": {
             "domain": "font",
-            "category": "line-height",
+            "category": "line_height",
             "hidden": false
           }
         }
@@ -2563,8 +2563,8 @@
               "value": "{font.size.3}",
               "type": "fontSizes"
             },
-            "line-height": {
-              "value": "{font.line-height.large}",
+            "line_height": {
+              "value": "{font.line_height.large}",
               "type": "lineHeights"
             },
             "weight": {
@@ -2587,8 +2587,8 @@
               "value": "{font.size.2}",
               "type": "fontSizes"
             },
-            "line-height": {
-              "value": "{font.line-height.small}",
+            "line_height": {
+              "value": "{font.line_height.small}",
               "type": "lineHeights"
             },
             "weight": {
@@ -2611,8 +2611,8 @@
               "value": "{font.size.5}",
               "type": "fontSizes"
             },
-            "line-height": {
-              "value": "{font.line-height.x-large}",
+            "line_height": {
+              "value": "{font.line_height.x-large}",
               "type": "lineHeights"
             },
             "weight": {
@@ -2637,8 +2637,8 @@
               "value": "{font.size.5}",
               "type": "fontSizes"
             },
-            "line-height": {
-              "value": "{font.line-height.x-large}",
+            "line_height": {
+              "value": "{font.line_height.x-large}",
               "type": "lineHeights"
             },
             "weight": {
@@ -2661,8 +2661,8 @@
               "value": "{font.size.4}",
               "type": "fontSizes"
             },
-            "line-height": {
-              "value": "{font.line-height.xx-large}",
+            "line_height": {
+              "value": "{font.line_height.xx-large}",
               "type": "lineHeights"
             },
             "weight": {
@@ -2685,8 +2685,8 @@
               "value": "{font.size.4}",
               "type": "fontSizes"
             },
-            "line-height": {
-              "value": "{font.line-height.large}",
+            "line_height": {
+              "value": "{font.line_height.large}",
               "type": "lineHeights"
             },
             "weight": {
