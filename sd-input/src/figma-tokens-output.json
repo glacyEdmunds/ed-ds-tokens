@@ -4575,10 +4575,10 @@
                 }
               }
             },
-            "line-height": {
+            "line_height": {
               "default": {
                 "type": "lineHeights",
-                "value": "{font.typescale.body.large.line-height}",
+                "value": "{font.typescale.body.large.line_height}",
                 "attributes": {
                   "domain": "component",
                   "category": "shared",
@@ -4587,7 +4587,7 @@
                   "type": "dropdown",
                   "item": "suffix",
                   "subitem": "font",
-                  "state": "line-height"
+                  "state": "line_height"
                 }
               }
             },
@@ -4672,10 +4672,10 @@
                 "state": "size"
               }
             },
-            "line-height": {
+            "line_height": {
               "default": {
                 "type": "lineHeights",
-                "value": "{font.typescale.body.large.line-height}",
+                "value": "{font.typescale.body.large.line_height}",
                 "attributes": {
                   "domain": "component",
                   "category": "shared",
@@ -4684,7 +4684,7 @@
                   "type": "dropdown",
                   "item": "suffix",
                   "subitem": "font",
-                  "state": "line-height"
+                  "state": "line_height"
                 }
               }
             },
@@ -4722,10 +4722,10 @@
                 }
               }
             },
-            "line-height": {
+            "line_height": {
               "type": "lineHeights",
               "default": {
-                "value": "{font.typescale.body.large.line-height}",
+                "value": "{font.typescale.body.large.line_height}",
                 "attributes": {
                   "domain": "component",
                   "category": "shared",
@@ -4734,7 +4734,7 @@
                   "type": "dropdown",
                   "item": "filled_text",
                   "subitem": "font",
-                  "state": "line-height"
+                  "state": "line_height"
                 }
               }
             },
@@ -4804,10 +4804,10 @@
                 }
               }
             },
-            "line-height": {
+            "line_height": {
               "type": "lineHeights",
               "default": {
-                "value": "{font.typescale.body.large.line-height}",
+                "value": "{font.typescale.body.large.line_height}",
                 "attributes": {
                   "domain": "component",
                   "category": "shared",
@@ -4816,7 +4816,7 @@
                   "type": "dropdown",
                   "item": "hint_text",
                   "subitem": "font",
-                  "state": "line-height"
+                  "state": "line_height"
                 }
               }
             },
@@ -4872,10 +4872,10 @@
                 }
               }
             },
-            "line-height": {
+            "line_height": {
               "type": "lineHeights",
               "default": {
-                "value": "{font.typescale.detail.medium.line-height}",
+                "value": "{font.typescale.detail.medium.line_height}",
                 "attributes": {
                   "domain": "component",
                   "category": "shared",
@@ -4884,7 +4884,7 @@
                   "type": "dropdown",
                   "item": "info_text",
                   "subitem": "font",
-                  "state": "line-height"
+                  "state": "line_height"
                 }
               }
             },
@@ -4966,10 +4966,10 @@
                 }
               }
             },
-            "line-height": {
+            "line_height": {
               "type": "lineHeights",
               "default": {
-                "value": "{font.typescale.detail.medium.line-height}",
+                "value": "{font.typescale.detail.medium.line_height}",
                 "attributes": {
                   "domain": "component",
                   "category": "shared",
@@ -4978,7 +4978,7 @@
                   "type": "dropdown",
                   "item": "support_text",
                   "subitem": "font",
-                  "state": "line-height"
+                  "state": "line_height"
                 }
               }
             },
@@ -5231,10 +5231,10 @@
                     }
                   }
                 },
-                "line-height": {
+                "line_height": {
                   "default": {
                     "type": "lineHeights",
-                    "value": "{font.typescale.body.medium.line-height}",
+                    "value": "{font.typescale.body.medium.line_height}",
                     "attributes": {
                       "domain": "component",
                       "category": "shared",
@@ -5243,7 +5243,7 @@
                       "type": "dropdown",
                       "item": "suffix",
                       "subitem": "font",
-                      "state": "line-height"
+                      "state": "line_height"
                     }
                   }
                 }
