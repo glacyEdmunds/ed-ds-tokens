@@ -2461,7 +2461,7 @@
           }
         },
         "large": {
-          "value": "133%",
+          "value": "1.333",
           "type": "lineHeights",
           "attributes": {
             "domain": "font",
@@ -4235,6 +4235,20 @@
                       "state": "space"
                     }
                   }
+                },
+                "top": {
+                  "small": {
+                    "value": "{space.stack.2x}",
+                    "attributes": {
+                      "domain": "component",
+                      "category": "shared",
+                      "component": "dropdown",
+                      "type": "dropdown",
+                      "item": "measurements",
+                      "subitem": "container",
+                      "state": "space"
+                    }
+                  }
                 }
               },
               "inline": {
@@ -4250,74 +4264,6 @@
                       "item": "measurements",
                       "subitem": "container",
                       "state": "space"
-                    }
-                  }
-                }
-              }
-            },
-            "nested": {
-              "size": {
-                "type": "sizing",
-                "small": {
-                  "value": "{primitive.size.60}",
-                  "attributes": {
-                    "domain": "component",
-                    "category": "shared",
-                    "component": "dropdown",
-                    "hidden": false,
-                    "type": "dropdown",
-                    "item": "measurements",
-                    "subitem": "container",
-                    "state": "nested"
-                  }
-                }
-              },
-              "space": {
-                "type": "spacing",
-                "stack": {
-                  "bottom": {
-                    "small": {
-                      "value": "{space.stack.2x}",
-                      "attributes": {
-                        "domain": "component",
-                        "category": "shared",
-                        "component": "dropdown",
-                        "type": "dropdown",
-                        "item": "measurements",
-                        "subitem": "container",
-                        "state": "nested"
-                      }
-                    }
-                  },
-                  "top": {
-                    "small": {
-                      "value": "{space.stack.2x}",
-                      "attributes": {
-                        "domain": "component",
-                        "category": "shared",
-                        "component": "dropdown",
-                        "type": "dropdown",
-                        "item": "measurements",
-                        "subitem": "container",
-                        "state": "nested"
-                      }
-                    }
-                  }
-                },
-                "inline": {
-                  "small": {
-                    "medium": {
-                      "value": "{space.inline.2x}",
-                      "attributes": {
-                        "domain": "component",
-                        "category": "shared",
-                        "component": "dropdown",
-                        "hidden": false,
-                        "type": "dropdown",
-                        "item": "measurements",
-                        "subitem": "container",
-                        "state": "nested"
-                      }
                     }
                   }
                 }
@@ -4596,17 +4542,19 @@
           },
           "icon": {
             "size": {
-              "type": "sizing",
-              "value": "{size.square.5}",
-              "attributes": {
-                "domain": "component",
-                "category": "shared",
-                "component": "dropdown",
-                "hidden": false,
-                "type": "dropdown",
-                "item": "prefix",
-                "subitem": "icon",
-                "state": "size"
+              "default": {
+                "type": "sizing",
+                "value": "{size.square.5}",
+                "attributes": {
+                  "domain": "component",
+                  "category": "shared",
+                  "component": "dropdown",
+                  "hidden": false,
+                  "type": "dropdown",
+                  "item": "prefix",
+                  "subitem": "icon",
+                  "state": "size"
+                }
               }
             }
           },
@@ -4644,17 +4592,19 @@
               }
             },
             "weight": {
-              "type": "fontWeights",
-              "value": "{font.typescale.body.large.weight.regular}",
-              "attributes": {
-                "domain": "component",
-                "category": "shared",
-                "component": "dropdown",
-                "hidden": false,
-                "type": "dropdown",
-                "item": "suffix",
-                "subitem": "font",
-                "state": "weight"
+              "default": {
+                "type": "fontWeights",
+                "value": "{font.typescale.body.large.weight.regular}",
+                "attributes": {
+                  "domain": "component",
+                  "category": "shared",
+                  "component": "dropdown",
+                  "hidden": false,
+                  "type": "dropdown",
+                  "item": "suffix",
+                  "subitem": "font",
+                  "state": "weight"
+                }
               }
             }
           }
@@ -4691,17 +4641,19 @@
           },
           "icon": {
             "size": {
-              "type": "sizing",
-              "value": "{size.square.5}",
-              "attributes": {
-                "domain": "component",
-                "category": "shared",
-                "component": "dropdown",
-                "hidden": false,
-                "type": "dropdown",
-                "item": "suffix",
-                "subitem": "icon",
-                "state": "size"
+              "default": {
+                "type": "sizing",
+                "value": "{size.square.5}",
+                "attributes": {
+                  "domain": "component",
+                  "category": "shared",
+                  "component": "dropdown",
+                  "hidden": false,
+                  "type": "dropdown",
+                  "item": "suffix",
+                  "subitem": "icon",
+                  "state": "size"
+                }
               }
             }
           },
@@ -4752,7 +4704,7 @@
             }
           }
         },
-        "filled-text": {
+        "filled_text": {
           "font": {
             "size": {
               "type": "fontSizes",
@@ -4764,7 +4716,7 @@
                   "component": "dropdown",
                   "hidden": false,
                   "type": "dropdown",
-                  "item": "filled-text",
+                  "item": "filled_text",
                   "subitem": "font",
                   "state": "size"
                 }
@@ -4780,7 +4732,7 @@
                   "component": "dropdown",
                   "hidden": false,
                   "type": "dropdown",
-                  "item": "filled-text",
+                  "item": "filled_text",
                   "subitem": "font",
                   "state": "line_height"
                 }
@@ -4796,7 +4748,7 @@
                   "component": "dropdown",
                   "hidden": false,
                   "type": "dropdown",
-                  "item": "filled-text",
+                  "item": "filled_text",
                   "subitem": "font",
                   "state": "weight"
                 }
@@ -4819,42 +4771,23 @@
               },
               "disabled": {
                 "value": "{palette.eve.cool-gray.60}",
-                "type": "color"
+                "type": "color",
+                "attributes": {
+                  "domain": "component",
+                  "category": "shared",
+                  "component": "dropdown",
+                  "hidden": false,
+                  "type": "dropdown",
+                  "item": "suffix",
+                  "subitem": "color",
+                  "state": "default"
+                }
               }
             }
           }
         },
-        "hint-text": {
+        "hint_text": {
           "font": {
-            "color": {
-              "type": "color",
-              "default": {
-                "value": "{palette.eve.cool-gray.50}",
-                "attributes": {
-                  "domain": "component",
-                  "category": "shared",
-                  "component": "dropdown",
-                  "hidden": false,
-                  "type": "dropdown",
-                  "item": "hint-text",
-                  "subitem": "font",
-                  "state": "color"
-                }
-              },
-              "disabled": {
-                "value": "{palette.eve.cool-gray.60}",
-                "attributes": {
-                  "domain": "component",
-                  "category": "shared",
-                  "component": "dropdown",
-                  "hidden": false,
-                  "type": "dropdown",
-                  "item": "hint-text",
-                  "subitem": "font",
-                  "state": "color"
-                }
-              }
-            },
             "size": {
               "default": {
                 "type": "fontSizes",
@@ -4865,7 +4798,7 @@
                   "component": "dropdown",
                   "hidden": false,
                   "type": "dropdown",
-                  "item": "hint-text",
+                  "item": "hint_text",
                   "subitem": "font",
                   "state": "size"
                 }
@@ -4881,7 +4814,7 @@
                   "component": "dropdown",
                   "hidden": false,
                   "type": "dropdown",
-                  "item": "hint-text",
+                  "item": "hint_text",
                   "subitem": "font",
                   "state": "line_height"
                 }
@@ -4897,7 +4830,7 @@
                   "component": "dropdown",
                   "hidden": false,
                   "type": "dropdown",
-                  "item": "hint-text",
+                  "item": "hint_text",
                   "subitem": "font",
                   "state": "weight"
                 }
@@ -4905,7 +4838,7 @@
             }
           }
         },
-        "info-text": {
+        "info_text": {
           "font": {
             "color": {
               "type": "color",
@@ -4917,7 +4850,7 @@
                   "component": "dropdown",
                   "hidden": false,
                   "type": "dropdown",
-                  "item": "info-text",
+                  "item": "info_text",
                   "subitem": "font",
                   "state": "color"
                 }
@@ -4926,14 +4859,14 @@
             "size": {
               "default": {
                 "type": "fontSizes",
-                "value": "{font.typescale.body.large.size}",
+                "value": "{font.typescale.detail.medium.size}",
                 "attributes": {
                   "domain": "component",
                   "category": "shared",
                   "component": "dropdown",
                   "hidden": false,
                   "type": "dropdown",
-                  "item": "hint-text",
+                  "item": "hint_text",
                   "subitem": "font",
                   "state": "size"
                 }
@@ -4949,7 +4882,7 @@
                   "component": "dropdown",
                   "hidden": false,
                   "type": "dropdown",
-                  "item": "info-text",
+                  "item": "info_text",
                   "subitem": "font",
                   "state": "line_height"
                 }
@@ -4965,7 +4898,7 @@
                   "component": "dropdown",
                   "hidden": false,
                   "type": "dropdown",
-                  "item": "info-text",
+                  "item": "info_text",
                   "subitem": "font",
                   "state": "weight"
                 }
@@ -4973,7 +4906,7 @@
             }
           }
         },
-        "support-text": {
+        "support_text": {
           "font": {
             "color": {
               "type": "color",
@@ -4985,63 +4918,49 @@
                   "component": "dropdown",
                   "hidden": false,
                   "type": "dropdown",
-                  "item": "support-text",
+                  "item": "support_text",
                   "subitem": "font",
                   "state": "color"
                 }
               },
-              "warning": {
-                "value": "{palette.eve.cool-gray.30}",
+              "default": {
+                "value": "{palette.support.info}",
                 "attributes": {
                   "domain": "component",
                   "category": "shared",
                   "component": "dropdown",
                   "hidden": false,
                   "type": "dropdown",
-                  "item": "support-text",
+                  "item": "support_text",
+                  "subitem": "font",
+                  "state": "color"
+                }
+              },
+              "warning": {
+                "value": "{palette.support.warning}",
+                "attributes": {
+                  "domain": "component",
+                  "category": "shared",
+                  "component": "dropdown",
+                  "hidden": false,
+                  "type": "dropdown",
+                  "item": "support_text",
                   "subitem": "font",
                   "state": "color"
                 }
               }
             },
             "size": {
-              "type": "sizing",
-              "error": {
-                "value": "{font.typescale.detail.medium.size}",
-                "attributes": {
-                  "domain": "component",
-                  "category": "shared",
-                  "component": "dropdown",
-                  "hidden": false,
-                  "type": "dropdown",
-                  "item": "support-text",
-                  "subitem": "font",
-                  "state": "size"
-                }
-              },
-              "warning": {
-                "value": "{font.typescale.detail.medium.size}",
-                "attributes": {
-                  "domain": "component",
-                  "category": "shared",
-                  "component": "dropdown",
-                  "hidden": false,
-                  "type": "dropdown",
-                  "item": "support-text",
-                  "subitem": "font",
-                  "state": "size"
-                }
-              },
               "default": {
                 "type": "fontSizes",
-                "value": "{font.typescale.body.large.size}",
+                "value": "{font.typescale.detail.medium.size}",
                 "attributes": {
                   "domain": "component",
                   "category": "shared",
                   "component": "dropdown",
                   "hidden": false,
                   "type": "dropdown",
-                  "item": "hint-text",
+                  "item": "hint_text",
                   "subitem": "font",
                   "state": "size"
                 }
@@ -5049,7 +4968,7 @@
             },
             "line_height": {
               "type": "lineHeights",
-              "error": {
+              "default": {
                 "value": "{font.typescale.detail.medium.line_height}",
                 "attributes": {
                   "domain": "component",
@@ -5057,20 +4976,7 @@
                   "component": "dropdown",
                   "hidden": false,
                   "type": "dropdown",
-                  "item": "support-text",
-                  "subitem": "font",
-                  "state": "line_height"
-                }
-              },
-              "warning": {
-                "value": "{font.typescale.detail.medium.line_height}",
-                "attributes": {
-                  "domain": "component",
-                  "category": "shared",
-                  "component": "dropdown",
-                  "hidden": false,
-                  "type": "dropdown",
-                  "item": "support-text",
+                  "item": "support_text",
                   "subitem": "font",
                   "state": "line_height"
                 }
@@ -5078,7 +4984,7 @@
             },
             "weight": {
               "type": "fontWeights",
-              "error": {
+              "default": {
                 "value": "{font.typescale.detail.medium.weight.regular}",
                 "attributes": {
                   "domain": "component",
@@ -5086,20 +4992,7 @@
                   "component": "dropdown",
                   "hidden": false,
                   "type": "dropdown",
-                  "item": "support-text",
-                  "subitem": "font",
-                  "state": "weight"
-                }
-              },
-              "warning": {
-                "value": "{font.typescale.detail.medium.weight.regular}",
-                "attributes": {
-                  "domain": "component",
-                  "category": "shared",
-                  "component": "dropdown",
-                  "hidden": false,
-                  "type": "dropdown",
-                  "item": "support-text",
+                  "item": "support_text",
                   "subitem": "font",
                   "state": "weight"
                 }
@@ -5107,11 +5000,26 @@
             }
           }
         },
-        "trailing-icon": {
+        "trailing_icon": {
+          "size": {
+            "default": {
+              "type": "sizing",
+              "value": "{size.square.5}",
+              "attributes": {
+                "domain": "component",
+                "category": "shared",
+                "component": "dropdown",
+                "hidden": false,
+                "type": "dropdown",
+                "item": "trailing_icon",
+                "subitem": "size"
+              }
+            }
+          },
           "color": {
             "type": "color",
             "success": {
-              "value": "{palette.eve.green.50}",
+              "value": "{palette.support.success}",
               "attributes": {
                 "domain": "component",
                 "category": "shared",
@@ -5124,7 +5032,7 @@
               }
             },
             "error": {
-              "value": "{palette.eve.red.50}",
+              "value": "{palette.support.error}",
               "attributes": {
                 "domain": "component",
                 "category": "shared",
@@ -5137,7 +5045,20 @@
               }
             },
             "warning": {
-              "value": "{shared.text_input.trailing-icon.color.warning}",
+              "value": "{palette.support.warning}",
+              "attributes": {
+                "domain": "component",
+                "category": "shared",
+                "component": "dropdown",
+                "hidden": false,
+                "type": "dropdown",
+                "item": "trailing-icon",
+                "subitem": "color",
+                "state": "warning"
+              }
+            },
+            "default": {
+              "value": "{palette.support.info}",
               "attributes": {
                 "domain": "component",
                 "category": "shared",
@@ -5149,152 +5070,13 @@
                 "state": "warning"
               }
             }
-          },
-          "size": {
-            "type": "sizing",
-            "value": "{size.square.5}",
-            "attributes": {
-              "domain": "component",
-              "category": "shared",
-              "component": "dropdown",
-              "hidden": false,
-              "type": "dropdown",
-              "item": "trailing-icon",
-              "subitem": "size"
-            }
           }
         },
         "nested": {
           "measurements": {
             "container": {
               "type": "spacing",
-              "size": {
-                "small": {
-                  "value": "{primitive.size.32}"
-                },
-                "medium": {
-                  "value": "{primitive.size.40}",
-                  "attributes": {
-                    "domain": "component",
-                    "category": "shared",
-                    "component": "dropdown",
-                    "type": "dropdown",
-                    "item": "measurements",
-                    "subitem": "container",
-                    "state": "size"
-                  }
-                },
-                "large": {
-                  "value": "{primitive.size.48}",
-                  "attributes": {
-                    "domain": "component",
-                    "category": "shared",
-                    "component": "dropdown",
-                    "type": "dropdown",
-                    "item": "measurements",
-                    "subitem": "container",
-                    "state": "size"
-                  }
-                }
-              },
-              "nested": {
-                "type": "spacing",
-                "size": {
-                  "small": {
-                    "value": "{primitive.size.60}",
-                    "attributes": {
-                      "domain": "component",
-                      "category": "shared",
-                      "component": "dropdown",
-                      "hidden": false,
-                      "type": "dropdown",
-                      "item": "measurements",
-                      "subitem": "container",
-                      "state": "nested"
-                    }
-                  }
-                },
-                "space": {
-                  "stack": {
-                    "bottom": {
-                      "small": {
-                        "value": "{space.stack.2x}",
-                        "attributes": {
-                          "domain": "component",
-                          "category": "shared",
-                          "component": "dropdown",
-                          "type": "dropdown",
-                          "item": "measurements",
-                          "subitem": "container",
-                          "state": "nested"
-                        }
-                      }
-                    },
-                    "top": {
-                      "small": {
-                        "value": "{space.stack.2x}",
-                        "attributes": {
-                          "domain": "component",
-                          "category": "shared",
-                          "component": "dropdown",
-                          "type": "dropdown",
-                          "item": "measurements",
-                          "subitem": "container",
-                          "state": "nested"
-                        }
-                      }
-                    }
-                  },
-                  "inline": {
-                    "small": {
-                      "medium": {
-                        "value": "{space.inline.2x}",
-                        "attributes": {
-                          "domain": "component",
-                          "category": "shared",
-                          "component": "dropdown",
-                          "hidden": false,
-                          "type": "dropdown",
-                          "item": "measurements",
-                          "subitem": "container",
-                          "state": "nested"
-                        }
-                      }
-                    }
-                  }
-                }
-              },
               "space": {
-                "inset": {
-                  "right": {
-                    "medium": {
-                      "value": "{space.inset.4x}",
-                      "attributes": {
-                        "domain": "component",
-                        "category": "shared",
-                        "component": "dropdown",
-                        "type": "dropdown",
-                        "item": "measurements",
-                        "subitem": "container",
-                        "state": "space"
-                      }
-                    }
-                  },
-                  "left": {
-                    "medium": {
-                      "value": "{space.inset.4x}",
-                      "attributes": {
-                        "domain": "component",
-                        "category": "shared",
-                        "component": "dropdown",
-                        "type": "dropdown",
-                        "item": "measurements",
-                        "subitem": "container",
-                        "state": "space"
-                      }
-                    }
-                  }
-                },
                 "stack": {
                   "bottom": {
                     "small": {
@@ -5309,17 +5091,14 @@
                         "state": "space"
                       }
                     }
-                  }
-                },
-                "inline": {
-                  "small": {
-                    "medium": {
-                      "value": "{space.inline.2x}",
+                  },
+                  "top": {
+                    "small": {
+                      "value": "{space.stack.2x}",
                       "attributes": {
                         "domain": "component",
                         "category": "shared",
                         "component": "dropdown",
-                        "hidden": false,
                         "type": "dropdown",
                         "item": "measurements",
                         "subitem": "container",
@@ -5329,267 +5108,35 @@
                   }
                 }
               }
-            },
-            "support": {
-              "text": {
-                "type": "spacing",
-                "space": {
-                  "stack": {
-                    "bottom": {
-                      "small": {
-                        "value": "{space.stack.2x}",
-                        "attributes": {
-                          "domain": "component",
-                          "category": "shared",
-                          "component": "dropdown",
-                          "hidden": false,
-                          "type": "dropdown",
-                          "item": "measurements",
-                          "subitem": "support",
-                          "state": "text"
-                        }
-                      }
-                    }
-                  }
-                }
-              }
-            }
-          },
-          "prefix": {
-            "icon": {
-              "size": {
-                "type": "sizing",
-                "value": "{size.square.5}",
-                "attributes": {
-                  "domain": "component",
-                  "category": "shared",
-                  "component": "dropdown",
-                  "hidden": false,
-                  "type": "dropdown",
-                  "item": "prefix",
-                  "subitem": "icon",
-                  "state": "size"
-                }
-              }
-            }
-          },
-          "suffix": {
-            "icon": {
-              "size": {
-                "type": "sizing",
-                "value": "{size.square.5}",
-                "attributes": {
-                  "domain": "component",
-                  "category": "shared",
-                  "component": "dropdown",
-                  "hidden": false,
-                  "type": "dropdown",
-                  "item": "suffix",
-                  "subitem": "icon",
-                  "state": "size"
-                }
-              }
-            }
-          },
-          "info-text": {
-            "font": {
-              "type": "sizing",
-              "size": {
-                "default": {
-                  "value": "{font.typescale.detail.medium.size}",
-                  "attributes": {
-                    "domain": "component",
-                    "category": "shared",
-                    "component": "dropdown",
-                    "hidden": false,
-                    "type": "dropdown",
-                    "item": "info-text",
-                    "subitem": "font",
-                    "state": "size"
-                  }
-                }
-              }
-            }
-          },
-          "support-text": {
-            "font": {
-              "type": "sizing",
-              "size": {
-                "error": {
-                  "value": "{font.typescale.detail.medium.size}",
-                  "attributes": {
-                    "domain": "component",
-                    "category": "shared",
-                    "component": "dropdown",
-                    "hidden": false,
-                    "type": "dropdown",
-                    "item": "support-text",
-                    "subitem": "font",
-                    "state": "size"
-                  }
-                },
-                "warning": {
-                  "value": "{font.typescale.detail.medium.size}",
-                  "attributes": {
-                    "domain": "component",
-                    "category": "shared",
-                    "component": "dropdown",
-                    "hidden": false,
-                    "type": "dropdown",
-                    "item": "support-text",
-                    "subitem": "font",
-                    "state": "size"
-                  }
-                }
-              }
-            }
-          },
-          "trailing-icon": {
-            "size": {
-              "type": "sizing",
-              "value": "{size.square.5}",
-              "attributes": {
-                "domain": "component",
-                "category": "shared",
-                "component": "dropdown",
-                "hidden": false,
-                "type": "dropdown",
-                "item": "trailing-icon",
-                "subitem": "size"
-              }
             }
           },
           "sub": {
             "measurements": {
               "container": {
                 "type": "spacing",
-                "size": {
-                  "small": {
-                    "value": "{primitive.size.60}"
-                  }
-                },
-                "nested": {
-                  "size": {
-                    "small": {
-                      "value": "{primitive.size.60}",
-                      "attributes": {
-                        "domain": "component",
-                        "category": "shared",
-                        "component": "dropdown",
-                        "hidden": false,
-                        "type": "dropdown",
-                        "item": "measurements",
-                        "subitem": "container",
-                        "state": "nested"
-                      }
-                    }
-                  },
-                  "space": {
-                    "stack": {
-                      "bottom": {
-                        "small": {
-                          "value": "{space.stack.2x}",
-                          "attributes": {
-                            "domain": "component",
-                            "category": "shared",
-                            "component": "dropdown",
-                            "type": "dropdown",
-                            "item": "measurements",
-                            "subitem": "container",
-                            "state": "nested"
-                          }
-                        }
-                      },
-                      "top": {
-                        "small": {
-                          "value": "{space.stack.2x}",
-                          "attributes": {
-                            "domain": "component",
-                            "category": "shared",
-                            "component": "dropdown",
-                            "type": "dropdown",
-                            "item": "measurements",
-                            "subitem": "container",
-                            "state": "nested"
-                          }
-                        }
-                      }
-                    },
-                    "inline": {
-                      "small": {
-                        "medium": {
-                          "value": "{space.inline.2x}",
-                          "attributes": {
-                            "domain": "component",
-                            "category": "shared",
-                            "component": "dropdown",
-                            "hidden": false,
-                            "type": "dropdown",
-                            "item": "measurements",
-                            "subitem": "container",
-                            "state": "nested"
-                          }
-                        }
-                      }
-                    }
-                  }
-                },
                 "space": {
-                  "inset": {
-                    "right": {
-                      "medium": {
-                        "value": "{space.inset.4x}",
-                        "attributes": {
-                          "domain": "component",
-                          "category": "shared",
-                          "component": "dropdown",
-                          "type": "dropdown",
-                          "item": "measurements",
-                          "subitem": "container",
-                          "state": "space"
-                        }
-                      }
-                    },
-                    "left": {
-                      "medium": {
-                        "value": "{space.inset.4x}",
-                        "attributes": {
-                          "domain": "component",
-                          "category": "shared",
-                          "component": "dropdown",
-                          "type": "dropdown",
-                          "item": "measurements",
-                          "subitem": "container",
-                          "state": "space"
-                        }
-                      }
-                    }
-                  },
                   "stack": {
                     "bottom": {
-                      "small": {
-                        "value": "{space.stack.2x}",
-                        "attributes": {
-                          "domain": "component",
-                          "category": "shared",
-                          "component": "dropdown",
-                          "type": "dropdown",
-                          "item": "measurements",
-                          "subitem": "container",
-                          "state": "space"
-                        }
-                      }
-                    }
-                  },
-                  "inline": {
-                    "small": {
                       "medium": {
-                        "value": "{space.inline.2x}",
+                        "value": "{space.stack.3x}",
                         "attributes": {
                           "domain": "component",
                           "category": "shared",
                           "component": "dropdown",
-                          "hidden": false,
+                          "type": "dropdown",
+                          "item": "measurements",
+                          "subitem": "container",
+                          "state": "space"
+                        }
+                      }
+                    },
+                    "top": {
+                      "medium": {
+                        "value": "{space.stack.3x}",
+                        "attributes": {
+                          "domain": "component",
+                          "category": "shared",
+                          "component": "dropdown",
                           "type": "dropdown",
                           "item": "measurements",
                           "subitem": "container",
@@ -5599,211 +5146,34 @@
                     }
                   }
                 }
-              },
-              "support": {
-                "type": "spacing",
-                "text": {
-                  "space": {
-                    "stack": {
-                      "bottom": {
-                        "small": {
-                          "value": "{space.stack.2x}",
-                          "attributes": {
-                            "domain": "component",
-                            "category": "shared",
-                            "component": "dropdown",
-                            "hidden": false,
-                            "type": "dropdown",
-                            "item": "measurements",
-                            "subitem": "support",
-                            "state": "text"
-                          }
-                        }
-                      }
+              }
+            },
+            "filled_text": {
+              "type": "fontWeights",
+              "font": {
+                "weight": {
+                  "default": {
+                    "value": "{font.typescale.body.large.weight.bold}",
+                    "attributes": {
+                      "domain": "component",
+                      "category": "shared",
+                      "component": "dropdown",
+                      "hidden": false,
+                      "type": "dropdown",
+                      "item": "filled_text",
+                      "subitem": "font",
+                      "state": "weight"
                     }
                   }
                 }
               }
             },
-            "prefix": {
-              "icon": {
-                "size": {
-                  "type": "sizing",
-                  "value": "{size.square.5}",
-                  "attributes": {
-                    "domain": "component",
-                    "category": "shared",
-                    "component": "dropdown",
-                    "hidden": false,
-                    "type": "dropdown",
-                    "item": "prefix",
-                    "subitem": "icon",
-                    "state": "size"
-                  }
-                }
-              }
-            },
-            "suffix": {
-              "icon": {
-                "size": {
-                  "type": "sizing",
-                  "value": "{size.square.5}",
-                  "attributes": {
-                    "domain": "component",
-                    "category": "shared",
-                    "component": "dropdown",
-                    "hidden": false,
-                    "type": "dropdown",
-                    "item": "suffix",
-                    "subitem": "icon",
-                    "state": "size"
-                  }
-                }
-              }
-            },
-            "info-text": {
-              "type": "sizing",
+            "text": {
               "font": {
                 "size": {
                   "default": {
-                    "value": "{font.typescale.detail.medium.size}",
-                    "attributes": {
-                      "domain": "component",
-                      "category": "shared",
-                      "component": "dropdown",
-                      "hidden": false,
-                      "type": "dropdown",
-                      "item": "info-text",
-                      "subitem": "font",
-                      "state": "size"
-                    }
-                  }
-                }
-              }
-            },
-            "support-text": {
-              "type": "sizing",
-              "font": {
-                "size": {
-                  "error": {
-                    "value": "{font.typescale.detail.medium.size}",
-                    "attributes": {
-                      "domain": "component",
-                      "category": "shared",
-                      "component": "dropdown",
-                      "hidden": false,
-                      "type": "dropdown",
-                      "item": "support-text",
-                      "subitem": "font",
-                      "state": "size"
-                    }
-                  },
-                  "warning": {
-                    "value": "{font.typescale.detail.medium.size}",
-                    "attributes": {
-                      "domain": "component",
-                      "category": "shared",
-                      "component": "dropdown",
-                      "hidden": false,
-                      "type": "dropdown",
-                      "item": "support-text",
-                      "subitem": "font",
-                      "state": "size"
-                    }
-                  }
-                }
-              }
-            },
-            "trailing-icon": {
-              "size": {
-                "type": "sizing",
-                "value": "{size.square.5}",
-                "attributes": {
-                  "domain": "component",
-                  "category": "shared",
-                  "component": "dropdown",
-                  "hidden": false,
-                  "type": "dropdown",
-                  "item": "trailing-icon",
-                  "subitem": "size"
-                }
-              }
-            },
-            "nested": {
-              "measurements": {
-                "type": "sizing",
-                "container": {
-                  "size": {
-                    "small": {
-                      "value": "{primitive.size.32}"
-                    },
-                    "medium": {
-                      "value": "{primitive.size.40}",
-                      "attributes": {
-                        "domain": "component",
-                        "category": "shared",
-                        "component": "dropdown",
-                        "type": "dropdown",
-                        "item": "measurements",
-                        "subitem": "container",
-                        "state": "size"
-                      }
-                    },
-                    "large": {
-                      "value": "{primitive.size.48}",
-                      "attributes": {
-                        "domain": "component",
-                        "category": "shared",
-                        "component": "dropdown",
-                        "type": "dropdown",
-                        "item": "measurements",
-                        "subitem": "container",
-                        "state": "size"
-                      }
-                    }
-                  },
-                  "nested": {
-                    "size": {
-                      "small": {
-                        "value": "{primitive.size.60}",
-                        "attributes": {
-                          "domain": "component",
-                          "category": "shared",
-                          "component": "dropdown",
-                          "hidden": false,
-                          "type": "dropdown",
-                          "item": "measurements",
-                          "subitem": "container",
-                          "state": "nested"
-                        }
-                      }
-                    }
-                  }
-                }
-              },
-              "prefix": {
-                "icon": {
-                  "size": {
-                    "type": "sizing",
-                    "value": "{size.square.5}",
-                    "attributes": {
-                      "domain": "component",
-                      "category": "shared",
-                      "component": "dropdown",
-                      "hidden": false,
-                      "type": "dropdown",
-                      "item": "prefix",
-                      "subitem": "icon",
-                      "state": "size"
-                    }
-                  }
-                }
-              },
-              "suffix": {
-                "icon": {
-                  "size": {
-                    "type": "sizing",
-                    "value": "{size.square.5}",
+                    "type": "fontSizes",
+                    "value": "{font.typescale.body.medium.size}",
                     "attributes": {
                       "domain": "component",
                       "category": "shared",
@@ -5811,79 +5181,74 @@
                       "hidden": false,
                       "type": "dropdown",
                       "item": "suffix",
-                      "subitem": "icon",
+                      "subitem": "font",
                       "state": "size"
                     }
                   }
-                }
-              },
-              "type": "sizing",
-              "info-text": {
-                "font": {
-                  "size": {
-                    "default": {
-                      "value": "{font.typescale.detail.medium.size}",
-                      "attributes": {
-                        "domain": "component",
-                        "category": "shared",
-                        "component": "dropdown",
-                        "hidden": false,
-                        "type": "dropdown",
-                        "item": "info-text",
-                        "subitem": "font",
-                        "state": "size"
-                      }
+                },
+                "color": {
+                  "disabled": {
+                    "value": "{palette.eve.cool-gray.60}",
+                    "type": "color",
+                    "attributes": {
+                      "domain": "component",
+                      "category": "shared",
+                      "component": "dropdown",
+                      "hidden": false,
+                      "type": "dropdown",
+                      "item": "suffix",
+                      "subitem": "font",
+                      "state": "size"
+                    }
+                  },
+                  "default": {
+                    "value": "{palette.eve.cool-gray.30}",
+                    "type": "color",
+                    "attributes": {
+                      "domain": "component",
+                      "category": "shared",
+                      "component": "dropdown",
+                      "hidden": false,
+                      "type": "dropdown",
+                      "item": "suffix",
+                      "subitem": "font",
+                      "state": "size"
+                    }
+                  }
+                },
+                "weight": {
+                  "default": {
+                    "value": "{font.typescale.body.large.weight.regular}",
+                    "attributes": {
+                      "domain": "component",
+                      "category": "shared",
+                      "component": "dropdown",
+                      "hidden": false,
+                      "type": "dropdown",
+                      "item": "filled_text",
+                      "subitem": "font",
+                      "state": "weight"
+                    }
+                  }
+                },
+                "line_height": {
+                  "default": {
+                    "type": "lineHeights",
+                    "value": "{font.typescale.body.medium.line_height}",
+                    "attributes": {
+                      "domain": "component",
+                      "category": "shared",
+                      "component": "dropdown",
+                      "hidden": false,
+                      "type": "dropdown",
+                      "item": "suffix",
+                      "subitem": "font",
+                      "state": "line_height"
                     }
                   }
                 }
               },
-              "support-text": {
-                "font": {
-                  "size": {
-                    "error": {
-                      "value": "{font.typescale.detail.medium.size}",
-                      "attributes": {
-                        "domain": "component",
-                        "category": "shared",
-                        "component": "dropdown",
-                        "hidden": false,
-                        "type": "dropdown",
-                        "item": "support-text",
-                        "subitem": "font",
-                        "state": "size"
-                      }
-                    },
-                    "warning": {
-                      "value": "{font.typescale.detail.medium.size}",
-                      "attributes": {
-                        "domain": "component",
-                        "category": "shared",
-                        "component": "dropdown",
-                        "hidden": false,
-                        "type": "dropdown",
-                        "item": "support-text",
-                        "subitem": "font",
-                        "state": "size"
-                      }
-                    }
-                  }
-                }
-              },
-              "trailing-icon": {
-                "size": {
-                  "type": "sizing",
-                  "value": "1rem",
-                  "attributes": {
-                    "domain": "component",
-                    "category": "shared",
-                    "component": "dropdown",
-                    "hidden": false,
-                    "type": "dropdown",
-                    "item": "trailing-icon",
-                    "subitem": "size"
-                  }
-                }
-              }
+              "type": "fontWeights"
             }
           }
         }
