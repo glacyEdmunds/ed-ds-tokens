@@ -126,25 +126,6 @@
                 }
               }
             }
-          },
-          "nested": {
-            "size": {
-              "small": {
-                "value": "{primitive.size.60}",
-                "attributes": {
-                  "domain": "component",
-                  "category": "shared",
-                  "component": "dropdown",
-                  "hidden": false,
-                  "type": "dropdown",
-                  "item": "measurements",
-                  "subitem": "container",
-                  "state": "nested"
-                },
-                "type": "sizing",
-                "inheritTypeLevel": 7
-              }
-            }
           }
         },
         "support": {
@@ -449,17 +430,19 @@
         },
         "icon": {
           "size": {
-            "type": "sizing",
-            "value": "{size.square.5}",
-            "attributes": {
-              "domain": "component",
-              "category": "shared",
-              "component": "dropdown",
-              "hidden": false,
-              "type": "dropdown",
-              "item": "prefix",
-              "subitem": "icon",
-              "state": "size"
+            "default": {
+              "type": "sizing",
+              "value": "{size.square.5}",
+              "attributes": {
+                "domain": "component",
+                "category": "shared",
+                "component": "dropdown",
+                "hidden": false,
+                "type": "dropdown",
+                "item": "prefix",
+                "subitem": "icon",
+                "state": "size"
+              }
             }
           }
         },
@@ -497,17 +480,19 @@
             }
           },
           "weight": {
-            "type": "fontWeights",
-            "value": "{font.typescale.body.large.weight.regular}",
-            "attributes": {
-              "domain": "component",
-              "category": "shared",
-              "component": "dropdown",
-              "hidden": false,
-              "type": "dropdown",
-              "item": "suffix",
-              "subitem": "font",
-              "state": "weight"
+            "default": {
+              "type": "fontWeights",
+              "value": "{font.typescale.body.large.weight.regular}",
+              "attributes": {
+                "domain": "component",
+                "category": "shared",
+                "component": "dropdown",
+                "hidden": false,
+                "type": "dropdown",
+                "item": "suffix",
+                "subitem": "font",
+                "state": "weight"
+              }
             }
           }
         }
@@ -547,17 +532,19 @@
         },
         "icon": {
           "size": {
-            "type": "sizing",
-            "value": "{size.square.5}",
-            "attributes": {
-              "domain": "component",
-              "category": "shared",
-              "component": "dropdown",
-              "hidden": false,
-              "type": "dropdown",
-              "item": "suffix",
-              "subitem": "icon",
-              "state": "size"
+            "default": {
+              "type": "sizing",
+              "value": "{size.square.5}",
+              "attributes": {
+                "domain": "component",
+                "category": "shared",
+                "component": "dropdown",
+                "hidden": false,
+                "type": "dropdown",
+                "item": "suffix",
+                "subitem": "icon",
+                "state": "size"
+              }
             }
           }
         },
@@ -608,7 +595,7 @@
           }
         }
       },
-      "filled-text": {
+      "filled_text": {
         "font": {
           "size": {
             "default": {
@@ -619,7 +606,7 @@
                 "component": "dropdown",
                 "hidden": false,
                 "type": "dropdown",
-                "item": "filled-text",
+                "item": "filled_text",
                 "subitem": "font",
                 "state": "size"
               },
@@ -636,7 +623,7 @@
                 "component": "dropdown",
                 "hidden": false,
                 "type": "dropdown",
-                "item": "filled-text",
+                "item": "filled_text",
                 "subitem": "font",
                 "state": "line_height"
               },
@@ -653,7 +640,7 @@
                 "component": "dropdown",
                 "hidden": false,
                 "type": "dropdown",
-                "item": "filled-text",
+                "item": "filled_text",
                 "subitem": "font",
                 "state": "weight"
               },
@@ -679,45 +666,23 @@
             },
             "disabled": {
               "value": "{palette.eve.cool-gray.60}",
-              "type": "color"
+              "type": "color",
+              "attributes": {
+                "domain": "component",
+                "category": "shared",
+                "component": "dropdown",
+                "hidden": false,
+                "type": "dropdown",
+                "item": "suffix",
+                "subitem": "color",
+                "state": "default"
+              }
             }
           }
         }
       },
-      "hint-text": {
+      "hint_text": {
         "font": {
-          "color": {
-            "default": {
-              "value": "{palette.eve.cool-gray.50}",
-              "attributes": {
-                "domain": "component",
-                "category": "shared",
-                "component": "dropdown",
-                "hidden": false,
-                "type": "dropdown",
-                "item": "hint-text",
-                "subitem": "font",
-                "state": "color"
-              },
-              "type": "color",
-              "inheritTypeLevel": 6
-            },
-            "disabled": {
-              "value": "{palette.eve.cool-gray.60}",
-              "attributes": {
-                "domain": "component",
-                "category": "shared",
-                "component": "dropdown",
-                "hidden": false,
-                "type": "dropdown",
-                "item": "hint-text",
-                "subitem": "font",
-                "state": "color"
-              },
-              "type": "color",
-              "inheritTypeLevel": 6
-            }
-          },
           "size": {
             "default": {
               "type": "fontSizes",
@@ -728,7 +693,7 @@
                 "component": "dropdown",
                 "hidden": false,
                 "type": "dropdown",
-                "item": "hint-text",
+                "item": "hint_text",
                 "subitem": "font",
                 "state": "size"
               }
@@ -743,7 +708,7 @@
                 "component": "dropdown",
                 "hidden": false,
                 "type": "dropdown",
-                "item": "hint-text",
+                "item": "hint_text",
                 "subitem": "font",
                 "state": "line_height"
               },
@@ -760,7 +725,7 @@
                 "component": "dropdown",
                 "hidden": false,
                 "type": "dropdown",
-                "item": "hint-text",
+                "item": "hint_text",
                 "subitem": "font",
                 "state": "weight"
               },
@@ -770,7 +735,7 @@
           }
         }
       },
-      "info-text": {
+      "info_text": {
         "font": {
           "color": {
             "default": {
@@ -781,7 +746,7 @@
                 "component": "dropdown",
                 "hidden": false,
                 "type": "dropdown",
-                "item": "info-text",
+                "item": "info_text",
                 "subitem": "font",
                 "state": "color"
               },
@@ -799,7 +764,7 @@
                 "component": "dropdown",
                 "hidden": false,
                 "type": "dropdown",
-                "item": "hint-text",
+                "item": "hint_text",
                 "subitem": "font",
                 "state": "size"
               }
@@ -814,7 +779,7 @@
                 "component": "dropdown",
                 "hidden": false,
                 "type": "dropdown",
-                "item": "info-text",
+                "item": "info_text",
                 "subitem": "font",
                 "state": "line_height"
               },
@@ -831,7 +796,7 @@
                 "component": "dropdown",
                 "hidden": false,
                 "type": "dropdown",
-                "item": "info-text",
+                "item": "info_text",
                 "subitem": "font",
                 "state": "weight"
               },
@@ -841,7 +806,7 @@
           }
         }
       },
-      "support-text": {
+      "support_text": {
         "font": {
           "color": {
             "error": {
@@ -852,7 +817,22 @@
                 "component": "dropdown",
                 "hidden": false,
                 "type": "dropdown",
-                "item": "support-text",
+                "item": "support_text",
+                "subitem": "font",
+                "state": "color"
+              },
+              "type": "color",
+              "inheritTypeLevel": 6
+            },
+            "default": {
+              "value": "{palette.support.info}",
+              "attributes": {
+                "domain": "component",
+                "category": "shared",
+                "component": "dropdown",
+                "hidden": false,
+                "type": "dropdown",
+                "item": "support_text",
                 "subitem": "font",
                 "state": "color"
               },
@@ -860,14 +840,14 @@
               "inheritTypeLevel": 6
             },
             "warning": {
-              "value": "{palette.eve.cool-gray.30}",
+              "value": "{palette.support.warning}",
               "attributes": {
                 "domain": "component",
                 "category": "shared",
                 "component": "dropdown",
                 "hidden": false,
                 "type": "dropdown",
-                "item": "support-text",
+                "item": "support_text",
                 "subitem": "font",
                 "state": "color"
               },
@@ -885,14 +865,14 @@
                 "component": "dropdown",
                 "hidden": false,
                 "type": "dropdown",
-                "item": "hint-text",
+                "item": "hint_text",
                 "subitem": "font",
                 "state": "size"
               }
             }
           },
           "line_height": {
-            "error": {
+            "default": {
               "value": "{font.typescale.detail.medium.line_height}",
               "attributes": {
                 "domain": "component",
@@ -900,22 +880,7 @@
                 "component": "dropdown",
                 "hidden": false,
                 "type": "dropdown",
-                "item": "support-text",
-                "subitem": "font",
-                "state": "line_height"
-              },
-              "type": "lineHeights",
-              "inheritTypeLevel": 6
-            },
-            "warning": {
-              "value": "{font.typescale.detail.medium.line_height}",
-              "attributes": {
-                "domain": "component",
-                "category": "shared",
-                "component": "dropdown",
-                "hidden": false,
-                "type": "dropdown",
-                "item": "support-text",
+                "item": "support_text",
                 "subitem": "font",
                 "state": "line_height"
               },
@@ -924,7 +889,7 @@
             }
           },
           "weight": {
-            "error": {
+            "default": {
               "value": "{font.typescale.detail.medium.weight.regular}",
               "attributes": {
                 "domain": "component",
@@ -932,22 +897,7 @@
                 "component": "dropdown",
                 "hidden": false,
                 "type": "dropdown",
-                "item": "support-text",
-                "subitem": "font",
-                "state": "weight"
-              },
-              "type": "fontWeights",
-              "inheritTypeLevel": 6
-            },
-            "warning": {
-              "value": "{font.typescale.detail.medium.weight.regular}",
-              "attributes": {
-                "domain": "component",
-                "category": "shared",
-                "component": "dropdown",
-                "hidden": false,
-                "type": "dropdown",
-                "item": "support-text",
+                "item": "support_text",
                 "subitem": "font",
                 "state": "weight"
               },
@@ -957,10 +907,25 @@
           }
         }
       },
-      "trailing-icon": {
+      "trailing_icon": {
+        "size": {
+          "default": {
+            "type": "sizing",
+            "value": "{size.square.5}",
+            "attributes": {
+              "domain": "component",
+              "category": "shared",
+              "component": "dropdown",
+              "hidden": false,
+              "type": "dropdown",
+              "item": "trailing_icon",
+              "subitem": "size"
+            }
+          }
+        },
         "color": {
           "success": {
-            "value": "{palette.eve.green.50}",
+            "value": "{palette.support.success}",
             "attributes": {
               "domain": "component",
               "category": "shared",
@@ -975,7 +940,7 @@
             "inheritTypeLevel": 5
           },
           "error": {
-            "value": "{palette.eve.red.50}",
+            "value": "{palette.support.error}",
             "attributes": {
               "domain": "component",
               "category": "shared",
@@ -990,7 +955,7 @@
             "inheritTypeLevel": 5
           },
           "warning": {
-            "value": "{shared.text_input.trailing-icon.color.warning}",
+            "value": "{palette.support.warning}",
             "attributes": {
               "domain": "component",
               "category": "shared",
@@ -1003,19 +968,21 @@
             },
             "type": "color",
             "inheritTypeLevel": 5
-          }
-        },
-        "size": {
-          "type": "sizing",
-          "value": "{size.square.5}",
-          "attributes": {
-            "domain": "component",
-            "category": "shared",
-            "component": "dropdown",
-            "hidden": false,
-            "type": "dropdown",
-            "item": "trailing-icon",
-            "subitem": "size"
+          },
+          "default": {
+            "value": "{palette.support.info}",
+            "attributes": {
+              "domain": "component",
+              "category": "shared",
+              "component": "dropdown",
+              "hidden": false,
+              "type": "dropdown",
+              "item": "trailing-icon",
+              "subitem": "color",
+              "state": "warning"
+            },
+            "type": "color",
+            "inheritTypeLevel": 5
           }
         }
       },
@@ -1101,7 +1068,7 @@
               }
             }
           },
-          "filled-text": {
+          "filled_text": {
             "font": {
               "weight": {
                 "default": {
@@ -1112,7 +1079,7 @@
                     "component": "dropdown",
                     "hidden": false,
                     "type": "dropdown",
-                    "item": "filled-text",
+                    "item": "filled_text",
                     "subitem": "font",
                     "state": "weight"
                   },
@@ -1143,11 +1110,31 @@
               "color": {
                 "disabled": {
                   "value": "{palette.eve.cool-gray.60}",
-                  "type": "color"
+                  "type": "color",
+                  "attributes": {
+                    "domain": "component",
+                    "category": "shared",
+                    "component": "dropdown",
+                    "hidden": false,
+                    "type": "dropdown",
+                    "item": "suffix",
+                    "subitem": "font",
+                    "state": "size"
+                  }
                 },
                 "default": {
                   "value": "{palette.eve.cool-gray.30}",
-                  "type": "color"
+                  "type": "color",
+                  "attributes": {
+                    "domain": "component",
+                    "category": "shared",
+                    "component": "dropdown",
+                    "hidden": false,
+                    "type": "dropdown",
+                    "item": "suffix",
+                    "subitem": "font",
+                    "state": "size"
+                  }
                 }
               },
               "weight": {
@@ -1159,7 +1146,7 @@
                     "component": "dropdown",
                     "hidden": false,
                     "type": "dropdown",
-                    "item": "filled-text",
+                    "item": "filled_text",
                     "subitem": "font",
                     "state": "weight"
                   },
@@ -3419,7 +3406,7 @@
         }
       },
       "large": {
-        "value": "133%",
+        "value": 1.333,
         "type": "lineHeights",
         "attributes": {
           "domain": "font",
