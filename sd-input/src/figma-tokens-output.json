@@ -2441,13 +2441,13 @@
           }
         }
       },
-      "line_height": {
+      "line-height": {
         "xx-large": {
           "value": "1.428",
           "type": "lineHeights",
           "attributes": {
             "domain": "font",
-            "category": "line_height",
+            "category": "line-height",
             "hidden": false
           }
         },
@@ -2456,16 +2456,16 @@
           "type": "lineHeights",
           "attributes": {
             "domain": "font",
-            "category": "line_height",
+            "category": "line-height",
             "hidden": false
           }
         },
         "large": {
-          "value": "133%",
+          "value": "1.333",
           "type": "lineHeights",
           "attributes": {
             "domain": "font",
-            "category": "line_height",
+            "category": "line-height",
             "hidden": false
           },
           "description": "1.333"
@@ -2475,7 +2475,7 @@
           "type": "lineHeights",
           "attributes": {
             "domain": "font",
-            "category": "line_height",
+            "category": "line-height",
             "hidden": false
           }
         },
@@ -2484,7 +2484,7 @@
           "type": "lineHeights",
           "attributes": {
             "domain": "font",
-            "category": "line_height",
+            "category": "line-height",
             "hidden": false
           }
         },
@@ -2493,7 +2493,7 @@
           "type": "lineHeights",
           "attributes": {
             "domain": "font",
-            "category": "line_height",
+            "category": "line-height",
             "hidden": false
           }
         },
@@ -2502,7 +2502,7 @@
           "type": "lineHeights",
           "attributes": {
             "domain": "font",
-            "category": "line_height",
+            "category": "line-height",
             "hidden": false
           }
         }
@@ -2563,8 +2563,8 @@
               "value": "{font.size.3}",
               "type": "fontSizes"
             },
-            "line_height": {
-              "value": "{font.line_height.large}",
+            "line-height": {
+              "value": "{font.line-height.large}",
               "type": "lineHeights"
             },
             "weight": {
@@ -2587,8 +2587,8 @@
               "value": "{font.size.2}",
               "type": "fontSizes"
             },
-            "line_height": {
-              "value": "{font.line_height.small}",
+            "line-height": {
+              "value": "{font.line-height.small}",
               "type": "lineHeights"
             },
             "weight": {
@@ -2611,8 +2611,8 @@
               "value": "{font.size.5}",
               "type": "fontSizes"
             },
-            "line_height": {
-              "value": "{font.line_height.x-large}",
+            "line-height": {
+              "value": "{font.line-height.x-large}",
               "type": "lineHeights"
             },
             "weight": {
@@ -2637,8 +2637,8 @@
               "value": "{font.size.5}",
               "type": "fontSizes"
             },
-            "line_height": {
-              "value": "{font.line_height.x-large}",
+            "line-height": {
+              "value": "{font.line-height.x-large}",
               "type": "lineHeights"
             },
             "weight": {
@@ -2661,8 +2661,8 @@
               "value": "{font.size.4}",
               "type": "fontSizes"
             },
-            "line_height": {
-              "value": "{font.line_height.xx-large}",
+            "line-height": {
+              "value": "{font.line-height.xx-large}",
               "type": "lineHeights"
             },
             "weight": {
@@ -2685,8 +2685,8 @@
               "value": "{font.size.4}",
               "type": "fontSizes"
             },
-            "line_height": {
-              "value": "{font.line_height.large}",
+            "line-height": {
+              "value": "{font.line-height.large}",
               "type": "lineHeights"
             },
             "weight": {
@@ -4268,24 +4268,6 @@
                   }
                 }
               }
-            },
-            "nested": {
-              "size": {
-                "type": "sizing",
-                "small": {
-                  "value": "{primitive.size.60}",
-                  "attributes": {
-                    "domain": "component",
-                    "category": "shared",
-                    "component": "dropdown",
-                    "hidden": false,
-                    "type": "dropdown",
-                    "item": "measurements",
-                    "subitem": "container",
-                    "state": "nested"
-                  }
-                }
-              }
             }
           },
           "support": {
@@ -4560,17 +4542,19 @@
           },
           "icon": {
             "size": {
-              "type": "sizing",
-              "value": "{size.square.5}",
-              "attributes": {
-                "domain": "component",
-                "category": "shared",
-                "component": "dropdown",
-                "hidden": false,
-                "type": "dropdown",
-                "item": "prefix",
-                "subitem": "icon",
-                "state": "size"
+              "default": {
+                "type": "sizing",
+                "value": "{size.square.5}",
+                "attributes": {
+                  "domain": "component",
+                  "category": "shared",
+                  "component": "dropdown",
+                  "hidden": false,
+                  "type": "dropdown",
+                  "item": "prefix",
+                  "subitem": "icon",
+                  "state": "size"
+                }
               }
             }
           },
@@ -4591,10 +4575,10 @@
                 }
               }
             },
-            "line_height": {
+            "line-height": {
               "default": {
                 "type": "lineHeights",
-                "value": "{font.typescale.body.large.line_height}",
+                "value": "{font.typescale.body.large.line-height}",
                 "attributes": {
                   "domain": "component",
                   "category": "shared",
@@ -4603,22 +4587,24 @@
                   "type": "dropdown",
                   "item": "suffix",
                   "subitem": "font",
-                  "state": "line_height"
+                  "state": "line-height"
                 }
               }
             },
             "weight": {
-              "type": "fontWeights",
-              "value": "{font.typescale.body.large.weight.regular}",
-              "attributes": {
-                "domain": "component",
-                "category": "shared",
-                "component": "dropdown",
-                "hidden": false,
-                "type": "dropdown",
-                "item": "suffix",
-                "subitem": "font",
-                "state": "weight"
+              "default": {
+                "type": "fontWeights",
+                "value": "{font.typescale.body.large.weight.regular}",
+                "attributes": {
+                  "domain": "component",
+                  "category": "shared",
+                  "component": "dropdown",
+                  "hidden": false,
+                  "type": "dropdown",
+                  "item": "suffix",
+                  "subitem": "font",
+                  "state": "weight"
+                }
               }
             }
           }
@@ -4655,17 +4641,19 @@
           },
           "icon": {
             "size": {
-              "type": "sizing",
-              "value": "{size.square.5}",
-              "attributes": {
-                "domain": "component",
-                "category": "shared",
-                "component": "dropdown",
-                "hidden": false,
-                "type": "dropdown",
-                "item": "suffix",
-                "subitem": "icon",
-                "state": "size"
+              "default": {
+                "type": "sizing",
+                "value": "{size.square.5}",
+                "attributes": {
+                  "domain": "component",
+                  "category": "shared",
+                  "component": "dropdown",
+                  "hidden": false,
+                  "type": "dropdown",
+                  "item": "suffix",
+                  "subitem": "icon",
+                  "state": "size"
+                }
               }
             }
           },
@@ -4684,10 +4672,10 @@
                 "state": "size"
               }
             },
-            "line_height": {
+            "line-height": {
               "default": {
                 "type": "lineHeights",
-                "value": "{font.typescale.body.large.line_height}",
+                "value": "{font.typescale.body.large.line-height}",
                 "attributes": {
                   "domain": "component",
                   "category": "shared",
@@ -4696,7 +4684,7 @@
                   "type": "dropdown",
                   "item": "suffix",
                   "subitem": "font",
-                  "state": "line_height"
+                  "state": "line-height"
                 }
               }
             },
@@ -4716,7 +4704,7 @@
             }
           }
         },
-        "filled-text": {
+        "filled_text": {
           "font": {
             "size": {
               "type": "fontSizes",
@@ -4728,25 +4716,25 @@
                   "component": "dropdown",
                   "hidden": false,
                   "type": "dropdown",
-                  "item": "filled-text",
+                  "item": "filled_text",
                   "subitem": "font",
                   "state": "size"
                 }
               }
             },
-            "line_height": {
+            "line-height": {
               "type": "lineHeights",
               "default": {
-                "value": "{font.typescale.body.large.line_height}",
+                "value": "{font.typescale.body.large.line-height}",
                 "attributes": {
                   "domain": "component",
                   "category": "shared",
                   "component": "dropdown",
                   "hidden": false,
                   "type": "dropdown",
-                  "item": "filled-text",
+                  "item": "filled_text",
                   "subitem": "font",
-                  "state": "line_height"
+                  "state": "line-height"
                 }
               }
             },
@@ -4760,7 +4748,7 @@
                   "component": "dropdown",
                   "hidden": false,
                   "type": "dropdown",
-                  "item": "filled-text",
+                  "item": "filled_text",
                   "subitem": "font",
                   "state": "weight"
                 }
@@ -4783,42 +4771,23 @@
               },
               "disabled": {
                 "value": "{palette.eve.cool-gray.60}",
-                "type": "color"
+                "type": "color",
+                "attributes": {
+                  "domain": "component",
+                  "category": "shared",
+                  "component": "dropdown",
+                  "hidden": false,
+                  "type": "dropdown",
+                  "item": "suffix",
+                  "subitem": "color",
+                  "state": "default"
+                }
               }
             }
           }
         },
-        "hint-text": {
+        "hint_text": {
           "font": {
-            "color": {
-              "type": "color",
-              "default": {
-                "value": "{palette.eve.cool-gray.50}",
-                "attributes": {
-                  "domain": "component",
-                  "category": "shared",
-                  "component": "dropdown",
-                  "hidden": false,
-                  "type": "dropdown",
-                  "item": "hint-text",
-                  "subitem": "font",
-                  "state": "color"
-                }
-              },
-              "disabled": {
-                "value": "{palette.eve.cool-gray.60}",
-                "attributes": {
-                  "domain": "component",
-                  "category": "shared",
-                  "component": "dropdown",
-                  "hidden": false,
-                  "type": "dropdown",
-                  "item": "hint-text",
-                  "subitem": "font",
-                  "state": "color"
-                }
-              }
-            },
             "size": {
               "default": {
                 "type": "fontSizes",
@@ -4829,25 +4798,25 @@
                   "component": "dropdown",
                   "hidden": false,
                   "type": "dropdown",
-                  "item": "hint-text",
+                  "item": "hint_text",
                   "subitem": "font",
                   "state": "size"
                 }
               }
             },
-            "line_height": {
+            "line-height": {
               "type": "lineHeights",
               "default": {
-                "value": "{font.typescale.body.large.line_height}",
+                "value": "{font.typescale.body.large.line-height}",
                 "attributes": {
                   "domain": "component",
                   "category": "shared",
                   "component": "dropdown",
                   "hidden": false,
                   "type": "dropdown",
-                  "item": "hint-text",
+                  "item": "hint_text",
                   "subitem": "font",
-                  "state": "line_height"
+                  "state": "line-height"
                 }
               }
             },
@@ -4861,7 +4830,7 @@
                   "component": "dropdown",
                   "hidden": false,
                   "type": "dropdown",
-                  "item": "hint-text",
+                  "item": "hint_text",
                   "subitem": "font",
                   "state": "weight"
                 }
@@ -4869,7 +4838,7 @@
             }
           }
         },
-        "info-text": {
+        "info_text": {
           "font": {
             "color": {
               "type": "color",
@@ -4881,7 +4850,7 @@
                   "component": "dropdown",
                   "hidden": false,
                   "type": "dropdown",
-                  "item": "info-text",
+                  "item": "info_text",
                   "subitem": "font",
                   "state": "color"
                 }
@@ -4897,25 +4866,25 @@
                   "component": "dropdown",
                   "hidden": false,
                   "type": "dropdown",
-                  "item": "hint-text",
+                  "item": "hint_text",
                   "subitem": "font",
                   "state": "size"
                 }
               }
             },
-            "line_height": {
+            "line-height": {
               "type": "lineHeights",
               "default": {
-                "value": "{font.typescale.detail.medium.line_height}",
+                "value": "{font.typescale.detail.medium.line-height}",
                 "attributes": {
                   "domain": "component",
                   "category": "shared",
                   "component": "dropdown",
                   "hidden": false,
                   "type": "dropdown",
-                  "item": "info-text",
+                  "item": "info_text",
                   "subitem": "font",
-                  "state": "line_height"
+                  "state": "line-height"
                 }
               }
             },
@@ -4929,7 +4898,7 @@
                   "component": "dropdown",
                   "hidden": false,
                   "type": "dropdown",
-                  "item": "info-text",
+                  "item": "info_text",
                   "subitem": "font",
                   "state": "weight"
                 }
@@ -4937,7 +4906,7 @@
             }
           }
         },
-        "support-text": {
+        "support_text": {
           "font": {
             "color": {
               "type": "color",
@@ -4949,20 +4918,33 @@
                   "component": "dropdown",
                   "hidden": false,
                   "type": "dropdown",
-                  "item": "support-text",
+                  "item": "support_text",
                   "subitem": "font",
                   "state": "color"
                 }
               },
-              "warning": {
-                "value": "{palette.eve.cool-gray.30}",
+              "default": {
+                "value": "{palette.support.info}",
                 "attributes": {
                   "domain": "component",
                   "category": "shared",
                   "component": "dropdown",
                   "hidden": false,
                   "type": "dropdown",
-                  "item": "support-text",
+                  "item": "support_text",
+                  "subitem": "font",
+                  "state": "color"
+                }
+              },
+              "warning": {
+                "value": "{palette.support.warning}",
+                "attributes": {
+                  "domain": "component",
+                  "category": "shared",
+                  "component": "dropdown",
+                  "hidden": false,
+                  "type": "dropdown",
+                  "item": "support_text",
                   "subitem": "font",
                   "state": "color"
                 }
@@ -4978,44 +4960,31 @@
                   "component": "dropdown",
                   "hidden": false,
                   "type": "dropdown",
-                  "item": "hint-text",
+                  "item": "hint_text",
                   "subitem": "font",
                   "state": "size"
                 }
               }
             },
-            "line_height": {
+            "line-height": {
               "type": "lineHeights",
-              "error": {
-                "value": "{font.typescale.detail.medium.line_height}",
+              "default": {
+                "value": "{font.typescale.detail.medium.line-height}",
                 "attributes": {
                   "domain": "component",
                   "category": "shared",
                   "component": "dropdown",
                   "hidden": false,
                   "type": "dropdown",
-                  "item": "support-text",
+                  "item": "support_text",
                   "subitem": "font",
-                  "state": "line_height"
-                }
-              },
-              "warning": {
-                "value": "{font.typescale.detail.medium.line_height}",
-                "attributes": {
-                  "domain": "component",
-                  "category": "shared",
-                  "component": "dropdown",
-                  "hidden": false,
-                  "type": "dropdown",
-                  "item": "support-text",
-                  "subitem": "font",
-                  "state": "line_height"
+                  "state": "line-height"
                 }
               }
             },
             "weight": {
               "type": "fontWeights",
-              "error": {
+              "default": {
                 "value": "{font.typescale.detail.medium.weight.regular}",
                 "attributes": {
                   "domain": "component",
@@ -5023,20 +4992,7 @@
                   "component": "dropdown",
                   "hidden": false,
                   "type": "dropdown",
-                  "item": "support-text",
-                  "subitem": "font",
-                  "state": "weight"
-                }
-              },
-              "warning": {
-                "value": "{font.typescale.detail.medium.weight.regular}",
-                "attributes": {
-                  "domain": "component",
-                  "category": "shared",
-                  "component": "dropdown",
-                  "hidden": false,
-                  "type": "dropdown",
-                  "item": "support-text",
+                  "item": "support_text",
                   "subitem": "font",
                   "state": "weight"
                 }
@@ -5044,11 +5000,26 @@
             }
           }
         },
-        "trailing-icon": {
+        "trailing_icon": {
+          "size": {
+            "default": {
+              "type": "sizing",
+              "value": "{size.square.5}",
+              "attributes": {
+                "domain": "component",
+                "category": "shared",
+                "component": "dropdown",
+                "hidden": false,
+                "type": "dropdown",
+                "item": "trailing_icon",
+                "subitem": "size"
+              }
+            }
+          },
           "color": {
             "type": "color",
             "success": {
-              "value": "{palette.eve.green.50}",
+              "value": "{palette.support.success}",
               "attributes": {
                 "domain": "component",
                 "category": "shared",
@@ -5061,7 +5032,7 @@
               }
             },
             "error": {
-              "value": "{palette.eve.red.50}",
+              "value": "{palette.support.error}",
               "attributes": {
                 "domain": "component",
                 "category": "shared",
@@ -5074,7 +5045,7 @@
               }
             },
             "warning": {
-              "value": "{shared.text_input.trailing-icon.color.warning}",
+              "value": "{palette.support.warning}",
               "attributes": {
                 "domain": "component",
                 "category": "shared",
@@ -5085,19 +5056,19 @@
                 "subitem": "color",
                 "state": "warning"
               }
-            }
-          },
-          "size": {
-            "type": "sizing",
-            "value": "{size.square.5}",
-            "attributes": {
-              "domain": "component",
-              "category": "shared",
-              "component": "dropdown",
-              "hidden": false,
-              "type": "dropdown",
-              "item": "trailing-icon",
-              "subitem": "size"
+            },
+            "default": {
+              "value": "{palette.support.info}",
+              "attributes": {
+                "domain": "component",
+                "category": "shared",
+                "component": "dropdown",
+                "hidden": false,
+                "type": "dropdown",
+                "item": "trailing-icon",
+                "subitem": "color",
+                "state": "warning"
+              }
             }
           }
         },
@@ -5177,7 +5148,7 @@
                 }
               }
             },
-            "filled-text": {
+            "filled_text": {
               "type": "fontWeights",
               "font": {
                 "weight": {
@@ -5189,7 +5160,7 @@
                       "component": "dropdown",
                       "hidden": false,
                       "type": "dropdown",
-                      "item": "filled-text",
+                      "item": "filled_text",
                       "subitem": "font",
                       "state": "weight"
                     }
@@ -5218,11 +5189,31 @@
                 "color": {
                   "disabled": {
                     "value": "{palette.eve.cool-gray.60}",
-                    "type": "color"
+                    "type": "color",
+                    "attributes": {
+                      "domain": "component",
+                      "category": "shared",
+                      "component": "dropdown",
+                      "hidden": false,
+                      "type": "dropdown",
+                      "item": "suffix",
+                      "subitem": "font",
+                      "state": "size"
+                    }
                   },
                   "default": {
                     "value": "{palette.eve.cool-gray.30}",
-                    "type": "color"
+                    "type": "color",
+                    "attributes": {
+                      "domain": "component",
+                      "category": "shared",
+                      "component": "dropdown",
+                      "hidden": false,
+                      "type": "dropdown",
+                      "item": "suffix",
+                      "subitem": "font",
+                      "state": "size"
+                    }
                   }
                 },
                 "weight": {
@@ -5234,16 +5225,16 @@
                       "component": "dropdown",
                       "hidden": false,
                       "type": "dropdown",
-                      "item": "filled-text",
+                      "item": "filled_text",
                       "subitem": "font",
                       "state": "weight"
                     }
                   }
                 },
-                "line_height": {
+                "line-height": {
                   "default": {
                     "type": "lineHeights",
-                    "value": "{font.typescale.body.medium.line_height}",
+                    "value": "{font.typescale.body.medium.line-height}",
                     "attributes": {
                       "domain": "component",
                       "category": "shared",
@@ -5252,7 +5243,7 @@
                       "type": "dropdown",
                       "item": "suffix",
                       "subitem": "font",
-                      "state": "line_height"
+                      "state": "line-height"
                     }
                   }
                 }
