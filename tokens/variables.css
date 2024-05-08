@@ -318,7 +318,7 @@
   --figma-base-palette-eve-turquoise-50: #16c7df;
   --figma-base-palette-eve-turquoise-60: #30d9f0;
   --figma-base-palette-eve-turquoise-70: #62e3f5;
-  --figma-base-palette-eve-turquoise-80: #d62b04;
+  --figma-base-palette-eve-turquoise-80: #89e8f5;
   --figma-base-palette-eve-turquoise-90: #c2f8ff;
   --figma-base-palette-eve-turquoise-100: #f0fdff;
   --figma-base-palette-eve-turquoise-05: #162e30;
@@ -455,7 +455,7 @@
   --figma-base-size-radius-sm: 0.75rem;
   --figma-base-size-radius-medium: 1rem;
   --figma-base-size-radius-large: 2rem;
-  --figma-base-size-radius-x-large: 3.5rem;
+  --figma-base-size-radius-x-large: 2rem;
   --figma-base-size-radius-square: 0.25rem;
   --figma-base-size-radius-rounded: 0.5rem;
   --figma-base-size-radius-circular: 9999px;
@@ -797,7 +797,7 @@
   --figma-palette-eve-turquoise-50: #16c7df;
   --figma-palette-eve-turquoise-60: #30d9f0;
   --figma-palette-eve-turquoise-70: #62e3f5;
-  --figma-palette-eve-turquoise-80: #d62b04;
+  --figma-palette-eve-turquoise-80: #89e8f5;
   --figma-palette-eve-turquoise-90: #c2f8ff;
   --figma-palette-eve-turquoise-100: #f0fdff;
   --figma-palette-eve-turquoise-05: #162e30;
@@ -934,7 +934,7 @@
   --figma-size-radius-sm: 0.75rem;
   --figma-size-radius-medium: 1rem;
   --figma-size-radius-large: 2rem;
-  --figma-size-radius-x-large: 3.5rem;
+  --figma-size-radius-x-large: 2rem;
   --figma-size-radius-square: 0.25rem;
   --figma-size-radius-rounded: 0.5rem;
   --figma-size-radius-circular: 9999px;
@@ -979,4 +979,5 @@
   --figma-token-set-order-1: base;
   --figma-token-set-order-2: text_input;
   --figma-token-set-order-3: dropdown;
+  --figma-eds: [object Object];
 }
