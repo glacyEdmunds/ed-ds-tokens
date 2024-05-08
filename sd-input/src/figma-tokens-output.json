@@ -2787,7 +2787,7 @@
           }
         },
         "x-large": {
-          "value": "{primitive.size.32}",
+          "value": "{primitive.size.56}",
           "type": "borderRadius",
           "attributes": {
             "domain": "size",

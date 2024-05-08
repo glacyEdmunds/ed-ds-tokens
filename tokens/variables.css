@@ -455,7 +455,7 @@
   --figma-base-size-radius-sm: 0.75rem;
   --figma-base-size-radius-medium: 1rem;
   --figma-base-size-radius-large: 2rem;
-  --figma-base-size-radius-x-large: 2rem;
+  --figma-base-size-radius-x-large: 3.5rem;
   --figma-base-size-radius-square: 0.25rem;
   --figma-base-size-radius-rounded: 0.5rem;
   --figma-base-size-radius-circular: 9999px;
@@ -934,7 +934,7 @@
   --figma-size-radius-sm: 0.75rem;
   --figma-size-radius-medium: 1rem;
   --figma-size-radius-large: 2rem;
-  --figma-size-radius-x-large: 2rem;
+  --figma-size-radius-x-large: 3.5rem;
   --figma-size-radius-square: 0.25rem;
   --figma-size-radius-rounded: 0.5rem;
   --figma-size-radius-circular: 9999px;
