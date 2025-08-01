@@ -29,8 +29,8 @@ jobs:
           echo "------ END CERT DUMP ------"
 
           # Git config
-          git config --global user.name "GitHub CI Bot"
-          git config --global user.email "ci-bot@example.com"
+          git config --global user.name "Greg Lacy"
+          git config --global user.email "glacy@edmunds.com"
 
           # Add GitLab remote and push using custom CA cert
           export GIT_SSL_CAINFO=$PWD/root-ca.pem
