@@ -1,0 +1,24 @@
+name: Sync Tokens to GitLab
+
+on:
+  push:
+    branches:
+      - figma-tokens  # The GitHub branch Tokens Studio pushes to
+
+jobs:
+  sync-to-gitlab:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v3
+
+      - name: Push to GitLab
+        env:
+          GITLAB_REPO: ${{ secrets.GITLAB_REPO_URL }}
+          GITLAB_TOKEN: ${{ secrets.CI_PUSH_TOKEN }}
+        run: |
+          git config --global user.name "GitHub CI Bot"
+          git config --global user.email "ci-bot@example.com"
+          git remote add gitlab https://oauth2:${GITLAB_TOKEN}@${GITLAB_REPO}
+          git push gitlab figma-tokens --force
+          echo "✅ Tokens synced to GitLab successfully."
