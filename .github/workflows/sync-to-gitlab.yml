@@ -3,7 +3,7 @@ name: Sync Tokens to GitLab
 on:
   push:
     branches:
-      - figma-tokens  # The GitHub branch Tokens Studio pushes to to push
+      - figma-tokens  # The GitHub branch Tokens Studio pushes to
 
 jobs:
   sync-to-gitlab:
@@ -20,6 +20,13 @@ jobs:
         run: |
           # Decode base64 cert and write to file
           echo "$GITLAB_CA_CERT_B64" | base64 --decode > root-ca.pem
+
+          # DEBUG: Output file size and contents
+          echo "🔍 Cert file details:"
+          ls -l root-ca.pem
+          echo "----- BEGIN CERT DUMP -----"
+          cat root-ca.pem
+          echo "------ END CERT DUMP ------"
 
           # Git config
           git config --global user.name "GitHub CI Bot"
