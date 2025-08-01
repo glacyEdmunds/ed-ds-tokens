@@ -3,7 +3,7 @@ name: Sync Tokens to GitLab
 on:
   push:
     branches:
-      - figma-tokens  # The GitHub branch Tokens Studio pushes to
+      - figma-tokens  # The GitHub branch Tokens Studio pushes to to push
 
 jobs:
   sync-to-gitlab:
@@ -30,4 +30,4 @@ jobs:
           git remote add gitlab https://oauth2:${GITLAB_TOKEN}@${GITLAB_REPO}
           git push gitlab figma-tokens --force
 
-          echo "✅ Tokens synced to GitLab successfully."
+          echo "✅ Tokens synced to GitLab successfully. Check your GitLab repository."
