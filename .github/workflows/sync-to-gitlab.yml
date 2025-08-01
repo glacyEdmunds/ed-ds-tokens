@@ -16,7 +16,6 @@ jobs:
         env:
           GITLAB_REPO: ${{ secrets.GITLAB_REPO_URL }}
           GITLAB_TOKEN: ${{ secrets.CI_PUSH_TOKEN }}
-          GITLAB_CA_CERT: ${{ secrets.GITLAB_CA_CERT }}
         run: |
           # Write cert to file
           echo "${GITLAB_CA_CERT}" > root-ca.pem
