@@ -12,7 +12,7 @@ jobs:
       - name: Checkout repo
         uses: actions/checkout@v3
 
-      - name: Configure and Push to GitLab
+      - name: Configure Git and Push to GitLab
         env:
           GITLAB_REPO: ${{ secrets.GITLAB_REPO_URL }}
           GITLAB_TOKEN: ${{ secrets.CI_PUSH_TOKEN }}
@@ -21,20 +21,20 @@ jobs:
           # Decode base64 cert and write to file
           echo "$GITLAB_CA_CERT_B64" | base64 --decode > root-ca.pem
 
-          # DEBUG: Output file size and contents
+          # Debug: verify cert
           echo "🔍 Cert file details:"
           ls -l root-ca.pem
           echo "----- BEGIN CERT DUMP -----"
           cat root-ca.pem
           echo "------ END CERT DUMP ------"
 
-          # Git config
+          # Configure Git
           git config --global user.name "Greg Lacy"
           git config --global user.email "glacy@edmunds.com"
+          git config --global http.sslCAInfo "$PWD/root-ca.pem"
 
-          # Add GitLab remote and push using custom CA cert
-          export GIT_SSL_CAINFO=$PWD/root-ca.pem
+          # Add GitLab remote and push
           git remote add gitlab https://oauth2:${GITLAB_TOKEN}@${GITLAB_REPO}
           git push gitlab figma-tokens --force
 
-          echo "✅ Tokens synced to GitLab successfully. Check your GitLab repository."
+          echo "✅ Tokens synced to GitLab successfully."
