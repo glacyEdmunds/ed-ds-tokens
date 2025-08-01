@@ -16,9 +16,10 @@ jobs:
         env:
           GITLAB_REPO: ${{ secrets.GITLAB_REPO_URL }}
           GITLAB_TOKEN: ${{ secrets.CI_PUSH_TOKEN }}
+          GITLAB_CA_CERT_B64: ${{ secrets.GITLAB_CA_CERT_B64 }}
         run: |
-          # Write cert to file
-          echo "${GITLAB_CA_CERT}" > root-ca.pem
+          # Decode base64 cert and write to file
+          echo "$GITLAB_CA_CERT_B64" | base64 --decode > root-ca.pem
 
           # Git config
           git config --global user.name "GitHub CI Bot"
