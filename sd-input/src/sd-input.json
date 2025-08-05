@@ -666,7 +666,6 @@
             },
             "disabled": {
               "value": "{palette.eve.cool-gray.60}",
-              "type": "color",
               "attributes": {
                 "domain": "component",
                 "category": "shared",
@@ -676,7 +675,9 @@
                 "item": "suffix",
                 "subitem": "color",
                 "state": "default"
-              }
+              },
+              "type": "color",
+              "inheritTypeLevel": 5
             }
           }
         }
@@ -4198,7 +4199,7 @@
           }
         },
         "70": {
-          "value": "#cbd4e1",
+          "value": "#000000",
           "type": "color",
           "attributes": {
             "domain": "primitive",
