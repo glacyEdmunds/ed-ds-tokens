@@ -58,7 +58,7 @@
             }
           },
           "70": {
-            "value": "#cbd4e1",
+            "value": "#000000",
             "type": "color",
             "attributes": {
               "domain": "primitive",
@@ -4771,7 +4771,6 @@
               },
               "disabled": {
                 "value": "{palette.eve.cool-gray.60}",
-                "type": "color",
                 "attributes": {
                   "domain": "component",
                   "category": "shared",
