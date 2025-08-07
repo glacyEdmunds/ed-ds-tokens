@@ -2213,10 +2213,10 @@
         }
       }
     },
-        "button": {
+    "button": {
       "text": {
         "weight": {
-          "value": "{font.typescale.body.large.weight.regular.value}",
+          "value": "{font.typescale.body.large.weight.regular}",
           "attributes": {
             "domain": "component",
             "category": "shared",
@@ -2224,7 +2224,7 @@
           }
         },
         "size": {
-          "value": "{font.typescale.body.large.size.value}",
+          "value": "{font.typescale.body.large.size}",
           "attributes": {
             "domain": "component",
             "category": "shared",
@@ -2232,7 +2232,7 @@
           }
         },
         "line-height": {
-          "value": "{font.line-height.xx-small.value}",
+          "value": "{font.line-height.xx-small}",
           "attributes": {
             "domain": "component",
             "category": "shared",
@@ -2242,7 +2242,7 @@
       },
       "radius": {
         "square": {
-          "value": "{primitive.size.4.value}",
+          "value": "{primitive.size.4}",
           "attributes": {
             "domain": "component",
             "category": "shared",
@@ -2250,7 +2250,7 @@
           }
         },
         "rounded": {
-          "value": "{primitive.size.8.value}",
+          "value": "{primitive.size.8}",
           "attributes": {
             "domain": "component",
             "category": "shared",
@@ -2258,7 +2258,7 @@
           }
         },
         "circular": {
-          "value": "{primitive.size.100.value}",
+          "value": "{primitive.size.100}",
           "attributes": {
             "domain": "component",
             "category": "shared",
@@ -2268,7 +2268,7 @@
       },
       "space": {
         "0": {
-          "value": "{primitive.size.0.value}",
+          "value": "{primitive.size.0}",
           "comment": "Token will be deprecated once EDS button is updated with new spacing tokens",
           "attributes": {
             "domain": "component",
@@ -2277,7 +2277,7 @@
           }
         },
         "0_5": {
-          "value": "{primitive.size.8.value}",
+          "value": "{primitive.size.8}",
           "comment": "Token will be deprecated once EDS button is updated with new spacing tokens",
           "attributes": {
             "domain": "component",
@@ -2286,7 +2286,7 @@
           }
         },
         "0_75": {
-          "value": "{primitive.size.12.value}",
+          "value": "{primitive.size.12}",
           "comment": "Token will be deprecated once EDS button is updated with new spacing tokens",
           "attributes": {
             "domain": "component",
@@ -2295,7 +2295,7 @@
           }
         },
         "1": {
-          "value": "{primitive.size.16.value}",
+          "value": "{primitive.size.16}",
           "comment": "Token will be deprecated once EDS button is updated with new spacing tokens",
           "attributes": {
             "domain": "component",
@@ -2304,7 +2304,7 @@
           }
         },
         "1_5": {
-          "value": "{primitive.size.24.value}",
+          "value": "{primitive.size.24}",
           "comment": "Token will be deprecated once EDS button is updated with new spacing tokens",
           "attributes": {
             "domain": "component",
@@ -2315,7 +2315,7 @@
       },
       "border": {
         "width": {
-          "value": "{primitive.size.0_5.value}",
+          "value": "{primitive.size.0_5}",
           "attributes": {
             "domain": "component",
             "category": "shared",
@@ -2323,7 +2323,7 @@
           }
         },
         "offset": {
-          "value": "0 0 0 {primitive.size.2.value} {primitive.color.white}, 0 0 0 {primitive.size.4.value} {primitive.color.blue.30.value}",
+          "value": "0 0 0 {primitive.size.2} {primitive.color.white}, 0 0 0 {primitive.size.4} {primitive.color.blue.30}",
           "attributes": {
             "domain": "component",
             "category": "shared",
@@ -2335,7 +2335,7 @@
         "bg": {
           "primary-1": {
             "default": {
-              "value": "{primitive.color.blue.50.value}",
+              "value": "{primitive.color.blue.50}",
               "attributes": {
                 "domain": "component",
                 "category": "shared",
@@ -2343,7 +2343,7 @@
               }
             },
             "hover": {
-              "value": "{primitive.color.blue.30.value}",
+              "value": "{primitive.color.blue.30}",
               "attributes": {
                 "domain": "component",
                 "category": "shared",
@@ -2351,7 +2351,7 @@
               }
             },
             "active": {
-              "value": "{primitive.color.blue.10.value}",
+              "value": "{primitive.color.blue.10}",
               "attributes": {
                 "domain": "component",
                 "category": "shared",
@@ -2359,7 +2359,7 @@
               }
             },
             "focus": {
-              "value": "{primitive.color.blue.30.value}",
+              "value": "{primitive.color.blue.30}",
               "attributes": {
                 "domain": "component",
                 "category": "shared",
@@ -2367,7 +2367,7 @@
               }
             },
             "disabled": {
-              "value": "{primitive.color.blue.80.value}",
+              "value": "{primitive.color.blue.80}",
               "attributes": {
                 "domain": "component",
                 "category": "shared",
@@ -2377,7 +2377,7 @@
           },
           "primary-2": {
             "default": {
-              "value": "{primitive.color.green.50.value}",
+              "value": "{primitive.color.green.50}",
               "attributes": {
                 "domain": "component",
                 "category": "shared",
@@ -2385,7 +2385,7 @@
               }
             },
             "hover": {
-              "value": "{primitive.color.green.30.value}",
+              "value": "{primitive.color.green.30}",
               "attributes": {
                 "domain": "component",
                 "category": "shared",
@@ -2393,7 +2393,7 @@
               }
             },
             "active": {
-              "value": "{primitive.color.green.10.value}",
+              "value": "{primitive.color.green.10}",
               "attributes": {
                 "domain": "component",
                 "category": "shared",
@@ -2401,7 +2401,7 @@
               }
             },
             "focus": {
-              "value": "{primitive.color.green.30.value}",
+              "value": "{primitive.color.green.30}",
               "attributes": {
                 "domain": "component",
                 "category": "shared",
@@ -2409,7 +2409,7 @@
               }
             },
             "disabled": {
-              "value": "{primitive.color.green.80.value}",
+              "value": "{primitive.color.green.80}",
               "attributes": {
                 "domain": "component",
                 "category": "shared",
@@ -2419,7 +2419,7 @@
           },
           "secondary-1": {
             "default": {
-              "value": "{palette.eve.transparent.value}",
+              "value": "{palette.eve.transparent}",
               "attributes": {
                 "domain": "component",
                 "category": "shared",
@@ -2427,7 +2427,7 @@
               }
             },
             "hover": {
-              "value": "{primitive.color.blue.50.value}",
+              "value": "{primitive.color.blue.50}",
               "attributes": {
                 "domain": "component",
                 "category": "shared",
@@ -2435,7 +2435,7 @@
               }
             },
             "active": {
-              "value": "{primitive.color.blue.10.value}",
+              "value": "{primitive.color.blue.10}",
               "attributes": {
                 "domain": "component",
                 "category": "shared",
@@ -2443,7 +2443,7 @@
               }
             },
             "focus": {
-              "value": "{primitive.color.blue.50.value}",
+              "value": "{primitive.color.blue.50}",
               "attributes": {
                 "domain": "component",
                 "category": "shared",
@@ -2451,7 +2451,7 @@
               }
             },
             "disabled": {
-              "value": "{palette.eve.transparent.value}",
+              "value": "{palette.eve.transparent}",
               "attributes": {
                 "domain": "component",
                 "category": "shared",
@@ -2461,7 +2461,7 @@
           },
           "secondary-2": {
             "default": {
-              "value": "{palette.eve.transparent.value}",
+              "value": "{palette.eve.transparent}",
               "attributes": {
                 "domain": "component",
                 "category": "shared",
@@ -2469,7 +2469,7 @@
               }
             },
             "hover": {
-              "value": "{primitive.color.green.50.value}",
+              "value": "{primitive.color.green.50}",
               "attributes": {
                 "domain": "component",
                 "category": "shared",
@@ -2477,7 +2477,7 @@
               }
             },
             "active": {
-              "value": "{primitive.color.green.10.value}",
+              "value": "{primitive.color.green.10}",
               "attributes": {
                 "domain": "component",
                 "category": "shared",
@@ -2485,7 +2485,7 @@
               }
             },
             "focus": {
-              "value": "{primitive.color.green.50.value}",
+              "value": "{primitive.color.green.50}",
               "attributes": {
                 "domain": "component",
                 "category": "shared",
@@ -2493,7 +2493,7 @@
               }
             },
             "disabled": {
-              "value": "{palette.eve.transparent.value}",
+              "value": "{palette.eve.transparent}",
               "attributes": {
                 "domain": "component",
                 "category": "shared",
@@ -2505,7 +2505,7 @@
         "border": {
           "primary-1": {
             "default": {
-              "value": "{primitive.color.blue.50.value}",
+              "value": "{primitive.color.blue.50}",
               "attributes": {
                 "domain": "component",
                 "category": "shared",
@@ -2513,7 +2513,7 @@
               }
             },
             "hover": {
-              "value": "{primitive.color.blue.30.value}",
+              "value": "{primitive.color.blue.30}",
               "attributes": {
                 "domain": "component",
                 "category": "shared",
@@ -2521,7 +2521,7 @@
               }
             },
             "active": {
-              "value": "{primitive.color.blue.10.value}",
+              "value": "{primitive.color.blue.10}",
               "attributes": {
                 "domain": "component",
                 "category": "shared",
@@ -2529,7 +2529,7 @@
               }
             },
             "focus": {
-              "value": "{primitive.color.blue.30.value}",
+              "value": "{primitive.color.blue.30}",
               "attributes": {
                 "domain": "component",
                 "category": "shared",
@@ -2537,7 +2537,7 @@
               }
             },
             "disabled": {
-              "value": "{primitive.color.blue.80.value}",
+              "value": "{primitive.color.blue.80}",
               "attributes": {
                 "domain": "component",
                 "category": "shared",
@@ -2547,7 +2547,7 @@
           },
           "primary-2": {
             "default": {
-              "value": "{primitive.color.green.50.value}",
+              "value": "{primitive.color.green.50}",
               "attributes": {
                 "domain": "component",
                 "category": "shared",
@@ -2555,7 +2555,7 @@
               }
             },
             "hover": {
-              "value": "{primitive.color.green.30.value}",
+              "value": "{primitive.color.green.30}",
               "attributes": {
                 "domain": "component",
                 "category": "shared",
@@ -2563,7 +2563,7 @@
               }
             },
             "active": {
-              "value": "{primitive.color.green.10.value}",
+              "value": "{primitive.color.green.10}",
               "attributes": {
                 "domain": "component",
                 "category": "shared",
@@ -2571,7 +2571,7 @@
               }
             },
             "focus": {
-              "value": "{primitive.color.green.30.value}",
+              "value": "{primitive.color.green.30}",
               "attributes": {
                 "domain": "component",
                 "category": "shared",
@@ -2579,7 +2579,7 @@
               }
             },
             "disabled": {
-              "value": "{primitive.color.green.80.value}",
+              "value": "{primitive.color.green.80}",
               "attributes": {
                 "domain": "component",
                 "category": "shared",
@@ -2589,7 +2589,7 @@
           },
           "secondary-1": {
             "default": {
-              "value": "{primitive.color.blue.50.value}",
+              "value": "{primitive.color.blue.50}",
               "attributes": {
                 "domain": "component",
                 "category": "shared",
@@ -2597,7 +2597,7 @@
               }
             },
             "hover": {
-              "value": "{primitive.color.blue.30.value}",
+              "value": "{primitive.color.blue.30}",
               "attributes": {
                 "domain": "component",
                 "category": "shared",
@@ -2605,7 +2605,7 @@
               }
             },
             "active": {
-              "value": "{primitive.color.blue.10.value}",
+              "value": "{primitive.color.blue.10}",
               "attributes": {
                 "domain": "component",
                 "category": "shared",
@@ -2613,7 +2613,7 @@
               }
             },
             "focus": {
-              "value": "{primitive.color.blue.30.value}",
+              "value": "{primitive.color.blue.30}",
               "attributes": {
                 "domain": "component",
                 "category": "shared",
@@ -2621,7 +2621,7 @@
               }
             },
             "disabled": {
-              "value": "{primitive.color.blue.80.value}",
+              "value": "{primitive.color.blue.80}",
               "attributes": {
                 "domain": "component",
                 "category": "shared",
@@ -2631,7 +2631,7 @@
           },
           "secondary-2": {
             "default": {
-              "value": "{primitive.color.green.50.value}",
+              "value": "{primitive.color.green.50}",
               "attributes": {
                 "domain": "component",
                 "category": "shared",
@@ -2639,7 +2639,7 @@
               }
             },
             "hover": {
-              "value": "{primitive.color.green.30.value}",
+              "value": "{primitive.color.green.30}",
               "attributes": {
                 "domain": "component",
                 "category": "shared",
@@ -2647,7 +2647,7 @@
               }
             },
             "active": {
-              "value": "{primitive.color.green.10.value}",
+              "value": "{primitive.color.green.10}",
               "attributes": {
                 "domain": "component",
                 "category": "shared",
@@ -2655,7 +2655,7 @@
               }
             },
             "focus": {
-              "value": "{primitive.color.green.30.value}",
+              "value": "{primitive.color.green.30}",
               "attributes": {
                 "domain": "component",
                 "category": "shared",
@@ -2663,7 +2663,7 @@
               }
             },
             "disabled": {
-              "value": "{primitive.color.green.80.value}",
+              "value": "{primitive.color.green.80}",
               "attributes": {
                 "domain": "component",
                 "category": "shared",
@@ -2675,7 +2675,7 @@
         "text": {
           "primary-1": {
             "default": {
-              "value": "{primitive.color.white.value}",
+              "value": "{primitive.color.white}",
               "attributes": {
                 "domain": "component",
                 "category": "shared",
@@ -2683,7 +2683,7 @@
               }
             },
             "hover": {
-              "value": "{primitive.color.white.value}",
+              "value": "{primitive.color.white}",
               "attributes": {
                 "domain": "component",
                 "category": "shared",
@@ -2691,7 +2691,7 @@
               }
             },
             "active": {
-              "value": "{primitive.color.white.value}",
+              "value": "{primitive.color.white}",
               "attributes": {
                 "domain": "component",
                 "category": "shared",
@@ -2699,7 +2699,7 @@
               }
             },
             "focus": {
-              "value": "{primitive.color.white.value}",
+              "value": "{primitive.color.white}",
               "attributes": {
                 "domain": "component",
                 "category": "shared",
@@ -2707,7 +2707,7 @@
               }
             },
             "disabled": {
-              "value": "{primitive.color.white.value}",
+              "value": "{primitive.color.white}",
               "attributes": {
                 "domain": "component",
                 "category": "shared",
@@ -2717,7 +2717,7 @@
           },
           "primary-2": {
             "default": {
-              "value": "{primitive.color.white.value}",
+              "value": "{primitive.color.white}",
               "attributes": {
                 "domain": "component",
                 "category": "shared",
@@ -2725,7 +2725,7 @@
               }
             },
             "hover": {
-              "value": "{primitive.color.white.value}",
+              "value": "{primitive.color.white}",
               "attributes": {
                 "domain": "component",
                 "category": "shared",
@@ -2733,7 +2733,7 @@
               }
             },
             "active": {
-              "value": "{primitive.color.white.value}",
+              "value": "{primitive.color.white}",
               "attributes": {
                 "domain": "component",
                 "category": "shared",
@@ -2741,7 +2741,7 @@
               }
             },
             "focus": {
-              "value": "{primitive.color.white.value}",
+              "value": "{primitive.color.white}",
               "attributes": {
                 "domain": "component",
                 "category": "shared",
@@ -2749,7 +2749,7 @@
               }
             },
             "disabled": {
-              "value": "{primitive.color.white.value}",
+              "value": "{primitive.color.white}",
               "attributes": {
                 "domain": "component",
                 "category": "shared",
@@ -2759,7 +2759,7 @@
           },
           "secondary-1": {
             "default": {
-              "value": "{primitive.color.blue.50.value}",
+              "value": "{primitive.color.blue.50}",
               "attributes": {
                 "domain": "component",
                 "category": "shared",
@@ -2767,7 +2767,7 @@
               }
             },
             "hover": {
-              "value": "{primitive.color.white.value}",
+              "value": "{primitive.color.white}",
               "attributes": {
                 "domain": "component",
                 "category": "shared",
@@ -2775,7 +2775,7 @@
               }
             },
             "active": {
-              "value": "{primitive.color.white.value}",
+              "value": "{primitive.color.white}",
               "attributes": {
                 "domain": "component",
                 "category": "shared",
@@ -2783,7 +2783,7 @@
               }
             },
             "focus": {
-              "value": "{primitive.color.white.value}",
+              "value": "{primitive.color.white}",
               "attributes": {
                 "domain": "component",
                 "category": "shared",
@@ -2791,7 +2791,7 @@
               }
             },
             "disabled": {
-              "value": "{primitive.color.blue.80.value}",
+              "value": "{primitive.color.blue.80}",
               "attributes": {
                 "domain": "component",
                 "category": "shared",
@@ -2801,7 +2801,7 @@
           },
           "secondary-2": {
             "default": {
-              "value": "{primitive.color.green.50.value}",
+              "value": "{primitive.color.green.50}",
               "attributes": {
                 "domain": "component",
                 "category": "shared",
@@ -2809,7 +2809,7 @@
               }
             },
             "hover": {
-              "value": "{primitive.color.white.value}",
+              "value": "{primitive.color.white}",
               "attributes": {
                 "domain": "component",
                 "category": "shared",
@@ -2817,7 +2817,7 @@
               }
             },
             "active": {
-              "value": "{primitive.color.white.value}",
+              "value": "{primitive.color.white}",
               "attributes": {
                 "domain": "component",
                 "category": "shared",
@@ -2825,7 +2825,7 @@
               }
             },
             "focus": {
-              "value": "{primitive.color.white.value}",
+              "value": "{primitive.color.white}",
               "attributes": {
                 "domain": "component",
                 "category": "shared",
@@ -2833,7 +2833,7 @@
               }
             },
             "disabled": {
-              "value": "{primitive.color.green.80.value}",
+              "value": "{primitive.color.green.80}",
               "attributes": {
                 "domain": "component",
                 "category": "shared",
