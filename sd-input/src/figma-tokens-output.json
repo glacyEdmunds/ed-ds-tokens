@@ -5259,7 +5259,7 @@
       "button": {
         "text": {
           "weight": {
-            "value": "{font.typescale.body.large.weight.regular}",
+            "value": "{font.typescale.body.large.weight.bold}",
             "attributes": {
               "domain": "component",
               "category": "shared",
