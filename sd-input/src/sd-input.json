@@ -2213,925 +2213,638 @@
         }
       }
     },
-      "button": {
-    "shared": {
-      "button": {
-        "text": {
-          "weight": {
-            "value": "{font.typescale.body.large.weight.regular}",
-            "attributes": {
-              "domain": "component",
-              "category": "shared",
-              "component": "button"
-            },
-            "type": "other"
-          },
-          "size": {
-            "value": "{font.typescale.body.large.size}",
-            "attributes": {
-              "domain": "component",
-              "category": "shared",
-              "component": "button"
-            },
-            "type": "other"
-          },
-          "line-height": {
-            "value": "{font.line-height.xx-small}",
-            "attributes": {
-              "domain": "component",
-              "category": "shared",
-              "component": "button"
-            },
-            "type": "other"
+        "button": {
+      "text": {
+        "weight": {
+          "value": "{font.typescale.body.large.weight.regular.value}",
+          "attributes": {
+            "domain": "component",
+            "category": "shared",
+            "component": "button"
           }
         },
-        "radius": {
-          "square": {
-            "value": "{primitive.size.4}",
-            "attributes": {
-              "domain": "component",
-              "category": "shared",
-              "component": "button"
-            },
-            "type": "other"
-          },
-          "rounded": {
-            "value": "{primitive.size.8}",
-            "attributes": {
-              "domain": "component",
-              "category": "shared",
-              "component": "button"
-            },
-            "type": "other"
-          },
-          "circular": {
-            "value": "{primitive.size.100}",
-            "attributes": {
-              "domain": "component",
-              "category": "shared",
-              "component": "button"
-            },
-            "type": "other"
+        "size": {
+          "value": "{font.typescale.body.large.size.value}",
+          "attributes": {
+            "domain": "component",
+            "category": "shared",
+            "component": "button"
           }
         },
-        "space": {
-          "0": {
-            "value": "{primitive.size.0}",
-            "comment": "Token will be deprecated once EDS button is updated with new spacing tokens",
-            "attributes": {
-              "domain": "component",
-              "category": "shared",
-              "component": "button"
+        "line-height": {
+          "value": "{font.line-height.xx-small.value}",
+          "attributes": {
+            "domain": "component",
+            "category": "shared",
+            "component": "button"
+          }
+        }
+      },
+      "radius": {
+        "square": {
+          "value": "{primitive.size.4.value}",
+          "attributes": {
+            "domain": "component",
+            "category": "shared",
+            "component": "button"
+          }
+        },
+        "rounded": {
+          "value": "{primitive.size.8.value}",
+          "attributes": {
+            "domain": "component",
+            "category": "shared",
+            "component": "button"
+          }
+        },
+        "circular": {
+          "value": "{primitive.size.100.value}",
+          "attributes": {
+            "domain": "component",
+            "category": "shared",
+            "component": "button"
+          }
+        }
+      },
+      "space": {
+        "0": {
+          "value": "{primitive.size.0.value}",
+          "comment": "Token will be deprecated once EDS button is updated with new spacing tokens",
+          "attributes": {
+            "domain": "component",
+            "category": "shared",
+            "component": "button"
+          }
+        },
+        "0_5": {
+          "value": "{primitive.size.8.value}",
+          "comment": "Token will be deprecated once EDS button is updated with new spacing tokens",
+          "attributes": {
+            "domain": "component",
+            "category": "shared",
+            "component": "button"
+          }
+        },
+        "0_75": {
+          "value": "{primitive.size.12.value}",
+          "comment": "Token will be deprecated once EDS button is updated with new spacing tokens",
+          "attributes": {
+            "domain": "component",
+            "category": "shared",
+            "component": "button"
+          }
+        },
+        "1": {
+          "value": "{primitive.size.16.value}",
+          "comment": "Token will be deprecated once EDS button is updated with new spacing tokens",
+          "attributes": {
+            "domain": "component",
+            "category": "shared",
+            "component": "button"
+          }
+        },
+        "1_5": {
+          "value": "{primitive.size.24.value}",
+          "comment": "Token will be deprecated once EDS button is updated with new spacing tokens",
+          "attributes": {
+            "domain": "component",
+            "category": "shared",
+            "component": "button"
+          }
+        }
+      },
+      "border": {
+        "width": {
+          "value": "{primitive.size.0_5.value}",
+          "attributes": {
+            "domain": "component",
+            "category": "shared",
+            "component": "button"
+          }
+        },
+        "offset": {
+          "value": "0 0 0 {primitive.size.2.value} {primitive.color.white}, 0 0 0 {primitive.size.4.value} {primitive.color.blue.30.value}",
+          "attributes": {
+            "domain": "component",
+            "category": "shared",
+            "component": "button"
+          }
+        }
+      },
+      "color": {
+        "bg": {
+          "primary-1": {
+            "default": {
+              "value": "{primitive.color.blue.50.value}",
+              "attributes": {
+                "domain": "component",
+                "category": "shared",
+                "component": "button"
+              }
             },
-            "type": "other"
+            "hover": {
+              "value": "{primitive.color.blue.30.value}",
+              "attributes": {
+                "domain": "component",
+                "category": "shared",
+                "component": "button"
+              }
+            },
+            "active": {
+              "value": "{primitive.color.blue.10.value}",
+              "attributes": {
+                "domain": "component",
+                "category": "shared",
+                "component": "button"
+              }
+            },
+            "focus": {
+              "value": "{primitive.color.blue.30.value}",
+              "attributes": {
+                "domain": "component",
+                "category": "shared",
+                "component": "button"
+              }
+            },
+            "disabled": {
+              "value": "{primitive.color.blue.80.value}",
+              "attributes": {
+                "domain": "component",
+                "category": "shared",
+                "component": "button"
+              }
+            }
           },
-          "1": {
-            "value": "{primitive.size.16}",
-            "comment": "Token will be deprecated once EDS button is updated with new spacing tokens",
-            "attributes": {
-              "domain": "component",
-              "category": "shared",
-              "component": "button"
+          "primary-2": {
+            "default": {
+              "value": "{primitive.color.green.50.value}",
+              "attributes": {
+                "domain": "component",
+                "category": "shared",
+                "component": "button"
+              }
             },
-            "type": "other"
+            "hover": {
+              "value": "{primitive.color.green.30.value}",
+              "attributes": {
+                "domain": "component",
+                "category": "shared",
+                "component": "button"
+              }
+            },
+            "active": {
+              "value": "{primitive.color.green.10.value}",
+              "attributes": {
+                "domain": "component",
+                "category": "shared",
+                "component": "button"
+              }
+            },
+            "focus": {
+              "value": "{primitive.color.green.30.value}",
+              "attributes": {
+                "domain": "component",
+                "category": "shared",
+                "component": "button"
+              }
+            },
+            "disabled": {
+              "value": "{primitive.color.green.80.value}",
+              "attributes": {
+                "domain": "component",
+                "category": "shared",
+                "component": "button"
+              }
+            }
           },
-          "0_5": {
-            "value": "{primitive.size.8}",
-            "comment": "Token will be deprecated once EDS button is updated with new spacing tokens",
-            "attributes": {
-              "domain": "component",
-              "category": "shared",
-              "component": "button"
+          "secondary-1": {
+            "default": {
+              "value": "{palette.eve.transparent.value}",
+              "attributes": {
+                "domain": "component",
+                "category": "shared",
+                "component": "button"
+              }
             },
-            "type": "other"
+            "hover": {
+              "value": "{primitive.color.blue.50.value}",
+              "attributes": {
+                "domain": "component",
+                "category": "shared",
+                "component": "button"
+              }
+            },
+            "active": {
+              "value": "{primitive.color.blue.10.value}",
+              "attributes": {
+                "domain": "component",
+                "category": "shared",
+                "component": "button"
+              }
+            },
+            "focus": {
+              "value": "{primitive.color.blue.50.value}",
+              "attributes": {
+                "domain": "component",
+                "category": "shared",
+                "component": "button"
+              }
+            },
+            "disabled": {
+              "value": "{palette.eve.transparent.value}",
+              "attributes": {
+                "domain": "component",
+                "category": "shared",
+                "component": "button"
+              }
+            }
           },
-          "0_75": {
-            "value": "{primitive.size.12}",
-            "comment": "Token will be deprecated once EDS button is updated with new spacing tokens",
-            "attributes": {
-              "domain": "component",
-              "category": "shared",
-              "component": "button"
+          "secondary-2": {
+            "default": {
+              "value": "{palette.eve.transparent.value}",
+              "attributes": {
+                "domain": "component",
+                "category": "shared",
+                "component": "button"
+              }
             },
-            "type": "other"
-          },
-          "1_5": {
-            "value": "{primitive.size.24}",
-            "comment": "Token will be deprecated once EDS button is updated with new spacing tokens",
-            "attributes": {
-              "domain": "component",
-              "category": "shared",
-              "component": "button"
+            "hover": {
+              "value": "{primitive.color.green.50.value}",
+              "attributes": {
+                "domain": "component",
+                "category": "shared",
+                "component": "button"
+              }
             },
-            "type": "other"
+            "active": {
+              "value": "{primitive.color.green.10.value}",
+              "attributes": {
+                "domain": "component",
+                "category": "shared",
+                "component": "button"
+              }
+            },
+            "focus": {
+              "value": "{primitive.color.green.50.value}",
+              "attributes": {
+                "domain": "component",
+                "category": "shared",
+                "component": "button"
+              }
+            },
+            "disabled": {
+              "value": "{palette.eve.transparent.value}",
+              "attributes": {
+                "domain": "component",
+                "category": "shared",
+                "component": "button"
+              }
+            }
           }
         },
         "border": {
-          "width": {
-            "value": "{primitive.size.0_5}",
-            "attributes": {
-              "domain": "component",
-              "category": "shared",
-              "component": "button"
-            },
-            "type": "other"
-          },
-          "offset": {
-            "value": "0 0 0 {primitive.size.2} {primitive.color.white}, 0 0 0 {primitive.size.4} {primitive.color.blue.30}",
-            "attributes": {
-              "domain": "component",
-              "category": "shared",
-              "component": "button"
-            },
-            "type": "other"
-          }
-        },
-        "color": {
-          "bg": {
-            "primary-1": {
-              "default": {
-                "value": "primitive.eve.color.blue.50",
-                "attributes": {
-                  "domain": "component",
-                  "category": "shared",
-                  "component": "button"
-                },
-                "type": "other"
-              },
-              "hover": {
-                "value": "{primitive.color.blue.30}",
-                "attributes": {
-                  "domain": "component",
-                  "category": "shared",
-                  "component": "button"
-                },
-                "type": "other"
-              },
-              "active": {
-                "value": "{primitive.color.blue.10}",
-                "attributes": {
-                  "domain": "component",
-                  "category": "shared",
-                  "component": "button"
-                },
-                "type": "other"
-              },
-              "focus": {
-                "value": "{primitive.color.blue.30}",
-                "attributes": {
-                  "domain": "component",
-                  "category": "shared",
-                  "component": "button"
-                },
-                "type": "other"
-              },
-              "disabled": {
-                "value": "{primitive.color.blue.80}",
-                "attributes": {
-                  "domain": "component",
-                  "category": "shared",
-                  "component": "button"
-                },
-                "type": "other"
+          "primary-1": {
+            "default": {
+              "value": "{primitive.color.blue.50.value}",
+              "attributes": {
+                "domain": "component",
+                "category": "shared",
+                "component": "button"
               }
             },
-            "primary-2": {
-              "default": {
-                "value": "{primitive.color.green.50}",
-                "attributes": {
-                  "domain": "component",
-                  "category": "shared",
-                  "component": "button"
-                },
-                "type": "other"
-              },
-              "hover": {
-                "value": "{primitive.color.green.30}",
-                "attributes": {
-                  "domain": "component",
-                  "category": "shared",
-                  "component": "button"
-                },
-                "type": "other"
-              },
-              "active": {
-                "value": "{primitive.color.green.10}",
-                "attributes": {
-                  "domain": "component",
-                  "category": "shared",
-                  "component": "button"
-                },
-                "type": "other"
-              },
-              "focus": {
-                "value": "{primitive.color.green.30}",
-                "attributes": {
-                  "domain": "component",
-                  "category": "shared",
-                  "component": "button"
-                },
-                "type": "other"
-              },
-              "disabled": {
-                "value": "{primitive.color.green.80}",
-                "attributes": {
-                  "domain": "component",
-                  "category": "shared",
-                  "component": "button"
-                },
-                "type": "other"
+            "hover": {
+              "value": "{primitive.color.blue.30.value}",
+              "attributes": {
+                "domain": "component",
+                "category": "shared",
+                "component": "button"
               }
             },
-            "secondary-1": {
-              "default": {
-                "value": "{palette.eve.transparent}",
-                "attributes": {
-                  "domain": "component",
-                  "category": "shared",
-                  "component": "button"
-                },
-                "type": "other"
-              },
-              "hover": {
-                "value": "{primitive.color.blue.50}",
-                "attributes": {
-                  "domain": "component",
-                  "category": "shared",
-                  "component": "button"
-                },
-                "type": "other"
-              },
-              "active": {
-                "value": "{primitive.color.blue.10}",
-                "attributes": {
-                  "domain": "component",
-                  "category": "shared",
-                  "component": "button"
-                },
-                "type": "other"
-              },
-              "focus": {
-                "value": "{primitive.color.blue.50}",
-                "attributes": {
-                  "domain": "component",
-                  "category": "shared",
-                  "component": "button"
-                },
-                "type": "other"
-              },
-              "disabled": {
-                "value": "{palette.eve.transparent}",
-                "attributes": {
-                  "domain": "component",
-                  "category": "shared",
-                  "component": "button"
-                },
-                "type": "other"
+            "active": {
+              "value": "{primitive.color.blue.10.value}",
+              "attributes": {
+                "domain": "component",
+                "category": "shared",
+                "component": "button"
               }
             },
-            "secondary-2": {
-              "default": {
-                "value": "{palette.eve.transparent}",
-                "attributes": {
-                  "domain": "component",
-                  "category": "shared",
-                  "component": "button"
-                },
-                "type": "other"
-              },
-              "hover": {
-                "value": "{primitive.color.green.50}",
-                "attributes": {
-                  "domain": "component",
-                  "category": "shared",
-                  "component": "button"
-                },
-                "type": "other"
-              },
-              "active": {
-                "value": "{primitive.color.green.10}",
-                "attributes": {
-                  "domain": "component",
-                  "category": "shared",
-                  "component": "button"
-                },
-                "type": "other"
-              },
-              "focus": {
-                "value": "{primitive.color.green.50}",
-                "attributes": {
-                  "domain": "component",
-                  "category": "shared",
-                  "component": "button"
-                },
-                "type": "other"
-              },
-              "disabled": {
-                "value": "{palette.eve.transparent}",
-                "attributes": {
-                  "domain": "component",
-                  "category": "shared",
-                  "component": "button"
-                },
-                "type": "other"
+            "focus": {
+              "value": "{primitive.color.blue.30.value}",
+              "attributes": {
+                "domain": "component",
+                "category": "shared",
+                "component": "button"
+              }
+            },
+            "disabled": {
+              "value": "{primitive.color.blue.80.value}",
+              "attributes": {
+                "domain": "component",
+                "category": "shared",
+                "component": "button"
               }
             }
           },
-          "border": {
-            "primary-1": {
-              "default": {
-                "value": "{primitive.color.blue.50}",
-                "attributes": {
-                  "domain": "component",
-                  "category": "shared",
-                  "component": "button"
-                },
-                "type": "other"
-              },
-              "hover": {
-                "value": "{primitive.color.blue.30}",
-                "attributes": {
-                  "domain": "component",
-                  "category": "shared",
-                  "component": "button"
-                },
-                "type": "other"
-              },
-              "active": {
-                "value": "{primitive.color.blue.10}",
-                "attributes": {
-                  "domain": "component",
-                  "category": "shared",
-                  "component": "button"
-                },
-                "type": "other"
-              },
-              "focus": {
-                "value": "{primitive.color.blue.30}",
-                "attributes": {
-                  "domain": "component",
-                  "category": "shared",
-                  "component": "button"
-                },
-                "type": "other"
-              },
-              "disabled": {
-                "value": "{primitive.color.blue.80}",
-                "attributes": {
-                  "domain": "component",
-                  "category": "shared",
-                  "component": "button"
-                },
-                "type": "other"
+          "primary-2": {
+            "default": {
+              "value": "{primitive.color.green.50.value}",
+              "attributes": {
+                "domain": "component",
+                "category": "shared",
+                "component": "button"
               }
             },
-            "primary-2": {
-              "default": {
-                "value": "{primitive.color.green.50}",
-                "attributes": {
-                  "domain": "component",
-                  "category": "shared",
-                  "component": "button"
-                },
-                "type": "other"
-              },
-              "hover": {
-                "value": "{primitive.color.green.30}",
-                "attributes": {
-                  "domain": "component",
-                  "category": "shared",
-                  "component": "button"
-                },
-                "type": "other"
-              },
-              "active": {
-                "value": "{primitive.color.green.10}",
-                "attributes": {
-                  "domain": "component",
-                  "category": "shared",
-                  "component": "button"
-                },
-                "type": "other"
-              },
-              "focus": {
-                "value": "{primitive.color.green.30}",
-                "attributes": {
-                  "domain": "component",
-                  "category": "shared",
-                  "component": "button"
-                },
-                "type": "other"
-              },
-              "disabled": {
-                "value": "{primitive.color.green.80}",
-                "attributes": {
-                  "domain": "component",
-                  "category": "shared",
-                  "component": "button"
-                },
-                "type": "other"
+            "hover": {
+              "value": "{primitive.color.green.30.value}",
+              "attributes": {
+                "domain": "component",
+                "category": "shared",
+                "component": "button"
               }
             },
-            "secondary-1": {
-              "default": {
-                "value": "{primitive.color.blue.50}",
-                "attributes": {
-                  "domain": "component",
-                  "category": "shared",
-                  "component": "button"
-                },
-                "type": "other"
-              },
-              "hover": {
-                "value": "{primitive.color.blue.30}",
-                "attributes": {
-                  "domain": "component",
-                  "category": "shared",
-                  "component": "button"
-                },
-                "type": "other"
-              },
-              "active": {
-                "value": "{primitive.color.blue.10}",
-                "attributes": {
-                  "domain": "component",
-                  "category": "shared",
-                  "component": "button"
-                },
-                "type": "other"
-              },
-              "focus": {
-                "value": "{primitive.color.blue.30}",
-                "attributes": {
-                  "domain": "component",
-                  "category": "shared",
-                  "component": "button"
-                },
-                "type": "other"
-              },
-              "disabled": {
-                "value": "{primitive.color.blue.80}",
-                "attributes": {
-                  "domain": "component",
-                  "category": "shared",
-                  "component": "button"
-                },
-                "type": "other"
+            "active": {
+              "value": "{primitive.color.green.10.value}",
+              "attributes": {
+                "domain": "component",
+                "category": "shared",
+                "component": "button"
               }
             },
-            "secondary-2": {
-              "default": {
-                "value": "{primitive.color.green.50}",
-                "attributes": {
-                  "domain": "component",
-                  "category": "shared",
-                  "component": "button"
-                },
-                "type": "other"
-              },
-              "hover": {
-                "value": "{primitive.color.green.30}",
-                "attributes": {
-                  "domain": "component",
-                  "category": "shared",
-                  "component": "button"
-                },
-                "type": "other"
-              },
-              "active": {
-                "value": "{primitive.color.green.10}",
-                "attributes": {
-                  "domain": "component",
-                  "category": "shared",
-                  "component": "button"
-                },
-                "type": "other"
-              },
-              "focus": {
-                "value": "{primitive.color.green.30}",
-                "attributes": {
-                  "domain": "component",
-                  "category": "shared",
-                  "component": "button"
-                },
-                "type": "other"
-              },
-              "disabled": {
-                "value": "{primitive.color.green.80}",
-                "attributes": {
-                  "domain": "component",
-                  "category": "shared",
-                  "component": "button"
-                },
-                "type": "other"
+            "focus": {
+              "value": "{primitive.color.green.30.value}",
+              "attributes": {
+                "domain": "component",
+                "category": "shared",
+                "component": "button"
+              }
+            },
+            "disabled": {
+              "value": "{primitive.color.green.80.value}",
+              "attributes": {
+                "domain": "component",
+                "category": "shared",
+                "component": "button"
               }
             }
           },
-          "text": {
-            "primary-1": {
-              "default": {
-                "value": "{primitive.color.white}",
-                "attributes": {
-                  "domain": "component",
-                  "category": "shared",
-                  "component": "button"
-                },
-                "type": "other"
-              },
-              "hover": {
-                "value": "{primitive.color.white}",
-                "attributes": {
-                  "domain": "component",
-                  "category": "shared",
-                  "component": "button"
-                },
-                "type": "other"
-              },
-              "active": {
-                "value": "{primitive.color.white}",
-                "attributes": {
-                  "domain": "component",
-                  "category": "shared",
-                  "component": "button"
-                },
-                "type": "other"
-              },
-              "focus": {
-                "value": "{primitive.color.white}",
-                "attributes": {
-                  "domain": "component",
-                  "category": "shared",
-                  "component": "button"
-                },
-                "type": "other"
-              },
-              "disabled": {
-                "value": "{primitive.color.white}",
-                "attributes": {
-                  "domain": "component",
-                  "category": "shared",
-                  "component": "button"
-                },
-                "type": "other"
+          "secondary-1": {
+            "default": {
+              "value": "{primitive.color.blue.50.value}",
+              "attributes": {
+                "domain": "component",
+                "category": "shared",
+                "component": "button"
               }
             },
-            "primary-2": {
-              "default": {
-                "value": "{primitive.color.white}",
-                "attributes": {
-                  "domain": "component",
-                  "category": "shared",
-                  "component": "button"
-                },
-                "type": "other"
-              },
-              "hover": {
-                "value": "{primitive.color.white}",
-                "attributes": {
-                  "domain": "component",
-                  "category": "shared",
-                  "component": "button"
-                },
-                "type": "other"
-              },
-              "active": {
-                "value": "{primitive.color.white}",
-                "attributes": {
-                  "domain": "component",
-                  "category": "shared",
-                  "component": "button"
-                },
-                "type": "other"
-              },
-              "focus": {
-                "value": "{primitive.color.white}",
-                "attributes": {
-                  "domain": "component",
-                  "category": "shared",
-                  "component": "button"
-                },
-                "type": "other"
-              },
-              "disabled": {
-                "value": "{primitive.color.white}",
-                "attributes": {
-                  "domain": "component",
-                  "category": "shared",
-                  "component": "button"
-                },
-                "type": "other"
+            "hover": {
+              "value": "{primitive.color.blue.30.value}",
+              "attributes": {
+                "domain": "component",
+                "category": "shared",
+                "component": "button"
               }
             },
-            "secondary-1": {
-              "default": {
-                "value": "{primitive.color.blue.50}",
-                "attributes": {
-                  "domain": "component",
-                  "category": "shared",
-                  "component": "button"
-                },
-                "type": "other"
-              },
-              "hover": {
-                "value": "{primitive.color.white}",
-                "attributes": {
-                  "domain": "component",
-                  "category": "shared",
-                  "component": "button"
-                },
-                "type": "other"
-              },
-              "active": {
-                "value": "{primitive.color.white}",
-                "attributes": {
-                  "domain": "component",
-                  "category": "shared",
-                  "component": "button"
-                },
-                "type": "other"
-              },
-              "focus": {
-                "value": "{primitive.color.white}",
-                "attributes": {
-                  "domain": "component",
-                  "category": "shared",
-                  "component": "button"
-                },
-                "type": "other"
-              },
-              "disabled": {
-                "value": "{primitive.color.blue.80}",
-                "attributes": {
-                  "domain": "component",
-                  "category": "shared",
-                  "component": "button"
-                },
-                "type": "other"
+            "active": {
+              "value": "{primitive.color.blue.10.value}",
+              "attributes": {
+                "domain": "component",
+                "category": "shared",
+                "component": "button"
               }
             },
-            "secondary-2": {
-              "default": {
-                "value": "{primitive.color.green.50}",
-                "attributes": {
-                  "domain": "component",
-                  "category": "shared",
-                  "component": "button"
-                },
-                "type": "other"
-              },
-              "hover": {
-                "value": "{primitive.color.white}",
-                "attributes": {
-                  "domain": "component",
-                  "category": "shared",
-                  "component": "button"
-                },
-                "type": "other"
-              },
-              "active": {
-                "value": "{primitive.color.white}",
-                "attributes": {
-                  "domain": "component",
-                  "category": "shared",
-                  "component": "button"
-                },
-                "type": "other"
-              },
-              "focus": {
-                "value": "{primitive.color.white}",
-                "attributes": {
-                  "domain": "component",
-                  "category": "shared",
-                  "component": "button"
-                },
-                "type": "other"
-              },
-              "disabled": {
-                "value": "{primitive.color.green.80}",
-                "attributes": {
-                  "domain": "component",
-                  "category": "shared",
-                  "component": "button"
-                },
-                "type": "other"
+            "focus": {
+              "value": "{primitive.color.blue.30.value}",
+              "attributes": {
+                "domain": "component",
+                "category": "shared",
+                "component": "button"
+              }
+            },
+            "disabled": {
+              "value": "{primitive.color.blue.80.value}",
+              "attributes": {
+                "domain": "component",
+                "category": "shared",
+                "component": "button"
+              }
+            }
+          },
+          "secondary-2": {
+            "default": {
+              "value": "{primitive.color.green.50.value}",
+              "attributes": {
+                "domain": "component",
+                "category": "shared",
+                "component": "button"
+              }
+            },
+            "hover": {
+              "value": "{primitive.color.green.30.value}",
+              "attributes": {
+                "domain": "component",
+                "category": "shared",
+                "component": "button"
+              }
+            },
+            "active": {
+              "value": "{primitive.color.green.10.value}",
+              "attributes": {
+                "domain": "component",
+                "category": "shared",
+                "component": "button"
+              }
+            },
+            "focus": {
+              "value": "{primitive.color.green.30.value}",
+              "attributes": {
+                "domain": "component",
+                "category": "shared",
+                "component": "button"
+              }
+            },
+            "disabled": {
+              "value": "{primitive.color.green.80.value}",
+              "attributes": {
+                "domain": "component",
+                "category": "shared",
+                "component": "button"
               }
             }
           }
         },
-        "measurements": {
-          "space": {
-            "inset": {
-              "small": {
-                "value": "{space.inset.2x}",
-                "attributes": {
-                  "domain": "component",
-                  "category": "shared",
-                  "component": "button"
-                },
-                "type": "other"
-              },
-              "medium": {
-                "value": "{space.inset.3x}",
-                "attributes": {
-                  "domain": "component",
-                  "category": "shared",
-                  "component": "button"
-                },
-                "type": "other"
-              },
-              "large": {
-                "value": "{space.inset.4x}",
-                "attributes": {
-                  "domain": "component",
-                  "category": "shared",
-                  "component": "button"
-                },
-                "type": "other"
-              },
-              "right": {
-                "small": {
-                  "value": "{space.inset.2x}",
-                  "attributes": {
-                    "domain": "component",
-                    "category": "shared",
-                    "component": "button"
-                  },
-                  "type": "other"
-                },
-                "medium": {
-                  "value": "{space.inset.3x}",
-                  "attributes": {
-                    "domain": "component",
-                    "category": "shared",
-                    "component": "button"
-                  },
-                  "type": "other"
-                },
-                "large": {
-                  "value": "{space.inset.4x}",
-                  "attributes": {
-                    "domain": "component",
-                    "category": "shared",
-                    "component": "button"
-                  },
-                  "type": "other"
-                },
-                "xlarge": {
-                  "value": "{space.inset.6x}",
-                  "attributes": {
-                    "domain": "component",
-                    "category": "shared",
-                    "component": "button"
-                  },
-                  "type": "other"
-                }
-              },
-              "left": {
-                "small": {
-                  "value": "{space.inset.2x}",
-                  "attributes": {
-                    "domain": "component",
-                    "category": "shared",
-                    "component": "button"
-                  },
-                  "type": "other"
-                },
-                "medium": {
-                  "value": "{space.inset.3x}",
-                  "attributes": {
-                    "domain": "component",
-                    "category": "shared",
-                    "component": "button"
-                  },
-                  "type": "other"
-                },
-                "large": {
-                  "value": "{space.inset.4x}",
-                  "attributes": {
-                    "domain": "component",
-                    "category": "shared",
-                    "component": "button"
-                  },
-                  "type": "other"
-                },
-                "xlarge": {
-                  "value": "{space.inset.6x}",
-                  "attributes": {
-                    "domain": "component",
-                    "category": "shared",
-                    "component": "button"
-                  },
-                  "type": "other"
-                }
+        "text": {
+          "primary-1": {
+            "default": {
+              "value": "{primitive.color.white.value}",
+              "attributes": {
+                "domain": "component",
+                "category": "shared",
+                "component": "button"
               }
             },
-            "stack": {
-              "top": {
-                "small": {
-                  "value": "{space.inset.2x}",
-                  "attributes": {
-                    "domain": "component",
-                    "category": "shared",
-                    "component": "button"
-                  },
-                  "type": "other"
-                },
-                "medium": {
-                  "value": "{space.inset.3x}",
-                  "attributes": {
-                    "domain": "component",
-                    "category": "shared",
-                    "component": "button"
-                  },
-                  "type": "other"
-                },
-                "large": {
-                  "value": "{space.inset.4x}",
-                  "attributes": {
-                    "domain": "component",
-                    "category": "shared",
-                    "component": "button"
-                  },
-                  "type": "other"
-                }
-              },
-              "bottom": {
-                "small": {
-                  "value": "{space.inset.2x}",
-                  "attributes": {
-                    "domain": "component",
-                    "category": "shared",
-                    "component": "button"
-                  },
-                  "type": "other"
-                },
-                "medium": {
-                  "value": "{space.inset.3x}",
-                  "attributes": {
-                    "domain": "component",
-                    "category": "shared",
-                    "component": "button"
-                  },
-                  "type": "other"
-                },
-                "large": {
-                  "value": "{space.inset.4x}",
-                  "attributes": {
-                    "domain": "component",
-                    "category": "shared",
-                    "component": "button"
-                  },
-                  "type": "other"
-                }
+            "hover": {
+              "value": "{primitive.color.white.value}",
+              "attributes": {
+                "domain": "component",
+                "category": "shared",
+                "component": "button"
               }
             },
-            "inline": {
-              "right": {
-                "none": {
-                  "value": 0,
-                  "attributes": {
-                    "domain": "component",
-                    "category": "shared",
-                    "component": "button"
-                  },
-                  "type": "other"
-                },
-                "small": {
-                  "value": "{space.inset.2x}",
-                  "attributes": {
-                    "domain": "component",
-                    "category": "shared",
-                    "component": "button"
-                  },
-                  "type": "other"
-                }
-              },
-              "left": {
-                "none": {
-                  "value": 0,
-                  "attributes": {
-                    "domain": "component",
-                    "category": "shared",
-                    "component": "button"
-                  },
-                  "type": "other"
-                },
-                "small": {
-                  "value": "{space.inset.2x}",
-                  "attributes": {
-                    "domain": "component",
-                    "category": "shared",
-                    "component": "button"
-                  },
-                  "type": "other"
-                }
+            "active": {
+              "value": "{primitive.color.white.value}",
+              "attributes": {
+                "domain": "component",
+                "category": "shared",
+                "component": "button"
+              }
+            },
+            "focus": {
+              "value": "{primitive.color.white.value}",
+              "attributes": {
+                "domain": "component",
+                "category": "shared",
+                "component": "button"
+              }
+            },
+            "disabled": {
+              "value": "{primitive.color.white.value}",
+              "attributes": {
+                "domain": "component",
+                "category": "shared",
+                "component": "button"
+              }
+            }
+          },
+          "primary-2": {
+            "default": {
+              "value": "{primitive.color.white.value}",
+              "attributes": {
+                "domain": "component",
+                "category": "shared",
+                "component": "button"
+              }
+            },
+            "hover": {
+              "value": "{primitive.color.white.value}",
+              "attributes": {
+                "domain": "component",
+                "category": "shared",
+                "component": "button"
+              }
+            },
+            "active": {
+              "value": "{primitive.color.white.value}",
+              "attributes": {
+                "domain": "component",
+                "category": "shared",
+                "component": "button"
+              }
+            },
+            "focus": {
+              "value": "{primitive.color.white.value}",
+              "attributes": {
+                "domain": "component",
+                "category": "shared",
+                "component": "button"
+              }
+            },
+            "disabled": {
+              "value": "{primitive.color.white.value}",
+              "attributes": {
+                "domain": "component",
+                "category": "shared",
+                "component": "button"
+              }
+            }
+          },
+          "secondary-1": {
+            "default": {
+              "value": "{primitive.color.blue.50.value}",
+              "attributes": {
+                "domain": "component",
+                "category": "shared",
+                "component": "button"
+              }
+            },
+            "hover": {
+              "value": "{primitive.color.white.value}",
+              "attributes": {
+                "domain": "component",
+                "category": "shared",
+                "component": "button"
+              }
+            },
+            "active": {
+              "value": "{primitive.color.white.value}",
+              "attributes": {
+                "domain": "component",
+                "category": "shared",
+                "component": "button"
+              }
+            },
+            "focus": {
+              "value": "{primitive.color.white.value}",
+              "attributes": {
+                "domain": "component",
+                "category": "shared",
+                "component": "button"
+              }
+            },
+            "disabled": {
+              "value": "{primitive.color.blue.80.value}",
+              "attributes": {
+                "domain": "component",
+                "category": "shared",
+                "component": "button"
+              }
+            }
+          },
+          "secondary-2": {
+            "default": {
+              "value": "{primitive.color.green.50.value}",
+              "attributes": {
+                "domain": "component",
+                "category": "shared",
+                "component": "button"
+              }
+            },
+            "hover": {
+              "value": "{primitive.color.white.value}",
+              "attributes": {
+                "domain": "component",
+                "category": "shared",
+                "component": "button"
+              }
+            },
+            "active": {
+              "value": "{primitive.color.white.value}",
+              "attributes": {
+                "domain": "component",
+                "category": "shared",
+                "component": "button"
+              }
+            },
+            "focus": {
+              "value": "{primitive.color.white.value}",
+              "attributes": {
+                "domain": "component",
+                "category": "shared",
+                "component": "button"
+              }
+            },
+            "disabled": {
+              "value": "{primitive.color.green.80.value}",
+              "attributes": {
+                "domain": "component",
+                "category": "shared",
+                "component": "button"
               }
             }
           }
         }
       }
     }
-  }
+
   },
   "palette": {
     "eve": {
