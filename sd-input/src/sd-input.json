@@ -6069,7 +6069,8 @@
       "primitive": "enabled",
       "base": "enabled",
       "text_input": "enabled",
-      "dropdown": "enabled"
+      "dropdown": "enabled",
+         "button": "enabled"
     },
     "$figmaCollectionId": "VariableCollectionId:3:2",
     "$figmaModeId": "3:0",
