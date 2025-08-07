@@ -2220,7 +2220,8 @@
           "attributes": {
             "domain": "component",
             "category": "shared",
-            "component": "button"
+            "component": "button",
+            "hidden": false
           }
         },
         "size": {
