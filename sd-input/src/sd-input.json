@@ -4217,7 +4217,7 @@
           }
         },
         "90": {
-          "value": "#ff0000",
+          "value": "#000000",
           "type": "color",
           "attributes": {
             "domain": "primitive",
