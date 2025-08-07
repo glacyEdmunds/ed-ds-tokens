@@ -5423,6 +5423,10 @@
     "3": {
       "value": "dropdown",
       "type": "other"
+    },
+    "4": {
+      "value": "button",
+      "type": "other"
     }
   },
   "eds": {

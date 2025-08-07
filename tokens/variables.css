@@ -979,5 +979,6 @@
   --figma-token-set-order-1: base;
   --figma-token-set-order-2: text_input;
   --figma-token-set-order-3: dropdown;
+  --figma-token-set-order-4: button;
   --figma-eds: [object Object];
 }
