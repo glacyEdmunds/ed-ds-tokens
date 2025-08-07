@@ -5277,7 +5277,7 @@
             "type": "other"
           },
           "line-height": {
-            "value": "{font.line-height.xx-small}",
+            "value": "{font.line_height.xx-small}",
             "attributes": {
               "domain": "component",
               "category": "shared",
