@@ -3791,7 +3791,7 @@
     },
     "ts": {
       "display": {
-        "lg": {
+        "large": {
           "value": {
             "fontWeight": "{font.weight.md}"
           },
