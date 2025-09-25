@@ -3791,11 +3791,12 @@
     },
     "ts": {
       "display": {
-        "large": {
+        "lg": {
           "value": {
             "fontWeight": "{font.weight.md}"
           },
-          "type": "typography"
+          "type": "typography",
+          "description": "find me"
         }
       }
     }
