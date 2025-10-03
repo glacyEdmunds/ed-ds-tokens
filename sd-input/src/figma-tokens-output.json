@@ -3804,33 +3804,33 @@
   "text_input": {
     "shared": {
       "text_input": {
-        "measurements": {
+        "spec": {
           "container": {
             "size": {
               "type": "sizing",
-              "small": {
+              "sm": {
                 "value": "{primitive.size.32}"
               },
-              "medium": {
+              "md": {
                 "value": "{primitive.size.40}",
                 "attributes": {
                   "domain": "component",
                   "category": "shared",
                   "component": "text_input",
                   "type": "text_input",
-                  "item": "measurements",
+                  "item": "spec",
                   "subitem": "container",
                   "state": "size"
                 }
               },
-              "large": {
+              "lg": {
                 "value": "{primitive.size.48}",
                 "attributes": {
                   "domain": "component",
                   "category": "shared",
                   "component": "text_input",
                   "type": "text_input",
-                  "item": "measurements",
+                  "item": "spec",
                   "subitem": "container",
                   "state": "size"
                 }
@@ -3838,63 +3838,63 @@
             },
             "space": {
               "type": "spacing",
-              "inset": {
+              "is": {
                 "right": {
-                  "medium": {
-                    "value": "{space.inset.4x}",
+                  "md": {
+                    "value": "{space.is.4x}",
                     "attributes": {
                       "domain": "component",
                       "category": "shared",
                       "component": "text_input",
                       "type": "text_input",
-                      "item": "measurements",
+                      "item": "spec",
                       "subitem": "container",
                       "state": "space"
                     }
                   }
                 },
                 "left": {
-                  "medium": {
-                    "value": "{space.inset.4x}",
+                  "md": {
+                    "value": "{space.is.4x}",
                     "attributes": {
                       "domain": "component",
                       "category": "shared",
                       "component": "text_input",
                       "type": "text_input",
-                      "item": "measurements",
+                      "item": "spec",
                       "subitem": "container",
                       "state": "space"
                     }
                   }
                 }
               },
-              "stack": {
+              "st": {
                 "bottom": {
-                  "small": {
-                    "value": "{space.stack.2x}",
+                  "sm": {
+                    "value": "{space.st.2x}",
                     "attributes": {
                       "domain": "component",
                       "category": "shared",
                       "component": "text_input",
                       "type": "text_input",
-                      "item": "measurements",
+                      "item": "spec",
                       "subitem": "container",
                       "state": "space"
                     }
                   }
                 }
               },
-              "inline": {
-                "small": {
-                  "medium": {
-                    "value": "{space.inline.2x}",
+              "il": {
+                "sm": {
+                  "md": {
+                    "value": "{space.il.2x}",
                     "attributes": {
                       "domain": "component",
                       "category": "shared",
                       "component": "text_input",
                       "hidden": false,
                       "type": "text_input",
-                      "item": "measurements",
+                      "item": "spec",
                       "subitem": "container",
                       "state": "space"
                     }
@@ -3905,7 +3905,7 @@
             "nested": {
               "size": {
                 "type": "sizing",
-                "small": {
+                "sm": {
                   "value": "{primitive.size.60}",
                   "attributes": {
                     "domain": "component",
@@ -3913,7 +3913,7 @@
                     "component": "text_input",
                     "hidden": false,
                     "type": "text_input",
-                    "item": "measurements",
+                    "item": "spec",
                     "subitem": "container",
                     "state": "nested"
                   }
@@ -3921,47 +3921,47 @@
               },
               "space": {
                 "type": "spacing",
-                "stack": {
+                "st": {
                   "bottom": {
-                    "small": {
-                      "value": "{space.stack.2x}",
+                    "sm": {
+                      "value": "{space.st.2x}",
                       "attributes": {
                         "domain": "component",
                         "category": "shared",
                         "component": "text_input",
                         "type": "text_input",
-                        "item": "measurements",
+                        "item": "spec",
                         "subitem": "container",
                         "state": "nested"
                       }
                     }
                   },
                   "top": {
-                    "small": {
-                      "value": "{space.stack.2x}",
+                    "sm": {
+                      "value": "{space.st.2x}",
                       "attributes": {
                         "domain": "component",
                         "category": "shared",
                         "component": "text_input",
                         "type": "text_input",
-                        "item": "measurements",
+                        "item": "spec",
                         "subitem": "container",
                         "state": "nested"
                       }
                     }
                   }
                 },
-                "inline": {
-                  "small": {
-                    "medium": {
-                      "value": "{space.inline.2x}",
+                "il": {
+                  "sm": {
+                    "md": {
+                      "value": "{space.il.2x}",
                       "attributes": {
                         "domain": "component",
                         "category": "shared",
                         "component": "text_input",
                         "hidden": false,
                         "type": "text_input",
-                        "item": "measurements",
+                        "item": "spec",
                         "subitem": "container",
                         "state": "nested"
                       }
@@ -3975,17 +3975,17 @@
             "text": {
               "space": {
                 "type": "spacing",
-                "stack": {
+                "st": {
                   "bottom": {
-                    "small": {
-                      "value": "{space.stack.2x}",
+                    "sm": {
+                      "value": "{space.st.2x}",
                       "attributes": {
                         "domain": "component",
                         "category": "shared",
                         "component": "text_input",
                         "hidden": false,
                         "type": "text_input",
-                        "item": "measurements",
+                        "item": "spec",
                         "subitem": "support",
                         "state": "text"
                       }
@@ -4152,7 +4152,7 @@
                 }
               },
               "focus": {
-                "value": "{size.border.width.large}",
+                "value": "{size.border.width.lg}",
                 "attributes": {
                   "domain": "component",
                   "category": "shared",
@@ -4181,8 +4181,8 @@
             "radius": {
               "type": "borderRadius",
               "default": {
-                "square": {
-                  "value": "{size.radius.square}",
+                "sq": {
+                  "value": "{size.radius.sq}",
                   "attributes": {
                     "domain": "component",
                     "category": "shared",
@@ -4194,8 +4194,8 @@
                     "state": "radius"
                   }
                 },
-                "rounded": {
-                  "value": "{size.radius.rounded}",
+                "rd": {
+                  "value": "{size.radius.rd}",
                   "attributes": {
                     "domain": "component",
                     "category": "shared",
@@ -4244,7 +4244,7 @@
           "icon": {
             "size": {
               "type": "sizing",
-              "value": "{size.square.5}",
+              "value": "{size.sq.5}",
               "attributes": {
                 "domain": "component",
                 "category": "shared",
@@ -4291,7 +4291,7 @@
           "icon": {
             "size": {
               "type": "sizing",
-              "value": "{size.square.5}",
+              "value": "{size.sq.5}",
               "attributes": {
                 "domain": "component",
                 "category": "shared",
@@ -4307,7 +4307,7 @@
           "font": {
             "size": {
               "type": "fontSizes",
-              "value": "{font.typescale.body.large.size}",
+              "value": "{font.ts.body.lg.size}",
               "attributes": {
                 "domain": "component",
                 "category": "shared",
@@ -4319,9 +4319,9 @@
                 "state": "size"
               }
             },
-            "line_height": {
+            "line-height": {
               "type": "lineHeights",
-              "value": "{font.typescale.body.large.line_height}",
+              "value": "{font.ts.body.lg.line-height}",
               "attributes": {
                 "domain": "component",
                 "category": "shared",
@@ -4330,12 +4330,12 @@
                 "type": "text_input",
                 "item": "suffix",
                 "subitem": "font",
-                "state": "line_height"
+                "state": "line-height"
               }
             },
             "weight": {
               "type": "fontWeights",
-              "value": "{font.typescale.body.large.weight.regular}",
+              "value": "{font.ts.body.lg.weight.reg}",
               "attributes": {
                 "domain": "component",
                 "category": "shared",
@@ -4383,7 +4383,7 @@
             "size": {
               "type": "fontSizes",
               "default": {
-                "value": "{font.typescale.body.large.size}",
+                "value": "{font.ts.body.lg.size}",
                 "attributes": {
                   "domain": "component",
                   "category": "shared",
@@ -4396,10 +4396,10 @@
                 }
               }
             },
-            "line_height": {
+            "line-height": {
               "type": "lineHeights",
               "default": {
-                "value": "{font.typescale.body.large.line_height}",
+                "value": "{font.ts.body.lg.line-height}",
                 "attributes": {
                   "domain": "component",
                   "category": "shared",
@@ -4408,14 +4408,14 @@
                   "type": "text_input",
                   "item": "filled-text",
                   "subitem": "font",
-                  "state": "line_height"
+                  "state": "line-height"
                 }
               }
             },
             "weight": {
               "type": "fontWeights",
               "default": {
-                "value": "{font.typescale.body.large.weight.regular}",
+                "value": "{font.ts.body.lg.weight.reg}",
                 "attributes": {
                   "domain": "component",
                   "category": "shared",
@@ -4464,7 +4464,7 @@
             "size": {
               "default": {
                 "type": "fontSizes",
-                "value": "{font.typescale.body.large.size}",
+                "value": "{font.ts.body.lg.size}",
                 "attributes": {
                   "domain": "component",
                   "category": "shared",
@@ -4477,10 +4477,10 @@
                 }
               }
             },
-            "line_height": {
+            "line-height": {
               "type": "lineHeights",
               "default": {
-                "value": "{font.typescale.body.large.line_height}",
+                "value": "{font.ts.body.lg.line-height}",
                 "attributes": {
                   "domain": "component",
                   "category": "shared",
@@ -4489,14 +4489,14 @@
                   "type": "text_input",
                   "item": "hint-text",
                   "subitem": "font",
-                  "state": "line_height"
+                  "state": "line-height"
                 }
               }
             },
             "weight": {
               "type": "fontWeights",
               "default": {
-                "value": "{font.typescale.body.large.weight.regular}",
+                "value": "{font.ts.body.lg.weight.reg}",
                 "attributes": {
                   "domain": "component",
                   "category": "shared",
@@ -4532,7 +4532,7 @@
             "size": {
               "type": "sizing",
               "default": {
-                "value": "{font.typescale.detail.medium.size}",
+                "value": "{font.ts.detail.md.size}",
                 "attributes": {
                   "domain": "component",
                   "category": "shared",
@@ -4545,10 +4545,10 @@
                 }
               }
             },
-            "line_height": {
+            "line-height": {
               "type": "lineHeights",
               "default": {
-                "value": "{font.typescale.detail.medium.line_height}",
+                "value": "{font.ts.detail.md.line-height}",
                 "attributes": {
                   "domain": "component",
                   "category": "shared",
@@ -4557,14 +4557,14 @@
                   "type": "text_input",
                   "item": "info-text",
                   "subitem": "font",
-                  "state": "line_height"
+                  "state": "line-height"
                 }
               }
             },
             "weight": {
               "type": "fontWeights",
               "default": {
-                "value": "{font.typescale.detail.medium.weight.regular}",
+                "value": "{font.ts.detail.md.weight.reg}",
                 "attributes": {
                   "domain": "component",
                   "category": "shared",
@@ -4613,7 +4613,7 @@
             "size": {
               "type": "sizing",
               "error": {
-                "value": "{font.typescale.detail.medium.size}",
+                "value": "{font.ts.detail.md.size}",
                 "attributes": {
                   "domain": "component",
                   "category": "shared",
@@ -4626,7 +4626,7 @@
                 }
               },
               "warning": {
-                "value": "{font.typescale.detail.medium.size}",
+                "value": "{font.ts.detail.md.size}",
                 "attributes": {
                   "domain": "component",
                   "category": "shared",
@@ -4639,10 +4639,10 @@
                 }
               }
             },
-            "line_height": {
+            "line-height": {
               "type": "lineHeights",
               "error": {
-                "value": "{font.typescale.detail.medium.line_height}",
+                "value": "{font.ts.detail.md.line-height}",
                 "attributes": {
                   "domain": "component",
                   "category": "shared",
@@ -4651,11 +4651,11 @@
                   "type": "text_input",
                   "item": "support-text",
                   "subitem": "font",
-                  "state": "line_height"
+                  "state": "line-height"
                 }
               },
               "warning": {
-                "value": "{font.typescale.detail.medium.line_height}",
+                "value": "{font.ts.detail.md.line-height}",
                 "attributes": {
                   "domain": "component",
                   "category": "shared",
@@ -4664,14 +4664,14 @@
                   "type": "text_input",
                   "item": "support-text",
                   "subitem": "font",
-                  "state": "line_height"
+                  "state": "line-height"
                 }
               }
             },
             "weight": {
               "type": "fontWeights",
               "error": {
-                "value": "{font.typescale.detail.medium.weight.regular}",
+                "value": "{font.ts.detail.md.weight.reg}",
                 "attributes": {
                   "domain": "component",
                   "category": "shared",
@@ -4684,7 +4684,7 @@
                 }
               },
               "warning": {
-                "value": "{font.typescale.detail.medium.weight.regular}",
+                "value": "{font.ts.detail.md.weight.reg}",
                 "attributes": {
                   "domain": "component",
                   "category": "shared",
@@ -4762,34 +4762,34 @@
   "dropdown": {
     "shared": {
       "dropdown": {
-        "measurements": {
+        "spec": {
           "container": {
             "size": {
               "type": "sizing",
-              "small": {
+              "sm": {
                 "value": "{primitive.size.32}",
                 "description": "Test this out"
               },
-              "medium": {
+              "md": {
                 "value": "{primitive.size.40}",
                 "attributes": {
                   "domain": "component",
                   "category": "shared",
                   "component": "dropdown",
                   "type": "dropdown",
-                  "item": "measurements",
+                  "item": "spec",
                   "subitem": "container",
                   "state": "size"
                 }
               },
-              "large": {
+              "lg": {
                 "value": "{primitive.size.48}",
                 "attributes": {
                   "domain": "component",
                   "category": "shared",
                   "component": "dropdown",
                   "type": "dropdown",
-                  "item": "measurements",
+                  "item": "spec",
                   "subitem": "container",
                   "state": "size"
                 }
@@ -4797,77 +4797,77 @@
             },
             "space": {
               "type": "spacing",
-              "inset": {
+              "is": {
                 "right": {
-                  "medium": {
-                    "value": "{space.inset.4x}",
+                  "md": {
+                    "value": "{space.is.4x}",
                     "attributes": {
                       "domain": "component",
                       "category": "shared",
                       "component": "dropdown",
                       "type": "dropdown",
-                      "item": "measurements",
+                      "item": "spec",
                       "subitem": "container",
                       "state": "space"
                     }
                   }
                 },
                 "left": {
-                  "medium": {
-                    "value": "{space.inset.4x}",
+                  "md": {
+                    "value": "{space.is.4x}",
                     "attributes": {
                       "domain": "component",
                       "category": "shared",
                       "component": "dropdown",
                       "type": "dropdown",
-                      "item": "measurements",
+                      "item": "spec",
                       "subitem": "container",
                       "state": "space"
                     }
                   }
                 }
               },
-              "stack": {
+              "st": {
                 "bottom": {
-                  "small": {
-                    "value": "{space.stack.2x}",
+                  "sm": {
+                    "value": "{space.st.2x}",
                     "attributes": {
                       "domain": "component",
                       "category": "shared",
                       "component": "dropdown",
                       "type": "dropdown",
-                      "item": "measurements",
+                      "item": "spec",
                       "subitem": "container",
                       "state": "space"
                     }
                   }
                 },
                 "top": {
-                  "small": {
-                    "value": "{space.stack.2x}",
+                  "sm": {
+                    "value": "{space.st.2x}",
                     "attributes": {
                       "domain": "component",
                       "category": "shared",
                       "component": "dropdown",
                       "type": "dropdown",
-                      "item": "measurements",
+                      "item": "spec",
                       "subitem": "container",
                       "state": "space"
                     }
                   }
                 }
               },
-              "inline": {
-                "small": {
-                  "medium": {
-                    "value": "{space.inline.2x}",
+              "il": {
+                "sm": {
+                  "md": {
+                    "value": "{space.il.2x}",
                     "attributes": {
                       "domain": "component",
                       "category": "shared",
                       "component": "dropdown",
                       "hidden": false,
                       "type": "dropdown",
-                      "item": "measurements",
+                      "item": "spec",
                       "subitem": "container",
                       "state": "space"
                     }
@@ -4880,17 +4880,17 @@
             "text": {
               "space": {
                 "type": "spacing",
-                "stack": {
+                "st": {
                   "bottom": {
-                    "small": {
-                      "value": "{space.stack.2x}",
+                    "sm": {
+                      "value": "{space.st.2x}",
                       "attributes": {
                         "domain": "component",
                         "category": "shared",
                         "component": "dropdown",
                         "hidden": false,
                         "type": "dropdown",
-                        "item": "measurements",
+                        "item": "spec",
                         "subitem": "support",
                         "state": "text"
                       }
@@ -5057,7 +5057,7 @@
                 }
               },
               "focus": {
-                "value": "{size.border.width.large}",
+                "value": "{size.border.width.lg}",
                 "attributes": {
                   "domain": "component",
                   "category": "shared",
@@ -5086,8 +5086,8 @@
             "radius": {
               "type": "borderRadius",
               "default": {
-                "square": {
-                  "value": "{size.radius.square}",
+                "sq": {
+                  "value": "{size.radius.sq}",
                   "attributes": {
                     "domain": "component",
                     "category": "shared",
@@ -5099,8 +5099,8 @@
                     "state": "radius"
                   }
                 },
-                "rounded": {
-                  "value": "{size.radius.rounded}",
+                "rd": {
+                  "value": "{size.radius.rd}",
                   "attributes": {
                     "domain": "component",
                     "category": "shared",
@@ -5150,7 +5150,7 @@
             "size": {
               "default": {
                 "type": "sizing",
-                "value": "{size.square.5}",
+                "value": "{size.sq.5}",
                 "attributes": {
                   "domain": "component",
                   "category": "shared",
@@ -5168,7 +5168,7 @@
             "size": {
               "default": {
                 "type": "fontSizes",
-                "value": "{font.typescale.body.large.size}",
+                "value": "{font.ts.body.lg.size}",
                 "attributes": {
                   "domain": "component",
                   "category": "shared",
@@ -5181,10 +5181,10 @@
                 }
               }
             },
-            "line_height": {
+            "line-height": {
               "default": {
                 "type": "lineHeights",
-                "value": "{font.typescale.body.large.line_height}",
+                "value": "{font.ts.body.lg.line-height}",
                 "attributes": {
                   "domain": "component",
                   "category": "shared",
@@ -5193,14 +5193,14 @@
                   "type": "dropdown",
                   "item": "suffix",
                   "subitem": "font",
-                  "state": "line_height"
+                  "state": "line-height"
                 }
               }
             },
             "weight": {
               "default": {
                 "type": "fontWeights",
-                "value": "{font.typescale.body.large.weight.regular}",
+                "value": "{font.ts.body.lg.weight.reg}",
                 "attributes": {
                   "domain": "component",
                   "category": "shared",
@@ -5249,7 +5249,7 @@
             "size": {
               "default": {
                 "type": "sizing",
-                "value": "{size.square.5}",
+                "value": "{size.sq.5}",
                 "attributes": {
                   "domain": "component",
                   "category": "shared",
@@ -5266,7 +5266,7 @@
           "font": {
             "size": {
               "type": "fontSizes",
-              "value": "{font.typescale.body.large.size}",
+              "value": "{font.ts.body.lg.size}",
               "attributes": {
                 "domain": "component",
                 "category": "shared",
@@ -5278,10 +5278,10 @@
                 "state": "size"
               }
             },
-            "line_height": {
+            "line-height": {
               "default": {
                 "type": "lineHeights",
-                "value": "{font.typescale.body.large.line_height}",
+                "value": "{font.ts.body.lg.line-height}",
                 "attributes": {
                   "domain": "component",
                   "category": "shared",
@@ -5290,13 +5290,13 @@
                   "type": "dropdown",
                   "item": "suffix",
                   "subitem": "font",
-                  "state": "line_height"
+                  "state": "line-height"
                 }
               }
             },
             "weight": {
               "type": "fontWeights",
-              "value": "{font.typescale.body.large.weight.regular}",
+              "value": "{font.ts.body.lg.weight.reg}",
               "attributes": {
                 "domain": "component",
                 "category": "shared",
@@ -5315,7 +5315,7 @@
             "size": {
               "type": "fontSizes",
               "default": {
-                "value": "{font.typescale.body.large.size}",
+                "value": "{font.ts.body.lg.size}",
                 "attributes": {
                   "domain": "component",
                   "category": "shared",
@@ -5328,10 +5328,10 @@
                 }
               }
             },
-            "line_height": {
+            "line-height": {
               "type": "lineHeights",
               "default": {
-                "value": "{font.typescale.body.large.line_height}",
+                "value": "{font.ts.body.lg.line-height}",
                 "attributes": {
                   "domain": "component",
                   "category": "shared",
@@ -5340,14 +5340,14 @@
                   "type": "dropdown",
                   "item": "filled_text",
                   "subitem": "font",
-                  "state": "line_height"
+                  "state": "line-height"
                 }
               }
             },
             "weight": {
               "type": "fontWeights",
               "default": {
-                "value": "{font.typescale.body.large.weight.regular}",
+                "value": "{font.ts.body.lg.weight.reg}",
                 "attributes": {
                   "domain": "component",
                   "category": "shared",
@@ -5396,7 +5396,7 @@
             "size": {
               "default": {
                 "type": "fontSizes",
-                "value": "{font.typescale.body.large.size}",
+                "value": "{font.ts.body.lg.size}",
                 "attributes": {
                   "domain": "component",
                   "category": "shared",
@@ -5409,10 +5409,10 @@
                 }
               }
             },
-            "line_height": {
+            "line-height": {
               "type": "lineHeights",
               "default": {
-                "value": "{font.typescale.body.large.line_height}",
+                "value": "{font.ts.body.lg.line-height}",
                 "attributes": {
                   "domain": "component",
                   "category": "shared",
@@ -5421,14 +5421,14 @@
                   "type": "dropdown",
                   "item": "hint_text",
                   "subitem": "font",
-                  "state": "line_height"
+                  "state": "line-height"
                 }
               }
             },
             "weight": {
               "type": "fontWeights",
               "default": {
-                "value": "{font.typescale.body.large.weight.regular}",
+                "value": "{font.ts.body.lg.weight.reg}",
                 "attributes": {
                   "domain": "component",
                   "category": "shared",
@@ -5464,7 +5464,7 @@
             "size": {
               "default": {
                 "type": "fontSizes",
-                "value": "{font.typescale.detail.medium.size}",
+                "value": "{font.ts.detail.md.size}",
                 "attributes": {
                   "domain": "component",
                   "category": "shared",
@@ -5477,10 +5477,10 @@
                 }
               }
             },
-            "line_height": {
+            "line-height": {
               "type": "lineHeights",
               "default": {
-                "value": "{font.typescale.detail.medium.line_height}",
+                "value": "{font.ts.detail.md.line-height}",
                 "attributes": {
                   "domain": "component",
                   "category": "shared",
@@ -5489,14 +5489,14 @@
                   "type": "dropdown",
                   "item": "info_text",
                   "subitem": "font",
-                  "state": "line_height"
+                  "state": "line-height"
                 }
               }
             },
             "weight": {
               "type": "fontWeights",
               "default": {
-                "value": "{font.typescale.detail.medium.weight.regular}",
+                "value": "{font.ts.detail.md.weight.reg}",
                 "attributes": {
                   "domain": "component",
                   "category": "shared",
@@ -5558,7 +5558,7 @@
             "size": {
               "default": {
                 "type": "fontSizes",
-                "value": "{font.typescale.detail.medium.size}",
+                "value": "{font.ts.detail.md.size}",
                 "attributes": {
                   "domain": "component",
                   "category": "shared",
@@ -5571,10 +5571,10 @@
                 }
               }
             },
-            "line_height": {
+            "line-height": {
               "type": "lineHeights",
               "default": {
-                "value": "{font.typescale.detail.medium.line_height}",
+                "value": "{font.ts.detail.md.line-height}",
                 "attributes": {
                   "domain": "component",
                   "category": "shared",
@@ -5583,14 +5583,14 @@
                   "type": "dropdown",
                   "item": "support_text",
                   "subitem": "font",
-                  "state": "line_height"
+                  "state": "line-height"
                 }
               }
             },
             "weight": {
               "type": "fontWeights",
               "default": {
-                "value": "{font.typescale.detail.medium.weight.regular}",
+                "value": "{font.ts.detail.md.weight.reg}",
                 "attributes": {
                   "domain": "component",
                   "category": "shared",
@@ -5609,7 +5609,7 @@
           "size": {
             "default": {
               "type": "sizing",
-              "value": "{size.square.5}",
+              "value": "{size.sq.5}",
               "attributes": {
                 "domain": "component",
                 "category": "shared",
@@ -5678,34 +5678,34 @@
           }
         },
         "nested": {
-          "measurements": {
+          "spec": {
             "container": {
               "type": "spacing",
               "space": {
-                "stack": {
+                "st": {
                   "bottom": {
-                    "small": {
-                      "value": "{space.stack.2x}",
+                    "sm": {
+                      "value": "{space.st.2x}",
                       "attributes": {
                         "domain": "component",
                         "category": "shared",
                         "component": "dropdown",
                         "type": "dropdown",
-                        "item": "measurements",
+                        "item": "spec",
                         "subitem": "container",
                         "state": "space"
                       }
                     }
                   },
                   "top": {
-                    "small": {
-                      "value": "{space.stack.2x}",
+                    "sm": {
+                      "value": "{space.st.2x}",
                       "attributes": {
                         "domain": "component",
                         "category": "shared",
                         "component": "dropdown",
                         "type": "dropdown",
-                        "item": "measurements",
+                        "item": "spec",
                         "subitem": "container",
                         "state": "space"
                       }
@@ -5716,34 +5716,34 @@
             }
           },
           "sub": {
-            "measurements": {
+            "spec": {
               "container": {
                 "type": "spacing",
                 "space": {
-                  "stack": {
+                  "st": {
                     "bottom": {
-                      "medium": {
-                        "value": "{space.stack.3x}",
+                      "md": {
+                        "value": "{space.st.3x}",
                         "attributes": {
                           "domain": "component",
                           "category": "shared",
                           "component": "dropdown",
                           "type": "dropdown",
-                          "item": "measurements",
+                          "item": "spec",
                           "subitem": "container",
                           "state": "space"
                         }
                       }
                     },
                     "top": {
-                      "medium": {
-                        "value": "{space.stack.3x}",
+                      "md": {
+                        "value": "{space.st.3x}",
                         "attributes": {
                           "domain": "component",
                           "category": "shared",
                           "component": "dropdown",
                           "type": "dropdown",
-                          "item": "measurements",
+                          "item": "spec",
                           "subitem": "container",
                           "state": "space"
                         }
@@ -5758,7 +5758,7 @@
               "font": {
                 "weight": {
                   "default": {
-                    "value": "{font.typescale.body.large.weight.bold}",
+                    "value": "{font.ts.body.lg.weight.bold}",
                     "attributes": {
                       "domain": "component",
                       "category": "shared",
@@ -5778,7 +5778,7 @@
                 "size": {
                   "default": {
                     "type": "fontSizes",
-                    "value": "{font.typescale.body.medium.size}",
+                    "value": "{font.ts.body.md.size}",
                     "attributes": {
                       "domain": "component",
                       "category": "shared",
@@ -5823,7 +5823,7 @@
                 },
                 "weight": {
                   "default": {
-                    "value": "{font.typescale.body.large.weight.regular}",
+                    "value": "{font.ts.body.lg.weight.reg}",
                     "attributes": {
                       "domain": "component",
                       "category": "shared",
@@ -5836,10 +5836,10 @@
                     }
                   }
                 },
-                "line_height": {
+                "line-height": {
                   "default": {
                     "type": "lineHeights",
-                    "value": "{font.typescale.body.medium.line_height}",
+                    "value": "{font.ts.body.md.line-height}",
                     "attributes": {
                       "domain": "component",
                       "category": "shared",
@@ -5848,7 +5848,7 @@
                       "type": "dropdown",
                       "item": "suffix",
                       "subitem": "font",
-                      "state": "line_height"
+                      "state": "line-height"
                     }
                   }
                 }
@@ -5860,12 +5860,12 @@
       }
     }
   },
-  "button": {
+  "btn": {
     "shared": {
       "button": {
         "text": {
           "weight": {
-            "value": "{font.typescale.body.large.weight.bold}",
+            "value": "{font.ts.body.lg.weight.bold}",
             "attributes": {
               "domain": "component",
               "category": "shared",
@@ -5874,7 +5874,7 @@
             "type": "other"
           },
           "size": {
-            "value": "{font.typescale.body.large.size}",
+            "value": "{font.ts.body.lg.size}",
             "attributes": {
               "domain": "component",
               "category": "shared",
@@ -5883,7 +5883,7 @@
             "type": "other"
           },
           "line-height": {
-            "value": "{font.line_height.xx-small}",
+            "value": "{font.line-height.xx-sm}",
             "attributes": {
               "domain": "component",
               "category": "shared",
@@ -5893,7 +5893,7 @@
           }
         },
         "radius": {
-          "square": {
+          "sq": {
             "value": "{primitive.size.4}",
             "attributes": {
               "domain": "component",
@@ -5902,7 +5902,7 @@
             },
             "type": "other"
           },
-          "rounded": {
+          "rd": {
             "value": "{primitive.size.8}",
             "attributes": {
               "domain": "component",
@@ -5911,7 +5911,7 @@
             },
             "type": "other"
           },
-          "circular": {
+          "cir": {
             "value": "{primitive.size.100}",
             "attributes": {
               "domain": "component",
@@ -7077,7 +7077,7 @@
       "base",
       "text_input",
       "dropdown",
-      "button"
+      "btn"
     ]
   }
 }
