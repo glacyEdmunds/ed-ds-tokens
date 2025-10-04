@@ -1,5 +1,5 @@
 {
-  "primitive": {
+  "primitive/global-color-ref": {
     "primitive": {
       "color": {
         "cool-gray": {
@@ -920,7 +920,11 @@
             "hidden": true
           }
         }
-      },
+      }
+    }
+  },
+  "primitive/global-size-ref": {
+    "primitive": {
       "size": {
         "0": {
           "value": "0",
@@ -1277,7 +1281,7 @@
             "category": "line-height",
             "hidden": false
           },
-          "type": "other"
+          "type": "lineHeight"
         },
         "x-lg": {
           "value": "1.375",
@@ -1286,7 +1290,7 @@
             "category": "line-height",
             "hidden": false
           },
-          "type": "other"
+          "type": "lineHeight"
         },
         "lg": {
           "value": "1.333",
@@ -1295,7 +1299,7 @@
             "category": "line-height",
             "hidden": false
           },
-          "type": "other"
+          "type": "lineHeight"
         },
         "md": {
           "value": "1.25",
@@ -1304,7 +1308,7 @@
             "category": "line-height",
             "hidden": false
           },
-          "type": "other"
+          "type": "lineHeight"
         },
         "sm": {
           "value": "1.2",
@@ -1313,7 +1317,7 @@
             "category": "line-height",
             "hidden": false
           },
-          "type": "other"
+          "type": "lineHeight"
         },
         "x-sm": {
           "value": "1.11",
@@ -1322,7 +1326,7 @@
             "category": "line-height",
             "hidden": false
           },
-          "type": "other"
+          "type": "lineHeight"
         },
         "xx-sm": {
           "value": "1",
@@ -1331,7 +1335,7 @@
             "category": "line-height",
             "hidden": false
           },
-          "type": "other"
+          "type": "lineHeight"
         }
       }
     }
@@ -2111,7 +2115,7 @@
             "category": "weight",
             "hidden": false
           },
-          "type": "other"
+          "type": "fontWeight"
         },
         "md": {
           "value": "500",
@@ -2120,7 +2124,7 @@
             "category": "weight",
             "hidden": false
           },
-          "type": "other"
+          "type": "fontWeight"
         },
         "bold": {
           "value": "700",
@@ -2129,7 +2133,7 @@
             "category": "weight",
             "hidden": false
           },
-          "type": "other"
+          "type": "fontWeight"
         }
       }
     }
@@ -2145,7 +2149,7 @@
             "category": "size",
             "hidden": true
           },
-          "type": "other"
+          "type": "sizing"
         },
         "2": {
           "value": "{primitive.size.10}",
@@ -2155,7 +2159,7 @@
             "category": "size",
             "hidden": true
           },
-          "type": "other"
+          "type": "sizing"
         },
         "3": {
           "value": "{primitive.size.12}",
@@ -2165,7 +2169,7 @@
             "category": "size",
             "hidden": true
           },
-          "type": "other"
+          "type": "sizing"
         },
         "4": {
           "value": "{primitive.size.14}",
@@ -2175,7 +2179,7 @@
             "category": "size",
             "hidden": true
           },
-          "type": "other"
+          "type": "sizing"
         },
         "5": {
           "value": "{primitive.size.16}",
@@ -2185,7 +2189,7 @@
             "category": "size",
             "hidden": true
           },
-          "type": "other"
+          "type": "sizing"
         },
         "6": {
           "value": "{primitive.size.18}",
@@ -2195,7 +2199,7 @@
             "category": "size",
             "hidden": true
           },
-          "type": "other"
+          "type": "sizing"
         },
         "7": {
           "value": "{primitive.size.20}",
@@ -2205,7 +2209,7 @@
             "category": "size",
             "hidden": true
           },
-          "type": "other"
+          "type": "sizing"
         },
         "8": {
           "value": "{primitive.size.22}",
@@ -2215,7 +2219,7 @@
             "category": "size",
             "hidden": true
           },
-          "type": "other"
+          "type": "sizing"
         },
         "9": {
           "value": "{primitive.size.24}",
@@ -2225,7 +2229,7 @@
             "category": "size",
             "hidden": true
           },
-          "type": "other"
+          "type": "sizing"
         },
         "10": {
           "value": "{primitive.size.28}",
@@ -2235,7 +2239,7 @@
             "category": "size",
             "hidden": true
           },
-          "type": "other"
+          "type": "sizing"
         },
         "11": {
           "value": "{primitive.size.30}",
@@ -2245,7 +2249,7 @@
             "category": "size",
             "hidden": true
           },
-          "type": "other"
+          "type": "sizing"
         },
         "12": {
           "value": "{primitive.size.32}",
@@ -2255,7 +2259,7 @@
             "category": "size",
             "hidden": true
           },
-          "type": "other"
+          "type": "sizing"
         },
         "13": {
           "value": "{primitive.size.34}",
@@ -2265,7 +2269,7 @@
             "category": "size",
             "hidden": true
           },
-          "type": "other"
+          "type": "sizing"
         },
         "14": {
           "value": "{primitive.size.36}",
@@ -2275,7 +2279,7 @@
             "category": "size",
             "hidden": true
           },
-          "type": "other"
+          "type": "sizing"
         },
         "15": {
           "value": "{primitive.size.40}",
@@ -2285,7 +2289,7 @@
             "category": "size",
             "hidden": true
           },
-          "type": "other"
+          "type": "sizing"
         },
         "16": {
           "value": "{primitive.size.44}",
@@ -2295,7 +2299,7 @@
             "category": "size",
             "hidden": true
           },
-          "type": "other"
+          "type": "sizing"
         },
         "17": {
           "value": "{primitive.size.48}",
@@ -2305,7 +2309,7 @@
             "category": "size",
             "hidden": true
           },
-          "type": "other"
+          "type": "sizing"
         },
         "18": {
           "value": "{primitive.size.52}",
@@ -2315,7 +2319,7 @@
             "category": "size",
             "hidden": true
           },
-          "type": "other"
+          "type": "sizing"
         },
         "19": {
           "value": "{primitive.size.56}",
@@ -2325,7 +2329,7 @@
             "category": "size",
             "hidden": true
           },
-          "type": "other"
+          "type": "sizing"
         },
         "20": {
           "value": "{primitive.size.60}",
@@ -2335,7 +2339,7 @@
             "category": "size",
             "hidden": true
           },
-          "type": "other"
+          "type": "sizing"
         },
         "21": {
           "value": "{primitive.size.64}",
@@ -2345,976 +2349,300 @@
             "category": "size",
             "hidden": true
           },
-          "type": "other"
+          "type": "sizing"
         }
       }
     }
   },
-  "base": {
-    "palette": {
-      "eve": {
-        "cool-gray": {
-          "10": {
-            "value": "{primitive.color.cool-gray.10}",
-            "type": "color",
-            "attributes": {
-              "domain": "palette",
-              "category": "eve",
-              "hidden": false
-            }
-          },
-          "20": {
-            "value": "{primitive.color.cool-gray.20}",
-            "type": "color",
-            "attributes": {
-              "domain": "palette",
-              "category": "eve",
-              "hidden": false
-            }
-          },
-          "30": {
-            "value": "{primitive.color.cool-gray.30}",
-            "type": "color",
-            "attributes": {
-              "domain": "palette",
-              "category": "eve",
-              "hidden": false
-            }
-          },
-          "40": {
-            "value": "{primitive.color.cool-gray.40}",
-            "type": "color",
-            "attributes": {
-              "domain": "palette",
-              "category": "eve",
-              "hidden": false
-            }
-          },
-          "50": {
-            "value": "{primitive.color.cool-gray.50}",
-            "type": "color",
-            "attributes": {
-              "domain": "palette",
-              "category": "eve",
-              "hidden": false
-            }
-          },
-          "60": {
-            "value": "{primitive.color.cool-gray.60}",
-            "type": "color",
-            "attributes": {
-              "domain": "palette",
-              "category": "eve",
-              "hidden": false
-            }
-          },
-          "70": {
-            "value": "{primitive.color.cool-gray.70}",
-            "type": "color",
-            "attributes": {
-              "domain": "palette",
-              "category": "eve",
-              "hidden": false
-            }
-          },
-          "80": {
-            "value": "{primitive.color.cool-gray.80}",
-            "type": "color",
-            "attributes": {
-              "domain": "palette",
-              "category": "eve",
-              "hidden": false
-            }
-          },
-          "90": {
-            "value": "{primitive.color.cool-gray.90}",
-            "type": "color",
-            "attributes": {
-              "domain": "palette",
-              "category": "eve",
-              "hidden": false
-            }
-          },
-          "100": {
-            "value": "{primitive.color.cool-gray.100}",
-            "type": "color",
-            "attributes": {
-              "domain": "palette",
-              "category": "eve",
-              "hidden": false
-            }
-          }
-        },
-        "blue": {
-          "10": {
-            "value": "{primitive.color.blue.10}",
-            "type": "color",
-            "attributes": {
-              "domain": "palette",
-              "category": "eve",
-              "hidden": false
-            }
-          },
-          "20": {
-            "value": "{primitive.color.blue.20}",
-            "type": "color",
-            "attributes": {
-              "domain": "palette",
-              "category": "eve",
-              "hidden": false
-            }
-          },
-          "30": {
-            "value": "{primitive.color.blue.30}",
-            "type": "color",
-            "attributes": {
-              "domain": "palette",
-              "category": "eve",
-              "hidden": false
-            }
-          },
-          "40": {
-            "value": "{primitive.color.blue.40}",
-            "type": "color",
-            "attributes": {
-              "domain": "palette",
-              "category": "eve",
-              "hidden": false
-            }
-          },
-          "50": {
-            "value": "{primitive.color.blue.50}",
-            "type": "color",
-            "attributes": {
-              "domain": "palette",
-              "category": "eve",
-              "hidden": false
-            }
-          },
-          "60": {
-            "value": "{primitive.color.blue.60}",
-            "type": "color",
-            "attributes": {
-              "domain": "palette",
-              "category": "eve",
-              "hidden": false
-            }
-          },
-          "70": {
-            "value": "{primitive.color.blue.70}",
-            "type": "color",
-            "attributes": {
-              "domain": "palette",
-              "category": "eve",
-              "hidden": false
-            }
-          },
-          "80": {
-            "value": "{primitive.color.blue.80}",
-            "type": "color",
-            "attributes": {
-              "domain": "palette",
-              "category": "eve",
-              "hidden": false
-            }
-          },
-          "90": {
-            "value": "{primitive.color.blue.90}",
-            "type": "color",
-            "attributes": {
-              "domain": "palette",
-              "category": "eve",
-              "hidden": false
-            }
-          },
-          "100": {
-            "value": "{primitive.color.blue.100}",
-            "type": "color",
-            "attributes": {
-              "domain": "palette",
-              "category": "eve",
-              "hidden": false
-            }
-          },
-          "05": {
-            "value": "{primitive.color.blue.05}",
-            "type": "color",
-            "attributes": {
-              "domain": "palette",
-              "category": "eve",
-              "hidden": false
-            }
-          }
-        },
-        "green": {
-          "10": {
-            "value": "{primitive.color.green.10}",
-            "type": "color",
-            "attributes": {
-              "domain": "palette",
-              "category": "eve",
-              "hidden": false
-            }
-          },
-          "20": {
-            "value": "{primitive.color.green.20}",
-            "type": "color",
-            "attributes": {
-              "domain": "palette",
-              "category": "eve",
-              "hidden": false
-            }
-          },
-          "30": {
-            "value": "{primitive.color.green.30}",
-            "type": "color",
-            "attributes": {
-              "domain": "palette",
-              "category": "eve",
-              "hidden": false
-            }
-          },
-          "40": {
-            "value": "{primitive.color.green.40}",
-            "type": "color",
-            "attributes": {
-              "domain": "palette",
-              "category": "eve",
-              "hidden": false
-            }
-          },
-          "50": {
-            "value": "{primitive.color.green.50}",
-            "type": "color",
-            "attributes": {
-              "domain": "palette",
-              "category": "eve",
-              "hidden": false
-            }
-          },
-          "60": {
-            "value": "{primitive.color.green.60}",
-            "type": "color",
-            "attributes": {
-              "domain": "palette",
-              "category": "eve",
-              "hidden": false
-            }
-          },
-          "70": {
-            "value": "{primitive.color.green.70}",
-            "type": "color",
-            "attributes": {
-              "domain": "palette",
-              "category": "eve",
-              "hidden": false
-            }
-          },
-          "80": {
-            "value": "{primitive.color.green.80}",
-            "type": "color",
-            "attributes": {
-              "domain": "palette",
-              "category": "eve",
-              "hidden": false
-            }
-          },
-          "90": {
-            "value": "{primitive.color.green.90}",
-            "type": "color",
-            "attributes": {
-              "domain": "palette",
-              "category": "eve",
-              "hidden": false
-            }
-          },
-          "100": {
-            "value": "{primitive.color.green.100}",
-            "type": "color",
-            "attributes": {
-              "domain": "palette",
-              "category": "eve",
-              "hidden": false
-            }
-          },
-          "05": {
-            "value": "{primitive.color.green.05}",
-            "type": "color",
-            "attributes": {
-              "domain": "palette",
-              "category": "eve",
-              "hidden": false
-            }
-          }
-        },
-        "turquoise": {
-          "10": {
-            "value": "{primitive.color.turquoise.10}",
-            "type": "color",
-            "attributes": {
-              "domain": "palette",
-              "category": "eve",
-              "hidden": false
-            }
-          },
-          "20": {
-            "value": "{primitive.color.turquoise.20}",
-            "type": "color",
-            "attributes": {
-              "domain": "palette",
-              "category": "eve",
-              "hidden": false
-            }
-          },
-          "30": {
-            "value": "{primitive.color.turquoise.30}",
-            "type": "color",
-            "attributes": {
-              "domain": "palette",
-              "category": "eve",
-              "hidden": false
-            }
-          },
-          "40": {
-            "value": "{primitive.color.turquoise.40}",
-            "type": "color",
-            "attributes": {
-              "domain": "palette",
-              "category": "eve",
-              "hidden": false
-            }
-          },
-          "50": {
-            "value": "{primitive.color.turquoise.50}",
-            "type": "color",
-            "attributes": {
-              "domain": "palette",
-              "category": "eve",
-              "hidden": false
-            }
-          },
-          "60": {
-            "value": "{primitive.color.turquoise.60}",
-            "type": "color",
-            "attributes": {
-              "domain": "palette",
-              "category": "eve",
-              "hidden": false
-            }
-          },
-          "70": {
-            "value": "{primitive.color.turquoise.70}",
-            "type": "color",
-            "attributes": {
-              "domain": "palette",
-              "category": "eve",
-              "hidden": false
-            }
-          },
-          "80": {
-            "value": "{primitive.color.red.30}",
-            "type": "color",
-            "attributes": {
-              "domain": "palette",
-              "category": "eve",
-              "hidden": false
-            }
-          },
-          "90": {
-            "value": "{primitive.color.red.30}",
-            "type": "color",
-            "attributes": {
-              "domain": "palette",
-              "category": "eve",
-              "hidden": false
-            }
-          },
-          "100": {
-            "value": "{primitive.color.turquoise.100}",
-            "type": "color",
-            "attributes": {
-              "domain": "palette",
-              "category": "eve",
-              "hidden": false
-            }
-          },
-          "05": {
-            "value": "{primitive.color.turquoise.05}",
-            "type": "color",
-            "attributes": {
-              "domain": "palette",
-              "category": "eve",
-              "hidden": false
-            }
-          }
-        },
-        "red": {
-          "10": {
-            "value": "{primitive.color.red.10}",
-            "type": "color",
-            "attributes": {
-              "domain": "palette",
-              "category": "eve",
-              "hidden": false
-            }
-          },
-          "20": {
-            "value": "{primitive.color.red.20}",
-            "type": "color",
-            "attributes": {
-              "domain": "palette",
-              "category": "eve",
-              "hidden": false
-            }
-          },
-          "30": {
-            "value": "{primitive.color.red.30}",
-            "type": "color",
-            "attributes": {
-              "domain": "palette",
-              "category": "eve",
-              "hidden": false
-            }
-          },
-          "40": {
-            "value": "{primitive.color.red.40}",
-            "type": "color",
-            "attributes": {
-              "domain": "palette",
-              "category": "eve",
-              "hidden": false
-            }
-          },
-          "50": {
-            "value": "{primitive.color.red.50}",
-            "type": "color",
-            "attributes": {
-              "domain": "palette",
-              "category": "eve",
-              "hidden": false
-            }
-          },
-          "60": {
-            "value": "{primitive.color.red.60}",
-            "type": "color",
-            "attributes": {
-              "domain": "palette",
-              "category": "eve",
-              "hidden": false
-            }
-          },
-          "70": {
-            "value": "{primitive.color.red.70}",
-            "type": "color",
-            "attributes": {
-              "domain": "palette",
-              "category": "eve",
-              "hidden": false
-            }
-          },
-          "80": {
-            "value": "{primitive.color.red.80}",
-            "type": "color",
-            "attributes": {
-              "domain": "palette",
-              "category": "eve",
-              "hidden": false
-            }
-          },
-          "90": {
-            "value": "{primitive.color.red.90}",
-            "type": "color",
-            "attributes": {
-              "domain": "palette",
-              "category": "eve",
-              "hidden": false
-            }
-          },
-          "100": {
-            "value": "{primitive.color.red.100}",
-            "type": "color",
-            "attributes": {
-              "domain": "palette",
-              "category": "eve",
-              "hidden": false
-            }
-          },
-          "05": {
-            "value": "{primitive.color.red.05}",
-            "type": "color",
-            "attributes": {
-              "domain": "palette",
-              "category": "eve",
-              "hidden": false
-            }
-          }
-        },
-        "orange": {
-          "10": {
-            "value": "{primitive.color.orange.10}",
-            "type": "color",
-            "attributes": {
-              "domain": "palette",
-              "category": "eve",
-              "hidden": false
-            }
-          },
-          "20": {
-            "value": "{primitive.color.orange.20}",
-            "type": "color",
-            "attributes": {
-              "domain": "palette",
-              "category": "eve",
-              "hidden": false
-            }
-          },
-          "30": {
-            "value": "{primitive.color.orange.30}",
-            "type": "color",
-            "attributes": {
-              "domain": "palette",
-              "category": "eve",
-              "hidden": false
-            }
-          },
-          "40": {
-            "value": "{primitive.color.orange.40}",
-            "type": "color",
-            "attributes": {
-              "domain": "palette",
-              "category": "eve",
-              "hidden": false
-            }
-          },
-          "50": {
-            "value": "{primitive.color.orange.50}",
-            "type": "color",
-            "attributes": {
-              "domain": "palette",
-              "category": "eve",
-              "hidden": false
-            }
-          },
-          "60": {
-            "value": "{primitive.color.orange.60}",
-            "type": "color",
-            "attributes": {
-              "domain": "palette",
-              "category": "eve",
-              "hidden": false
-            }
-          },
-          "70": {
-            "value": "{primitive.color.orange.70}",
-            "type": "color",
-            "attributes": {
-              "domain": "palette",
-              "category": "eve",
-              "hidden": false
-            }
-          },
-          "80": {
-            "value": "{primitive.color.orange.80}",
-            "type": "color",
-            "attributes": {
-              "domain": "palette",
-              "category": "eve",
-              "hidden": false
-            }
-          },
-          "90": {
-            "value": "{primitive.color.orange.90}",
-            "type": "color",
-            "attributes": {
-              "domain": "palette",
-              "category": "eve",
-              "hidden": false
-            }
-          },
-          "100": {
-            "value": "{primitive.color.orange.100}",
-            "type": "color",
-            "attributes": {
-              "domain": "palette",
-              "category": "eve",
-              "hidden": false
-            }
-          },
-          "05": {
-            "value": "{primitive.color.orange.05}",
-            "type": "color",
-            "attributes": {
-              "domain": "palette",
-              "category": "eve",
-              "hidden": false
-            }
-          }
-        },
-        "yellow": {
-          "10": {
-            "value": "{primitive.color.yellow.10}",
-            "type": "color",
-            "attributes": {
-              "domain": "palette",
-              "category": "eve",
-              "hidden": false
-            }
-          },
-          "20": {
-            "value": "{primitive.color.yellow.20}",
-            "type": "color",
-            "attributes": {
-              "domain": "palette",
-              "category": "eve",
-              "hidden": false
-            }
-          },
-          "30": {
-            "value": "{primitive.color.yellow.30}",
-            "type": "color",
-            "attributes": {
-              "domain": "palette",
-              "category": "eve",
-              "hidden": false
-            }
-          },
-          "40": {
-            "value": "{primitive.color.yellow.40}",
-            "type": "color",
-            "attributes": {
-              "domain": "palette",
-              "category": "eve",
-              "hidden": false
-            }
-          },
-          "50": {
-            "value": "{primitive.color.yellow.50}",
-            "type": "color",
-            "attributes": {
-              "domain": "palette",
-              "category": "eve",
-              "hidden": false
-            }
-          },
-          "60": {
-            "value": "{primitive.color.yellow.60}",
-            "type": "color",
-            "attributes": {
-              "domain": "palette",
-              "category": "eve",
-              "hidden": false
-            }
-          },
-          "70": {
-            "value": "{primitive.color.yellow.70}",
-            "type": "color",
-            "attributes": {
-              "domain": "palette",
-              "category": "eve",
-              "hidden": false
-            }
-          },
-          "80": {
-            "value": "{primitive.color.yellow.80}",
-            "type": "color",
-            "attributes": {
-              "domain": "palette",
-              "category": "eve",
-              "hidden": false
-            }
-          },
-          "90": {
-            "value": "{primitive.color.yellow.90}",
-            "type": "color",
-            "attributes": {
-              "domain": "palette",
-              "category": "eve",
-              "hidden": false
-            }
-          },
-          "100": {
-            "value": "{primitive.color.yellow.100}",
-            "type": "color",
-            "attributes": {
-              "domain": "palette",
-              "category": "eve",
-              "hidden": false
-            }
-          },
-          "05": {
-            "value": "{primitive.color.yellow.05}",
-            "type": "color",
-            "attributes": {
-              "domain": "palette",
-              "category": "eve",
-              "hidden": false
-            }
-          }
-        },
-        "purple": {
-          "10": {
-            "value": "{primitive.color.purple.10}",
-            "type": "color",
-            "attributes": {
-              "domain": "palette",
-              "category": "eve",
-              "hidden": false
-            }
-          },
-          "20": {
-            "value": "{primitive.color.purple.20}",
-            "type": "color",
-            "attributes": {
-              "domain": "palette",
-              "category": "eve",
-              "hidden": false
-            }
-          },
-          "30": {
-            "value": "{primitive.color.purple.30}",
-            "type": "color",
-            "attributes": {
-              "domain": "palette",
-              "category": "eve",
-              "hidden": false
-            }
-          },
-          "40": {
-            "value": "{primitive.color.purple.40}",
-            "type": "color",
-            "attributes": {
-              "domain": "palette",
-              "category": "eve",
-              "hidden": false
-            }
-          },
-          "50": {
-            "value": "{primitive.color.purple.50}",
-            "type": "color",
-            "attributes": {
-              "domain": "palette",
-              "category": "eve",
-              "hidden": false
-            }
-          },
-          "60": {
-            "value": "{primitive.color.purple.60}",
-            "type": "color",
-            "attributes": {
-              "domain": "palette",
-              "category": "eve",
-              "hidden": false
-            }
-          },
-          "70": {
-            "value": "{primitive.color.purple.70}",
-            "type": "color",
-            "attributes": {
-              "domain": "palette",
-              "category": "eve",
-              "hidden": false
-            }
-          },
-          "80": {
-            "value": "{primitive.color.purple.80}",
-            "type": "color",
-            "attributes": {
-              "domain": "palette",
-              "category": "eve",
-              "hidden": false
-            }
-          },
-          "90": {
-            "value": "{primitive.color.purple.90}",
-            "type": "color",
-            "attributes": {
-              "domain": "palette",
-              "category": "eve",
-              "hidden": false
-            }
-          },
-          "100": {
-            "value": "{primitive.color.purple.100}",
-            "type": "color",
-            "attributes": {
-              "domain": "palette",
-              "category": "eve",
-              "hidden": false
-            }
-          },
-          "05": {
-            "value": "{primitive.color.purple.05}",
-            "type": "color",
-            "attributes": {
-              "domain": "palette",
-              "category": "eve",
-              "hidden": false
-            }
-          }
-        },
-        "magenta": {
-          "10": {
-            "value": "{primitive.color.magenta.10}",
-            "type": "color",
-            "attributes": {
-              "domain": "palette",
-              "category": "eve",
-              "hidden": false
-            }
-          },
-          "20": {
-            "value": "{primitive.color.magenta.20}",
-            "type": "color",
-            "attributes": {
-              "domain": "palette",
-              "category": "eve",
-              "hidden": false
-            }
-          },
-          "30": {
-            "value": "{primitive.color.magenta.30}",
-            "type": "color",
-            "attributes": {
-              "domain": "palette",
-              "category": "eve",
-              "hidden": false
-            }
-          },
-          "40": {
-            "value": "{primitive.color.magenta.40}",
-            "type": "color",
-            "attributes": {
-              "domain": "palette",
-              "category": "eve",
-              "hidden": false
-            }
-          },
-          "50": {
-            "value": "{primitive.color.magenta.50}",
-            "type": "color",
-            "attributes": {
-              "domain": "palette",
-              "category": "eve",
-              "hidden": false
-            }
-          },
-          "60": {
-            "value": "{primitive.color.magenta.60}",
-            "type": "color",
-            "attributes": {
-              "domain": "palette",
-              "category": "eve",
-              "hidden": false
-            }
-          },
-          "70": {
-            "value": "{primitive.color.magenta.70}",
-            "type": "color",
-            "attributes": {
-              "domain": "palette",
-              "category": "eve",
-              "hidden": false
-            }
-          },
-          "80": {
-            "value": "{primitive.color.magenta.80}",
-            "type": "color",
-            "attributes": {
-              "domain": "palette",
-              "category": "eve",
-              "hidden": false
-            }
-          },
-          "90": {
-            "value": "{primitive.color.magenta.90}",
-            "type": "color",
-            "attributes": {
-              "domain": "palette",
-              "category": "eve",
-              "hidden": false
-            }
-          },
-          "100": {
-            "value": "{primitive.color.magenta.100}",
-            "type": "color",
-            "attributes": {
-              "domain": "palette",
-              "category": "eve",
-              "hidden": false
-            }
-          },
-          "05": {
-            "value": "{primitive.color.magenta.05}",
-            "type": "color",
-            "attributes": {
-              "domain": "palette",
-              "category": "eve",
-              "hidden": false
-            }
-          }
-        },
-        "white": {
-          "value": "{primitive.color.white}",
-          "type": "color",
+  "base/space/inline": {
+    "space": {
+      "il": {
+        "0_5x": {
+          "value": "{primitive.size.2}",
+          "comment": "2px",
           "attributes": {
-            "domain": "palette",
-            "category": "eve",
+            "domain": "space",
+            "category": "inline",
             "hidden": false
-          }
+          },
+          "type": "spacing"
         },
-        "black": {
-          "value": "{primitive.color.black}",
-          "type": "color",
+        "1x": {
+          "value": "{primitive.size.4}",
+          "comment": "4px",
           "attributes": {
-            "domain": "palette",
-            "category": "eve",
+            "domain": "space",
+            "category": "inline",
             "hidden": false
-          }
+          },
+          "type": "spacing"
         },
-        "transparent": {
-          "value": "rgba(0,0,0,0)",
-          "type": "color"
-        }
-      },
-      "support": {
-        "success": {
-          "value": "{primitive.color.green.50}",
-          "type": "color",
+        "1_5x": {
+          "value": "{primitive.size.6}",
+          "comment": "6px",
           "attributes": {
-            "domain": "palette",
-            "category": "support",
+            "domain": "space",
+            "category": "inline",
             "hidden": false
-          }
+          },
+          "type": "spacing"
         },
-        "error": {
-          "value": "{primitive.color.red.50}",
-          "type": "color",
+        "2x": {
+          "value": "{primitive.size.8}",
+          "comment": "8px",
           "attributes": {
-            "domain": "palette",
-            "category": "support",
+            "domain": "space",
+            "category": "inline",
             "hidden": false
-          }
+          },
+          "type": "spacing"
         },
-        "warning": {
-          "value": "{primitive.color.yellow.20}",
-          "type": "color",
+        "3x": {
+          "value": "{primitive.size.12}",
+          "comment": "12px",
           "attributes": {
-            "domain": "palette",
-            "category": "support",
+            "domain": "space",
+            "category": "inline",
             "hidden": false
-          }
+          },
+          "type": "spacing"
         },
-        "info": {
-          "value": "{primitive.color.cool-gray.30}",
-          "type": "color",
+        "4x": {
+          "value": "{primitive.size.16}",
+          "comment": "16px",
           "attributes": {
-            "domain": "palette",
-            "category": "support",
+            "domain": "space",
+            "category": "inline",
             "hidden": false
-          }
+          },
+          "type": "spacing"
+        },
+        "6x": {
+          "value": "{primitive.size.24}",
+          "comment": "24px",
+          "attributes": {
+            "domain": "space",
+            "category": "inline",
+            "hidden": false
+          },
+          "type": "spacing"
+        },
+        "8x": {
+          "value": "{primitive.size.32}",
+          "comment": "32px",
+          "attributes": {
+            "domain": "space",
+            "category": "inline",
+            "hidden": false
+          },
+          "type": "spacing"
+        },
+        "16x": {
+          "value": "{primitive.size.64}",
+          "comment": "64px",
+          "attributes": {
+            "domain": "space",
+            "category": "inline",
+            "hidden": false
+          },
+          "type": "spacing"
         }
       }
-    },
+    }
+  },
+  "base/space/inset": {
+    "space": {
+      "is": {
+        "0_5x": {
+          "value": "{primitive.size.2}",
+          "comment": "2px",
+          "attributes": {
+            "domain": "space",
+            "category": "inset",
+            "hidden": false
+          },
+          "type": "spacing"
+        },
+        "1x": {
+          "value": "{primitive.size.4}",
+          "comment": "4px",
+          "attributes": {
+            "domain": "space",
+            "category": "inset",
+            "hidden": false
+          },
+          "type": "spacing"
+        },
+        "1_5x": {
+          "value": "{primitive.size.6}",
+          "comment": "6px",
+          "attributes": {
+            "domain": "space",
+            "category": "inset",
+            "hidden": false
+          },
+          "type": "spacing"
+        },
+        "2x": {
+          "value": "{primitive.size.8}",
+          "comment": "8px",
+          "attributes": {
+            "domain": "space",
+            "category": "inset",
+            "hidden": false
+          },
+          "type": "spacing"
+        },
+        "3x": {
+          "value": "{primitive.size.12}",
+          "comment": "12px",
+          "attributes": {
+            "domain": "space",
+            "category": "inset",
+            "hidden": false
+          },
+          "type": "spacing"
+        },
+        "4x": {
+          "value": "{primitive.size.16}",
+          "comment": "16px",
+          "attributes": {
+            "domain": "space",
+            "category": "inset",
+            "hidden": false
+          },
+          "type": "spacing"
+        },
+        "6x": {
+          "value": "{primitive.size.24}",
+          "comment": "24px",
+          "attributes": {
+            "domain": "space",
+            "category": "inset",
+            "hidden": false
+          },
+          "type": "spacing"
+        },
+        "8x": {
+          "value": "{primitive.size.32}",
+          "comment": "32px",
+          "attributes": {
+            "domain": "space",
+            "category": "inset",
+            "hidden": false
+          },
+          "type": "spacing"
+        },
+        "16x": {
+          "value": "{primitive.size.64}",
+          "comment": "64px",
+          "attributes": {
+            "domain": "space",
+            "category": "inset",
+            "hidden": false
+          },
+          "type": "spacing"
+        }
+      }
+    }
+  },
+  "base/space/stack": {
+    "space": {
+      "st": {
+        "0_5x": {
+          "value": "{primitive.size.2}",
+          "comment": "2px",
+          "attributes": {
+            "domain": "space",
+            "category": "stack",
+            "hidden": false
+          },
+          "type": "spacing"
+        },
+        "1x": {
+          "value": "{primitive.size.4}",
+          "comment": "4px",
+          "attributes": {
+            "domain": "space",
+            "category": "stack",
+            "hidden": false
+          },
+          "type": "spacing"
+        },
+        "1_5x": {
+          "value": "{primitive.size.6}",
+          "comment": "6px",
+          "attributes": {
+            "domain": "space",
+            "category": "stack",
+            "hidden": false
+          },
+          "type": "spacing"
+        },
+        "2x": {
+          "value": "{primitive.size.8}",
+          "comment": "8px",
+          "attributes": {
+            "domain": "space",
+            "category": "stack",
+            "hidden": false
+          },
+          "type": "spacing"
+        },
+        "3x": {
+          "value": "{primitive.size.12}",
+          "comment": "12px",
+          "attributes": {
+            "domain": "space",
+            "category": "stack",
+            "hidden": false
+          },
+          "type": "spacing"
+        },
+        "4x": {
+          "value": "{primitive.size.16}",
+          "comment": "16px",
+          "attributes": {
+            "domain": "space",
+            "category": "stack",
+            "hidden": false
+          },
+          "type": "spacing"
+        },
+        "6x": {
+          "value": "{primitive.size.24}",
+          "comment": "24px",
+          "attributes": {
+            "domain": "space",
+            "category": "stack",
+            "hidden": false
+          },
+          "type": "spacing"
+        },
+        "8x": {
+          "value": "{primitive.size.32}",
+          "comment": "32px",
+          "attributes": {
+            "domain": "space",
+            "category": "stack",
+            "hidden": false
+          },
+          "type": "spacing"
+        },
+        "16x": {
+          "value": "{primitive.size.64}",
+          "comment": "64px",
+          "attributes": {
+            "domain": "space",
+            "category": "stack",
+            "hidden": false
+          },
+          "type": "spacing"
+        }
+      }
+    }
+  },
+  "base/size/border": {
     "size": {
       "border": {
         "width": {
@@ -3347,90 +2675,11 @@
             }
           }
         }
-      },
-      "radius": {
-        "xx-sm": {
-          "value": "{primitive.size.4}",
-          "type": "borderRadius",
-          "attributes": {
-            "domain": "size",
-            "category": "radius",
-            "hidden": false
-          }
-        },
-        "x-sm": {
-          "value": "{primitive.size.8}",
-          "type": "borderRadius",
-          "attributes": {
-            "domain": "size",
-            "category": "radius",
-            "hidden": false
-          }
-        },
-        "sm": {
-          "value": "{primitive.size.12}",
-          "type": "borderRadius",
-          "attributes": {
-            "domain": "size",
-            "category": "radius",
-            "hidden": false
-          }
-        },
-        "md": {
-          "value": "{primitive.size.16}",
-          "type": "borderRadius",
-          "attributes": {
-            "domain": "size",
-            "category": "radius",
-            "hidden": false
-          }
-        },
-        "lg": {
-          "value": "{primitive.size.32}",
-          "type": "borderRadius",
-          "attributes": {
-            "domain": "size",
-            "category": "radius",
-            "hidden": false
-          }
-        },
-        "x-lg": {
-          "value": "{primitive.size.56}",
-          "type": "borderRadius",
-          "attributes": {
-            "domain": "size",
-            "category": "radius",
-            "hidden": false
-          }
-        },
-        "sq": {
-          "value": "{size.radius.xx-sm}",
-          "type": "borderRadius",
-          "attributes": {
-            "domain": "size",
-            "category": "radius",
-            "hidden": false
-          }
-        },
-        "rd": {
-          "value": "{size.radius.x-sm}",
-          "type": "borderRadius",
-          "attributes": {
-            "domain": "size",
-            "category": "radius",
-            "hidden": false
-          }
-        },
-        "cir": {
-          "value": "9999px",
-          "type": "borderRadius",
-          "attributes": {
-            "domain": "size",
-            "category": "radius",
-            "hidden": false
-          }
-        }
-      },
+      }
+    }
+  },
+  "base/size/square": {
+    "size": {
       "sq": {
         "3": {
           "value": "{primitive.size.12}",
@@ -3523,294 +2772,1062 @@
           }
         }
       }
-    },
-    "space": {
-      "il": {
-        "0_5x": {
-          "value": "{primitive.size.2}",
-          "type": "spacing",
-          "comment": "2px",
-          "attributes": {
-            "domain": "space",
-            "category": "inline",
-            "hidden": false
-          }
-        },
-        "1x": {
+    }
+  },
+  "base/size/radius": {
+    "size": {
+      "radius": {
+        "xx-sm": {
           "value": "{primitive.size.4}",
-          "type": "spacing",
-          "comment": "4px",
+          "type": "borderRadius",
           "attributes": {
-            "domain": "space",
-            "category": "inline",
+            "domain": "size",
+            "category": "radius",
             "hidden": false
           }
         },
-        "1_5x": {
-          "value": "{primitive.size.6}",
-          "type": "spacing",
-          "comment": "6px",
-          "attributes": {
-            "domain": "space",
-            "category": "inline",
-            "hidden": false
-          }
-        },
-        "2x": {
+        "x-sm": {
           "value": "{primitive.size.8}",
-          "type": "spacing",
-          "comment": "8px",
+          "type": "borderRadius",
           "attributes": {
-            "domain": "space",
-            "category": "inline",
+            "domain": "size",
+            "category": "radius",
             "hidden": false
           }
         },
-        "3x": {
+        "sm": {
           "value": "{primitive.size.12}",
-          "type": "spacing",
-          "comment": "12px",
+          "type": "borderRadius",
           "attributes": {
-            "domain": "space",
-            "category": "inline",
+            "domain": "size",
+            "category": "radius",
             "hidden": false
           }
         },
-        "4x": {
+        "md": {
           "value": "{primitive.size.16}",
-          "comment": "16px",
+          "type": "borderRadius",
           "attributes": {
-            "domain": "space",
-            "category": "inline",
+            "domain": "size",
+            "category": "radius",
             "hidden": false
-          },
-          "type": "spacing"
+          }
         },
-        "6x": {
-          "value": "{primitive.size.24}",
-          "comment": "24px",
-          "attributes": {
-            "domain": "space",
-            "category": "inline",
-            "hidden": false
-          },
-          "type": "spacing"
-        },
-        "8x": {
+        "lg": {
           "value": "{primitive.size.32}",
-          "type": "spacing",
-          "comment": "32px",
+          "type": "borderRadius",
           "attributes": {
-            "domain": "space",
-            "category": "inline",
+            "domain": "size",
+            "category": "radius",
             "hidden": false
           }
         },
-        "16x": {
-          "value": "{primitive.size.64}",
-          "comment": "64px",
+        "x-lg": {
+          "value": "{primitive.size.56}",
+          "type": "borderRadius",
           "attributes": {
-            "domain": "space",
-            "category": "inline",
-            "hidden": false
-          },
-          "type": "spacing"
-        }
-      },
-      "is": {
-        "0_5x": {
-          "value": "{primitive.size.2}",
-          "type": "spacing",
-          "comment": "2px",
-          "attributes": {
-            "domain": "space",
-            "category": "inline",
+            "domain": "size",
+            "category": "radius",
             "hidden": false
           }
         },
-        "1x": {
-          "value": "{primitive.size.4}",
-          "type": "spacing",
-          "comment": "4px",
+        "sq": {
+          "value": "{size.radius.xx-sm}",
+          "type": "borderRadius",
           "attributes": {
-            "domain": "space",
-            "category": "inline",
+            "domain": "size",
+            "category": "radius",
             "hidden": false
           }
         },
-        "1_5x": {
-          "value": "{primitive.size.6}",
-          "type": "spacing",
-          "comment": "6px",
+        "rd": {
+          "value": "{size.radius.x-sm}",
+          "type": "borderRadius",
           "attributes": {
-            "domain": "space",
-            "category": "inline",
+            "domain": "size",
+            "category": "radius",
             "hidden": false
           }
         },
-        "2x": {
-          "value": "{primitive.size.8}",
-          "type": "spacing",
-          "comment": "8px",
+        "cir": {
+          "value": "9999px",
+          "type": "borderRadius",
           "attributes": {
-            "domain": "space",
-            "category": "inline",
-            "hidden": false
-          }
-        },
-        "3x": {
-          "value": "{primitive.size.12}",
-          "type": "spacing",
-          "comment": "12px",
-          "attributes": {
-            "domain": "space",
-            "category": "inline",
-            "hidden": false
-          }
-        },
-        "4x": {
-          "value": "{primitive.size.16}",
-          "type": "spacing",
-          "comment": "16px",
-          "attributes": {
-            "domain": "space",
-            "category": "inline",
-            "hidden": false
-          }
-        },
-        "6x": {
-          "value": "{primitive.size.24}",
-          "type": "spacing",
-          "comment": "24px",
-          "attributes": {
-            "domain": "space",
-            "category": "inline",
-            "hidden": false
-          }
-        },
-        "8x": {
-          "value": "{primitive.size.32}",
-          "type": "spacing",
-          "comment": "32px",
-          "attributes": {
-            "domain": "space",
-            "category": "inline",
-            "hidden": false
-          }
-        },
-        "16x": {
-          "value": "{primitive.size.64}",
-          "type": "spacing",
-          "comment": "64px",
-          "attributes": {
-            "domain": "space",
-            "category": "inline",
-            "hidden": false
-          }
-        }
-      },
-      "st": {
-        "0_5x": {
-          "value": "{primitive.size.2}",
-          "type": "spacing",
-          "comment": "2px",
-          "attributes": {
-            "domain": "space",
-            "category": "inline",
-            "hidden": false
-          },
-          "description": "To be used for bottom margin. Note use inset spacing for top and bottom padding. Value equals 4px"
-        },
-        "1x": {
-          "value": "{primitive.size.4}",
-          "type": "spacing",
-          "comment": "4px",
-          "attributes": {
-            "domain": "space",
-            "category": "inline",
-            "hidden": false
-          }
-        },
-        "1_5x": {
-          "value": "{primitive.size.6}",
-          "type": "spacing",
-          "comment": "6px",
-          "attributes": {
-            "domain": "space",
-            "category": "inline",
-            "hidden": false
-          }
-        },
-        "2x": {
-          "value": "{primitive.size.8}",
-          "type": "spacing",
-          "comment": "8px",
-          "attributes": {
-            "domain": "space",
-            "category": "inline",
-            "hidden": false
-          }
-        },
-        "3x": {
-          "value": "{primitive.size.12}",
-          "type": "spacing",
-          "comment": "12px",
-          "attributes": {
-            "domain": "space",
-            "category": "inline",
-            "hidden": false
-          }
-        },
-        "4x": {
-          "value": "{primitive.size.16}",
-          "type": "spacing",
-          "comment": "16px",
-          "attributes": {
-            "domain": "space",
-            "category": "inline",
-            "hidden": false
-          }
-        },
-        "6x": {
-          "value": "{primitive.size.24}",
-          "type": "spacing",
-          "comment": "24px",
-          "attributes": {
-            "domain": "space",
-            "category": "inline",
-            "hidden": false
-          }
-        },
-        "8x": {
-          "value": "{primitive.size.32}",
-          "type": "spacing",
-          "comment": "32px",
-          "attributes": {
-            "domain": "space",
-            "category": "inline",
-            "hidden": false
-          }
-        },
-        "16x": {
-          "value": "{primitive.size.64}",
-          "type": "spacing",
-          "comment": "64px",
-          "attributes": {
-            "domain": "space",
-            "category": "inline",
+            "domain": "size",
+            "category": "radius",
             "hidden": false
           }
         }
       }
-    },
-    "ts": {
-      "display": {
-        "lg": {
-          "value": {
-            "fontWeight": "{font.weight.md}"
+    }
+  },
+  "base/palette/eve": {
+    "palette": {
+      "eve": {
+        "cool-gray": {
+          "10": {
+            "value": "{primitive.color.cool-gray.10}",
+            "attributes": {
+              "domain": "palette",
+              "category": "eve",
+              "hidden": false
+            },
+            "type": "color"
           },
-          "type": "typography",
-          "description": "find me"
+          "20": {
+            "value": "{primitive.color.cool-gray.20}",
+            "attributes": {
+              "domain": "palette",
+              "category": "eve",
+              "hidden": false
+            },
+            "type": "color"
+          },
+          "30": {
+            "value": "{primitive.color.cool-gray.30}",
+            "attributes": {
+              "domain": "palette",
+              "category": "eve",
+              "hidden": false
+            },
+            "type": "color"
+          },
+          "40": {
+            "value": "{primitive.color.cool-gray.40}",
+            "attributes": {
+              "domain": "palette",
+              "category": "eve",
+              "hidden": false
+            },
+            "type": "color"
+          },
+          "50": {
+            "value": "{primitive.color.cool-gray.50}",
+            "attributes": {
+              "domain": "palette",
+              "category": "eve",
+              "hidden": false
+            },
+            "type": "color"
+          },
+          "60": {
+            "value": "{primitive.color.cool-gray.60}",
+            "attributes": {
+              "domain": "palette",
+              "category": "eve",
+              "hidden": false
+            },
+            "type": "color"
+          },
+          "70": {
+            "value": "{primitive.color.cool-gray.70}",
+            "attributes": {
+              "domain": "palette",
+              "category": "eve",
+              "hidden": false
+            },
+            "type": "color"
+          },
+          "80": {
+            "value": "{primitive.color.cool-gray.80}",
+            "attributes": {
+              "domain": "palette",
+              "category": "eve",
+              "hidden": false
+            },
+            "type": "color"
+          },
+          "90": {
+            "value": "{primitive.color.cool-gray.90}",
+            "attributes": {
+              "domain": "palette",
+              "category": "eve",
+              "hidden": false
+            },
+            "type": "color"
+          },
+          "100": {
+            "value": "{primitive.color.cool-gray.100}",
+            "attributes": {
+              "domain": "palette",
+              "category": "eve",
+              "hidden": false
+            },
+            "type": "color"
+          }
+        },
+        "blue": {
+          "10": {
+            "value": "{primitive.color.blue.10}",
+            "attributes": {
+              "domain": "palette",
+              "category": "eve",
+              "hidden": false
+            },
+            "type": "color"
+          },
+          "20": {
+            "value": "{primitive.color.blue.20}",
+            "attributes": {
+              "domain": "palette",
+              "category": "eve",
+              "hidden": false
+            },
+            "type": "color"
+          },
+          "30": {
+            "value": "{primitive.color.blue.30}",
+            "attributes": {
+              "domain": "palette",
+              "category": "eve",
+              "hidden": false
+            },
+            "type": "color"
+          },
+          "40": {
+            "value": "{primitive.color.blue.40}",
+            "attributes": {
+              "domain": "palette",
+              "category": "eve",
+              "hidden": false
+            },
+            "type": "color"
+          },
+          "50": {
+            "value": "{primitive.color.blue.50}",
+            "attributes": {
+              "domain": "palette",
+              "category": "eve",
+              "hidden": false
+            },
+            "type": "color"
+          },
+          "60": {
+            "value": "{primitive.color.blue.60}",
+            "attributes": {
+              "domain": "palette",
+              "category": "eve",
+              "hidden": false
+            },
+            "type": "color"
+          },
+          "70": {
+            "value": "{primitive.color.blue.70}",
+            "attributes": {
+              "domain": "palette",
+              "category": "eve",
+              "hidden": false
+            },
+            "type": "color"
+          },
+          "80": {
+            "value": "{primitive.color.blue.80}",
+            "attributes": {
+              "domain": "palette",
+              "category": "eve",
+              "hidden": false
+            },
+            "type": "color"
+          },
+          "90": {
+            "value": "{primitive.color.blue.90}",
+            "attributes": {
+              "domain": "palette",
+              "category": "eve",
+              "hidden": false
+            },
+            "type": "color"
+          },
+          "100": {
+            "value": "{primitive.color.blue.100}",
+            "attributes": {
+              "domain": "palette",
+              "category": "eve",
+              "hidden": false
+            },
+            "type": "color"
+          },
+          "05": {
+            "value": "{primitive.color.blue.05}",
+            "attributes": {
+              "domain": "palette",
+              "category": "eve",
+              "hidden": false
+            },
+            "type": "color"
+          }
+        },
+        "green": {
+          "10": {
+            "value": "{primitive.color.green.10}",
+            "attributes": {
+              "domain": "palette",
+              "category": "eve",
+              "hidden": false
+            },
+            "type": "color"
+          },
+          "20": {
+            "value": "{primitive.color.green.20}",
+            "attributes": {
+              "domain": "palette",
+              "category": "eve",
+              "hidden": false
+            },
+            "type": "color"
+          },
+          "30": {
+            "value": "{primitive.color.green.30}",
+            "attributes": {
+              "domain": "palette",
+              "category": "eve",
+              "hidden": false
+            },
+            "type": "color"
+          },
+          "40": {
+            "value": "{primitive.color.green.40}",
+            "attributes": {
+              "domain": "palette",
+              "category": "eve",
+              "hidden": false
+            },
+            "type": "color"
+          },
+          "50": {
+            "value": "{primitive.color.green.50}",
+            "attributes": {
+              "domain": "palette",
+              "category": "eve",
+              "hidden": false
+            },
+            "type": "color"
+          },
+          "60": {
+            "value": "{primitive.color.green.60}",
+            "attributes": {
+              "domain": "palette",
+              "category": "eve",
+              "hidden": false
+            },
+            "type": "color"
+          },
+          "70": {
+            "value": "{primitive.color.green.70}",
+            "attributes": {
+              "domain": "palette",
+              "category": "eve",
+              "hidden": false
+            },
+            "type": "color"
+          },
+          "80": {
+            "value": "{primitive.color.green.80}",
+            "attributes": {
+              "domain": "palette",
+              "category": "eve",
+              "hidden": false
+            },
+            "type": "color"
+          },
+          "90": {
+            "value": "{primitive.color.green.90}",
+            "attributes": {
+              "domain": "palette",
+              "category": "eve",
+              "hidden": false
+            },
+            "type": "color"
+          },
+          "100": {
+            "value": "{primitive.color.green.100}",
+            "attributes": {
+              "domain": "palette",
+              "category": "eve",
+              "hidden": false
+            },
+            "type": "color"
+          },
+          "05": {
+            "value": "{primitive.color.green.05}",
+            "attributes": {
+              "domain": "palette",
+              "category": "eve",
+              "hidden": false
+            },
+            "type": "color"
+          }
+        },
+        "turquoise": {
+          "10": {
+            "value": "{primitive.color.turquoise.10}",
+            "attributes": {
+              "domain": "palette",
+              "category": "eve",
+              "hidden": false
+            },
+            "type": "color"
+          },
+          "20": {
+            "value": "{primitive.color.turquoise.20}",
+            "attributes": {
+              "domain": "palette",
+              "category": "eve",
+              "hidden": false
+            },
+            "type": "color"
+          },
+          "30": {
+            "value": "{primitive.color.turquoise.30}",
+            "attributes": {
+              "domain": "palette",
+              "category": "eve",
+              "hidden": false
+            },
+            "type": "color"
+          },
+          "40": {
+            "value": "{primitive.color.turquoise.40}",
+            "attributes": {
+              "domain": "palette",
+              "category": "eve",
+              "hidden": false
+            },
+            "type": "color"
+          },
+          "50": {
+            "value": "{primitive.color.turquoise.50}",
+            "attributes": {
+              "domain": "palette",
+              "category": "eve",
+              "hidden": false
+            },
+            "type": "color"
+          },
+          "60": {
+            "value": "{primitive.color.turquoise.60}",
+            "attributes": {
+              "domain": "palette",
+              "category": "eve",
+              "hidden": false
+            },
+            "type": "color"
+          },
+          "70": {
+            "value": "{primitive.color.turquoise.70}",
+            "attributes": {
+              "domain": "palette",
+              "category": "eve",
+              "hidden": false
+            },
+            "type": "color"
+          },
+          "80": {
+            "value": "{primitive.color.turquoise.80}",
+            "attributes": {
+              "domain": "palette",
+              "category": "eve",
+              "hidden": false
+            },
+            "type": "color"
+          },
+          "90": {
+            "value": "{primitive.color.turquoise.90}",
+            "attributes": {
+              "domain": "palette",
+              "category": "eve",
+              "hidden": false
+            },
+            "type": "color"
+          },
+          "100": {
+            "value": "{primitive.color.turquoise.100}",
+            "attributes": {
+              "domain": "palette",
+              "category": "eve",
+              "hidden": false
+            },
+            "type": "color"
+          },
+          "05": {
+            "value": "{primitive.color.turquoise.05}",
+            "attributes": {
+              "domain": "palette",
+              "category": "eve",
+              "hidden": false
+            },
+            "type": "color"
+          }
+        },
+        "red": {
+          "10": {
+            "value": "{primitive.color.red.10}",
+            "attributes": {
+              "domain": "palette",
+              "category": "eve",
+              "hidden": false
+            },
+            "type": "color"
+          },
+          "20": {
+            "value": "{primitive.color.red.20}",
+            "attributes": {
+              "domain": "palette",
+              "category": "eve",
+              "hidden": false
+            },
+            "type": "color"
+          },
+          "30": {
+            "value": "{primitive.color.red.30}",
+            "attributes": {
+              "domain": "palette",
+              "category": "eve",
+              "hidden": false
+            },
+            "type": "color"
+          },
+          "40": {
+            "value": "{primitive.color.red.40}",
+            "attributes": {
+              "domain": "palette",
+              "category": "eve",
+              "hidden": false
+            },
+            "type": "color"
+          },
+          "50": {
+            "value": "{primitive.color.red.50}",
+            "attributes": {
+              "domain": "palette",
+              "category": "eve",
+              "hidden": false
+            },
+            "type": "color"
+          },
+          "60": {
+            "value": "{primitive.color.red.60}",
+            "attributes": {
+              "domain": "palette",
+              "category": "eve",
+              "hidden": false
+            },
+            "type": "color"
+          },
+          "70": {
+            "value": "{primitive.color.red.70}",
+            "attributes": {
+              "domain": "palette",
+              "category": "eve",
+              "hidden": false
+            },
+            "type": "color"
+          },
+          "80": {
+            "value": "{primitive.color.red.80}",
+            "attributes": {
+              "domain": "palette",
+              "category": "eve",
+              "hidden": false
+            },
+            "type": "color"
+          },
+          "90": {
+            "value": "{primitive.color.red.90}",
+            "attributes": {
+              "domain": "palette",
+              "category": "eve",
+              "hidden": false
+            },
+            "type": "color"
+          },
+          "100": {
+            "value": "{primitive.color.red.100}",
+            "attributes": {
+              "domain": "palette",
+              "category": "eve",
+              "hidden": false
+            },
+            "type": "color"
+          },
+          "05": {
+            "value": "{primitive.color.red.05}",
+            "attributes": {
+              "domain": "palette",
+              "category": "eve",
+              "hidden": false
+            },
+            "type": "color"
+          }
+        },
+        "orange": {
+          "10": {
+            "value": "{primitive.color.orange.10}",
+            "attributes": {
+              "domain": "palette",
+              "category": "eve",
+              "hidden": false
+            },
+            "type": "color"
+          },
+          "20": {
+            "value": "{primitive.color.orange.20}",
+            "attributes": {
+              "domain": "palette",
+              "category": "eve",
+              "hidden": false
+            },
+            "type": "color"
+          },
+          "30": {
+            "value": "{primitive.color.orange.30}",
+            "attributes": {
+              "domain": "palette",
+              "category": "eve",
+              "hidden": false
+            },
+            "type": "color"
+          },
+          "40": {
+            "value": "{primitive.color.orange.40}",
+            "attributes": {
+              "domain": "palette",
+              "category": "eve",
+              "hidden": false
+            },
+            "type": "color"
+          },
+          "50": {
+            "value": "{primitive.color.orange.50}",
+            "attributes": {
+              "domain": "palette",
+              "category": "eve",
+              "hidden": false
+            },
+            "type": "color"
+          },
+          "60": {
+            "value": "{primitive.color.orange.60}",
+            "attributes": {
+              "domain": "palette",
+              "category": "eve",
+              "hidden": false
+            },
+            "type": "color"
+          },
+          "70": {
+            "value": "{primitive.color.orange.70}",
+            "attributes": {
+              "domain": "palette",
+              "category": "eve",
+              "hidden": false
+            },
+            "type": "color"
+          },
+          "80": {
+            "value": "{primitive.color.orange.80}",
+            "attributes": {
+              "domain": "palette",
+              "category": "eve",
+              "hidden": false
+            },
+            "type": "color"
+          },
+          "90": {
+            "value": "{primitive.color.orange.90}",
+            "attributes": {
+              "domain": "palette",
+              "category": "eve",
+              "hidden": false
+            },
+            "type": "color"
+          },
+          "100": {
+            "value": "{primitive.color.orange.100}",
+            "attributes": {
+              "domain": "palette",
+              "category": "eve",
+              "hidden": false
+            },
+            "type": "color"
+          },
+          "05": {
+            "value": "{primitive.color.orange.05}",
+            "attributes": {
+              "domain": "palette",
+              "category": "eve",
+              "hidden": false
+            },
+            "type": "color"
+          }
+        },
+        "yellow": {
+          "10": {
+            "value": "{primitive.color.yellow.10}",
+            "attributes": {
+              "domain": "palette",
+              "category": "eve",
+              "hidden": false
+            },
+            "type": "color"
+          },
+          "20": {
+            "value": "{primitive.color.yellow.20}",
+            "attributes": {
+              "domain": "palette",
+              "category": "eve",
+              "hidden": false
+            },
+            "type": "color"
+          },
+          "30": {
+            "value": "{primitive.color.yellow.30}",
+            "attributes": {
+              "domain": "palette",
+              "category": "eve",
+              "hidden": false
+            },
+            "type": "color"
+          },
+          "40": {
+            "value": "{primitive.color.yellow.40}",
+            "attributes": {
+              "domain": "palette",
+              "category": "eve",
+              "hidden": false
+            },
+            "type": "color"
+          },
+          "50": {
+            "value": "{primitive.color.yellow.50}",
+            "attributes": {
+              "domain": "palette",
+              "category": "eve",
+              "hidden": false
+            },
+            "type": "color"
+          },
+          "60": {
+            "value": "{primitive.color.yellow.60}",
+            "attributes": {
+              "domain": "palette",
+              "category": "eve",
+              "hidden": false
+            },
+            "type": "color"
+          },
+          "70": {
+            "value": "{primitive.color.yellow.70}",
+            "attributes": {
+              "domain": "palette",
+              "category": "eve",
+              "hidden": false
+            },
+            "type": "color"
+          },
+          "80": {
+            "value": "{primitive.color.yellow.80}",
+            "attributes": {
+              "domain": "palette",
+              "category": "eve",
+              "hidden": false
+            },
+            "type": "color"
+          },
+          "90": {
+            "value": "{primitive.color.yellow.90}",
+            "attributes": {
+              "domain": "palette",
+              "category": "eve",
+              "hidden": false
+            },
+            "type": "color"
+          },
+          "100": {
+            "value": "{primitive.color.yellow.100}",
+            "attributes": {
+              "domain": "palette",
+              "category": "eve",
+              "hidden": false
+            },
+            "type": "color"
+          },
+          "05": {
+            "value": "{primitive.color.yellow.05}",
+            "attributes": {
+              "domain": "palette",
+              "category": "eve",
+              "hidden": false
+            },
+            "type": "color"
+          }
+        },
+        "purple": {
+          "10": {
+            "value": "{primitive.color.purple.10}",
+            "attributes": {
+              "domain": "palette",
+              "category": "eve",
+              "hidden": false
+            },
+            "type": "color"
+          },
+          "20": {
+            "value": "{primitive.color.purple.20}",
+            "attributes": {
+              "domain": "palette",
+              "category": "eve",
+              "hidden": false
+            },
+            "type": "color"
+          },
+          "30": {
+            "value": "{primitive.color.purple.30}",
+            "attributes": {
+              "domain": "palette",
+              "category": "eve",
+              "hidden": false
+            },
+            "type": "color"
+          },
+          "40": {
+            "value": "{primitive.color.purple.40}",
+            "attributes": {
+              "domain": "palette",
+              "category": "eve",
+              "hidden": false
+            },
+            "type": "color"
+          },
+          "50": {
+            "value": "{primitive.color.purple.50}",
+            "attributes": {
+              "domain": "palette",
+              "category": "eve",
+              "hidden": false
+            },
+            "type": "color"
+          },
+          "60": {
+            "value": "{primitive.color.purple.60}",
+            "attributes": {
+              "domain": "palette",
+              "category": "eve",
+              "hidden": false
+            },
+            "type": "color"
+          },
+          "70": {
+            "value": "{primitive.color.purple.70}",
+            "attributes": {
+              "domain": "palette",
+              "category": "eve",
+              "hidden": false
+            },
+            "type": "color"
+          },
+          "80": {
+            "value": "{primitive.color.purple.80}",
+            "attributes": {
+              "domain": "palette",
+              "category": "eve",
+              "hidden": false
+            },
+            "type": "color"
+          },
+          "90": {
+            "value": "{primitive.color.purple.90}",
+            "attributes": {
+              "domain": "palette",
+              "category": "eve",
+              "hidden": false
+            },
+            "type": "color"
+          },
+          "100": {
+            "value": "{primitive.color.purple.100}",
+            "attributes": {
+              "domain": "palette",
+              "category": "eve",
+              "hidden": false
+            },
+            "type": "color"
+          },
+          "05": {
+            "value": "{primitive.color.purple.05}",
+            "attributes": {
+              "domain": "palette",
+              "category": "eve",
+              "hidden": false
+            },
+            "type": "color"
+          }
+        },
+        "magenta": {
+          "10": {
+            "value": "{primitive.color.magenta.10}",
+            "attributes": {
+              "domain": "palette",
+              "category": "eve",
+              "hidden": false
+            },
+            "type": "color"
+          },
+          "20": {
+            "value": "{primitive.color.magenta.20}",
+            "attributes": {
+              "domain": "palette",
+              "category": "eve",
+              "hidden": false
+            },
+            "type": "color"
+          },
+          "30": {
+            "value": "{primitive.color.magenta.30}",
+            "attributes": {
+              "domain": "palette",
+              "category": "eve",
+              "hidden": false
+            },
+            "type": "color"
+          },
+          "40": {
+            "value": "{primitive.color.magenta.40}",
+            "attributes": {
+              "domain": "palette",
+              "category": "eve",
+              "hidden": false
+            },
+            "type": "color"
+          },
+          "50": {
+            "value": "{primitive.color.magenta.50}",
+            "attributes": {
+              "domain": "palette",
+              "category": "eve",
+              "hidden": false
+            },
+            "type": "color"
+          },
+          "60": {
+            "value": "{primitive.color.magenta.60}",
+            "attributes": {
+              "domain": "palette",
+              "category": "eve",
+              "hidden": false
+            },
+            "type": "color"
+          },
+          "70": {
+            "value": "{primitive.color.magenta.70}",
+            "attributes": {
+              "domain": "palette",
+              "category": "eve",
+              "hidden": false
+            },
+            "type": "color"
+          },
+          "80": {
+            "value": "{primitive.color.magenta.80}",
+            "attributes": {
+              "domain": "palette",
+              "category": "eve",
+              "hidden": false
+            },
+            "type": "color"
+          },
+          "90": {
+            "value": "{primitive.color.magenta.90}",
+            "attributes": {
+              "domain": "palette",
+              "category": "eve",
+              "hidden": false
+            },
+            "type": "color"
+          },
+          "100": {
+            "value": "{primitive.color.magenta.100}",
+            "attributes": {
+              "domain": "palette",
+              "category": "eve",
+              "hidden": false
+            },
+            "type": "color"
+          },
+          "05": {
+            "value": "{primitive.color.magenta.05}",
+            "attributes": {
+              "domain": "palette",
+              "category": "eve",
+              "hidden": false
+            },
+            "type": "color"
+          }
+        },
+        "white": {
+          "value": "{primitive.color.white}",
+          "attributes": {
+            "domain": "palette",
+            "category": "eve",
+            "hidden": false
+          },
+          "type": "color"
+        },
+        "transparent": {
+          "value": "rgba(0, 0, 0, 0)",
+          "attributes": {
+            "domain": "palette",
+            "category": "eve",
+            "hidden": false
+          },
+          "type": "color"
+        },
+        "black": {
+          "value": "{primitive.color.black}",
+          "attributes": {
+            "domain": "palette",
+            "category": "eve",
+            "hidden": false
+          },
+          "type": "color"
+        },
+        "support": {
+          "success": {
+            "value": "{primitive.color.green.50}",
+            "attributes": {
+              "domain": "palette",
+              "category": "support",
+              "hidden": false
+            },
+            "type": "color"
+          },
+          "error": {
+            "value": "{primitive.color.red.50}",
+            "attributes": {
+              "domain": "palette",
+              "category": "support",
+              "hidden": false
+            },
+            "type": "color"
+          },
+          "warning": {
+            "value": "{primitive.color.yellow.20}",
+            "attributes": {
+              "domain": "palette",
+              "category": "support",
+              "hidden": false
+            },
+            "type": "color"
+          },
+          "info": {
+            "value": "{primitive.color.cool-gray.30}",
+            "attributes": {
+              "domain": "palette",
+              "category": "support",
+              "hidden": false
+            },
+            "type": "color"
+          }
         }
       }
     }
@@ -4815,7 +4832,7 @@
                 }
               },
               "error": {
-                "value": "{palette.support.error}",
+                "value": "{palette.eve.support.error}",
                 "attributes": {
                   "domain": "component",
                   "category": "shared",
@@ -4828,7 +4845,7 @@
                 }
               },
               "warning": {
-                "value": "{palette.support.warning}",
+                "value": "{palette.eve.support.warning}",
                 "attributes": {
                   "domain": "component",
                   "category": "shared",
@@ -5329,7 +5346,7 @@
             "color": {
               "type": "color",
               "error": {
-                "value": "{palette.support.error}",
+                "value": "{palette.eve.support.error}",
                 "attributes": {
                   "domain": "component",
                   "category": "shared",
@@ -5342,7 +5359,7 @@
                 }
               },
               "default": {
-                "value": "{palette.support.info}",
+                "value": "{palette.eve.support.info}",
                 "attributes": {
                   "domain": "component",
                   "category": "shared",
@@ -5355,7 +5372,7 @@
                 }
               },
               "warning": {
-                "value": "{palette.support.warning}",
+                "value": "{palette.eve.support.warning}",
                 "attributes": {
                   "domain": "component",
                   "category": "shared",
@@ -5437,7 +5454,7 @@
           "color": {
             "type": "color",
             "success": {
-              "value": "{palette.support.success}",
+              "value": "{palette.eve.support.success}",
               "attributes": {
                 "domain": "component",
                 "category": "shared",
@@ -5450,7 +5467,7 @@
               }
             },
             "error": {
-              "value": "{palette.support.error}",
+              "value": "{palette.eve.support.error}",
               "attributes": {
                 "domain": "component",
                 "category": "shared",
@@ -5463,7 +5480,7 @@
               }
             },
             "warning": {
-              "value": "{palette.support.warning}",
+              "value": "{palette.eve.support.warning}",
               "attributes": {
                 "domain": "component",
                 "category": "shared",
@@ -5476,7 +5493,7 @@
               }
             },
             "default": {
-              "value": "{palette.support.info}",
+              "value": "{palette.eve.support.info}",
               "attributes": {
                 "domain": "component",
                 "category": "shared",
@@ -6498,7 +6515,7 @@
                   "component": "text-input",
                   "hidden": false
                 },
-                "type": "other"
+                "type": "color"
               },
               "disabled": {
                 "value": "{palette.eve.cool-gray.80}",
@@ -6508,7 +6525,7 @@
                   "component": "text-input",
                   "hidden": false
                 },
-                "type": "other"
+                "type": "color"
               }
             }
           },
@@ -6522,7 +6539,7 @@
                   "component": "text-input",
                   "hidden": false
                 },
-                "type": "other"
+                "type": "color"
               },
               "hover": {
                 "value": "{palette.eve.blue.30}",
@@ -6532,7 +6549,7 @@
                   "component": "text-input",
                   "hidden": false
                 },
-                "type": "other"
+                "type": "color"
               },
               "active": {
                 "value": "{palette.eve.blue.30}",
@@ -6542,7 +6559,7 @@
                   "component": "text-input",
                   "hidden": false
                 },
-                "type": "other"
+                "type": "color"
               },
               "focus": {
                 "value": "{palette.eve.blue.50}",
@@ -6552,7 +6569,7 @@
                   "component": "text-input",
                   "hidden": false
                 },
-                "type": "other"
+                "type": "color"
               },
               "disabled": {
                 "value": "{palette.eve.cool-gray.80}",
@@ -6562,27 +6579,27 @@
                   "component": "text-input",
                   "hidden": false
                 },
-                "type": "other"
+                "type": "color"
               },
               "error": {
-                "value": "{palette.support.error}",
+                "value": "{palette.eve.support.error}",
                 "attributes": {
                   "domain": "component",
                   "category": "shared",
                   "component": "text-input",
                   "hidden": false
                 },
-                "type": "other"
+                "type": "color"
               },
               "warning": {
-                "value": "{palette.support.warning}",
+                "value": "{palette.eve.support.warning}",
                 "attributes": {
                   "domain": "component",
                   "category": "shared",
                   "component": "text-input",
                   "hidden": false
                 },
-                "type": "other"
+                "type": "color"
               }
             },
             "size": {
@@ -6937,7 +6954,7 @@
           "font": {
             "color": {
               "error": {
-                "value": "{palette.support.error}",
+                "value": "{palette.eve.support.error}",
                 "attributes": {
                   "domain": "component",
                   "category": "shared",
@@ -6947,7 +6964,7 @@
                 "type": "other"
               },
               "warning": {
-                "value": "{palette.support.info}",
+                "value": "{palette.eve.support.info}",
                 "attributes": {
                   "domain": "component",
                   "category": "shared",
@@ -7028,7 +7045,7 @@
         "trailing-icon": {
           "color": {
             "success": {
-              "value": "{palette.support.success}",
+              "value": "{palette.eve.support.success}",
               "attributes": {
                 "domain": "component",
                 "category": "shared",
@@ -7038,7 +7055,7 @@
               "type": "other"
             },
             "error": {
-              "value": "{palette.support.error}",
+              "value": "{palette.eve.support.error}",
               "attributes": {
                 "domain": "component",
                 "category": "shared",
@@ -7048,7 +7065,7 @@
               "type": "other"
             },
             "warning": {
-              "value": "{palette.support.warning}",
+              "value": "{palette.eve.support.warning}",
               "attributes": {
                 "domain": "component",
                 "category": "shared",
@@ -7238,10 +7255,23 @@
       "name": "eds",
       "$figmaStyleReferences": {},
       "selectedTokenSets": {
-        "primitive": "enabled",
-        "base": "enabled",
         "comp/dropdown": "enabled",
-        "comp/text_input": "enabled"
+        "comp/text_input": "enabled",
+        "primitive/global-color-ref": "source",
+        "primitive/global-size-ref": "source",
+        "base/font/line-height": "enabled",
+        "base/font/typescale": "enabled",
+        "base/font/weight": "enabled",
+        "base/font/size": "enabled",
+        "base/space/inline": "enabled",
+        "base/space/inset": "enabled",
+        "base/space/stack": "enabled",
+        "base/size/border": "enabled",
+        "base/size/square": "enabled",
+        "base/size/radius": "enabled",
+        "base/palette/eve": "enabled",
+        "comp/btn": "enabled",
+        "comp/label": "enabled"
       },
       "$figmaCollectionId": "VariableCollectionId:4002:4002",
       "$figmaModeId": "4002:1",
@@ -7737,12 +7767,19 @@
   ],
   "$metadata": {
     "tokenSetOrder": [
-      "primitive",
+      "primitive/global-color-ref",
+      "primitive/global-size-ref",
       "base/font/line-height",
       "base/font/typescale",
       "base/font/weight",
       "base/font/size",
-      "base",
+      "base/space/inline",
+      "base/space/inset",
+      "base/space/stack",
+      "base/size/border",
+      "base/size/square",
+      "base/size/radius",
+      "base/palette/eve",
       "comp/btn",
       "comp/dropdown",
       "comp/label",
