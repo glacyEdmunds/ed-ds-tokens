@@ -1,0 +1,18 @@
+{
+  "testsomething": {
+    "value": {
+      "color": "#8b4141"
+    },
+    "type": "border"
+  },
+  "big": {
+    "value": {
+      "width": "10px"
+    },
+    "type": "border"
+  },
+  "hellablack": {
+    "value": "#689b3f",
+    "type": "color"
+  }
+}
