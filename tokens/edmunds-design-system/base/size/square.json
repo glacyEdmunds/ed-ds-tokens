@@ -1,0 +1,96 @@
+{
+  "size": {
+    "sq": {
+      "3": {
+        "value": "{primitive.size.12}",
+        "type": "sizing",
+        "attributes": {
+          "domain": "size",
+          "category": "sq",
+          "hidden": false
+        }
+      },
+      "4": {
+        "value": "{primitive.size.14}",
+        "type": "sizing",
+        "attributes": {
+          "domain": "size",
+          "category": "sq",
+          "hidden": false
+        }
+      },
+      "5": {
+        "value": "{primitive.size.16}",
+        "type": "sizing",
+        "attributes": {
+          "domain": "size",
+          "category": "sq",
+          "hidden": false
+        }
+      },
+      "7": {
+        "value": "{primitive.size.20}",
+        "type": "sizing",
+        "attributes": {
+          "domain": "size",
+          "category": "sq",
+          "hidden": false
+        }
+      },
+      "9": {
+        "value": "{primitive.size.24}",
+        "type": "sizing",
+        "attributes": {
+          "domain": "size",
+          "category": "sq",
+          "hidden": false
+        }
+      },
+      "11": {
+        "value": "{primitive.size.30}",
+        "type": "sizing",
+        "attributes": {
+          "domain": "size",
+          "category": "sq",
+          "hidden": false
+        }
+      },
+      "14": {
+        "value": "{primitive.size.36}",
+        "type": "sizing",
+        "attributes": {
+          "domain": "size",
+          "category": "sq",
+          "hidden": false
+        }
+      },
+      "17": {
+        "value": "{primitive.size.48}",
+        "type": "sizing",
+        "attributes": {
+          "domain": "size",
+          "category": "sq",
+          "hidden": false
+        }
+      },
+      "18": {
+        "value": "{primitive.size.52}",
+        "type": "sizing",
+        "attributes": {
+          "domain": "size",
+          "category": "sq",
+          "hidden": false
+        }
+      },
+      "19": {
+        "value": "{primitive.size.56}",
+        "type": "sizing",
+        "attributes": {
+          "domain": "size",
+          "category": "sq",
+          "hidden": false
+        }
+      }
+    }
+  }
+}

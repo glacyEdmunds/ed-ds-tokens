@@ -1,0 +1,765 @@
+{
+  "font": {
+    "ts": {
+      "display": {
+        "lg": {
+          "size": {
+            "value": "{font.size.19}",
+            "comment": "56px",
+            "attributes": {
+              "domain": "font",
+              "category": "typescale",
+              "hidden": false
+            },
+            "type": "other"
+          },
+          "weight": {
+            "reg": {
+              "value": "{font.weight.reg}",
+              "attributes": {
+                "domain": "font",
+                "category": "typescale",
+                "hidden": false
+              },
+              "type": "other"
+            },
+            "md": {
+              "value": "{font.weight.md}",
+              "attributes": {
+                "domain": "font",
+                "category": "typescale",
+                "hidden": false
+              },
+              "type": "other"
+            },
+            "bold": {
+              "value": "{font.weight.bold}",
+              "attributes": {
+                "domain": "font",
+                "category": "typescale",
+                "hidden": false
+              },
+              "type": "other"
+            }
+          },
+          "line-height": {
+            "value": "{font.line-height.sm}",
+            "attributes": {
+              "domain": "font",
+              "category": "typescale",
+              "hidden": false
+            },
+            "type": "other"
+          }
+        },
+        "md": {
+          "size": {
+            "value": "{font.size.18}",
+            "comment": "56px",
+            "attributes": {
+              "domain": "font",
+              "category": "typescale",
+              "hidden": false
+            },
+            "type": "other"
+          },
+          "weight": {
+            "reg": {
+              "value": "{font.weight.reg}",
+              "attributes": {
+                "domain": "font",
+                "category": "typescale",
+                "hidden": false
+              },
+              "type": "other"
+            },
+            "md": {
+              "value": "{font.weight.md}",
+              "attributes": {
+                "domain": "font",
+                "category": "typescale",
+                "hidden": false
+              },
+              "type": "other"
+            },
+            "bold": {
+              "value": "{font.weight.bold}",
+              "attributes": {
+                "domain": "font",
+                "category": "typescale",
+                "hidden": false
+              },
+              "type": "other"
+            }
+          },
+          "line-height": {
+            "value": "{font.line-height.sm}",
+            "attributes": {
+              "domain": "font",
+              "category": "typescale",
+              "hidden": false
+            },
+            "type": "other"
+          }
+        },
+        "sm": {
+          "size": {
+            "value": "{font.size.17}",
+            "comment": "56px",
+            "attributes": {
+              "domain": "font",
+              "category": "typescale",
+              "hidden": false
+            },
+            "type": "other"
+          },
+          "weight": {
+            "reg": {
+              "value": "{font.weight.reg}",
+              "attributes": {
+                "domain": "font",
+                "category": "typescale",
+                "hidden": false
+              },
+              "type": "other"
+            },
+            "md": {
+              "value": "{font.weight.md}",
+              "attributes": {
+                "domain": "font",
+                "category": "typescale",
+                "hidden": false
+              },
+              "type": "other"
+            },
+            "bold": {
+              "value": "{font.weight.bold}",
+              "attributes": {
+                "domain": "font",
+                "category": "typescale",
+                "hidden": false
+              },
+              "type": "other"
+            }
+          },
+          "line-height": {
+            "value": "{font.line-height.sm}",
+            "attributes": {
+              "domain": "font",
+              "category": "typescale",
+              "hidden": false
+            },
+            "type": "other"
+          }
+        }
+      },
+      "headline": {
+        "lg": {
+          "size": {
+            "value": "{font.size.14}",
+            "comment": "36px",
+            "attributes": {
+              "domain": "font",
+              "category": "typescale",
+              "hidden": false
+            },
+            "type": "other"
+          },
+          "weight": {
+            "reg": {
+              "value": "{font.weight.reg}",
+              "attributes": {
+                "domain": "font",
+                "category": "typescale",
+                "hidden": false
+              },
+              "type": "other"
+            },
+            "md": {
+              "value": "{font.weight.md}",
+              "attributes": {
+                "domain": "font",
+                "category": "typescale",
+                "hidden": false
+              },
+              "type": "other"
+            },
+            "bold": {
+              "value": "{font.weight.bold}",
+              "attributes": {
+                "domain": "font",
+                "category": "typescale",
+                "hidden": false
+              },
+              "type": "other"
+            }
+          },
+          "line-height": {
+            "value": "{font.line-height.x-sm}",
+            "attributes": {
+              "domain": "font",
+              "category": "typescale",
+              "hidden": false
+            },
+            "type": "other"
+          }
+        },
+        "md": {
+          "size": {
+            "value": "{font.size.11}",
+            "comment": "30px",
+            "attributes": {
+              "domain": "font",
+              "category": "typescale",
+              "hidden": false
+            },
+            "type": "other"
+          },
+          "weight": {
+            "reg": {
+              "value": "{font.weight.reg}",
+              "attributes": {
+                "domain": "font",
+                "category": "typescale",
+                "hidden": false
+              },
+              "type": "other"
+            },
+            "md": {
+              "value": "{font.weight.md}",
+              "attributes": {
+                "domain": "font",
+                "category": "typescale",
+                "hidden": false
+              },
+              "type": "other"
+            },
+            "bold": {
+              "value": "{font.weight.bold}",
+              "attributes": {
+                "domain": "font",
+                "category": "typescale",
+                "hidden": false
+              },
+              "type": "other"
+            }
+          },
+          "line-height": {
+            "value": "{font.line-height.sm}",
+            "attributes": {
+              "domain": "font",
+              "category": "typescale",
+              "hidden": false
+            },
+            "type": "other"
+          }
+        },
+        "sm": {
+          "size": {
+            "value": "{font.size.9}",
+            "comment": "24px",
+            "attributes": {
+              "domain": "font",
+              "category": "typescale",
+              "hidden": false
+            },
+            "type": "other"
+          },
+          "weight": {
+            "reg": {
+              "value": "{font.weight.reg}",
+              "attributes": {
+                "domain": "font",
+                "category": "typescale",
+                "hidden": false
+              },
+              "type": "other"
+            },
+            "md": {
+              "value": "{font.weight.md}",
+              "attributes": {
+                "domain": "font",
+                "category": "typescale",
+                "hidden": false
+              },
+              "type": "other"
+            },
+            "bold": {
+              "value": "{font.weight.bold}",
+              "attributes": {
+                "domain": "font",
+                "category": "typescale",
+                "hidden": false
+              },
+              "type": "other"
+            }
+          },
+          "line-height": {
+            "value": "{font.line-height.md}",
+            "attributes": {
+              "domain": "font",
+              "category": "typescale",
+              "hidden": false
+            },
+            "type": "other"
+          }
+        }
+      },
+      "title": {
+        "lg": {
+          "size": {
+            "value": "{font.size.7}",
+            "comment": "20px",
+            "attributes": {
+              "domain": "font",
+              "category": "typescale",
+              "hidden": false
+            },
+            "type": "other"
+          },
+          "weight": {
+            "reg": {
+              "value": "{font.weight.reg}",
+              "attributes": {
+                "domain": "font",
+                "category": "typescale",
+                "hidden": false
+              },
+              "type": "other"
+            },
+            "md": {
+              "value": "{font.weight.md}",
+              "attributes": {
+                "domain": "font",
+                "category": "typescale",
+                "hidden": false
+              },
+              "type": "other"
+            },
+            "bold": {
+              "value": "{font.weight.bold}",
+              "attributes": {
+                "domain": "font",
+                "category": "typescale",
+                "hidden": false
+              },
+              "type": "other"
+            }
+          },
+          "line-height": {
+            "value": "{font.line-height.sm}",
+            "attributes": {
+              "domain": "font",
+              "category": "typescale",
+              "hidden": false
+            },
+            "type": "other"
+          }
+        },
+        "md": {
+          "size": {
+            "value": "{font.size.5}",
+            "comment": "16px",
+            "attributes": {
+              "domain": "font",
+              "category": "typescale",
+              "hidden": false
+            },
+            "type": "other"
+          },
+          "weight": {
+            "reg": {
+              "value": "{font.weight.reg}",
+              "attributes": {
+                "domain": "font",
+                "category": "typescale",
+                "hidden": false
+              },
+              "type": "other"
+            },
+            "md": {
+              "value": "{font.weight.md}",
+              "attributes": {
+                "domain": "font",
+                "category": "typescale",
+                "hidden": false
+              },
+              "type": "other"
+            },
+            "bold": {
+              "value": "{font.weight.bold}",
+              "attributes": {
+                "domain": "font",
+                "category": "typescale",
+                "hidden": false
+              },
+              "type": "other"
+            }
+          },
+          "line-height": {
+            "value": "{font.line-height.x-lg}",
+            "attributes": {
+              "domain": "font",
+              "category": "typescale",
+              "hidden": false
+            },
+            "type": "other"
+          }
+        },
+        "sm": {
+          "size": {
+            "value": "{font.size.4}",
+            "comment": "14px",
+            "attributes": {
+              "domain": "font",
+              "category": "typescale",
+              "hidden": false
+            },
+            "type": "other"
+          },
+          "weight": {
+            "reg": {
+              "value": "{font.weight.reg}",
+              "attributes": {
+                "domain": "font",
+                "category": "typescale",
+                "hidden": false
+              },
+              "type": "other"
+            },
+            "md": {
+              "value": "{font.weight.md}",
+              "attributes": {
+                "domain": "font",
+                "category": "typescale",
+                "hidden": false
+              },
+              "type": "other"
+            },
+            "bold": {
+              "value": "{font.weight.bold}",
+              "attributes": {
+                "domain": "font",
+                "category": "typescale",
+                "hidden": false
+              },
+              "type": "other"
+            }
+          },
+          "line-height": {
+            "value": "{font.line-height.xx-lg}",
+            "attributes": {
+              "category": "typescale",
+              "hidden": false
+            },
+            "type": "other"
+          }
+        }
+      },
+      "body": {
+        "lg": {
+          "size": {
+            "value": "{font.size.5}",
+            "comment": "16px",
+            "attributes": {
+              "domain": "font",
+              "category": "typescale",
+              "hidden": false
+            },
+            "type": "other"
+          },
+          "weight": {
+            "reg": {
+              "value": "{font.weight.reg}",
+              "attributes": {
+                "domain": "font",
+                "category": "typescale",
+                "hidden": false
+              },
+              "type": "other"
+            },
+            "md": {
+              "value": "{font.weight.md}",
+              "attributes": {
+                "domain": "font",
+                "category": "typescale",
+                "hidden": false
+              },
+              "type": "other"
+            },
+            "bold": {
+              "value": "{font.weight.bold}",
+              "attributes": {
+                "domain": "font",
+                "category": "typescale",
+                "hidden": false
+              },
+              "type": "other"
+            }
+          },
+          "line-height": {
+            "value": "{font.line-height.x-lg}",
+            "attributes": {
+              "domain": "font",
+              "category": "typescale",
+              "hidden": false
+            },
+            "type": "other"
+          }
+        },
+        "md": {
+          "size": {
+            "value": "{font.size.4}",
+            "comment": "14px",
+            "attributes": {
+              "domain": "font",
+              "category": "typescale",
+              "hidden": false
+            },
+            "type": "other"
+          },
+          "weight": {
+            "reg": {
+              "value": "{font.weight.reg}",
+              "attributes": {
+                "domain": "font",
+                "category": "typescale",
+                "hidden": false
+              },
+              "type": "other"
+            },
+            "md": {
+              "value": "{font.weight.md}",
+              "attributes": {
+                "domain": "font",
+                "category": "typescale",
+                "hidden": false
+              },
+              "type": "other"
+            },
+            "bold": {
+              "value": "{font.weight.bold}",
+              "attributes": {
+                "domain": "font",
+                "category": "typescale",
+                "hidden": false
+              },
+              "type": "other"
+            }
+          },
+          "line-height": {
+            "value": "{font.line-height.xx-lg}",
+            "attributes": {
+              "domain": "font",
+              "category": "typescale",
+              "hidden": false
+            },
+            "type": "other"
+          }
+        },
+        "sm": {
+          "size": {
+            "value": "{font.size.3}",
+            "comment": "14px",
+            "attributes": {
+              "domain": "font",
+              "category": "typescale",
+              "hidden": false
+            },
+            "type": "other"
+          },
+          "weight": {
+            "reg": {
+              "value": "{font.weight.reg}",
+              "attributes": {
+                "domain": "font",
+                "category": "typescale",
+                "hidden": false
+              },
+              "type": "other"
+            },
+            "md": {
+              "value": "{font.weight.md}",
+              "attributes": {
+                "domain": "font",
+                "category": "typescale",
+                "hidden": false
+              },
+              "type": "other"
+            },
+            "bold": {
+              "value": "{font.weight.bold}",
+              "attributes": {
+                "domain": "font",
+                "category": "typescale",
+                "hidden": false
+              },
+              "type": "other"
+            }
+          },
+          "line-height": {
+            "value": "{font.line-height.lg}",
+            "attributes": {
+              "domain": "font",
+              "category": "typescale",
+              "hidden": false
+            },
+            "type": "other"
+          }
+        }
+      },
+      "detail": {
+        "lg": {
+          "size": {
+            "value": "{font.size.5}",
+            "comment": "16px",
+            "attributes": {
+              "domain": "font",
+              "category": "typescale",
+              "hidden": false
+            },
+            "type": "other"
+          },
+          "weight": {
+            "reg": {
+              "value": "{font.weight.reg}",
+              "attributes": {
+                "domain": "font",
+                "category": "typescale",
+                "hidden": false
+              },
+              "type": "other"
+            },
+            "md": {
+              "value": "{font.weight.md}",
+              "attributes": {
+                "domain": "font",
+                "category": "typescale",
+                "hidden": false
+              },
+              "type": "other"
+            },
+            "bold": {
+              "value": "{font.weight.bold}",
+              "attributes": {
+                "domain": "font",
+                "category": "typescale",
+                "hidden": false
+              },
+              "type": "other"
+            }
+          },
+          "line-height": {
+            "value": "{font.line-height.x-lg}",
+            "attributes": {
+              "domain": "font",
+              "category": "typescale",
+              "hidden": false
+            },
+            "type": "other"
+          }
+        },
+        "md": {
+          "size": {
+            "value": "{font.size.3}",
+            "comment": "12px",
+            "attributes": {
+              "domain": "font",
+              "category": "typescale",
+              "hidden": false
+            },
+            "type": "other"
+          },
+          "weight": {
+            "reg": {
+              "value": "{font.weight.reg}",
+              "attributes": {
+                "domain": "font",
+                "category": "typescale",
+                "hidden": false
+              },
+              "type": "other"
+            },
+            "md": {
+              "value": "{font.weight.md}",
+              "attributes": {
+                "domain": "font",
+                "category": "typescale",
+                "hidden": false
+              },
+              "type": "other"
+            },
+            "bold": {
+              "value": "{font.weight.bold}",
+              "attributes": {
+                "domain": "font",
+                "category": "typescale",
+                "hidden": false
+              },
+              "type": "other"
+            }
+          },
+          "line-height": {
+            "value": "{font.line-height.lg}",
+            "attributes": {
+              "domain": "font",
+              "category": "typescale",
+              "hidden": false
+            },
+            "type": "other"
+          }
+        },
+        "sm": {
+          "size": {
+            "value": "{font.size.2}",
+            "comment": "10px",
+            "attributes": {
+              "domain": "font",
+              "category": "typescale",
+              "hidden": false
+            },
+            "type": "other"
+          },
+          "weight": {
+            "reg": {
+              "value": "{font.weight.reg}",
+              "attributes": {
+                "domain": "font",
+                "category": "typescale",
+                "hidden": false
+              },
+              "type": "other"
+            },
+            "md": {
+              "value": "{font.weight.md}",
+              "attributes": {
+                "domain": "font",
+                "category": "typescale",
+                "hidden": false
+              },
+              "type": "other"
+            },
+            "bold": {
+              "value": "{font.weight.bold}",
+              "attributes": {
+                "domain": "font",
+                "category": "typescale",
+                "hidden": false
+              },
+              "type": "other"
+            }
+          },
+          "line-height": {
+            "value": "{font.line-height.sm}",
+            "attributes": {
+              "domain": "font",
+              "category": "typescale",
+              "hidden": false
+            },
+            "type": "other"
+          }
+        }
+      }
+    }
+  }
+}
