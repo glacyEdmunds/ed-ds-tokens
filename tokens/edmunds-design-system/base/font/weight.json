@@ -1,0 +1,33 @@
+{
+  "font": {
+    "weight": {
+      "reg": {
+        "value": "400",
+        "attributes": {
+          "domain": "font",
+          "category": "weight",
+          "hidden": false
+        },
+        "type": "fontWeight"
+      },
+      "md": {
+        "value": "500",
+        "attributes": {
+          "domain": "font",
+          "category": "weight",
+          "hidden": false
+        },
+        "type": "fontWeight"
+      },
+      "bold": {
+        "value": "700",
+        "attributes": {
+          "domain": "font",
+          "category": "weight",
+          "hidden": false
+        },
+        "type": "fontWeight"
+      }
+    }
+  }
+}

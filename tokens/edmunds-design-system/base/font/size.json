@@ -1,0 +1,216 @@
+{
+  "font": {
+    "size": {
+      "1": {
+        "value": "{primitive.size.9}",
+        "comment": "9px",
+        "attributes": {
+          "domain": "font",
+          "category": "size",
+          "hidden": true
+        },
+        "type": "sizing"
+      },
+      "2": {
+        "value": "{primitive.size.10}",
+        "comment": "10px",
+        "attributes": {
+          "domain": "font",
+          "category": "size",
+          "hidden": true
+        },
+        "type": "sizing"
+      },
+      "3": {
+        "value": "{primitive.size.12}",
+        "comment": "12px",
+        "attributes": {
+          "domain": "font",
+          "category": "size",
+          "hidden": true
+        },
+        "type": "sizing"
+      },
+      "4": {
+        "value": "{primitive.size.14}",
+        "comment": "14px",
+        "attributes": {
+          "domain": "font",
+          "category": "size",
+          "hidden": true
+        },
+        "type": "sizing"
+      },
+      "5": {
+        "value": "{primitive.size.16}",
+        "comment": "16px",
+        "attributes": {
+          "domain": "font",
+          "category": "size",
+          "hidden": true
+        },
+        "type": "sizing"
+      },
+      "6": {
+        "value": "{primitive.size.18}",
+        "comment": "18px",
+        "attributes": {
+          "domain": "font",
+          "category": "size",
+          "hidden": true
+        },
+        "type": "sizing"
+      },
+      "7": {
+        "value": "{primitive.size.20}",
+        "comment": "20px",
+        "attributes": {
+          "domain": "font",
+          "category": "size",
+          "hidden": true
+        },
+        "type": "sizing"
+      },
+      "8": {
+        "value": "{primitive.size.22}",
+        "comment": "22px",
+        "attributes": {
+          "domain": "font",
+          "category": "size",
+          "hidden": true
+        },
+        "type": "sizing"
+      },
+      "9": {
+        "value": "{primitive.size.24}",
+        "comment": "24px",
+        "attributes": {
+          "domain": "font",
+          "category": "size",
+          "hidden": true
+        },
+        "type": "sizing"
+      },
+      "10": {
+        "value": "{primitive.size.28}",
+        "comment": "28px",
+        "attributes": {
+          "domain": "font",
+          "category": "size",
+          "hidden": true
+        },
+        "type": "sizing"
+      },
+      "11": {
+        "value": "{primitive.size.30}",
+        "comment": "30px",
+        "attributes": {
+          "domain": "font",
+          "category": "size",
+          "hidden": true
+        },
+        "type": "sizing"
+      },
+      "12": {
+        "value": "{primitive.size.32}",
+        "comment": "32px",
+        "attributes": {
+          "domain": "font",
+          "category": "size",
+          "hidden": true
+        },
+        "type": "sizing"
+      },
+      "13": {
+        "value": "{primitive.size.34}",
+        "comment": "34px",
+        "attributes": {
+          "domain": "font",
+          "category": "size",
+          "hidden": true
+        },
+        "type": "sizing"
+      },
+      "14": {
+        "value": "{primitive.size.36}",
+        "comment": "36px",
+        "attributes": {
+          "domain": "font",
+          "category": "size",
+          "hidden": true
+        },
+        "type": "sizing"
+      },
+      "15": {
+        "value": "{primitive.size.40}",
+        "comment": "40px",
+        "attributes": {
+          "domain": "font",
+          "category": "size",
+          "hidden": true
+        },
+        "type": "sizing"
+      },
+      "16": {
+        "value": "{primitive.size.44}",
+        "comment": "44px",
+        "attributes": {
+          "domain": "font",
+          "category": "size",
+          "hidden": true
+        },
+        "type": "sizing"
+      },
+      "17": {
+        "value": "{primitive.size.48}",
+        "comment": "48px",
+        "attributes": {
+          "domain": "font",
+          "category": "size",
+          "hidden": true
+        },
+        "type": "sizing"
+      },
+      "18": {
+        "value": "{primitive.size.52}",
+        "comment": "52px",
+        "attributes": {
+          "domain": "font",
+          "category": "size",
+          "hidden": true
+        },
+        "type": "sizing"
+      },
+      "19": {
+        "value": "{primitive.size.56}",
+        "comment": "56px",
+        "attributes": {
+          "domain": "font",
+          "category": "size",
+          "hidden": true
+        },
+        "type": "sizing"
+      },
+      "20": {
+        "value": "{primitive.size.60}",
+        "comment": "60px",
+        "attributes": {
+          "domain": "font",
+          "category": "size",
+          "hidden": true
+        },
+        "type": "sizing"
+      },
+      "21": {
+        "value": "{primitive.size.64}",
+        "comment": "64px",
+        "attributes": {
+          "domain": "font",
+          "category": "size",
+          "hidden": true
+        },
+        "type": "sizing"
+      }
+    }
+  }
+}

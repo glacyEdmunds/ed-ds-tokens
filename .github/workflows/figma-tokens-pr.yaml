@@ -10,7 +10,7 @@ jobs:
     timeout-minutes: 5
     steps:
       # checkout to the head of this PR
-      - uses: actions/checkout@master
+      - uses: actions/checkout@v3
         with:
           repository: ${{ github.event.pull_request.head.repo.full_name }}
           ref: ${{ github.event.pull_request.head.ref }}
@@ -27,7 +27,7 @@ jobs:
       - name: Commit changes
         uses: EndBug/add-and-commit@v9
         with:
-          author_name: Greg Lacy
-          author_email: lacygreg0703@gmail.com
+          author_name: Token CI Bot
+          author_email: tokens@ci.bot
           message: 'chore: style-dictionary output'
           add: '.'
