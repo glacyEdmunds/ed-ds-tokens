@@ -1,0 +1,896 @@
+{
+  "shared": {
+    "btn": {
+      "text": {
+        "weight": {
+          "value": "{font.ts.body.lg.weight.md}",
+          "attributes": {
+            "domain": "component",
+            "category": "shared",
+            "component": "btn"
+          },
+          "type": "other"
+        },
+        "size": {
+          "value": "{font.ts.body.lg.size}",
+          "attributes": {
+            "domain": "component",
+            "category": "shared",
+            "component": "btn"
+          },
+          "type": "other"
+        },
+        "line-height": {
+          "value": "{font.line-height.xx-sm}",
+          "attributes": {
+            "domain": "component",
+            "category": "shared",
+            "component": "btn"
+          },
+          "type": "other"
+        }
+      },
+      "radius": {
+        "sq": {
+          "value": "{primitive.size.4}",
+          "attributes": {
+            "domain": "component",
+            "category": "shared",
+            "component": "btn"
+          },
+          "type": "other"
+        },
+        "rd": {
+          "value": "{primitive.size.8}",
+          "attributes": {
+            "domain": "component",
+            "category": "shared",
+            "component": "btn"
+          },
+          "type": "other"
+        },
+        "cir": {
+          "value": "{primitive.size.100}",
+          "attributes": {
+            "domain": "component",
+            "category": "shared",
+            "component": "btn"
+          },
+          "type": "other"
+        }
+      },
+      "border": {
+        "width": {
+          "value": "{primitive.size.0_5}",
+          "attributes": {
+            "domain": "component",
+            "category": "shared",
+            "component": "btn"
+          },
+          "type": "other"
+        },
+        "offset": {
+          "value": "0 0 0 {primitive.size.2} {primitive.color.white}, 0 0 0 {primitive.size.4} {primitive.color.blue.30}",
+          "attributes": {
+            "domain": "component",
+            "category": "shared",
+            "component": "btn"
+          },
+          "type": "other"
+        }
+      },
+      "color": {
+        "bg": {
+          "primary-1": {
+            "default": {
+              "value": "{primitive.color.blue.50}",
+              "attributes": {
+                "domain": "component",
+                "category": "shared",
+                "component": "btn"
+              },
+              "type": "other"
+            },
+            "hover": {
+              "value": "{primitive.color.blue.30}",
+              "attributes": {
+                "domain": "component",
+                "category": "shared",
+                "component": "btn"
+              },
+              "type": "other"
+            },
+            "active": {
+              "value": "{primitive.color.blue.10}",
+              "attributes": {
+                "domain": "component",
+                "category": "shared",
+                "component": "btn"
+              },
+              "type": "other"
+            },
+            "focus": {
+              "value": "{primitive.color.blue.30}",
+              "attributes": {
+                "domain": "component",
+                "category": "shared",
+                "component": "btn"
+              },
+              "type": "other"
+            },
+            "disabled": {
+              "value": "{primitive.color.blue.80}",
+              "attributes": {
+                "domain": "component",
+                "category": "shared",
+                "component": "btn"
+              },
+              "type": "other"
+            }
+          },
+          "primary-2": {
+            "default": {
+              "value": "{primitive.color.green.50}",
+              "attributes": {
+                "domain": "component",
+                "category": "shared",
+                "component": "btn"
+              },
+              "type": "other"
+            },
+            "hover": {
+              "value": "{primitive.color.green.30}",
+              "attributes": {
+                "domain": "component",
+                "category": "shared",
+                "component": "btn"
+              },
+              "type": "other"
+            },
+            "active": {
+              "value": "{primitive.color.green.10}",
+              "attributes": {
+                "domain": "component",
+                "category": "shared",
+                "component": "btn"
+              },
+              "type": "other"
+            },
+            "focus": {
+              "value": "{primitive.color.green.30}",
+              "attributes": {
+                "domain": "component",
+                "category": "shared",
+                "component": "btn"
+              },
+              "type": "other"
+            },
+            "disabled": {
+              "value": "{primitive.color.green.80}",
+              "attributes": {
+                "domain": "component",
+                "category": "shared",
+                "component": "btn"
+              },
+              "type": "other"
+            }
+          },
+          "secondary-1": {
+            "default": {
+              "value": "{palette.eve.transparent}",
+              "attributes": {
+                "domain": "component",
+                "category": "shared",
+                "component": "btn"
+              },
+              "type": "other"
+            },
+            "hover": {
+              "value": "{primitive.color.blue.50}",
+              "attributes": {
+                "domain": "component",
+                "category": "shared",
+                "component": "btn"
+              },
+              "type": "other"
+            },
+            "active": {
+              "value": "{primitive.color.blue.10}",
+              "attributes": {
+                "domain": "component",
+                "category": "shared",
+                "component": "btn"
+              },
+              "type": "other"
+            },
+            "focus": {
+              "value": "{primitive.color.blue.50}",
+              "attributes": {
+                "domain": "component",
+                "category": "shared",
+                "component": "btn"
+              },
+              "type": "other"
+            },
+            "disabled": {
+              "value": "{palette.eve.transparent}",
+              "attributes": {
+                "domain": "component",
+                "category": "shared",
+                "component": "btn"
+              },
+              "type": "other"
+            }
+          },
+          "secondary-2": {
+            "default": {
+              "value": "{palette.eve.transparent}",
+              "attributes": {
+                "domain": "component",
+                "category": "shared",
+                "component": "btn"
+              },
+              "type": "other"
+            },
+            "hover": {
+              "value": "{primitive.color.green.50}",
+              "attributes": {
+                "domain": "component",
+                "category": "shared",
+                "component": "btn"
+              },
+              "type": "other"
+            },
+            "active": {
+              "value": "{primitive.color.green.10}",
+              "attributes": {
+                "domain": "component",
+                "category": "shared",
+                "component": "btn"
+              },
+              "type": "other"
+            },
+            "focus": {
+              "value": "{primitive.color.green.50}",
+              "attributes": {
+                "domain": "component",
+                "category": "shared",
+                "component": "btn"
+              },
+              "type": "other"
+            },
+            "disabled": {
+              "value": "{palette.eve.transparent}",
+              "attributes": {
+                "domain": "component",
+                "category": "shared",
+                "component": "btn"
+              },
+              "type": "other"
+            }
+          }
+        },
+        "border": {
+          "primary-1": {
+            "default": {
+              "value": "{primitive.color.blue.50}",
+              "attributes": {
+                "domain": "component",
+                "category": "shared",
+                "component": "btn"
+              },
+              "type": "other"
+            },
+            "hover": {
+              "value": "{primitive.color.blue.30}",
+              "attributes": {
+                "domain": "component",
+                "category": "shared",
+                "component": "btn"
+              },
+              "type": "other"
+            },
+            "active": {
+              "value": "{primitive.color.blue.10}",
+              "attributes": {
+                "domain": "component",
+                "category": "shared",
+                "component": "btn"
+              },
+              "type": "other"
+            },
+            "focus": {
+              "value": "{primitive.color.blue.30}",
+              "attributes": {
+                "domain": "component",
+                "category": "shared",
+                "component": "btn"
+              },
+              "type": "other"
+            },
+            "disabled": {
+              "value": "{primitive.color.blue.80}",
+              "attributes": {
+                "domain": "component",
+                "category": "shared",
+                "component": "btn"
+              },
+              "type": "other"
+            }
+          },
+          "primary-2": {
+            "default": {
+              "value": "{primitive.color.green.50}",
+              "attributes": {
+                "domain": "component",
+                "category": "shared",
+                "component": "btn"
+              },
+              "type": "other"
+            },
+            "hover": {
+              "value": "{primitive.color.green.30}",
+              "attributes": {
+                "domain": "component",
+                "category": "shared",
+                "component": "btn"
+              },
+              "type": "other"
+            },
+            "active": {
+              "value": "{primitive.color.green.10}",
+              "attributes": {
+                "domain": "component",
+                "category": "shared",
+                "component": "btn"
+              },
+              "type": "other"
+            },
+            "focus": {
+              "value": "{primitive.color.green.30}",
+              "attributes": {
+                "domain": "component",
+                "category": "shared",
+                "component": "btn"
+              },
+              "type": "other"
+            },
+            "disabled": {
+              "value": "{primitive.color.green.80}",
+              "attributes": {
+                "domain": "component",
+                "category": "shared",
+                "component": "btn"
+              },
+              "type": "other"
+            }
+          },
+          "secondary-1": {
+            "default": {
+              "value": "{primitive.color.blue.50}",
+              "attributes": {
+                "domain": "component",
+                "category": "shared",
+                "component": "btn"
+              },
+              "type": "other"
+            },
+            "hover": {
+              "value": "{primitive.color.blue.30}",
+              "attributes": {
+                "domain": "component",
+                "category": "shared",
+                "component": "btn"
+              },
+              "type": "other"
+            },
+            "active": {
+              "value": "{primitive.color.blue.10}",
+              "attributes": {
+                "domain": "component",
+                "category": "shared",
+                "component": "btn"
+              },
+              "type": "other"
+            },
+            "focus": {
+              "value": "{primitive.color.blue.30}",
+              "attributes": {
+                "domain": "component",
+                "category": "shared",
+                "component": "btn"
+              },
+              "type": "other"
+            },
+            "disabled": {
+              "value": "{primitive.color.blue.80}",
+              "attributes": {
+                "domain": "component",
+                "category": "shared",
+                "component": "btn"
+              },
+              "type": "other"
+            }
+          },
+          "secondary-2": {
+            "default": {
+              "value": "{primitive.color.green.50}",
+              "attributes": {
+                "domain": "component",
+                "category": "shared",
+                "component": "btn"
+              },
+              "type": "other"
+            },
+            "hover": {
+              "value": "{primitive.color.green.30}",
+              "attributes": {
+                "domain": "component",
+                "category": "shared",
+                "component": "btn"
+              },
+              "type": "other"
+            },
+            "active": {
+              "value": "{primitive.color.green.10}",
+              "attributes": {
+                "domain": "component",
+                "category": "shared",
+                "component": "btn"
+              },
+              "type": "other"
+            },
+            "focus": {
+              "value": "{primitive.color.green.30}",
+              "attributes": {
+                "domain": "component",
+                "category": "shared",
+                "component": "btn"
+              },
+              "type": "other"
+            },
+            "disabled": {
+              "value": "{primitive.color.green.80}",
+              "attributes": {
+                "domain": "component",
+                "category": "shared",
+                "component": "btn"
+              },
+              "type": "other"
+            }
+          }
+        },
+        "text": {
+          "primary-1": {
+            "default": {
+              "value": "{primitive.color.white}",
+              "attributes": {
+                "domain": "component",
+                "category": "shared",
+                "component": "btn"
+              },
+              "type": "other"
+            },
+            "hover": {
+              "value": "{primitive.color.white}",
+              "attributes": {
+                "domain": "component",
+                "category": "shared",
+                "component": "btn"
+              },
+              "type": "other"
+            },
+            "active": {
+              "value": "{primitive.color.white}",
+              "attributes": {
+                "domain": "component",
+                "category": "shared",
+                "component": "btn"
+              },
+              "type": "other"
+            },
+            "focus": {
+              "value": "{primitive.color.white}",
+              "attributes": {
+                "domain": "component",
+                "category": "shared",
+                "component": "btn"
+              },
+              "type": "other"
+            },
+            "disabled": {
+              "value": "{primitive.color.white}",
+              "attributes": {
+                "domain": "component",
+                "category": "shared",
+                "component": "btn"
+              },
+              "type": "other"
+            }
+          },
+          "primary-2": {
+            "default": {
+              "value": "{primitive.color.white}",
+              "attributes": {
+                "domain": "component",
+                "category": "shared",
+                "component": "btn"
+              },
+              "type": "other"
+            },
+            "hover": {
+              "value": "{primitive.color.white}",
+              "attributes": {
+                "domain": "component",
+                "category": "shared",
+                "component": "btn"
+              },
+              "type": "other"
+            },
+            "active": {
+              "value": "{primitive.color.white}",
+              "attributes": {
+                "domain": "component",
+                "category": "shared",
+                "component": "btn"
+              },
+              "type": "other"
+            },
+            "focus": {
+              "value": "{primitive.color.white}",
+              "attributes": {
+                "domain": "component",
+                "category": "shared",
+                "component": "btn"
+              },
+              "type": "other"
+            },
+            "disabled": {
+              "value": "{primitive.color.white}",
+              "attributes": {
+                "domain": "component",
+                "category": "shared",
+                "component": "btn"
+              },
+              "type": "other"
+            }
+          },
+          "secondary-1": {
+            "default": {
+              "value": "{primitive.color.blue.50}",
+              "attributes": {
+                "domain": "component",
+                "category": "shared",
+                "component": "btn"
+              },
+              "type": "other"
+            },
+            "hover": {
+              "value": "{primitive.color.white}",
+              "attributes": {
+                "domain": "component",
+                "category": "shared",
+                "component": "btn"
+              },
+              "type": "other"
+            },
+            "active": {
+              "value": "{primitive.color.white}",
+              "attributes": {
+                "domain": "component",
+                "category": "shared",
+                "component": "btn"
+              },
+              "type": "other"
+            },
+            "focus": {
+              "value": "{primitive.color.white}",
+              "attributes": {
+                "domain": "component",
+                "category": "shared",
+                "component": "btn"
+              },
+              "type": "other"
+            },
+            "disabled": {
+              "value": "{primitive.color.blue.80}",
+              "attributes": {
+                "domain": "component",
+                "category": "shared",
+                "component": "btn"
+              },
+              "type": "other"
+            }
+          },
+          "secondary-2": {
+            "default": {
+              "value": "{primitive.color.green.50}",
+              "attributes": {
+                "domain": "component",
+                "category": "shared",
+                "component": "btn"
+              },
+              "type": "other"
+            },
+            "hover": {
+              "value": "{primitive.color.white}",
+              "attributes": {
+                "domain": "component",
+                "category": "shared",
+                "component": "btn"
+              },
+              "type": "other"
+            },
+            "active": {
+              "value": "{primitive.color.white}",
+              "attributes": {
+                "domain": "component",
+                "category": "shared",
+                "component": "btn"
+              },
+              "type": "other"
+            },
+            "focus": {
+              "value": "{primitive.color.white}",
+              "attributes": {
+                "domain": "component",
+                "category": "shared",
+                "component": "btn"
+              },
+              "type": "other"
+            },
+            "disabled": {
+              "value": "{primitive.color.green.80}",
+              "attributes": {
+                "domain": "component",
+                "category": "shared",
+                "component": "btn"
+              },
+              "type": "other"
+            }
+          }
+        }
+      },
+      "spec": {
+        "space": {
+          "is": {
+            "sm": {
+              "value": "{space.is.2x}",
+              "attributes": {
+                "domain": "component",
+                "category": "shared",
+                "component": "btn"
+              },
+              "type": "other"
+            },
+            "md": {
+              "value": "{space.is.3x}",
+              "attributes": {
+                "domain": "component",
+                "category": "shared",
+                "component": "btn"
+              },
+              "type": "other"
+            },
+            "lg": {
+              "value": "{space.is.4x}",
+              "attributes": {
+                "domain": "component",
+                "category": "shared",
+                "component": "btn"
+              },
+              "type": "other"
+            },
+            "right": {
+              "sm": {
+                "value": "{space.is.2x}",
+                "attributes": {
+                  "domain": "component",
+                  "category": "shared",
+                  "component": "btn"
+                },
+                "type": "other"
+              },
+              "md": {
+                "value": "{space.is.3x}",
+                "attributes": {
+                  "domain": "component",
+                  "category": "shared",
+                  "component": "btn"
+                },
+                "type": "other"
+              },
+              "lg": {
+                "value": "{space.is.4x}",
+                "attributes": {
+                  "domain": "component",
+                  "category": "shared",
+                  "component": "btn"
+                },
+                "type": "other"
+              },
+              "xlg": {
+                "value": "{space.is.6x}",
+                "attributes": {
+                  "domain": "component",
+                  "category": "shared",
+                  "component": "btn"
+                },
+                "type": "other"
+              }
+            },
+            "left": {
+              "sm": {
+                "value": "{space.is.2x}",
+                "attributes": {
+                  "domain": "component",
+                  "category": "shared",
+                  "component": "btn"
+                },
+                "type": "other"
+              },
+              "md": {
+                "value": "{space.is.3x}",
+                "attributes": {
+                  "domain": "component",
+                  "category": "shared",
+                  "component": "btn"
+                },
+                "type": "other"
+              },
+              "lg": {
+                "value": "{space.is.4x}",
+                "attributes": {
+                  "domain": "component",
+                  "category": "shared",
+                  "component": "btn"
+                },
+                "type": "other"
+              },
+              "xlg": {
+                "value": "{space.is.6x}",
+                "attributes": {
+                  "domain": "component",
+                  "category": "shared",
+                  "component": "btn"
+                },
+                "type": "other"
+              }
+            }
+          },
+          "st": {
+            "top": {
+              "sm": {
+                "value": "{primitive.size.0}",
+                "attributes": {
+                  "domain": "component",
+                  "category": "shared",
+                  "component": "btn"
+                },
+                "type": "other"
+              },
+              "md": {
+                "value": "{primitive.size.0}",
+                "attributes": {
+                  "domain": "component",
+                  "category": "shared",
+                  "component": "btn"
+                },
+                "type": "other"
+              },
+              "lg": {
+                "value": "{primitive.size.0}",
+                "attributes": {
+                  "domain": "component",
+                  "category": "shared",
+                  "component": "btn"
+                },
+                "type": "other"
+              }
+            },
+            "bottom": {
+              "sm": {
+                "value": "{primitive.size.0}",
+                "attributes": {
+                  "domain": "component",
+                  "category": "shared",
+                  "component": "btn"
+                },
+                "type": "other"
+              },
+              "md": {
+                "value": "{primitive.size.0}",
+                "attributes": {
+                  "domain": "component",
+                  "category": "shared",
+                  "component": "btn"
+                },
+                "type": "other"
+              },
+              "lg": {
+                "value": "{primitive.size.0}",
+                "attributes": {
+                  "domain": "component",
+                  "category": "shared",
+                  "component": "btn"
+                },
+                "type": "other"
+              }
+            }
+          },
+          "il": {
+            "right": {
+              "none": {
+                "value": 0,
+                "attributes": {
+                  "domain": "component",
+                  "category": "shared",
+                  "component": "btn"
+                },
+                "type": "other"
+              },
+              "sm": {
+                "value": "{space.is.2x}",
+                "attributes": {
+                  "domain": "component",
+                  "category": "shared",
+                  "component": "btn"
+                },
+                "type": "other"
+              }
+            },
+            "left": {
+              "none": {
+                "value": 0,
+                "attributes": {
+                  "domain": "component",
+                  "category": "shared",
+                  "component": "btn"
+                },
+                "type": "other"
+              },
+              "sm": {
+                "value": "{space.is.2x}",
+                "attributes": {
+                  "domain": "component",
+                  "category": "shared",
+                  "component": "btn"
+                },
+                "type": "other"
+              }
+            }
+          }
+        },
+        "height": {
+          "sm": {
+            "value": "{primitive.size.32}",
+            "attributes": {
+              "domain": "component",
+              "category": "shared",
+              "component": "btn"
+            },
+            "type": "other"
+          },
+          "md": {
+            "value": "{primitive.size.40}",
+            "attributes": {
+              "domain": "component",
+              "category": "shared",
+              "component": "btn"
+            },
+            "type": "other"
+          },
+          "lg": {
+            "value": "{primitive.size.48}",
+            "attributes": {
+              "domain": "component",
+              "category": "shared",
+              "component": "btn"
+            },
+            "type": "other"
+          }
+        }
+      }
+    }
+  }
+}

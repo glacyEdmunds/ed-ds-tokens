@@ -1,0 +1,748 @@
+{
+  "shared": {
+    "text-input": {
+      "container": {
+        "color": {
+          "bg": {
+            "default": {
+              "value": "{palette.eve.white}",
+              "attributes": {
+                "domain": "component",
+                "category": "shared",
+                "component": "text-input",
+                "hidden": false
+              },
+              "type": "color"
+            },
+            "disabled": {
+              "value": "{palette.eve.cool-gray.80}",
+              "attributes": {
+                "domain": "component",
+                "category": "shared",
+                "component": "text-input",
+                "hidden": false
+              },
+              "type": "color"
+            }
+          }
+        },
+        "border": {
+          "color": {
+            "default": {
+              "value": "{palette.eve.cool-gray.50}",
+              "attributes": {
+                "domain": "component",
+                "category": "shared",
+                "component": "text-input",
+                "hidden": false
+              },
+              "type": "color"
+            },
+            "hover": {
+              "value": "{palette.eve.blue.30}",
+              "attributes": {
+                "domain": "component",
+                "category": "shared",
+                "component": "text-input",
+                "hidden": false
+              },
+              "type": "color"
+            },
+            "active": {
+              "value": "{palette.eve.blue.30}",
+              "attributes": {
+                "domain": "component",
+                "category": "shared",
+                "component": "text-input",
+                "hidden": false
+              },
+              "type": "color"
+            },
+            "focus": {
+              "value": "{palette.eve.blue.50}",
+              "attributes": {
+                "domain": "component",
+                "category": "shared",
+                "component": "text-input",
+                "hidden": false
+              },
+              "type": "color"
+            },
+            "disabled": {
+              "value": "{palette.eve.cool-gray.80}",
+              "attributes": {
+                "domain": "component",
+                "category": "shared",
+                "component": "text-input",
+                "hidden": false
+              },
+              "type": "color"
+            },
+            "error": {
+              "value": "{palette.eve.support.error}",
+              "attributes": {
+                "domain": "component",
+                "category": "shared",
+                "component": "text-input",
+                "hidden": false
+              },
+              "type": "color"
+            },
+            "warning": {
+              "value": "{palette.eve.support.warning}",
+              "attributes": {
+                "domain": "component",
+                "category": "shared",
+                "component": "text-input",
+                "hidden": false
+              },
+              "type": "color"
+            }
+          },
+          "size": {
+            "default": {
+              "value": "{size.border.width.base}",
+              "attributes": {
+                "domain": "component",
+                "category": "shared",
+                "component": "text-input",
+                "hidden": false
+              },
+              "type": "other"
+            },
+            "active": {
+              "value": "{size.border.width.base}",
+              "attributes": {
+                "domain": "component",
+                "category": "shared",
+                "component": "text-input",
+                "hidden": false
+              },
+              "type": "other"
+            },
+            "focus": {
+              "value": "{size.border.width.lg}",
+              "attributes": {
+                "domain": "component",
+                "category": "shared",
+                "component": "text-input",
+                "hidden": false
+              },
+              "type": "other"
+            },
+            "disabled": {
+              "value": "{size.border.width.base}",
+              "attributes": {
+                "domain": "component",
+                "category": "shared",
+                "component": "text-input",
+                "hidden": false
+              },
+              "type": "other"
+            }
+          },
+          "radius": {
+            "default": {
+              "sq": {
+                "value": "{size.radius.sq}",
+                "attributes": {
+                  "domain": "component",
+                  "category": "shared",
+                  "component": "text-input",
+                  "hidden": false
+                },
+                "type": "other"
+              },
+              "rd": {
+                "value": "{size.radius.rd}",
+                "attributes": {
+                  "domain": "component",
+                  "category": "shared",
+                  "component": "text-input",
+                  "hidden": false
+                },
+                "type": "other"
+              }
+            }
+          }
+        }
+      },
+      "prefix": {
+        "color": {
+          "default": {
+            "value": "{palette.eve.cool-gray.30}",
+            "attributes": {
+              "domain": "component",
+              "category": "shared",
+              "component": "text-input",
+              "hidden": false
+            },
+            "type": "other"
+          },
+          "disabled": {
+            "value": "{palette.eve.cool-gray.60}",
+            "attributes": {
+              "domain": "component",
+              "category": "shared",
+              "component": "text-input",
+              "hidden": false
+            },
+            "type": "other"
+          }
+        },
+        "icon": {
+          "size": {
+            "value": "{size.sq.5}",
+            "attributes": {
+              "domain": "component",
+              "category": "shared",
+              "component": "text-input",
+              "hidden": false
+            },
+            "type": "other"
+          }
+        }
+      },
+      "suffix": {
+        "color": {
+          "default": {
+            "value": "{palette.eve.cool-gray.30}",
+            "attributes": {
+              "domain": "component",
+              "category": "shared",
+              "component": "text-input",
+              "hidden": false
+            },
+            "type": "other"
+          },
+          "disabled": {
+            "value": "{palette.eve.cool-gray.60}",
+            "attributes": {
+              "domain": "component",
+              "category": "shared",
+              "component": "text-input",
+              "hidden": false
+            },
+            "type": "other"
+          }
+        },
+        "icon": {
+          "size": {
+            "value": "{size.sq.5}",
+            "attributes": {
+              "domain": "component",
+              "category": "shared",
+              "component": "text-input",
+              "hidden": false
+            },
+            "type": "other"
+          }
+        },
+        "font": {
+          "size": {
+            "value": "{font.ts.body.lg.size}",
+            "attributes": {
+              "domain": "component",
+              "category": "shared",
+              "component": "text-input",
+              "hidden": false
+            },
+            "type": "other"
+          },
+          "line-height": {
+            "value": "{font.ts.body.lg.line-height}",
+            "attributes": {
+              "domain": "component",
+              "category": "shared",
+              "component": "text-input",
+              "hidden": false
+            },
+            "type": "other"
+          },
+          "weight": {
+            "value": "{font.ts.body.lg.weight.reg}",
+            "attributes": {
+              "domain": "component",
+              "category": "shared",
+              "component": "text-input",
+              "hidden": false
+            },
+            "type": "other"
+          }
+        }
+      },
+      "filled-text": {
+        "font": {
+          "color": {
+            "default": {
+              "value": "{palette.eve.cool-gray.30}",
+              "attributes": {
+                "domain": "component",
+                "category": "shared",
+                "component": "text-input",
+                "hidden": false
+              },
+              "type": "other"
+            },
+            "disabled": {
+              "value": "{palette.eve.cool-gray.60}",
+              "attributes": {
+                "domain": "component",
+                "category": "shared",
+                "component": "text-input",
+                "hidden": false
+              },
+              "type": "other"
+            }
+          },
+          "size": {
+            "default": {
+              "value": "{font.ts.body.lg.size}",
+              "attributes": {
+                "domain": "component",
+                "category": "shared",
+                "component": "text-input",
+                "hidden": false
+              },
+              "type": "other"
+            }
+          },
+          "line-height": {
+            "default": {
+              "value": "{font.ts.body.lg.line-height}",
+              "attributes": {
+                "domain": "component",
+                "category": "shared",
+                "component": "text-input",
+                "hidden": false
+              },
+              "type": "other"
+            }
+          },
+          "weight": {
+            "default": {
+              "value": "{font.ts.body.lg.weight.reg}",
+              "attributes": {
+                "domain": "component",
+                "category": "shared",
+                "component": "text-input",
+                "hidden": false
+              },
+              "type": "other"
+            }
+          }
+        }
+      },
+      "hint-text": {
+        "font": {
+          "color": {
+            "default": {
+              "value": "{palette.eve.cool-gray.50}",
+              "attributes": {
+                "domain": "component",
+                "category": "shared",
+                "component": "text-input",
+                "hidden": false
+              },
+              "type": "other"
+            },
+            "disabled": {
+              "value": "{palette.eve.cool-gray.60}",
+              "attributes": {
+                "domain": "component",
+                "category": "shared",
+                "component": "text-input",
+                "hidden": false
+              },
+              "type": "other"
+            }
+          },
+          "size": {
+            "default": {
+              "value": "{font.ts.body.lg.size}",
+              "attributes": {
+                "domain": "component",
+                "category": "shared",
+                "component": "text-input",
+                "hidden": false
+              },
+              "type": "other"
+            }
+          },
+          "line-height": {
+            "default": {
+              "value": "{font.ts.body.lg.line-height}",
+              "attributes": {
+                "domain": "component",
+                "category": "shared",
+                "component": "text-input",
+                "hidden": false
+              },
+              "type": "other"
+            }
+          },
+          "weight": {
+            "default": {
+              "value": "{font.ts.body.lg.weight.reg}",
+              "attributes": {
+                "domain": "component",
+                "category": "shared",
+                "component": "text-input",
+                "hidden": false
+              },
+              "type": "other"
+            }
+          }
+        }
+      },
+      "info-text": {
+        "font": {
+          "color": {
+            "default": {
+              "value": "{palette.eve.cool-gray.30}",
+              "attributes": {
+                "domain": "component",
+                "category": "shared",
+                "component": "text-input",
+                "hidden": false
+              },
+              "type": "other"
+            }
+          },
+          "size": {
+            "default": {
+              "value": "{font.ts.detail.md.size}",
+              "attributes": {
+                "domain": "component",
+                "category": "shared",
+                "component": "text-input",
+                "hidden": false
+              },
+              "type": "other"
+            }
+          },
+          "line-height": {
+            "default": {
+              "value": "{font.ts.detail.md.line-height}",
+              "attributes": {
+                "domain": "component",
+                "category": "shared",
+                "component": "text-input",
+                "hidden": false
+              },
+              "type": "other"
+            }
+          },
+          "weight": {
+            "default": {
+              "value": "{font.ts.detail.md.weight.reg}",
+              "attributes": {
+                "domain": "component",
+                "category": "shared",
+                "component": "text-input",
+                "hidden": false
+              },
+              "type": "other"
+            }
+          }
+        }
+      },
+      "support-text": {
+        "font": {
+          "color": {
+            "error": {
+              "value": "{palette.eve.support.error}",
+              "attributes": {
+                "domain": "component",
+                "category": "shared",
+                "component": "text-input",
+                "hidden": false
+              },
+              "type": "other"
+            },
+            "warning": {
+              "value": "{palette.eve.support.info}",
+              "attributes": {
+                "domain": "component",
+                "category": "shared",
+                "component": "text-input",
+                "hidden": false
+              },
+              "type": "other"
+            }
+          },
+          "size": {
+            "error": {
+              "value": "{font.ts.detail.md.size}",
+              "attributes": {
+                "domain": "component",
+                "category": "shared",
+                "component": "text-input",
+                "hidden": false
+              },
+              "type": "other"
+            },
+            "warning": {
+              "value": "{font.ts.detail.md.size}",
+              "attributes": {
+                "domain": "component",
+                "category": "shared",
+                "component": "text-input",
+                "hidden": false
+              },
+              "type": "other"
+            }
+          },
+          "line-height": {
+            "error": {
+              "value": "{font.ts.detail.md.line-height}",
+              "attributes": {
+                "domain": "component",
+                "category": "shared",
+                "component": "text-input",
+                "hidden": false
+              },
+              "type": "other"
+            },
+            "warning": {
+              "value": "{font.ts.detail.md.line-height}",
+              "attributes": {
+                "domain": "component",
+                "category": "shared",
+                "component": "text-input",
+                "hidden": false
+              },
+              "type": "other"
+            }
+          },
+          "weight": {
+            "error": {
+              "value": "{font.ts.detail.md.weight.reg}",
+              "attributes": {
+                "domain": "component",
+                "category": "shared",
+                "component": "text-input",
+                "hidden": false
+              },
+              "type": "other"
+            },
+            "warning": {
+              "value": "{font.ts.detail.md.weight.reg}",
+              "attributes": {
+                "domain": "component",
+                "category": "shared",
+                "component": "text-input",
+                "hidden": false
+              },
+              "type": "other"
+            }
+          }
+        }
+      },
+      "trailing-icon": {
+        "color": {
+          "success": {
+            "value": "{palette.eve.support.success}",
+            "attributes": {
+              "domain": "component",
+              "category": "shared",
+              "component": "text-input",
+              "hidden": false
+            },
+            "type": "other"
+          },
+          "error": {
+            "value": "{palette.eve.support.error}",
+            "attributes": {
+              "domain": "component",
+              "category": "shared",
+              "component": "text-input",
+              "hidden": false
+            },
+            "type": "other"
+          },
+          "warning": {
+            "value": "{palette.eve.support.warning}",
+            "attributes": {
+              "domain": "component",
+              "category": "shared",
+              "component": "text-input",
+              "hidden": false
+            },
+            "type": "other"
+          }
+        },
+        "size": {
+          "value": "{size.sq.5}",
+          "attributes": {
+            "domain": "component",
+            "category": "shared",
+            "component": "text-input",
+            "hidden": false
+          },
+          "type": "other"
+        }
+      },
+      "spec": {
+        "container": {
+          "size": {
+            "sm": {
+              "value": "{primitive.size.32}",
+              "attributes": {
+                "domain": "component",
+                "category": "shared",
+                "component": "text-input"
+              },
+              "type": "other"
+            },
+            "md": {
+              "value": "{primitive.size.40}",
+              "attributes": {
+                "domain": "component",
+                "category": "shared",
+                "component": "text-input"
+              },
+              "type": "other"
+            },
+            "lg": {
+              "value": "{primitive.size.48}",
+              "attributes": {
+                "domain": "component",
+                "category": "shared",
+                "component": "text-input"
+              },
+              "type": "other"
+            }
+          },
+          "space": {
+            "is": {
+              "right": {
+                "md": {
+                  "value": "{space.is.4x}",
+                  "attributes": {
+                    "domain": "component",
+                    "category": "shared",
+                    "component": "text-input"
+                  },
+                  "type": "other"
+                }
+              },
+              "left": {
+                "md": {
+                  "value": "{space.is.4x}",
+                  "attributes": {
+                    "domain": "component",
+                    "category": "shared",
+                    "component": "text-input"
+                  },
+                  "type": "other"
+                }
+              }
+            },
+            "st": {
+              "bottom": {
+                "sm": {
+                  "value": "{space.st.2x}",
+                  "attributes": {
+                    "domain": "component",
+                    "category": "shared",
+                    "component": "text-input"
+                  },
+                  "type": "other"
+                }
+              }
+            },
+            "il": {
+              "sm": {
+                "md": {
+                  "value": "{space.il.2x}",
+                  "attributes": {
+                    "domain": "component",
+                    "category": "shared",
+                    "component": "text-input",
+                    "hidden": false
+                  },
+                  "type": "other"
+                }
+              }
+            }
+          },
+          "nested": {
+            "size": {
+              "sm": {
+                "value": "{primitive.size.60}",
+                "attributes": {
+                  "domain": "component",
+                  "category": "shared",
+                  "component": "text-input",
+                  "hidden": false
+                },
+                "type": "other"
+              }
+            },
+            "space": {
+              "st": {
+                "bottom": {
+                  "sm": {
+                    "value": "{space.st.2x}",
+                    "attributes": {
+                      "domain": "component",
+                      "category": "shared",
+                      "component": "text-input"
+                    },
+                    "type": "other"
+                  }
+                },
+                "top": {
+                  "sm": {
+                    "value": "{space.st.2x}",
+                    "attributes": {
+                      "domain": "component",
+                      "category": "shared",
+                      "component": "text-input"
+                    },
+                    "type": "other"
+                  }
+                }
+              },
+              "il": {
+                "sm": {
+                  "md": {
+                    "value": "{space.il.2x}",
+                    "attributes": {
+                      "domain": "component",
+                      "category": "shared",
+                      "component": "text-input",
+                      "hidden": false
+                    },
+                    "type": "other"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "support": {
+          "text": {
+            "space": {
+              "st": {
+                "bottom": {
+                  "sm": {
+                    "value": "{space.st.2x}",
+                    "attributes": {
+                      "domain": "component",
+                      "category": "shared",
+                      "component": "text-input",
+                      "hidden": false
+                    },
+                    "type": "other"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

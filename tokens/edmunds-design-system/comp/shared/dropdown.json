@@ -1,0 +1,1085 @@
+{
+  "shared": {
+    "dropdown": {
+      "container": {
+        "color": {
+          "type": "color",
+          "bg": {
+            "default": {
+              "value": "{palette.eve.white}",
+              "attributes": {
+                "domain": "component",
+                "category": "shared",
+                "component": "dropdown",
+                "hidden": false,
+                "type": "dropdown",
+                "item": "container",
+                "subitem": "color",
+                "state": "bg"
+              }
+            },
+            "disabled": {
+              "value": "{palette.eve.cool-gray.80}",
+              "attributes": {
+                "domain": "component",
+                "category": "shared",
+                "component": "dropdown",
+                "hidden": false,
+                "type": "dropdown",
+                "item": "container",
+                "subitem": "color",
+                "state": "bg"
+              }
+            }
+          }
+        },
+        "border": {
+          "color": {
+            "type": "color",
+            "default": {
+              "value": "{palette.eve.cool-gray.30}",
+              "attributes": {
+                "domain": "component",
+                "category": "shared",
+                "component": "dropdown",
+                "hidden": false,
+                "type": "dropdown",
+                "item": "container",
+                "subitem": "border",
+                "state": "color"
+              }
+            },
+            "hover": {
+              "value": "{palette.eve.blue.30}",
+              "attributes": {
+                "domain": "component",
+                "category": "shared",
+                "component": "dropdown",
+                "hidden": false,
+                "type": "dropdown",
+                "item": "container",
+                "subitem": "border",
+                "state": "color"
+              }
+            },
+            "active": {
+              "value": "{palette.eve.blue.30}",
+              "attributes": {
+                "domain": "component",
+                "category": "shared",
+                "component": "dropdown",
+                "hidden": false,
+                "type": "dropdown",
+                "item": "container",
+                "subitem": "border",
+                "state": "color"
+              }
+            },
+            "focus": {
+              "value": "{palette.eve.blue.30}",
+              "attributes": {
+                "domain": "component",
+                "category": "shared",
+                "component": "dropdown",
+                "hidden": false,
+                "type": "dropdown",
+                "item": "container",
+                "subitem": "border",
+                "state": "color"
+              }
+            },
+            "disabled": {
+              "value": "{palette.eve.cool-gray.80}",
+              "attributes": {
+                "domain": "component",
+                "category": "shared",
+                "component": "dropdown",
+                "hidden": false,
+                "type": "dropdown",
+                "item": "container",
+                "subitem": "border",
+                "state": "color"
+              }
+            },
+            "error": {
+              "value": "{palette.eve.support.error}",
+              "attributes": {
+                "domain": "component",
+                "category": "shared",
+                "component": "dropdown",
+                "hidden": false,
+                "type": "dropdown",
+                "item": "container",
+                "subitem": "border",
+                "state": "color"
+              }
+            },
+            "warning": {
+              "value": "{palette.eve.support.warning}",
+              "attributes": {
+                "domain": "component",
+                "category": "shared",
+                "component": "dropdown",
+                "hidden": false,
+                "type": "dropdown",
+                "item": "container",
+                "subitem": "border",
+                "state": "color"
+              }
+            }
+          },
+          "size": {
+            "type": "borderWidth",
+            "default": {
+              "value": "{size.border.width.base}",
+              "attributes": {
+                "domain": "component",
+                "category": "shared",
+                "component": "dropdown",
+                "hidden": false,
+                "type": "dropdown",
+                "item": "container",
+                "subitem": "border",
+                "state": "size"
+              }
+            },
+            "active": {
+              "value": "{size.border.width.base}",
+              "attributes": {
+                "domain": "component",
+                "category": "shared",
+                "component": "dropdown",
+                "hidden": false,
+                "type": "dropdown",
+                "item": "container",
+                "subitem": "border",
+                "state": "size"
+              }
+            },
+            "focus": {
+              "value": "{size.border.width.lg}",
+              "attributes": {
+                "domain": "component",
+                "category": "shared",
+                "component": "dropdown",
+                "hidden": false,
+                "type": "dropdown",
+                "item": "container",
+                "subitem": "border",
+                "state": "size"
+              }
+            },
+            "disabled": {
+              "value": "{size.border.width.base}",
+              "attributes": {
+                "domain": "component",
+                "category": "shared",
+                "component": "dropdown",
+                "hidden": false,
+                "type": "dropdown",
+                "item": "container",
+                "subitem": "border",
+                "state": "size"
+              }
+            }
+          },
+          "radius": {
+            "type": "borderRadius",
+            "default": {
+              "sq": {
+                "value": "{size.radius.sq}",
+                "attributes": {
+                  "domain": "component",
+                  "category": "shared",
+                  "component": "dropdown",
+                  "hidden": false,
+                  "type": "dropdown",
+                  "item": "container",
+                  "subitem": "border",
+                  "state": "radius"
+                }
+              },
+              "rd": {
+                "value": "{size.radius.rd}",
+                "attributes": {
+                  "domain": "component",
+                  "category": "shared",
+                  "component": "dropdown",
+                  "hidden": false,
+                  "type": "dropdown",
+                  "item": "container",
+                  "subitem": "border",
+                  "state": "radius"
+                }
+              }
+            }
+          }
+        }
+      },
+      "prefix": {
+        "color": {
+          "type": "color",
+          "default": {
+            "value": "{palette.eve.cool-gray.30}",
+            "attributes": {
+              "domain": "component",
+              "category": "shared",
+              "component": "dropdown",
+              "hidden": false,
+              "type": "dropdown",
+              "item": "prefix",
+              "subitem": "color",
+              "state": "default"
+            }
+          },
+          "disabled": {
+            "value": "{palette.eve.cool-gray.60}",
+            "attributes": {
+              "domain": "component",
+              "category": "shared",
+              "component": "dropdown",
+              "hidden": false,
+              "type": "dropdown",
+              "item": "prefix",
+              "subitem": "color",
+              "state": "disabled"
+            }
+          }
+        },
+        "icon": {
+          "size": {
+            "default": {
+              "type": "sizing",
+              "value": "{size.sq.5}",
+              "attributes": {
+                "domain": "component",
+                "category": "shared",
+                "component": "dropdown",
+                "hidden": false,
+                "type": "dropdown",
+                "item": "prefix",
+                "subitem": "icon",
+                "state": "size"
+              }
+            }
+          }
+        },
+        "font": {
+          "size": {
+            "default": {
+              "type": "fontSizes",
+              "value": "{font.ts.body.lg.size}",
+              "attributes": {
+                "domain": "component",
+                "category": "shared",
+                "component": "dropdown",
+                "hidden": false,
+                "type": "dropdown",
+                "item": "suffix",
+                "subitem": "font",
+                "state": "size"
+              }
+            }
+          },
+          "line-height": {
+            "default": {
+              "type": "lineHeights",
+              "value": "{font.ts.body.lg.line-height}",
+              "attributes": {
+                "domain": "component",
+                "category": "shared",
+                "component": "dropdown",
+                "hidden": false,
+                "type": "dropdown",
+                "item": "suffix",
+                "subitem": "font",
+                "state": "line-height"
+              }
+            }
+          },
+          "weight": {
+            "default": {
+              "type": "fontWeights",
+              "value": "{font.ts.body.lg.weight.reg}",
+              "attributes": {
+                "domain": "component",
+                "category": "shared",
+                "component": "dropdown",
+                "hidden": false,
+                "type": "dropdown",
+                "item": "suffix",
+                "subitem": "font",
+                "state": "weight"
+              }
+            }
+          }
+        }
+      },
+      "suffix": {
+        "color": {
+          "type": "color",
+          "default": {
+            "value": "{palette.eve.blue.50}",
+            "attributes": {
+              "domain": "component",
+              "category": "shared",
+              "component": "dropdown",
+              "hidden": false,
+              "type": "dropdown",
+              "item": "suffix",
+              "subitem": "color",
+              "state": "default"
+            }
+          },
+          "disabled": {
+            "value": "{palette.eve.cool-gray.60}",
+            "attributes": {
+              "domain": "component",
+              "category": "shared",
+              "component": "dropdown",
+              "hidden": false,
+              "type": "dropdown",
+              "item": "suffix",
+              "subitem": "color",
+              "state": "disabled"
+            }
+          }
+        },
+        "icon": {
+          "size": {
+            "default": {
+              "type": "sizing",
+              "value": "{size.sq.5}",
+              "attributes": {
+                "domain": "component",
+                "category": "shared",
+                "component": "dropdown",
+                "hidden": false,
+                "type": "dropdown",
+                "item": "suffix",
+                "subitem": "icon",
+                "state": "size"
+              }
+            }
+          }
+        },
+        "font": {
+          "size": {
+            "type": "fontSizes",
+            "value": "{font.ts.body.lg.size}",
+            "attributes": {
+              "domain": "component",
+              "category": "shared",
+              "component": "dropdown",
+              "hidden": false,
+              "type": "dropdown",
+              "item": "suffix",
+              "subitem": "font",
+              "state": "size"
+            }
+          },
+          "line-height": {
+            "default": {
+              "type": "lineHeights",
+              "value": "{font.ts.body.lg.line-height}",
+              "attributes": {
+                "domain": "component",
+                "category": "shared",
+                "component": "dropdown",
+                "hidden": false,
+                "type": "dropdown",
+                "item": "suffix",
+                "subitem": "font",
+                "state": "line-height"
+              }
+            }
+          },
+          "weight": {
+            "type": "fontWeights",
+            "value": "{font.ts.body.lg.weight.reg}",
+            "attributes": {
+              "domain": "component",
+              "category": "shared",
+              "component": "dropdown",
+              "hidden": false,
+              "type": "dropdown",
+              "item": "suffix",
+              "subitem": "font",
+              "state": "weight"
+            }
+          }
+        }
+      },
+      "filled_text": {
+        "font": {
+          "size": {
+            "type": "fontSizes",
+            "default": {
+              "value": "{font.ts.body.lg.size}",
+              "attributes": {
+                "domain": "component",
+                "category": "shared",
+                "component": "dropdown",
+                "hidden": false,
+                "type": "dropdown",
+                "item": "filled_text",
+                "subitem": "font",
+                "state": "size"
+              }
+            }
+          },
+          "line-height": {
+            "type": "lineHeights",
+            "default": {
+              "value": "{font.ts.body.lg.line-height}",
+              "attributes": {
+                "domain": "component",
+                "category": "shared",
+                "component": "dropdown",
+                "hidden": false,
+                "type": "dropdown",
+                "item": "filled_text",
+                "subitem": "font",
+                "state": "line-height"
+              }
+            }
+          },
+          "weight": {
+            "type": "fontWeights",
+            "default": {
+              "value": "{font.ts.body.lg.weight.reg}",
+              "attributes": {
+                "domain": "component",
+                "category": "shared",
+                "component": "dropdown",
+                "hidden": false,
+                "type": "dropdown",
+                "item": "filled_text",
+                "subitem": "font",
+                "state": "weight"
+              }
+            }
+          },
+          "type": "color",
+          "color": {
+            "default": {
+              "value": "{palette.eve.cool-gray.30}",
+              "attributes": {
+                "domain": "component",
+                "category": "shared",
+                "component": "dropdown",
+                "hidden": false,
+                "type": "dropdown",
+                "item": "suffix",
+                "subitem": "color",
+                "state": "default"
+              }
+            },
+            "disabled": {
+              "value": "{palette.eve.cool-gray.60}",
+              "attributes": {
+                "domain": "component",
+                "category": "shared",
+                "component": "dropdown",
+                "hidden": false,
+                "type": "dropdown",
+                "item": "suffix",
+                "subitem": "color",
+                "state": "default"
+              }
+            }
+          }
+        }
+      },
+      "hint_text": {
+        "font": {
+          "size": {
+            "default": {
+              "type": "fontSizes",
+              "value": "{font.ts.body.lg.size}",
+              "attributes": {
+                "domain": "component",
+                "category": "shared",
+                "component": "dropdown",
+                "hidden": false,
+                "type": "dropdown",
+                "item": "hint_text",
+                "subitem": "font",
+                "state": "size"
+              }
+            }
+          },
+          "line-height": {
+            "type": "lineHeights",
+            "default": {
+              "value": "{font.ts.body.lg.line-height}",
+              "attributes": {
+                "domain": "component",
+                "category": "shared",
+                "component": "dropdown",
+                "hidden": false,
+                "type": "dropdown",
+                "item": "hint_text",
+                "subitem": "font",
+                "state": "line-height"
+              }
+            }
+          },
+          "weight": {
+            "type": "fontWeights",
+            "default": {
+              "value": "{font.ts.body.lg.weight.reg}",
+              "attributes": {
+                "domain": "component",
+                "category": "shared",
+                "component": "dropdown",
+                "hidden": false,
+                "type": "dropdown",
+                "item": "hint_text",
+                "subitem": "font",
+                "state": "weight"
+              }
+            }
+          }
+        }
+      },
+      "info_text": {
+        "font": {
+          "color": {
+            "type": "color",
+            "default": {
+              "value": "{palette.eve.cool-gray.30}",
+              "attributes": {
+                "domain": "component",
+                "category": "shared",
+                "component": "dropdown",
+                "hidden": false,
+                "type": "dropdown",
+                "item": "info_text",
+                "subitem": "font",
+                "state": "color"
+              }
+            }
+          },
+          "size": {
+            "default": {
+              "type": "fontSizes",
+              "value": "{font.ts.detail.md.size}",
+              "attributes": {
+                "domain": "component",
+                "category": "shared",
+                "component": "dropdown",
+                "hidden": false,
+                "type": "dropdown",
+                "item": "hint_text",
+                "subitem": "font",
+                "state": "size"
+              }
+            }
+          },
+          "line-height": {
+            "type": "lineHeights",
+            "default": {
+              "value": "{font.ts.detail.md.line-height}",
+              "attributes": {
+                "domain": "component",
+                "category": "shared",
+                "component": "dropdown",
+                "hidden": false,
+                "type": "dropdown",
+                "item": "info_text",
+                "subitem": "font",
+                "state": "line-height"
+              }
+            }
+          },
+          "weight": {
+            "type": "fontWeights",
+            "default": {
+              "value": "{font.ts.detail.md.weight.reg}",
+              "attributes": {
+                "domain": "component",
+                "category": "shared",
+                "component": "dropdown",
+                "hidden": false,
+                "type": "dropdown",
+                "item": "info_text",
+                "subitem": "font",
+                "state": "weight"
+              }
+            }
+          }
+        }
+      },
+      "support_text": {
+        "font": {
+          "color": {
+            "type": "color",
+            "error": {
+              "value": "{palette.eve.support.error}",
+              "attributes": {
+                "domain": "component",
+                "category": "shared",
+                "component": "dropdown",
+                "hidden": false,
+                "type": "dropdown",
+                "item": "support_text",
+                "subitem": "font",
+                "state": "color"
+              }
+            },
+            "default": {
+              "value": "{palette.eve.support.info}",
+              "attributes": {
+                "domain": "component",
+                "category": "shared",
+                "component": "dropdown",
+                "hidden": false,
+                "type": "dropdown",
+                "item": "support_text",
+                "subitem": "font",
+                "state": "color"
+              }
+            },
+            "warning": {
+              "value": "{palette.eve.support.warning}",
+              "attributes": {
+                "domain": "component",
+                "category": "shared",
+                "component": "dropdown",
+                "hidden": false,
+                "type": "dropdown",
+                "item": "support_text",
+                "subitem": "font",
+                "state": "color"
+              }
+            }
+          },
+          "size": {
+            "default": {
+              "type": "fontSizes",
+              "value": "{font.ts.detail.md.size}",
+              "attributes": {
+                "domain": "component",
+                "category": "shared",
+                "component": "dropdown",
+                "hidden": false,
+                "type": "dropdown",
+                "item": "hint_text",
+                "subitem": "font",
+                "state": "size"
+              }
+            }
+          },
+          "line-height": {
+            "type": "lineHeights",
+            "default": {
+              "value": "{font.ts.detail.md.line-height}",
+              "attributes": {
+                "domain": "component",
+                "category": "shared",
+                "component": "dropdown",
+                "hidden": false,
+                "type": "dropdown",
+                "item": "support_text",
+                "subitem": "font",
+                "state": "line-height"
+              }
+            }
+          },
+          "weight": {
+            "type": "fontWeights",
+            "default": {
+              "value": "{font.ts.detail.md.weight.reg}",
+              "attributes": {
+                "domain": "component",
+                "category": "shared",
+                "component": "dropdown",
+                "hidden": false,
+                "type": "dropdown",
+                "item": "support_text",
+                "subitem": "font",
+                "state": "weight"
+              }
+            }
+          }
+        }
+      },
+      "trailing_icon": {
+        "size": {
+          "default": {
+            "type": "sizing",
+            "value": "{size.sq.5}",
+            "attributes": {
+              "domain": "component",
+              "category": "shared",
+              "component": "dropdown",
+              "hidden": false,
+              "type": "dropdown",
+              "item": "trailing_icon",
+              "subitem": "size"
+            }
+          }
+        },
+        "color": {
+          "type": "color",
+          "success": {
+            "value": "{palette.eve.support.success}",
+            "attributes": {
+              "domain": "component",
+              "category": "shared",
+              "component": "dropdown",
+              "hidden": false,
+              "type": "dropdown",
+              "item": "trailing-icon",
+              "subitem": "color",
+              "state": "success"
+            }
+          },
+          "error": {
+            "value": "{palette.eve.support.error}",
+            "attributes": {
+              "domain": "component",
+              "category": "shared",
+              "component": "dropdown",
+              "hidden": false,
+              "type": "dropdown",
+              "item": "trailing-icon",
+              "subitem": "color",
+              "state": "error"
+            }
+          },
+          "warning": {
+            "value": "{palette.eve.support.warning}",
+            "attributes": {
+              "domain": "component",
+              "category": "shared",
+              "component": "dropdown",
+              "hidden": false,
+              "type": "dropdown",
+              "item": "trailing-icon",
+              "subitem": "color",
+              "state": "warning"
+            }
+          },
+          "default": {
+            "value": "{palette.eve.support.info}",
+            "attributes": {
+              "domain": "component",
+              "category": "shared",
+              "component": "dropdown",
+              "hidden": false,
+              "type": "dropdown",
+              "item": "trailing-icon",
+              "subitem": "color",
+              "state": "warning"
+            }
+          }
+        }
+      },
+      "spec": {
+        "container": {
+          "size": {
+            "sm": {
+              "value": "{primitive.size.32}",
+              "attributes": {
+                "domain": "component",
+                "category": "shared",
+                "component": "dropdown"
+              },
+              "type": "other"
+            },
+            "md": {
+              "value": "{primitive.size.40}",
+              "attributes": {
+                "domain": "component",
+                "category": "shared",
+                "component": "dropdown"
+              },
+              "type": "other"
+            },
+            "lg": {
+              "value": "{primitive.size.48}",
+              "attributes": {
+                "domain": "component",
+                "category": "shared",
+                "component": "dropdown"
+              },
+              "type": "other"
+            }
+          },
+          "space": {
+            "is": {
+              "right": {
+                "md": {
+                  "value": "{space.is.4x}",
+                  "attributes": {
+                    "domain": "component",
+                    "category": "shared",
+                    "component": "dropdown"
+                  },
+                  "type": "other"
+                }
+              },
+              "left": {
+                "md": {
+                  "value": "{space.is.4x}",
+                  "attributes": {
+                    "domain": "component",
+                    "category": "shared",
+                    "component": "dropdown"
+                  },
+                  "type": "other"
+                }
+              }
+            },
+            "st": {
+              "bottom": {
+                "sm": {
+                  "value": "{space.st.2x}",
+                  "attributes": {
+                    "domain": "component",
+                    "category": "shared",
+                    "component": "dropdown"
+                  },
+                  "type": "other"
+                }
+              }
+            },
+            "il": {
+              "sm": {
+                "md": {
+                  "value": "{space.il.2x}",
+                  "attributes": {
+                    "domain": "component",
+                    "category": "shared",
+                    "component": "dropdown",
+                    "hidden": false
+                  },
+                  "type": "other"
+                }
+              }
+            }
+          },
+          "nested": {
+            "size": {
+              "sm": {
+                "value": "{primitive.size.60}",
+                "attributes": {
+                  "domain": "component",
+                  "category": "shared",
+                  "component": "dropdown",
+                  "hidden": false
+                },
+                "type": "other"
+              }
+            },
+            "space": {
+              "st": {
+                "bottom": {
+                  "sm": {
+                    "value": "{space.st.2x}",
+                    "attributes": {
+                      "domain": "component",
+                      "category": "shared",
+                      "component": "dropdown"
+                    },
+                    "type": "other"
+                  }
+                },
+                "top": {
+                  "sm": {
+                    "value": "{space.st.2x}",
+                    "attributes": {
+                      "domain": "component",
+                      "category": "shared",
+                      "component": "dropdown"
+                    },
+                    "type": "other"
+                  }
+                }
+              },
+              "il": {
+                "sm": {
+                  "md": {
+                    "value": "{space.il.2x}",
+                    "attributes": {
+                      "domain": "component",
+                      "category": "shared",
+                      "component": "dropdown",
+                      "hidden": false
+                    },
+                    "type": "other"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "support": {
+          "text": {
+            "space": {
+              "st": {
+                "bottom": {
+                  "sm": {
+                    "value": "{space.st.2x}",
+                    "attributes": {
+                      "domain": "component",
+                      "category": "shared",
+                      "component": "dropdown",
+                      "hidden": false
+                    },
+                    "type": "other"
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "nested": {
+        "sub": {
+          "filled_text": {
+            "type": "fontWeights",
+            "font": {
+              "weight": {
+                "default": {
+                  "value": "{font.ts.body.lg.weight.bold}",
+                  "attributes": {
+                    "domain": "component",
+                    "category": "shared",
+                    "component": "dropdown",
+                    "hidden": false,
+                    "type": "dropdown",
+                    "item": "filled_text",
+                    "subitem": "font",
+                    "state": "weight"
+                  }
+                }
+              }
+            }
+          },
+          "text": {
+            "font": {
+              "size": {
+                "default": {
+                  "type": "fontSizes",
+                  "value": "{font.ts.body.md.size}",
+                  "attributes": {
+                    "domain": "component",
+                    "category": "shared",
+                    "component": "dropdown",
+                    "hidden": false,
+                    "type": "dropdown",
+                    "item": "suffix",
+                    "subitem": "font",
+                    "state": "size"
+                  }
+                }
+              },
+              "color": {
+                "disabled": {
+                  "value": "{palette.eve.cool-gray.60}",
+                  "type": "color",
+                  "attributes": {
+                    "domain": "component",
+                    "category": "shared",
+                    "component": "dropdown",
+                    "hidden": false,
+                    "type": "dropdown",
+                    "item": "suffix",
+                    "subitem": "font",
+                    "state": "size"
+                  }
+                },
+                "default": {
+                  "value": "{palette.eve.cool-gray.30}",
+                  "type": "color",
+                  "attributes": {
+                    "domain": "component",
+                    "category": "shared",
+                    "component": "dropdown",
+                    "hidden": false,
+                    "type": "dropdown",
+                    "item": "suffix",
+                    "subitem": "font",
+                    "state": "size"
+                  }
+                }
+              },
+              "weight": {
+                "default": {
+                  "value": "{font.ts.body.lg.weight.reg}",
+                  "attributes": {
+                    "domain": "component",
+                    "category": "shared",
+                    "component": "dropdown",
+                    "hidden": false,
+                    "type": "dropdown",
+                    "item": "filled_text",
+                    "subitem": "font",
+                    "state": "weight"
+                  }
+                }
+              },
+              "line-height": {
+                "default": {
+                  "type": "lineHeights",
+                  "value": "{font.ts.body.md.line-height}",
+                  "attributes": {
+                    "domain": "component",
+                    "category": "shared",
+                    "component": "dropdown",
+                    "hidden": false,
+                    "type": "dropdown",
+                    "item": "suffix",
+                    "subitem": "font",
+                    "state": "line-height"
+                  }
+                }
+              }
+            },
+            "type": "fontWeights"
+          },
+          "spec": {
+            "container": {
+              "type": "spacing",
+              "space": {
+                "st": {
+                  "bottom": {
+                    "md": {
+                      "value": "{space.st.3x}",
+                      "attributes": {
+                        "domain": "component",
+                        "category": "shared",
+                        "component": "dropdown",
+                        "type": "dropdown",
+                        "item": "spec",
+                        "subitem": "container",
+                        "state": "space"
+                      }
+                    }
+                  },
+                  "top": {
+                    "md": {
+                      "value": "{space.st.3x}",
+                      "attributes": {
+                        "domain": "component",
+                        "category": "shared",
+                        "component": "dropdown",
+                        "type": "dropdown",
+                        "item": "spec",
+                        "subitem": "container",
+                        "state": "space"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

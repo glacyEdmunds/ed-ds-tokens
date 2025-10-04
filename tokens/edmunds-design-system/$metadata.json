@@ -1,0 +1,21 @@
+{
+  "tokenSetOrder": [
+    "primitive/global-color-ref",
+    "primitive/global-size-ref",
+    "base/font/line-height",
+    "base/font/typescale",
+    "base/font/weight",
+    "base/font/size",
+    "base/space/inline",
+    "base/space/inset",
+    "base/space/stack",
+    "base/size/border",
+    "base/size/square",
+    "base/size/radius",
+    "base/palette/eve",
+    "comp/shared/btn",
+    "comp/shared/dropdown",
+    "comp/shared/label",
+    "comp/shared/text_input"
+  ]
+}

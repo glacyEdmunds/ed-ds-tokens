@@ -1,0 +1,688 @@
+{
+  "shared": {
+    "label": {
+      "base": {
+        "text": {
+          "weight": {
+            "reg": {
+              "value": "{font.ts.detail.md.weight.reg}",
+              "attributes": {
+                "domain": "component",
+                "category": "shared",
+                "component": "label"
+              },
+              "type": "other"
+            }
+          },
+          "size": {
+            "base": {
+              "value": "{font.ts.detail.md.size}",
+              "attributes": {
+                "domain": "component",
+                "category": "shared",
+                "component": "label"
+              },
+              "type": "other"
+            }
+          },
+          "color": {
+            "text": {
+              "default": {
+                "value": "{palette.eve.cool-gray.30}",
+                "attributes": {
+                  "domain": "component",
+                  "category": "shared",
+                  "component": "label"
+                },
+                "type": "other"
+              }
+            }
+          },
+          "line-height": {
+            "base": {
+              "value": "{font.ts.detail.md.line-height}",
+              "attributes": {
+                "domain": "component",
+                "category": "shared",
+                "component": "label"
+              },
+              "type": "other"
+            }
+          }
+        }
+      },
+      "lg": {
+        "text": {
+          "weight": {
+            "reg": {
+              "value": "{font.ts.detail.lg.weight.reg}",
+              "attributes": {
+                "domain": "component",
+                "category": "shared",
+                "component": "label"
+              },
+              "type": "other"
+            },
+            "strong": {
+              "value": "{font.ts.detail.lg.weight.bold}",
+              "attributes": {
+                "domain": "component",
+                "category": "shared",
+                "component": "label"
+              },
+              "type": "other"
+            }
+          },
+          "size": {
+            "lg": {
+              "value": "{font.ts.detail.lg.size}",
+              "attributes": {
+                "domain": "component",
+                "category": "shared",
+                "component": "label"
+              },
+              "type": "other"
+            }
+          },
+          "color": {
+            "text": {
+              "default": {
+                "value": "{palette.eve.cool-gray.30}",
+                "attributes": {
+                  "domain": "component",
+                  "category": "shared",
+                  "component": "label"
+                },
+                "type": "other"
+              }
+            }
+          },
+          "line-height": {
+            "lg": {
+              "value": "{font.ts.detail.lg.line-height}",
+              "attributes": {
+                "domain": "component",
+                "category": "shared",
+                "component": "label"
+              },
+              "type": "other"
+            }
+          }
+        }
+      },
+      "opt-text": {
+        "weight": {
+          "value": "{font.ts.detail.md.weight.reg}",
+          "attributes": {
+            "domain": "component",
+            "category": "shared",
+            "component": "label"
+          },
+          "type": "other"
+        },
+        "size": {
+          "value": "{font.ts.detail.md.size}",
+          "attributes": {
+            "domain": "component",
+            "category": "shared",
+            "component": "label"
+          },
+          "type": "other"
+        },
+        "color": {
+          "default": {
+            "value": "{palette.eve.cool-gray.30}",
+            "attributes": {
+              "domain": "component",
+              "category": "shared",
+              "component": "label"
+            },
+            "type": "other"
+          }
+        },
+        "line-height": {
+          "value": "{font.ts.detail.md.line-height}",
+          "attributes": {
+            "domain": "component",
+            "category": "shared",
+            "component": "label"
+          },
+          "type": "other"
+        }
+      },
+      "icon": {
+        "size": {
+          "value": "{size.sq.3}",
+          "attributes": {
+            "domain": "component",
+            "category": "shared",
+            "component": "label"
+          },
+          "type": "other"
+        },
+        "color": {
+          "default": {
+            "value": "{palette.eve.cool-gray.30}",
+            "attributes": {
+              "domain": "component",
+              "category": "shared",
+              "component": "label"
+            },
+            "type": "other"
+          }
+        }
+      },
+      "nested": {
+        "text": {
+          "color": {
+            "default": {
+              "value": "{palette.eve.cool-gray.30}",
+              "attributes": {
+                "domain": "component",
+                "category": "shared",
+                "component": "label"
+              },
+              "type": "other"
+            },
+            "hover": {
+              "value": "{palette.eve.cool-gray.30}",
+              "attributes": {
+                "domain": "component",
+                "category": "shared",
+                "component": "label"
+              },
+              "type": "other"
+            },
+            "active": {
+              "value": "{palette.eve.cool-gray.50}",
+              "attributes": {
+                "domain": "component",
+                "category": "shared",
+                "component": "label"
+              },
+              "type": "other"
+            },
+            "disabled": {
+              "value": "{palette.eve.cool-gray.60}",
+              "attributes": {
+                "domain": "component",
+                "category": "shared",
+                "component": "label"
+              },
+              "type": "other"
+            },
+            "focus": {
+              "value": "{palette.eve.cool-gray.30}",
+              "attributes": {
+                "domain": "component",
+                "category": "shared",
+                "component": "label"
+              },
+              "type": "other"
+            },
+            "success": {
+              "value": "{palette.eve.cool-gray.30}",
+              "attributes": {
+                "domain": "component",
+                "category": "shared",
+                "component": "label"
+              },
+              "type": "other"
+            },
+            "error": {
+              "value": "{palette.eve.cool-gray.50}",
+              "attributes": {
+                "domain": "component",
+                "category": "shared",
+                "component": "label"
+              },
+              "type": "other"
+            },
+            "warning": {
+              "value": "{palette.eve.cool-gray.50}",
+              "attributes": {
+                "domain": "component",
+                "category": "shared",
+                "component": "label"
+              },
+              "type": "other"
+            }
+          },
+          "size": {
+            "value": "{font.ts.detail.md.size}",
+            "attributes": {
+              "domain": "component",
+              "category": "shared",
+              "component": "label"
+            },
+            "type": "other"
+          },
+          "line-height": {
+            "base": {
+              "value": "{font.ts.detail.md.line-height}",
+              "attributes": {
+                "domain": "component",
+                "category": "shared",
+                "component": "label"
+              },
+              "type": "other"
+            }
+          },
+          "weight": {
+            "reg": {
+              "value": "{font.ts.detail.md.weight.reg}",
+              "attributes": {
+                "domain": "component",
+                "category": "shared",
+                "component": "label"
+              },
+              "type": "other"
+            }
+          }
+        },
+        "opt-text": {
+          "weight": {
+            "reg": {
+              "value": "{font.ts.detail.md.weight.reg}",
+              "attributes": {
+                "domain": "component",
+                "category": "shared",
+                "component": "label"
+              },
+              "type": "other"
+            }
+          },
+          "size": {
+            "value": "{font.ts.detail.md.size}",
+            "attributes": {
+              "domain": "component",
+              "category": "shared",
+              "component": "label"
+            },
+            "type": "other"
+          },
+          "color": {
+            "default": {
+              "value": "{palette.eve.cool-gray.30}",
+              "attributes": {
+                "domain": "component",
+                "category": "shared",
+                "component": "label"
+              },
+              "type": "other"
+            },
+            "hover": {
+              "value": "{palette.eve.cool-gray.30}",
+              "attributes": {
+                "domain": "component",
+                "category": "shared",
+                "component": "label"
+              },
+              "type": "other"
+            },
+            "active": {
+              "value": "{palette.eve.cool-gray.50}",
+              "attributes": {
+                "domain": "component",
+                "category": "shared",
+                "component": "label"
+              },
+              "type": "other"
+            },
+            "disabled": {
+              "value": "{palette.eve.cool-gray.60}",
+              "attributes": {
+                "domain": "component",
+                "category": "shared",
+                "component": "label"
+              },
+              "type": "other"
+            },
+            "focus": {
+              "value": "{palette.eve.cool-gray.30}",
+              "attributes": {
+                "domain": "component",
+                "category": "shared",
+                "component": "label"
+              },
+              "type": "other"
+            },
+            "success": {
+              "value": "{palette.eve.cool-gray.30}",
+              "attributes": {
+                "domain": "component",
+                "category": "shared",
+                "component": "label"
+              },
+              "type": "other"
+            },
+            "error": {
+              "value": "{palette.eve.cool-gray.50}",
+              "attributes": {
+                "domain": "component",
+                "category": "shared",
+                "component": "label"
+              },
+              "type": "other"
+            },
+            "warning": {
+              "value": "{palette.eve.cool-gray.50}",
+              "attributes": {
+                "domain": "component",
+                "category": "shared",
+                "component": "label"
+              },
+              "type": "other"
+            }
+          },
+          "line-height": {
+            "value": "{font.ts.detail.md.line-height}",
+            "attributes": {
+              "domain": "component",
+              "category": "shared",
+              "component": "label"
+            },
+            "type": "other"
+          }
+        },
+        "icon": {
+          "size": {
+            "value": "{size.sq.3}",
+            "attributes": {
+              "domain": "component",
+              "category": "shared",
+              "component": "label"
+            },
+            "type": "other"
+          },
+          "color": {
+            "default": {
+              "value": "{palette.eve.cool-gray.30}",
+              "attributes": {
+                "domain": "component",
+                "category": "shared",
+                "component": "label"
+              },
+              "type": "other"
+            },
+            "hover": {
+              "value": "{palette.eve.cool-gray.30}",
+              "attributes": {
+                "domain": "component",
+                "category": "shared",
+                "component": "label"
+              },
+              "type": "other"
+            },
+            "active": {
+              "value": "{palette.eve.cool-gray.30}",
+              "attributes": {
+                "domain": "component",
+                "category": "shared",
+                "component": "label"
+              },
+              "type": "other"
+            },
+            "disabled": {
+              "value": "{palette.eve.cool-gray.30}",
+              "attributes": {
+                "domain": "component",
+                "category": "shared",
+                "component": "label"
+              },
+              "type": "other"
+            },
+            "focus": {
+              "value": "{palette.eve.cool-gray.30}",
+              "attributes": {
+                "domain": "component",
+                "category": "shared",
+                "component": "label"
+              },
+              "type": "other"
+            },
+            "success": {
+              "value": "{palette.eve.cool-gray.30}",
+              "attributes": {
+                "domain": "component",
+                "category": "shared",
+                "component": "label"
+              },
+              "type": "other"
+            },
+            "error": {
+              "value": "{palette.eve.cool-gray.50}",
+              "attributes": {
+                "domain": "component",
+                "category": "shared",
+                "component": "label"
+              },
+              "type": "other"
+            },
+            "warning": {
+              "value": "{palette.eve.cool-gray.50}",
+              "attributes": {
+                "domain": "component",
+                "category": "shared",
+                "component": "label"
+              },
+              "type": "other"
+            }
+          }
+        }
+      },
+      "spec": {
+        "base": {
+          "space": {
+            "st": {
+              "bottom": {
+                "sm": {
+                  "value": "{space.st.1x}",
+                  "attributes": {
+                    "domain": "component",
+                    "category": "shared",
+                    "component": "label",
+                    "hidden": false
+                  },
+                  "type": "other"
+                },
+                "md": {
+                  "value": "{space.st.2x}",
+                  "attributes": {
+                    "domain": "component",
+                    "category": "shared",
+                    "component": "label",
+                    "hidden": false
+                  },
+                  "type": "other"
+                },
+                "lg": {
+                  "value": "{space.st.3x}",
+                  "attributes": {
+                    "domain": "component",
+                    "category": "shared",
+                    "component": "label",
+                    "hidden": false
+                  },
+                  "type": "other"
+                }
+              }
+            },
+            "il": {
+              "sm": {
+                "value": "{space.il.1x}",
+                "attributes": {
+                  "domain": "component",
+                  "category": "shared",
+                  "component": "label",
+                  "hidden": false
+                },
+                "type": "other"
+              },
+              "md": {
+                "value": "{space.il.2x}",
+                "attributes": {
+                  "domain": "component",
+                  "category": "shared",
+                  "component": "label",
+                  "hidden": false
+                },
+                "type": "other"
+              },
+              "lg": {
+                "value": "{space.il.3x}",
+                "attributes": {
+                  "domain": "component",
+                  "category": "shared",
+                  "component": "label",
+                  "hidden": false
+                },
+                "type": "other"
+              }
+            }
+          }
+        },
+        "lg": {
+          "space": {
+            "st": {
+              "bottom": {
+                "sm": {
+                  "value": "{space.st.1x}",
+                  "attributes": {
+                    "domain": "component",
+                    "category": "shared",
+                    "component": "label",
+                    "hidden": false
+                  },
+                  "type": "other"
+                },
+                "md": {
+                  "value": "{space.st.2x}",
+                  "attributes": {
+                    "domain": "component",
+                    "category": "shared",
+                    "component": "label",
+                    "hidden": false
+                  },
+                  "type": "other"
+                },
+                "lg": {
+                  "value": "{space.st.3x}",
+                  "attributes": {
+                    "domain": "component",
+                    "category": "shared",
+                    "component": "label",
+                    "hidden": false
+                  },
+                  "type": "other"
+                }
+              }
+            },
+            "il": {
+              "sm": {
+                "value": "{space.il.1x}",
+                "attributes": {
+                  "domain": "component",
+                  "category": "shared",
+                  "component": "label",
+                  "hidden": false
+                },
+                "type": "other"
+              },
+              "md": {
+                "value": "{space.il.2x}",
+                "attributes": {
+                  "domain": "component",
+                  "category": "shared",
+                  "component": "label",
+                  "hidden": false
+                },
+                "type": "other"
+              },
+              "lg": {
+                "value": "{space.il.3x}",
+                "attributes": {
+                  "domain": "component",
+                  "category": "shared",
+                  "component": "label",
+                  "hidden": false
+                },
+                "type": "other"
+              }
+            }
+          }
+        },
+        "nested": {
+          "space": {
+            "st": {
+              "bottom": {
+                "sm": {
+                  "value": "{space.st.1x}",
+                  "attributes": {
+                    "domain": "component",
+                    "category": "shared",
+                    "component": "label",
+                    "hidden": false
+                  },
+                  "type": "other"
+                },
+                "md": {
+                  "value": "{space.st.2x}",
+                  "attributes": {
+                    "domain": "component",
+                    "category": "shared",
+                    "component": "label",
+                    "hidden": false
+                  },
+                  "type": "other"
+                },
+                "lg": {
+                  "value": "{space.st.3x}",
+                  "attributes": {
+                    "domain": "component",
+                    "category": "shared",
+                    "component": "label",
+                    "hidden": false
+                  },
+                  "type": "other"
+                }
+              }
+            },
+            "il": {
+              "sm": {
+                "value": "{space.il.1x}",
+                "attributes": {
+                  "domain": "component",
+                  "category": "shared",
+                  "component": "label",
+                  "hidden": false
+                },
+                "type": "other"
+              },
+              "md": {
+                "value": "{space.il.2x}",
+                "attributes": {
+                  "domain": "component",
+                  "category": "shared",
+                  "component": "label",
+                  "hidden": false
+                },
+                "type": "other"
+              },
+              "lg": {
+                "value": "{space.il.3x}",
+                "attributes": {
+                  "domain": "component",
+                  "category": "shared",
+                  "component": "label",
+                  "hidden": false
+                },
+                "type": "other"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
