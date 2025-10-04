@@ -1,0 +1,44 @@
+{
+  "palette": {
+    "eve": {
+      "support": {
+        "success": {
+          "value": "{primitive.color.green.50}",
+          "type": "color",
+          "attributes": {
+            "domain": "palette",
+            "category": "support",
+            "hidden": false
+          }
+        },
+        "error": {
+          "value": "{primitive.color.red.50}",
+          "type": "color",
+          "attributes": {
+            "domain": "palette",
+            "category": "support",
+            "hidden": false
+          }
+        },
+        "warning": {
+          "value": "{primitive.color.yellow.20}",
+          "type": "color",
+          "attributes": {
+            "domain": "palette",
+            "category": "support",
+            "hidden": false
+          }
+        },
+        "info": {
+          "value": "{primitive.color.cool-gray.30}",
+          "type": "color",
+          "attributes": {
+            "domain": "palette",
+            "category": "support",
+            "hidden": false
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,96 @@
+{
+  "space": {
+    "il": {
+      "0_5x": {
+        "value": "{primitive.size.2}",
+        "type": "spacing",
+        "comment": "2px",
+        "attributes": {
+          "domain": "space",
+          "category": "inline",
+          "hidden": false
+        }
+      },
+      "1x": {
+        "value": "{primitive.size.4}",
+        "type": "spacing",
+        "comment": "4px",
+        "attributes": {
+          "domain": "space",
+          "category": "inline",
+          "hidden": false
+        }
+      },
+      "1_5x": {
+        "value": "{primitive.size.6}",
+        "type": "spacing",
+        "comment": "6px",
+        "attributes": {
+          "domain": "space",
+          "category": "inline",
+          "hidden": false
+        }
+      },
+      "2x": {
+        "value": "{primitive.size.8}",
+        "type": "spacing",
+        "comment": "8px",
+        "attributes": {
+          "domain": "space",
+          "category": "inline",
+          "hidden": false
+        }
+      },
+      "3x": {
+        "value": "{primitive.size.12}",
+        "type": "spacing",
+        "comment": "12px",
+        "attributes": {
+          "domain": "space",
+          "category": "inline",
+          "hidden": false
+        }
+      },
+      "4x": {
+        "value": "{primitive.size.16}",
+        "type": "spacing",
+        "comment": "16px",
+        "attributes": {
+          "domain": "space",
+          "category": "inline",
+          "hidden": false
+        }
+      },
+      "6x": {
+        "value": "{primitive.size.24}",
+        "type": "spacing",
+        "comment": "24px",
+        "attributes": {
+          "domain": "space",
+          "category": "inline",
+          "hidden": false
+        }
+      },
+      "8x": {
+        "value": "{primitive.size.32}",
+        "type": "spacing",
+        "comment": "32px",
+        "attributes": {
+          "domain": "space",
+          "category": "inline",
+          "hidden": false
+        }
+      },
+      "16x": {
+        "value": "{primitive.size.64}",
+        "type": "spacing",
+        "comment": "64px",
+        "attributes": {
+          "domain": "space",
+          "category": "inline",
+          "hidden": false
+        }
+      }
+    }
+  }
+}

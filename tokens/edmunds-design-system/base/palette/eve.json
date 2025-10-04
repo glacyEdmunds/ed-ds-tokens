@@ -1,0 +1,933 @@
+{
+  "palette": {
+    "eve": {
+      "cool-gray": {
+        "10": {
+          "value": "{primitive.color.cool-gray.10}",
+          "type": "color",
+          "attributes": {
+            "domain": "palette",
+            "category": "eve",
+            "hidden": false
+          }
+        },
+        "20": {
+          "value": "{primitive.color.cool-gray.20}",
+          "type": "color",
+          "attributes": {
+            "domain": "palette",
+            "category": "eve",
+            "hidden": false
+          }
+        },
+        "30": {
+          "value": "{primitive.color.cool-gray.30}",
+          "type": "color",
+          "attributes": {
+            "domain": "palette",
+            "category": "eve",
+            "hidden": false
+          }
+        },
+        "40": {
+          "value": "{primitive.color.cool-gray.40}",
+          "type": "color",
+          "attributes": {
+            "domain": "palette",
+            "category": "eve",
+            "hidden": false
+          }
+        },
+        "50": {
+          "value": "{primitive.color.cool-gray.50}",
+          "type": "color",
+          "attributes": {
+            "domain": "palette",
+            "category": "eve",
+            "hidden": false
+          }
+        },
+        "60": {
+          "value": "{primitive.color.cool-gray.60}",
+          "type": "color",
+          "attributes": {
+            "domain": "palette",
+            "category": "eve",
+            "hidden": false
+          }
+        },
+        "70": {
+          "value": "{primitive.color.cool-gray.70}",
+          "type": "color",
+          "attributes": {
+            "domain": "palette",
+            "category": "eve",
+            "hidden": false
+          }
+        },
+        "80": {
+          "value": "{primitive.color.cool-gray.80}",
+          "type": "color",
+          "attributes": {
+            "domain": "palette",
+            "category": "eve",
+            "hidden": false
+          }
+        },
+        "90": {
+          "value": "{primitive.color.cool-gray.90}",
+          "type": "color",
+          "attributes": {
+            "domain": "palette",
+            "category": "eve",
+            "hidden": false
+          }
+        },
+        "100": {
+          "value": "{primitive.color.cool-gray.100}",
+          "type": "color",
+          "attributes": {
+            "domain": "palette",
+            "category": "eve",
+            "hidden": false
+          }
+        }
+      },
+      "blue": {
+        "05": {
+          "value": "{primitive.color.blue.05}",
+          "type": "color",
+          "attributes": {
+            "domain": "palette",
+            "category": "eve",
+            "hidden": false
+          }
+        },
+        "10": {
+          "value": "{primitive.color.blue.10}",
+          "type": "color",
+          "attributes": {
+            "domain": "palette",
+            "category": "eve",
+            "hidden": false
+          }
+        },
+        "20": {
+          "value": "{primitive.color.blue.20}",
+          "type": "color",
+          "attributes": {
+            "domain": "palette",
+            "category": "eve",
+            "hidden": false
+          }
+        },
+        "30": {
+          "value": "{primitive.color.blue.30}",
+          "type": "color",
+          "attributes": {
+            "domain": "palette",
+            "category": "eve",
+            "hidden": false
+          }
+        },
+        "40": {
+          "value": "{primitive.color.blue.40}",
+          "type": "color",
+          "attributes": {
+            "domain": "palette",
+            "category": "eve",
+            "hidden": false
+          }
+        },
+        "50": {
+          "value": "{primitive.color.blue.50}",
+          "type": "color",
+          "attributes": {
+            "domain": "palette",
+            "category": "eve",
+            "hidden": false
+          }
+        },
+        "60": {
+          "value": "{primitive.color.blue.60}",
+          "type": "color",
+          "attributes": {
+            "domain": "palette",
+            "category": "eve",
+            "hidden": false
+          }
+        },
+        "70": {
+          "value": "{primitive.color.blue.70}",
+          "type": "color",
+          "attributes": {
+            "domain": "palette",
+            "category": "eve",
+            "hidden": false
+          }
+        },
+        "80": {
+          "value": "{primitive.color.blue.80}",
+          "type": "color",
+          "attributes": {
+            "domain": "palette",
+            "category": "eve",
+            "hidden": false
+          }
+        },
+        "90": {
+          "value": "{primitive.color.blue.90}",
+          "type": "color",
+          "attributes": {
+            "domain": "palette",
+            "category": "eve",
+            "hidden": false
+          }
+        },
+        "100": {
+          "value": "{primitive.color.blue.100}",
+          "type": "color",
+          "attributes": {
+            "domain": "palette",
+            "category": "eve",
+            "hidden": false
+          }
+        }
+      },
+      "green": {
+        "05": {
+          "value": "{primitive.color.green.05}",
+          "type": "color",
+          "attributes": {
+            "domain": "palette",
+            "category": "eve",
+            "hidden": false
+          }
+        },
+        "10": {
+          "value": "{primitive.color.green.10}",
+          "type": "color",
+          "attributes": {
+            "domain": "palette",
+            "category": "eve",
+            "hidden": false
+          }
+        },
+        "20": {
+          "value": "{primitive.color.green.20}",
+          "type": "color",
+          "attributes": {
+            "domain": "palette",
+            "category": "eve",
+            "hidden": false
+          }
+        },
+        "30": {
+          "value": "{primitive.color.green.30}",
+          "type": "color",
+          "attributes": {
+            "domain": "palette",
+            "category": "eve",
+            "hidden": false
+          }
+        },
+        "40": {
+          "value": "{primitive.color.green.40}",
+          "type": "color",
+          "attributes": {
+            "domain": "palette",
+            "category": "eve",
+            "hidden": false
+          }
+        },
+        "50": {
+          "value": "{primitive.color.green.50}",
+          "type": "color",
+          "attributes": {
+            "domain": "palette",
+            "category": "eve",
+            "hidden": false
+          }
+        },
+        "60": {
+          "value": "{primitive.color.green.60}",
+          "type": "color",
+          "attributes": {
+            "domain": "palette",
+            "category": "eve",
+            "hidden": false
+          }
+        },
+        "70": {
+          "value": "{primitive.color.green.70}",
+          "type": "color",
+          "attributes": {
+            "domain": "palette",
+            "category": "eve",
+            "hidden": false
+          }
+        },
+        "80": {
+          "value": "{primitive.color.green.80}",
+          "type": "color",
+          "attributes": {
+            "domain": "palette",
+            "category": "eve",
+            "hidden": false
+          }
+        },
+        "90": {
+          "value": "{primitive.color.green.90}",
+          "type": "color",
+          "attributes": {
+            "domain": "palette",
+            "category": "eve",
+            "hidden": false
+          }
+        },
+        "100": {
+          "value": "{primitive.color.green.100}",
+          "type": "color",
+          "attributes": {
+            "domain": "palette",
+            "category": "eve",
+            "hidden": false
+          }
+        }
+      },
+      "turquoise": {
+        "05": {
+          "value": "{primitive.color.turquoise.05}",
+          "type": "color",
+          "attributes": {
+            "domain": "palette",
+            "category": "eve",
+            "hidden": false
+          }
+        },
+        "10": {
+          "value": "{primitive.color.turquoise.10}",
+          "type": "color",
+          "attributes": {
+            "domain": "palette",
+            "category": "eve",
+            "hidden": false
+          }
+        },
+        "20": {
+          "value": "{primitive.color.turquoise.20}",
+          "type": "color",
+          "attributes": {
+            "domain": "palette",
+            "category": "eve",
+            "hidden": false
+          }
+        },
+        "30": {
+          "value": "{primitive.color.turquoise.30}",
+          "type": "color",
+          "attributes": {
+            "domain": "palette",
+            "category": "eve",
+            "hidden": false
+          }
+        },
+        "40": {
+          "value": "{primitive.color.turquoise.40}",
+          "type": "color",
+          "attributes": {
+            "domain": "palette",
+            "category": "eve",
+            "hidden": false
+          }
+        },
+        "50": {
+          "value": "{primitive.color.turquoise.50}",
+          "type": "color",
+          "attributes": {
+            "domain": "palette",
+            "category": "eve",
+            "hidden": false
+          }
+        },
+        "60": {
+          "value": "{primitive.color.turquoise.60}",
+          "type": "color",
+          "attributes": {
+            "domain": "palette",
+            "category": "eve",
+            "hidden": false
+          }
+        },
+        "70": {
+          "value": "{primitive.color.turquoise.70}",
+          "type": "color",
+          "attributes": {
+            "domain": "palette",
+            "category": "eve",
+            "hidden": false
+          }
+        },
+        "80": {
+          "value": "{primitive.color.turquoise.80}",
+          "type": "color",
+          "attributes": {
+            "domain": "palette",
+            "category": "eve",
+            "hidden": false
+          }
+        },
+        "90": {
+          "value": "{primitive.color.turquoise.90}",
+          "type": "color",
+          "attributes": {
+            "domain": "palette",
+            "category": "eve",
+            "hidden": false
+          }
+        },
+        "100": {
+          "value": "{primitive.color.turquoise.100}",
+          "type": "color",
+          "attributes": {
+            "domain": "palette",
+            "category": "eve",
+            "hidden": false
+          }
+        }
+      },
+      "red": {
+        "05": {
+          "value": "{primitive.color.red.05}",
+          "type": "color",
+          "attributes": {
+            "domain": "palette",
+            "category": "eve",
+            "hidden": false
+          }
+        },
+        "10": {
+          "value": "{primitive.color.red.10}",
+          "type": "color",
+          "attributes": {
+            "domain": "palette",
+            "category": "eve",
+            "hidden": false
+          }
+        },
+        "20": {
+          "value": "{primitive.color.red.20}",
+          "type": "color",
+          "attributes": {
+            "domain": "palette",
+            "category": "eve",
+            "hidden": false
+          }
+        },
+        "30": {
+          "value": "{primitive.color.red.30}",
+          "type": "color",
+          "attributes": {
+            "domain": "palette",
+            "category": "eve",
+            "hidden": false
+          }
+        },
+        "40": {
+          "value": "{primitive.color.red.40}",
+          "type": "color",
+          "attributes": {
+            "domain": "palette",
+            "category": "eve",
+            "hidden": false
+          }
+        },
+        "50": {
+          "value": "{primitive.color.red.50}",
+          "type": "color",
+          "attributes": {
+            "domain": "palette",
+            "category": "eve",
+            "hidden": false
+          }
+        },
+        "60": {
+          "value": "{primitive.color.red.60}",
+          "type": "color",
+          "attributes": {
+            "domain": "palette",
+            "category": "eve",
+            "hidden": false
+          }
+        },
+        "70": {
+          "value": "{primitive.color.red.70}",
+          "type": "color",
+          "attributes": {
+            "domain": "palette",
+            "category": "eve",
+            "hidden": false
+          }
+        },
+        "80": {
+          "value": "{primitive.color.red.80}",
+          "type": "color",
+          "attributes": {
+            "domain": "palette",
+            "category": "eve",
+            "hidden": false
+          }
+        },
+        "90": {
+          "value": "{primitive.color.red.90}",
+          "type": "color",
+          "attributes": {
+            "domain": "palette",
+            "category": "eve",
+            "hidden": false
+          }
+        },
+        "100": {
+          "value": "{primitive.color.red.100}",
+          "type": "color",
+          "attributes": {
+            "domain": "palette",
+            "category": "eve",
+            "hidden": false
+          }
+        }
+      },
+      "orange": {
+        "05": {
+          "value": "{primitive.color.orange.05}",
+          "type": "color",
+          "attributes": {
+            "domain": "palette",
+            "category": "eve",
+            "hidden": false
+          }
+        },
+        "10": {
+          "value": "{primitive.color.orange.10}",
+          "type": "color",
+          "attributes": {
+            "domain": "palette",
+            "category": "eve",
+            "hidden": false
+          }
+        },
+        "20": {
+          "value": "{primitive.color.orange.20}",
+          "type": "color",
+          "attributes": {
+            "domain": "palette",
+            "category": "eve",
+            "hidden": false
+          }
+        },
+        "30": {
+          "value": "{primitive.color.orange.30}",
+          "type": "color",
+          "attributes": {
+            "domain": "palette",
+            "category": "eve",
+            "hidden": false
+          }
+        },
+        "40": {
+          "value": "{primitive.color.orange.40}",
+          "type": "color",
+          "attributes": {
+            "domain": "palette",
+            "category": "eve",
+            "hidden": false
+          }
+        },
+        "50": {
+          "value": "{primitive.color.orange.50}",
+          "type": "color",
+          "attributes": {
+            "domain": "palette",
+            "category": "eve",
+            "hidden": false
+          }
+        },
+        "60": {
+          "value": "{primitive.color.orange.60}",
+          "type": "color",
+          "attributes": {
+            "domain": "palette",
+            "category": "eve",
+            "hidden": false
+          }
+        },
+        "70": {
+          "value": "{primitive.color.orange.70}",
+          "type": "color",
+          "attributes": {
+            "domain": "palette",
+            "category": "eve",
+            "hidden": false
+          }
+        },
+        "80": {
+          "value": "{primitive.color.orange.80}",
+          "type": "color",
+          "attributes": {
+            "domain": "palette",
+            "category": "eve",
+            "hidden": false
+          }
+        },
+        "90": {
+          "value": "{primitive.color.orange.90}",
+          "type": "color",
+          "attributes": {
+            "domain": "palette",
+            "category": "eve",
+            "hidden": false
+          }
+        },
+        "100": {
+          "value": "{primitive.color.orange.100}",
+          "type": "color",
+          "attributes": {
+            "domain": "palette",
+            "category": "eve",
+            "hidden": false
+          }
+        }
+      },
+      "yellow": {
+        "05": {
+          "value": "{primitive.color.yellow.05}",
+          "type": "color",
+          "attributes": {
+            "domain": "palette",
+            "category": "eve",
+            "hidden": false
+          }
+        },
+        "10": {
+          "value": "{primitive.color.yellow.10}",
+          "type": "color",
+          "attributes": {
+            "domain": "palette",
+            "category": "eve",
+            "hidden": false
+          }
+        },
+        "20": {
+          "value": "{primitive.color.yellow.20}",
+          "type": "color",
+          "attributes": {
+            "domain": "palette",
+            "category": "eve",
+            "hidden": false
+          }
+        },
+        "30": {
+          "value": "{primitive.color.yellow.30}",
+          "type": "color",
+          "attributes": {
+            "domain": "palette",
+            "category": "eve",
+            "hidden": false
+          }
+        },
+        "40": {
+          "value": "{primitive.color.yellow.40}",
+          "type": "color",
+          "attributes": {
+            "domain": "palette",
+            "category": "eve",
+            "hidden": false
+          }
+        },
+        "50": {
+          "value": "{primitive.color.yellow.50}",
+          "type": "color",
+          "attributes": {
+            "domain": "palette",
+            "category": "eve",
+            "hidden": false
+          }
+        },
+        "60": {
+          "value": "{primitive.color.yellow.60}",
+          "type": "color",
+          "attributes": {
+            "domain": "palette",
+            "category": "eve",
+            "hidden": false
+          }
+        },
+        "70": {
+          "value": "{primitive.color.yellow.70}",
+          "type": "color",
+          "attributes": {
+            "domain": "palette",
+            "category": "eve",
+            "hidden": false
+          }
+        },
+        "80": {
+          "value": "{primitive.color.yellow.80}",
+          "type": "color",
+          "attributes": {
+            "domain": "palette",
+            "category": "eve",
+            "hidden": false
+          }
+        },
+        "90": {
+          "value": "{primitive.color.yellow.90}",
+          "type": "color",
+          "attributes": {
+            "domain": "palette",
+            "category": "eve",
+            "hidden": false
+          }
+        },
+        "100": {
+          "value": "{primitive.color.yellow.100}",
+          "type": "color",
+          "attributes": {
+            "domain": "palette",
+            "category": "eve",
+            "hidden": false
+          }
+        }
+      },
+      "purple": {
+        "05": {
+          "value": "{primitive.color.purple.05}",
+          "type": "color",
+          "attributes": {
+            "domain": "palette",
+            "category": "eve",
+            "hidden": false
+          }
+        },
+        "10": {
+          "value": "{primitive.color.purple.10}",
+          "type": "color",
+          "attributes": {
+            "domain": "palette",
+            "category": "eve",
+            "hidden": false
+          }
+        },
+        "20": {
+          "value": "{primitive.color.purple.20}",
+          "type": "color",
+          "attributes": {
+            "domain": "palette",
+            "category": "eve",
+            "hidden": false
+          }
+        },
+        "30": {
+          "value": "{primitive.color.purple.30}",
+          "type": "color",
+          "attributes": {
+            "domain": "palette",
+            "category": "eve",
+            "hidden": false
+          }
+        },
+        "40": {
+          "value": "{primitive.color.purple.40}",
+          "type": "color",
+          "attributes": {
+            "domain": "palette",
+            "category": "eve",
+            "hidden": false
+          }
+        },
+        "50": {
+          "value": "{primitive.color.purple.50}",
+          "type": "color",
+          "attributes": {
+            "domain": "palette",
+            "category": "eve",
+            "hidden": false
+          }
+        },
+        "60": {
+          "value": "{primitive.color.purple.60}",
+          "type": "color",
+          "attributes": {
+            "domain": "palette",
+            "category": "eve",
+            "hidden": false
+          }
+        },
+        "70": {
+          "value": "{primitive.color.purple.70}",
+          "type": "color",
+          "attributes": {
+            "domain": "palette",
+            "category": "eve",
+            "hidden": false
+          }
+        },
+        "80": {
+          "value": "{primitive.color.purple.80}",
+          "type": "color",
+          "attributes": {
+            "domain": "palette",
+            "category": "eve",
+            "hidden": false
+          }
+        },
+        "90": {
+          "value": "{primitive.color.purple.90}",
+          "type": "color",
+          "attributes": {
+            "domain": "palette",
+            "category": "eve",
+            "hidden": false
+          }
+        },
+        "100": {
+          "value": "{primitive.color.purple.100}",
+          "type": "color",
+          "attributes": {
+            "domain": "palette",
+            "category": "eve",
+            "hidden": false
+          }
+        }
+      },
+      "magenta": {
+        "05": {
+          "value": "{primitive.color.magenta.05}",
+          "type": "color",
+          "attributes": {
+            "domain": "palette",
+            "category": "eve",
+            "hidden": false
+          }
+        },
+        "10": {
+          "value": "{primitive.color.magenta.10}",
+          "type": "color",
+          "attributes": {
+            "domain": "palette",
+            "category": "eve",
+            "hidden": false
+          }
+        },
+        "20": {
+          "value": "{primitive.color.magenta.20}",
+          "type": "color",
+          "attributes": {
+            "domain": "palette",
+            "category": "eve",
+            "hidden": false
+          }
+        },
+        "30": {
+          "value": "{primitive.color.magenta.30}",
+          "type": "color",
+          "attributes": {
+            "domain": "palette",
+            "category": "eve",
+            "hidden": false
+          }
+        },
+        "40": {
+          "value": "{primitive.color.magenta.40}",
+          "type": "color",
+          "attributes": {
+            "domain": "palette",
+            "category": "eve",
+            "hidden": false
+          }
+        },
+        "50": {
+          "value": "{primitive.color.magenta.50}",
+          "type": "color",
+          "attributes": {
+            "domain": "palette",
+            "category": "eve",
+            "hidden": false
+          }
+        },
+        "60": {
+          "value": "{primitive.color.magenta.60}",
+          "type": "color",
+          "attributes": {
+            "domain": "palette",
+            "category": "eve",
+            "hidden": false
+          }
+        },
+        "70": {
+          "value": "{primitive.color.magenta.70}",
+          "type": "color",
+          "attributes": {
+            "domain": "palette",
+            "category": "eve",
+            "hidden": false
+          }
+        },
+        "80": {
+          "value": "{primitive.color.magenta.80}",
+          "type": "color",
+          "attributes": {
+            "domain": "palette",
+            "category": "eve",
+            "hidden": false
+          }
+        },
+        "90": {
+          "value": "{primitive.color.magenta.90}",
+          "type": "color",
+          "attributes": {
+            "domain": "palette",
+            "category": "eve",
+            "hidden": false
+          }
+        },
+        "100": {
+          "value": "{primitive.color.magenta.100}",
+          "type": "color",
+          "attributes": {
+            "domain": "palette",
+            "category": "eve",
+            "hidden": false
+          }
+        }
+      },
+      "white": {
+        "value": "{primitive.color.white}",
+        "type": "color",
+        "attributes": {
+          "domain": "palette",
+          "category": "eve",
+          "hidden": false
+        }
+      },
+      "transparent": {
+        "value": "rgba(0, 0, 0, 0)",
+        "type": "color",
+        "attributes": {
+          "domain": "palette",
+          "category": "eve",
+          "hidden": false
+        }
+      },
+      "black": {
+        "value": "{primitive.color.black}",
+        "type": "color",
+        "attributes": {
+          "domain": "palette",
+          "category": "eve",
+          "hidden": false
+        }
+      }
+    }
+  }
+}

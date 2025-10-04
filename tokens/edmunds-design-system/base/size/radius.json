@@ -1,0 +1,87 @@
+{
+  "size": {
+    "radius": {
+      "xx-sm": {
+        "value": "{primitive.size.4}",
+        "type": "borderRadius",
+        "attributes": {
+          "domain": "size",
+          "category": "radius",
+          "hidden": false
+        }
+      },
+      "x-sm": {
+        "value": "{primitive.size.8}",
+        "type": "borderRadius",
+        "attributes": {
+          "domain": "size",
+          "category": "radius",
+          "hidden": false
+        }
+      },
+      "sm": {
+        "value": "{primitive.size.12}",
+        "type": "borderRadius",
+        "attributes": {
+          "domain": "size",
+          "category": "radius",
+          "hidden": false
+        }
+      },
+      "md": {
+        "value": "{primitive.size.16}",
+        "type": "borderRadius",
+        "attributes": {
+          "domain": "size",
+          "category": "radius",
+          "hidden": false
+        }
+      },
+      "lg": {
+        "value": "{primitive.size.32}",
+        "type": "borderRadius",
+        "attributes": {
+          "domain": "size",
+          "category": "radius",
+          "hidden": false
+        }
+      },
+      "x-lg": {
+        "value": "{primitive.size.56}",
+        "type": "borderRadius",
+        "attributes": {
+          "domain": "size",
+          "category": "radius",
+          "hidden": false
+        }
+      },
+      "sq": {
+        "value": "{size.radius.xx-sm}",
+        "type": "borderRadius",
+        "attributes": {
+          "domain": "size",
+          "category": "radius",
+          "hidden": false
+        }
+      },
+      "rd": {
+        "value": "{size.radius.x-sm}",
+        "type": "borderRadius",
+        "attributes": {
+          "domain": "size",
+          "category": "radius",
+          "hidden": false
+        }
+      },
+      "cir": {
+        "value": "9999px",
+        "type": "borderRadius",
+        "attributes": {
+          "domain": "size",
+          "category": "radius",
+          "hidden": false
+        }
+      }
+    }
+  }
+}

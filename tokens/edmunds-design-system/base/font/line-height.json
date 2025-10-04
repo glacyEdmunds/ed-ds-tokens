@@ -1,0 +1,69 @@
+{
+  "font": {
+    "line-height": {
+      "xx-lg": {
+        "value": "1.428",
+        "type": "lineHeight",
+        "attributes": {
+          "domain": "font",
+          "category": "line-height",
+          "hidden": false
+        }
+      },
+      "x-lg": {
+        "value": "1.375",
+        "type": "lineHeight",
+        "attributes": {
+          "domain": "font",
+          "category": "line-height",
+          "hidden": false
+        }
+      },
+      "lg": {
+        "value": "1.333",
+        "type": "lineHeight",
+        "attributes": {
+          "domain": "font",
+          "category": "line-height",
+          "hidden": false
+        }
+      },
+      "md": {
+        "value": "1.25",
+        "type": "lineHeight",
+        "attributes": {
+          "domain": "font",
+          "category": "line-height",
+          "hidden": false
+        }
+      },
+      "sm": {
+        "value": "1.2",
+        "type": "lineHeight",
+        "attributes": {
+          "domain": "font",
+          "category": "line-height",
+          "hidden": false
+        }
+      },
+      "x-sm": {
+        "value": "1.11",
+        "type": "lineHeight",
+        "attributes": {
+          "domain": "font",
+          "category": "line-height",
+          "hidden": false
+        }
+      },
+      "xx-sm": {
+        "value": "1",
+        "type": "lineHeight",
+        "attributes": {
+          "domain": "font",
+          "category": "line-height",
+          "hidden": false
+        }
+      }
+    }
+  }
+}

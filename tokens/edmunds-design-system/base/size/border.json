@@ -1,0 +1,36 @@
+{
+  "size": {
+    "border": {
+      "width": {
+        "sm": {
+          "value": "{primitive.size.0_5}",
+          "type": "borderWidth",
+          "attributes": {
+            "domain": "size",
+            "category": "border",
+            "hidden": false
+          }
+        },
+        "base": {
+          "value": "{primitive.size.1}",
+          "type": "borderWidth",
+          "comment": "Equals, solid 1px",
+          "attributes": {
+            "domain": "size",
+            "category": "border",
+            "hidden": false
+          }
+        },
+        "lg": {
+          "value": "{primitive.size.2}",
+          "type": "borderWidth",
+          "attributes": {
+            "domain": "size",
+            "category": "border",
+            "hidden": false
+          }
+        }
+      }
+    }
+  }
+}
