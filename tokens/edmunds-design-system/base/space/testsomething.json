@@ -1,0 +1,14 @@
+{
+  "space": {
+  "big big": {
+    "value": "10px",
+    "type": "borderWidth",
+    "description": "big",
+    "attributes": {
+      "domain": "space",
+      "category": "stack",
+      "hidden": false
+    }
+  }
+}
+}
