@@ -271,7 +271,7 @@
           }
         }
       },
-      "filled-text": {
+      "filled_text": {
         "font": {
           "color": {
             "default": {

@@ -1,0 +1,26 @@
+---
+# https://backstage.io/docs/features/software-catalog/descriptor-format#kind-component
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: eds-style-dictionary
+  description: Design Token Repository. Utilizing "Style-Dictionary" as the token processing service
+  annotations:
+    backstage.io/techdocs-ref: dir:.
+    gitlab.com/project-id: "3789"
+    newrelic.com/dashboard-guid: guid
+    jira/project-key: jirakey
+    jira/token-type: Bearer
+    dependencytrack/project-id: ""
+  links:
+    - url: https://edmunds.com/
+      title: Some URL that this project needs to link to
+  tags:
+    - design-system
+spec:
+  type: Service
+  lifecycle: production
+  owner: plat
+  system: website-platforms-edmunds-design-system
+  providesApis: []
+  dependsOn: []

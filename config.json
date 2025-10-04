@@ -1,0 +1,193 @@
+{
+  "$schema": "https://unpkg.com/style-dictionary@4/schema.json",
+  "source": ["tokens/**/*.json"],
+  "log": {
+    "warnings": "warn",
+    "verbosity": "verbose"
+  },
+  "preprocessors": ["tokens-studio"],
+  "platforms": {
+    "edmunds-design-system": {
+      "transformGroup": "eds-tokens-studio-no-add-px",
+      "transforms": [
+        "edsScssKebabSnakeTransform",
+        "edsScssHexSixToThreeDigitTransform",
+        "edsScssZeroRemTransform",
+        "time/seconds",
+        "html/icon"
+      ],
+      "options": {
+        "fileHeader": "edsScssFileHeader"
+      },
+      "prefix": "eds",
+      "buildPath": "build/eds/",
+      "files": [
+        {
+          "destination": "base/palette/eve.scss",
+          "format": "scss/variables",
+          "filter": {
+            "attributes": {
+              "domain": "palette",
+              "category": "eve",
+              "hidden": false
+            }
+          }
+        },
+        {
+          "destination": "base/palette/support.scss",
+          "format": "scss/variables",
+          "filter": {
+            "attributes": {
+              "domain": "palette",
+              "category": "support",
+              "hidden": false
+            }
+          }
+        },
+        {
+          "destination": "base/size/border.scss",
+          "format": "scss/variables",
+          "filter": {
+            "attributes": {
+              "domain": "size",
+              "category": "border",
+              "hidden": false
+            }
+          }
+        },
+        {
+          "destination": "base/size/radius.scss",
+          "format": "scss/variables",
+          "filter": {
+            "attributes": {
+              "domain": "size",
+              "category": "radius",
+              "hidden": false
+            }
+          }
+        },
+        {
+          "destination": "base/size/square.scss",
+          "format": "scss/variables",
+          "filter": {
+            "attributes": {
+              "domain": "size",
+              "category": "sq",
+              "hidden": false
+            }
+          }
+        },
+        {
+          "destination": "base/space/inline.scss",
+          "format": "scss/variables",
+          "filter": {
+            "attributes": {
+              "domain": "space",
+              "category": "inline",
+              "hidden": false
+            }
+          }
+        },
+        {
+          "destination": "base/space/inset.scss",
+          "format": "scss/variables",
+          "filter": {
+            "attributes": {
+              "domain": "space",
+              "category": "inset",
+              "hidden": false
+            }
+          }
+        },
+        {
+          "destination": "base/space/stack.scss",
+          "format": "scss/variables",
+          "filter": {
+            "attributes": {
+              "domain": "space",
+              "category": "stack",
+              "hidden": false
+            }
+          }
+        },
+        {
+          "destination": "base/font/line-height.scss",
+          "format": "scss/variables",
+          "filter": {
+            "attributes": {
+              "domain": "font",
+              "category": "line-height",
+              "hidden": false
+            }
+          }
+        },
+        {
+          "destination": "base/font/weight.scss",
+          "format": "scss/variables",
+          "filter": {
+            "attributes": {
+              "domain": "font",
+              "category": "weight",
+              "hidden": false
+            }
+          }
+        },
+        {
+          "destination": "base/font/typescale.scss",
+          "format": "scss/variables",
+          "filter": {
+            "attributes": {
+              "domain": "font",
+              "category": "typescale",
+              "hidden": false
+            }
+          }
+        },
+        {
+          "destination": "components/shared/text-input.scss",
+          "format": "scss/variables",
+          "filter": {
+            "attributes": {
+              "domain": "component",
+              "category": "shared",
+              "component": "text-input"
+            }
+          }
+        },
+        {
+          "destination": "components/shared/dropdown.scss",
+          "format": "scss/variables",
+          "filter": {
+            "attributes": {
+              "domain": "component",
+              "category": "shared",
+              "component": "dropdown"
+            }
+          }
+        },
+        {
+          "destination": "components/shared/label.scss",
+          "format": "scss/variables",
+          "filter": {
+            "attributes": {
+              "domain": "component",
+              "category": "shared",
+              "component": "label"
+            }
+          }
+        },
+        {
+          "destination": "components/shared/button.scss",
+          "format": "scss/variables",
+          "filter": {
+            "attributes": {
+              "domain": "component",
+              "category": "shared",
+              "component": "btn"
+            }
+          }
+        }
+      ]
+    }
+  }
+}
