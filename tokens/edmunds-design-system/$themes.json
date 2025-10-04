@@ -4,8 +4,6 @@
     "name": "eds",
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
-      "primitive/global-color-ref": "source",
-      "primitive/global-size-ref": "source",
       "base/font/line-height": "enabled",
       "base/font/typescale": "enabled",
       "base/font/weight": "enabled",
@@ -20,7 +18,10 @@
       "comp/shared/btn": "enabled",
       "comp/shared/dropdown": "enabled",
       "comp/shared/label": "enabled",
-      "comp/shared/text_input": "enabled"
+      "comp/shared/text_input": "enabled",
+      "primative/global-color-ref": "enabled",
+      "primative/global-sizing-ref": "enabled",
+      "base/palette/support": "enabled"
     },
     "$figmaCollectionId": "VariableCollectionId:4002:4002",
     "$figmaModeId": "4002:1",
